@@ -22,6 +22,16 @@ public class BinaryTreeNode {
 		}
 		return result;
 	}
+	
+	public void setEntry(BinaryTreeEntry entry) {this.entry = entry;}
+	public void setParent(BinaryTreeNode parent) {this.parent = parent;}
+	public void setLeftChild(BinaryTreeNode leftChild) {this.leftChild = leftChild;}
+	public void setRightChild(BinaryTreeNode rightChild) {this.rightChild = rightChild;}
+
+	public BinaryTreeEntry getEntry() {return entry;}
+	public BinaryTreeNode getParent() {return parent;}
+	public BinaryTreeNode getLeftChild() {return leftChild;}
+	public BinaryTreeNode getRightChild() {return rightChild;}
 }
 
 
