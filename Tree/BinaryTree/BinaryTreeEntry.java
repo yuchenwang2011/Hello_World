@@ -1,10 +1,10 @@
 public class BinaryTreeEntry {
-    private Object value;
     private Object key;
+    private Object value;
     
-    BinaryTreeEntry(Object value, Object key) {
+    BinaryTreeEntry(Object key, Object value) {
+          this.key = key;
     	  this.value = value;
-    	  this.key = key;
     }
     
     public void setKey(Object key) {this.key = key;}
