@@ -3,7 +3,7 @@ public class BinaryTreeNode {
 	private BinaryTreeNode parent;
 	private BinaryTreeNode leftChild,rightChild;
 	
-	BinaryTreeNode(BinaryTreeNode entry, BinaryTreeNode parent, 
+	BinaryTreeNode(BinaryTreeEntry entry, BinaryTreeNode parent, 
 			BinaryTreeNode leftChild, BinaryTreeNode rightChild) {
 		this.entry = entry;
 		this.parent = parent;
