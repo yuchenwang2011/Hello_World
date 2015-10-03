@@ -8,3 +8,6 @@ a counter-clockwise manner starting at the root, sticking close to the edges,
 and printing out the nodes as you encounter them. For the tree shown in Figure 5-6, 
 the result is 100, 50, 25, 75, 150, 125, 110, and 175. 
 Perform a preorder traversal of a binary search tree, printing the value of each node.
+
+3. Perform a preorder traversal of a binary search tree, 
+printing the value of each node, but this time you may not use recursion.
