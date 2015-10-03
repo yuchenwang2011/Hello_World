@@ -2,3 +2,9 @@
 from the root node to any leaf node. The tree in Figure 5-2, for example, 
 has a height of 4 because the path from A to F, G, or H involves four nodes.
 Write a function to calculate the height of an arbitrary binary tree.
+
+2. Informally, a preorder traversal involves walking around the tree in
+a counter-clockwise manner starting at the root, sticking close to the edges, 
+and printing out the nodes as you encounter them. For the tree shown in Figure 5-6, 
+the result is 100, 50, 25, 75, 150, 125, 110, and 175. 
+Perform a preorder traversal of a binary search tree, printing the value of each node.
