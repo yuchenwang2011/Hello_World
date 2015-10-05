@@ -18,3 +18,7 @@ already exist in the tree.For example, using the tree shown in Figure 5-7,
 assume 4 and 14 are the two given nodes. 
 The lowest common ancestor would be 8 because it’s an ancestor to both 4 and 14, 
 and there is no node lower on the tree that is an ancestor to both 4 and 14.
+
+5.You are given a set of integers in an unordered binary tree. 
+Use an array sorting routine to transform 
+the tree into a heap that uses a balanced binary tree as its underlying data structure.
