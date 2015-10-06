@@ -22,3 +22,7 @@ and there is no node lower on the tree that is an ancestor to both 4 and 14.
 5.You are given a set of integers in an unordered binary tree. 
 Use an array sorting routine to transform 
 the tree into a heap that uses a balanced binary tree as its underlying data structure.
+
+6. Given an unbalanced binary search tree with more nodes
+ in the left subtree than the right, reorganize the tree to improve its 
+balance while maintain- ing the properties of a binary search tree
