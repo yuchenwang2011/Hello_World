@@ -1,3 +1,10 @@
 1. Write an efficient function to find the first nonrepeated character in a string. 
 For instance, the first nonrepeated character in “total” is 'o' and the first nonrepeated 
 character in “teeter” is 'r'. Discuss the efficiency of your algorithm
+
+2. remove specified characters 
+
+3. reverse words: ProbLem Write a function that reverses the order of the words in a string. 
+For example, your function should transform the string 
+"Do or do not, there is no try." to "try. no is there not, do or Do". 
+Assume that all words are space delim- ited and treat punctuation the same as letters.
