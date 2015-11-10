@@ -1,1 +1,5 @@
 1. Calculate a factorial of int n.
+
+2. Binary Search: Implement a function to perform a binary search on a sorted array of 
+integers to find the index of a given integer. Comment on the efficiency of this search,
+ and compare it with other search methods.
