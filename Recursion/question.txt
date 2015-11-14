@@ -12,3 +12,8 @@ For example, given the string “hat”, your function should print the strings 
 in the input string as a distinct character, even if it is repeated. 
 Given the string “aaa”, your routine should print “aaa” six times.
  You may print the permutations in any order you choose.  
+
+4. Combinations of a String: Implement a function that prints all possible combinations of the characters in a string.
+These combinations range in length from one to the length of the string. 
+Two combinations that differ only in ordering of their characters are the same combination.
+In other words, “12” and “31” are different combinations from the input string “123”, but “21” is the same as “12”.
