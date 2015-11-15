@@ -13,13 +13,34 @@ public class Telephone {
     }
     }
   
+  void phoneWord (int[] phoneNumber) {
+	 char[] word = new char[phoneNumber.length];
+	 convert(phoneNumber,word, 0);
+  }
+  
+  void convert(int[] phoneNumber, char[] word, int start) {
+	  if(start == phoneNumber.length) {
+		  //System.out.println(Arrays.toString(word));
+		  System.out.println(new String(word));
+		  return;
+	  }
+	  
+	  for(int i = 1; i <= 3; i++) {
+		  word[start] = keyHelper(phoneNumber[start], i);
+		  convert(phoneNumber, word, start+1);
+		  //this is actually useless because the array element is replaced
+		  //word[start] = '\0';
+	  }
+  }
+  
   public static void main(String[] args) {
     Telephone myTel = new Telephone();
     int key = 9;
     int digit = 3;
+    int[] myNumber = new int[] {2,2,3};
     System.out.println(myTel.keyHelper(key, digit) + " nima");
+    myTel.phoneWord(myNumber);
   }
-  
   
 }
 
