@@ -69,6 +69,11 @@ public class MyMergeSort {
 
 
 /* *************************************************************** */
+public static void mergeSort(int[] a) {
+  int[] tmpArray = new int[a.length];
+  mergeSort(a, tmpArray, 0, a.length - 1);
+}
+
 private static void mergeSort(int[] a, int[] tmpArray, int left, int right) {
     if (left < right) {
       int center = (left + right) / 2;
