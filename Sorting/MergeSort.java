@@ -105,3 +105,58 @@ private static void mergeSort(int[] a, int[] tmpArray, int left, int right) {
   }
 
 /* *************************************************************** */
+
+import java.util.Arrays;
+public class MergeSort {
+  void mergeSort(int[] data) {
+    if (data.length <=1) {
+       return;
+    }
+    sortProcess(data, 0, data.length-1);    
+  }
+  
+    void sortProcess(int[] data, int low, int high) {
+      if(low < high) {  //here it must be low < high, which means now there are 2 elements
+        int middle = (high + low)/2;
+        sortProcess(data, low, middle);
+        sortProcess(data, middle+1, high);
+        mergeProcess(data, low, middle, high);
+      }
+    }
+       
+    void mergeProcess (int[] data, int low, int middle, int high) {  
+        int[] tmpArry = new int[high - low + 1];
+        //System.arraycopy(data, low, tmpArry, 0, high-low+1);
+        int i = low, j = middle+1, k = 0;
+        while (i <= middle && j <= high) {
+          if (data[i] <= data[j]) {
+             tmpArry[k] = data[i];
+             i++;
+          } else {
+             tmpArry[k] = data[j] ;
+             j++;
+          }
+          k++;
+        }
+        while(i <= middle) {
+          tmpArry[k] = data[i];
+          i++;
+          k++;
+        }
+        while(j <= high) {
+          tmpArry[k] = data[j];
+          j++;
+          k++;
+        }
+        System.arraycopy(tmpArry, 0, data, low, high-low+1);  
+    }
+      
+  
+  public static void main(String[] args) {
+    MergeSort mySort = new MergeSort();
+    int[] testInt = new int[] {1,2,3,6,89,3,4,2,-5,-5,6,7,6,10,2};
+    mySort.mergeSort(testInt);
+    System.out.println(Arrays.toString(testInt));
+  }
+  
+}
