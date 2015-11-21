@@ -4,3 +4,9 @@
 user ID, from each of several departmental directory servers. 
 What’s the best approach for this server to create a master 
 list combining all the accounts ordered by user ID?
+
+3. A system that monitors a manufacturing plant maintains a list of serial numbers
+ of every item that has ever failed quality control. During the day, 
+while the plant is operating, new serial numbers are added to the end of the list. 
+Each night, a batch process runs to resort the list. 
+What’s the best sorting algo- rithm for this?
