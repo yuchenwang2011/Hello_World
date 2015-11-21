@@ -85,6 +85,7 @@ public class QuickSort {
       //until now, I don't need to worry about any details about the array, whatever
       //I just need to know that all the elements before i are smaller than pivot
       //And all the elements after j are bigger than pivot
+      //Now, all elements after j is bigger than pivot; all elements before i is smaller than pivot
       if(low < j) {   //error tolerance
         quickSort(data, low, j);
       }
