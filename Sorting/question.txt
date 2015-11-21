@@ -1,1 +1,6 @@
 1. The best sorting algorithm: What's the best algorithm to use for sorting? 
+
+2. A master directory server receives a list of accounts, ordered by
+user ID, from each of several departmental directory servers. 
+What’s the best approach for this server to create a master 
+list combining all the accounts ordered by user ID?
