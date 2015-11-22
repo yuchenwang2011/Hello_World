@@ -10,3 +10,7 @@ list combining all the accounts ordered by user ID?
 while the plant is operating, new serial numbers are added to the end of the list. 
 Each night, a batch process runs to resort the list. 
 What’s the best sorting algo- rithm for this?
+
+4. You need to sort a variety of different kinds of data about which little is known in advance. 
+Data sets will be small enough to fit in memory, but their size may vary widely. 
+What sorting algorithm would you choose?
