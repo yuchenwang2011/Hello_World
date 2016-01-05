@@ -29,3 +29,4 @@ public class stableSelectionSorting {
   System.out.println(Arrays.toString(testData));
   }
 }
+//second method use CursorableLinkedList.Cursor which i don't understand at all, i will do it the second round
