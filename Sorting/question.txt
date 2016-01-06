@@ -16,3 +16,11 @@ Data sets will be small enough to fit in memory, but their size may vary widely.
 What sorting algorithm would you choose?
 
 5. Implement a stable version of the selection sort algorithm.
+
+6. Multi-Key sort: You have an array of objects, each of which represents an employee:
+public class Employee { 
+   public String givenname; 
+   public String surname;
+}
+Using a standard library sorting routine, sort the array so it is ordered alphabetically 
+by surname and then by given name as in a company phone book.
