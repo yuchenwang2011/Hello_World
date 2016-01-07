@@ -24,3 +24,7 @@ public class Employee {
 }
 Using a standard library sorting routine, sort the array so it is ordered alphabetically 
 by surname and then by given name as in a company phone book.
+
+7. Make a Sort Stable: You are working on a platform that has a very fast, 
+hardware- accelerated sort routine. The routine, shakySort(), is not stable, but you need to perform a fast, 
+stable sort. Write code that uses shakySort() to perform a stable sort. 
