@@ -86,7 +86,9 @@ public class QuickSort {
       //I just need to know that all the elements before i are smaller than pivot
       //And all the elements after j are bigger than pivot
       //Now, all elements after j is bigger than pivot; all elements before i is smaller than pivot
-      if(low < j) {   //error tolerance
+      //So that means, any elements between i and j now are same as pivot
+      //And j should be on the left, i on the right. sort the left half part and sort the right half part. 
+      if(low < j) {   //the two ifs are error tolerance
         quickSort(data, low, j);
       }
       if(high > i) {
