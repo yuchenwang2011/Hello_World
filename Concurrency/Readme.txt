@@ -11,3 +11,7 @@ void someMethod(){
     .... // the code to protect 
   }
 }
+
+question
+1: Busy Waiting: Explain the term “busy waiting” and how it can be avoided.
+
