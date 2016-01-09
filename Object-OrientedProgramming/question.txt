@@ -1,0 +1,2 @@
+1. Interfaces and Abstract Classes: What is the difference between an interface and an abstract class 
+in object-oriented programming?
