@@ -3,22 +3,22 @@ public class StringInt {
          int result = 0;
          int i = 0;
          boolean isNega = false;
-       if (str.charAt(0) == '-') {
-      isNega = true;
-      i++;
-     } 
+         if (str.charAt(0) == '-') {
+           isNega = true;
+           i++;
+         } 
          while (i < str.length()) {
-             if (str.charAt(0) == '-') {
-                isNega = true;
-             } 
-         result = result*10 + (str.charAt(i) - '0');   
-         i++;
+           if (str.charAt(0) == '-') {
+             isNega = true;
+           } 
+           result = result*10 + (str.charAt(i) - '0');   
+           i++;
          }
      
-       if (isNega == true) {
+         if (isNega == true) {
            result = -result;
-       }
-         return result;
+         }
+       return result;
     }
   
     String intToString(int num) {
