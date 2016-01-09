@@ -2,3 +2,5 @@
 in object-oriented programming?
 
 2. Virtual Methods: What are virtual methods? Why are they useful?
+
+3. Why do C# and Java disallow the multiple inheritance of classes?
