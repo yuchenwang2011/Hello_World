@@ -1,0 +1,11 @@
+1.Singleton implementation: Your application uses a logging 
+class to write debugging messages to the console. 
+How would you implement this logging facility using the Singleton pattern?
+
+2. Your application uses a singleton, but it’s not always necessary, 
+and it’s expensive to initialize. How can you improve this situation?
+
+3.decorator versus inheritance: Why would you use the Decorator pattern instead of inheritance? 
+
+4.efficient observer updates: In the Observer pattern, what strategies can the subject use
+ to efficiently update its observers?
