@@ -1,0 +1,11 @@
+Two's implementation: In binary two’s complement notation,
+a positive integer such as 13 is 00001101, exactly the same as in regular binary notation. 
+Negative numbers are a little trickier. Two’s complement notation makes a number negative
+ by applying the rule “flip each bit and add 1” to the number’s positive binary representation. 
+For example, to get the number –1, you start with 1, which is 00000001 in binary. 
+Flipping each bit results in 11111110. Adding 1 gives you 11111111, which is the two’s complement notation for –1. 
+If you’re not familiar with this, it may seem weird, but it makes addition and subtraction simple. 
+For example, you can add 00000001 (1) and 11111111 (–1) simply by adding the binary digits from right to left, 
+carrying values as necessary, to end up with (00000000) 0.
+The first bit in binary two’s complement notation is a sign bit. 
+If the first bit is 0, the number is non-negative; otherwise, it’s negative.
