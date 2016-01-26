@@ -71,7 +71,7 @@ SELECT E_Name FROM Employees_USA
 SELECT column_name(s)
 INTO new_table_name [IN externaldatabase]
 FROM old_tablename
-SELECT INTO 语句常用于创建表的备份复件或者用于对记录进行存档。
+SELECT INTO -always used to create a backup of the table or save the record.
 
 CREATE DATABASE my_db
 
@@ -84,8 +84,9 @@ Address varchar(255),
 City varchar(255)
 )
 
-约束用于限制加入表的数据的类型。可以在创建表时规定约束（通过 CREATE TABLE 语句），或者在表创建之后也可以（通过 ALTER TABLE 语句）。
-我们将主要探讨以下几种Constraints：
+Constraints are used to contrain the type of the data to be added to this table. Can be used when create a new table
+(when use CREATE TABLE), or after creating the table(by ALTER TABLE).
+a few main Constraints：
 NOT NULL
 UNIQUE
 PRIMARY KEY
@@ -93,8 +94,8 @@ FOREIGN KEY
 CHECK
 DEFAULT
 
-NOT NULL 约束强制列不接受 NULL 值。
-NOT NULL 约束强制字段始终包含值。这意味着，如果不向字段添加值，就无法插入新记录或者更新记录。
+NOT NULL -make column not accept null values.
+NOT NULL -make character must have a value, or null can't be added to the table
 
 ALTER TABLE Persons
 ADD UNIQUE (Id_P)
@@ -109,7 +110,7 @@ OrderNo int NOT NULL,
 Id_P int FOREIGN KEY REFERENCES Persons(Id_P)
 )
 
-CHECK 约束用于限制列中的值的范围。
+CHECK -this constraint is used within the range of values in the table
 CREATE TABLE Persons
 (
 Id_P int NOT NULL CHECK (Id_P>0),
@@ -119,18 +120,19 @@ Address varchar(255),
 City varchar(255)
 )
 
-DEFAULT 约束用于向列中插入默认值。
+DEFAULT - used to add default value into column
 
 CREATE INDEX PersonIndex
 ON Person (LastName DESC) 
 
-使用 TRUNCATE TABLE 命令（仅仅删除表格中的数据）
-Drop用于删除
+TRUNCATE TABLE command: only to remove data in the talbe
+Drop -to delete
 
-如需在表中添加列，请使用下列语法:
+Use following commands if to add columns into the table:
 ALTER TABLE table_name
 ADD column_name datatype
-要删除表中的列，请使用下列语法：
+
+Use following commands if to delete columns in the table
 ALTER TABLE table_name
 DROP COLUMN column_name
 
@@ -143,8 +145,8 @@ Address varchar(255),
 City varchar(255),
 PRIMARY KEY (P_Id)
 )
-MySQL 使用 AUTO_INCREMENT 关键字来执行 auto-increment 任务。
-默认地，AUTO_INCREMENT 的开始值是 1，每条新记录递增 1。
+MySQL use AUTO_INCREMENT keyword to do auto-increment task
+Defautly，AUTO_INCREMENT begins with 1, everytime increase 1
 
 CREATE VIEW [Current Product List] AS
 SELECT ProductID,ProductName
@@ -154,7 +156,7 @@ WHERE Discontinued=No
 SELECT ProductName,UnitPrice*(UnitsInStock+ISNULL(UnitsOnOrder,0))
 FROM Products
 
-现代的 SQL 服务器构建在 RDBMS 之上。RDBMS 是 SQL 的基础，也是所有现代数据库系统诸如 Oracle、SQL Server、IBM DB2、Sybase、MySQL 以及 Microsoft Access 的基础。
+SQL server is built on RDBMS. RDBMS is the basic of SQL and Oracle、SQL Server、IBM DB2、Sybase、MySQL and Microsoft Access.
 
 SELECT Customer,SUM(OrderPrice) FROM Orders
 GROUP BY Customer
@@ -172,8 +174,7 @@ http://class.ccshu.net/00864091/SQL%E8%AF%AD%E5%8F%A5%E6%95%99%E7%A8%8B.pdf
 
 how to find a name with 3 'a's in it, such as amaliya, bahamas, hahahiahio
 
-Mysql DBA 20天速成指南
-时间：2013-02-27 05:11:38 类别：服务器运维 访问: 3891 次
+Mysql DBA in 20 days
 准备一台pc，一根网线和20天无打扰的空余时间，把MySQL 5.1参考手册设置为浏览器首页，按下面列表逐条学习即可，这本中文手册包括基本上所有的内容，补充知识google也都能查到，学习平台采用linux
 基本知识
 •     mysql的编译安装
