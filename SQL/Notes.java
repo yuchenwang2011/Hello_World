@@ -1,23 +1,23 @@
 Online Practice: http://sqlzoo.net/
-oracle和mysql好比美国和英国。
-sql是英语，美国和英国都要用英语，只是都有自己的口音而已
+Oracle to MySQL is like USA to UK.
+sql is English, USA and UK both use English, but just have their own accent.
 
-至于SQL和SQL Server的区别，看下面理解
+As for the diff between SQL and SQL Server:  
 ---1.Oracle：最贵，功能最多，安装最不方便，Oracle环境里的其他相关组件最多，支持平台数量一般，使用中等方便，开发中等方便，运维中等方便，不开源，速度最慢，最安全。
 ----2.Microsoft SQL Server 2014：中等贵，功能最少，安装中等方便，Microsoft SQL Server 2014环境里的其他相关组件最少，支持平台最少，使用最方便，开发最方便，运维最方便，不开源，速度中等，一般安全。
 ----3.Mysql：免费，功能中等，安装最方便，Mysql环境里的其他相关组件数量中等，支持平台最多，使用最不方便，开发最不方便，运维最不方便，有开源版本，速度最快，最不安全。
 
 
-SQL 中最重要的 DDL 语句:
-CREATE TABLE - 创建新表
-ALTER TABLE - 变更（改变）数据库表
-DROP TABLE - 删除表
-CREATE INDEX - 创建索引（搜索键）
-DROP INDEX - 删除索引
+SQL Most Important DDL Sentence:
+CREATE TABLE - Create a new table
+ALTER TABLE - to alter the table
+DROP TABLE - to delete the table
+CREATE INDEX - to create a index or search key
+DROP INDEX - to delete the index
 
-SELECT 列名称 FROM 表名称
+SELECT columnName FROM tableName
 
-SELECT DISTINCT 列名称 FROM 表名称 (去掉重复的)
+SELECT DISTINCT columnName FROM tableName (no duplications)
 
 SELECT * FROM Persons WHERE City='Beijing'
 
@@ -33,11 +33,11 @@ SELECT TOP 2 * FROM Persons
 
 SELECT * FROM Persons WHERE City LIKE 'N%'
 
-SQL 通配符必须与 LIKE 运算符一起使用。
-%     替代一个或多个字符
-_     仅替代一个字符
-[charlist]     字符列中的任何单一字符
-[^charlist] 或者 [!charlist] 不在字符列中的任何单一字符
+SQL wildCharacter must be used together with LIKE operator.
+%     to replace one/multiple characters
+_     to replace only 1 character
+[charlist]     any single character in the list
+[^charlist] or [!charlist] not any character in this list
 
 SELECT column_name(s)
 FROM table_name
@@ -48,20 +48,21 @@ WHERE LastName
 BETWEEN 'Adams' AND 'Carter'
 
 SELECT LastName AS Family, FirstName AS Name
-FROM Persons别名使查询程序更易阅读和书写。
+FROM Persons //Alias makes it easier to read and write 
 
-主键（Primary Key）是一个列，在这个列中的每一行的值都是唯一的。在表中，每个主键的值都是唯一的。即使两个人的姓名完全相同，也可以区分他们。
+Primary Key is a column, every value in this column is unique. In the table, every primary key is unique.
+Even two people have the same name, it's still be able to distinguish them.
 
 SELECT Persons.LastName, Persons.FirstName, Orders.OrderNo
 FROM Persons
 INNER JOIN Orders
 ON Persons.Id_P = Orders.Id_P
 ORDER BY Persons.LastName
-还有
-JOIN: 如果表中有至少一个匹配，则返回行
-LEFT JOIN: 即使右表中没有匹配，也从左表返回所有的行
-RIGHT JOIN: 即使左表中没有匹配，也从右表返回所有的行
-FULL JOIN: 只要其中一个表中存在匹配，就返回行
+and more:
+JOIN: if at least 1 match in the table, return row
+LEFT JOIN: Even if no match in the right table, return all rows from left table
+RIGHT JOIN: Even if no match in the left table, return all rows from right table
+FULL JOIN: As long as 1 table has a match, return rows. 
 
 SELECT E_Name FROM Employees_China
 UNION
