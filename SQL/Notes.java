@@ -1,4 +1,4 @@
-Online Practice: http://sqlzoo.net/
+A handy cheetsheet website: http://www.pantz.org/software/mysql/mysqlcommands.html
 Oracle to MySQL is like USA to UK.
 sql is English, USA and UK both use English, but just have their own accent.
 
