@@ -67,10 +67,10 @@ public class QuickSort {
       int i = low; int j = high;
       while(i <= j) {
         //try to find a bigger element, can't be equal
-        while (data[i] < pivot) {
+        while (data[i] < pivot) {  //*****Remember!!!!! here it can't be data[pivot]!! because data is changing!
           i++;
         }
-        while (data[j] > pivot) {
+        while (data[j] > pivot) {  //*****Remember!!!!! here it must be a fixed pivot VALUE!!
           j--;
         }
         
