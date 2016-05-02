@@ -1,0 +1,6 @@
+This file is the note I took during preparing OO concepts.
+
+Basic concepts:
+1. Object-oriented programming lets you extend a program without having to touch previously testd, working code. 
+
+2. Instance variables are things an object knows about itself. They represent the state of an object. 
