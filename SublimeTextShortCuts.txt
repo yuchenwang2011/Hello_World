@@ -1,0 +1,44 @@
+Shortcuts for Sublime Text 3 Novice:
+1. Ctrl + Shift + [, to folder the code
+2. Ctrl + Shift + ], to unfolder the folder
+3. Ctrl + D, to search this word, and go down
+4. Ctrl+ G, give a number to go to that line
+5. Ctrl+ L, to highlight that line and go down
+6. Ctrl+ T, to shift this letter with next one
+7. Ctrl + U, to go back to last operation
+8. Ctrl + R, search for a proc
+9. Ctrl+ KK, to delete from cursor
+10. Ctrl + Enter, start a new line
+11. Ctrl + Shift + Enter, to start a new line above
+12. Ctrl + mouse left button, to edit multiple places
+13. Ctrl + /, to comment this line out
+14. Ctrl + Shift + /, to comment multiple lines out
+15. Ctrl + [, to delete the indentation
+16. Alt + Shift + number, to enable how many windows of code (1,2,3,4,8,9)
+17. Ctrl + P, to search and open a file.
+17. Ctrl + ->, to move to next word
+18. Ctrl + shift + T, to reopen the tab just closed
+19. Ctrl + shift + D, copy this line and paste it to next line
+20. Ctrl + shift + ->, to choose and highlight next word
+21. Ctrl + shift + down, to move this line 1 one below
+22. Ctrl + K + U, to upper case
+23. Ctrl + K + L, to lower case
+24. Ctrl + Pagedown, go to next tab
+25. Ctrl + PageUp, go to left tab
+26. F11, full screen
+27. Ctrl + “+”, to zoom in
+28. Ctrl + “-”, to zoom out
+29. Ctrl + “`”, to open the console
+30. Ctrl + Shift + N, to open a new window
+31. Go to the next place for this highlighted word
+32. Ctrl + N, to open a new tab
+
+The user setting:
+{
+	"font_size": 10,
+	"ignore_inodes": true,
+	//"ignored_packages":["Vintage"],
+	"ignored_packages": [],
+	"vintage_start_in_command_mode": true,
+	"theme": "Soda Dark.sublime-theme"
+}
