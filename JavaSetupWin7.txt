@@ -1,0 +1,16 @@
+This is a reminder how to setup java develop environment on Windows7.
+
+1. Go to oracle, to get JDK, which is Java Developer Kit.
+   (You might be confused about JDK and JRE, JDK is for developers, JRE is for ordinary people)
+   Make everything should be 64 bits 
+   
+2. After installing JDK, go to start -> search -> command, type "java -version". For example, 1.8.0_91
+
+3. Type "javac -version", to see if java works. Then you need go to Computer -> Property -> Advanced System Config->
+   Environment Variable -> System Variable -> Edit, prepend:  C:\Program Files\Java\jdk1.8.0_91\bin;
+
+4. Create a file, called Hello.java, write a Class Hello and a main method helloWorld. 
+
+5. Type in "javac Hello.java", then type "java Hello"
+
+6. Download an Eclipse IDE for Java Developers, for any Java developers
