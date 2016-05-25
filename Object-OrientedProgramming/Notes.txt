@@ -4,3 +4,5 @@ Basic concepts:
 1. Object-oriented programming lets you extend a program without having to touch previously testd, working code. 
 
 2. Instance variables are things an object knows about itself. They represent the state of an object. 
+
+3. public static void main, static here means that method can be run without instantiate an instance of main. static variables and methods belongs to the class not a specific instance.
