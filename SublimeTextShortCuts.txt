@@ -42,3 +42,5 @@ The user setting:
 	"vintage_start_in_command_mode": true,
 	"theme": "Soda Dark.sublime-theme"
 }
+
+After install it on Mac, in bash, type: sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/bin/subl
