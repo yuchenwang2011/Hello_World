@@ -9,3 +9,7 @@ Basic concepts:
 
 4. 8 Java primitive types: Be careful! Bears shoudn't ingest large fury dogs. 
                         boolean, char, byte, short,   int,  long, float, double 
+
+5. Java is pass by value, means pass by copy. 
+   int x = 7; foo.go(x);
+   go() won't change the value of x because go() was given a copy of x;
