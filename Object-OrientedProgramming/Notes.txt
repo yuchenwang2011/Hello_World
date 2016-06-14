@@ -13,3 +13,12 @@ Basic concepts:
 5. Java is pass by value, means pass by copy. 
    int x = 7; foo.go(x);
    go() won't change the value of x because go() was given a copy of x;
+
+6. Java has 4 OOP concepts: a pie: Abstraction, Polymorphism, Inheritance, Encapsulation
+   Encapsulation: also known as data hiding, instance variables of a class is hiden from other classes and it's only accessable by methods in current class.
+                  The variables of a class is private and only can be accessed and and modified by getter and setter.
+
+7. When you instanciate an array, Dog[] myDog = new Dog[7]; //here Dog[0], Dog[1] is still reference
+   You need myDog[0] = new Dog(); myDog[1] = new Dog();
+
+8. null is not an object, it's a reference.
