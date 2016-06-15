@@ -22,3 +22,10 @@ Basic concepts:
    You need myDog[0] = new Dog(); myDog[1] = new Dog();
 
 8. null is not an object, it's a reference.
+
+9. Java Access Levels
+   Modifier	  Class	Package	Subclass	World
+   public	      Y	    Y	       Y	      Y
+   protected	  Y	    Y	       Y	      N
+   no modifier	Y	    Y      	 N	      N
+   private	    Y	    N	       N	      N
