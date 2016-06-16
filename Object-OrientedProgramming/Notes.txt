@@ -15,8 +15,12 @@ Basic concepts:
    go() won't change the value of x because go() was given a copy of x;
 
 6. Java has 4 OOP concepts: a pie: Abstraction, Polymorphism, Inheritance, Encapsulation
-   Encapsulation: also known as data hiding, instance variables of a class is hiden from other classes and it's only accessable by methods in current class.
-                  The variables of a class is private and only can be accessed and and modified by getter and setter.
+   Encapsulation: also known as data hiding, instance variables of a class is hiden from other classes and it's only accessable by methods in current class. The variables of a class is private and only can be accessed and and modified by getter and setter.
+   Polymorphism: We can use a super class reference for a subclass object, you only know the object the reference points to when executing. With polymorphism, you don't need to change your code when a new subclass is introduced. 
+      Animal[] animals = new Animal[3];
+       animals[0] = new Dog();
+       animals[1] = new Cat();
+       animals[2] = new Wolf(); 
 
 7. When you instanciate an array, Dog[] myDog = new Dog[7]; //here Dog[0], Dog[1] is still reference
    You need myDog[0] = new Dog(); myDog[1] = new Dog();
@@ -29,3 +33,5 @@ Basic concepts:
    protected	  Y	    Y	       Y	      N
    no modifier	Y	    Y      	 N	      N
    private	    Y	    N	       N	      N
+
+10. When calling a method on an object reference, it starts from the lowest level of the inheritance tree. 
