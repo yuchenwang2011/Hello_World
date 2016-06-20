@@ -21,6 +21,7 @@ Basic concepts:
        animals[0] = new Dog();
        animals[1] = new Cat();
        animals[2] = new Wolf(); 
+   Inheritance advantage: When you want to create a new class and there is already a class that includes some of the code that you want, you can derive your new class from the existing class. In doing this, you can reuse the fields and methods of the existing class without having to write and debug them yourself. When you modify the code, just modify the super class, you don't need to touch the subclasses.
 
 7. When you instanciate an array, Dog[] myDog = new Dog[7]; //here Dog[0], Dog[1] is still reference
    You need myDog[0] = new Dog(); myDog[1] = new Dog();
@@ -35,3 +36,5 @@ Basic concepts:
    private	    Y	    N	       N	      N
 
 10. When calling a method on an object reference, it starts from the lowest level of the inheritance tree. 
+
+11. When A class extends B class, A must IS-A B, otherwise the design is wrong
