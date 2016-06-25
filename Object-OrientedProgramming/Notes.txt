@@ -38,3 +38,5 @@ Basic concepts:
 10. When calling a method on an object reference, it starts from the lowest level of the inheritance tree. 
 
 11. When A class extends B class, A must IS-A B, otherwise the design is wrong
+
+12. Overload: Methods within a class can have the same name if they have different parameter lists
