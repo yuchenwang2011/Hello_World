@@ -15,13 +15,19 @@ Basic concepts:
    go() won't change the value of x because go() was given a copy of x;
 
 6. Java has 4 OOP concepts: a pie: Abstraction, Polymorphism, Inheritance, Encapsulation
-   Encapsulation: also known as data hiding, instance variables of a class is hiden from other classes and it's only accessable by methods in current class. The variables of a class is private and only can be accessed and and modified by getter and setter.
-   Polymorphism: We can use a super class reference for a subclass object, you only know the object the reference points to when executing. With polymorphism, you don't need to change your code when a new subclass is introduced. 
+   Encapsulation: also known as data hiding, instance variables of a class is hiden from other classes and it's only accessable by
+                  methods in current class. The variables of a class is private and only can be accessed 
+                  and modified by getter and setter.
+   Polymorphism: We can use a super class reference for a subclass object, you only know the object the reference points to when 
+                 executing. With polymorphism, you don't need to change your code when a new subclass is introduced. 
       Animal[] animals = new Animal[3];
        animals[0] = new Dog();
        animals[1] = new Cat();
        animals[2] = new Wolf(); 
-   Inheritance advantage: When you want to create a new class and there is already a class that includes some of the code that you want, you can derive your new class from the existing class. In doing this, you can reuse the fields and methods of the existing class without having to write and debug them yourself. When you modify the code, just modify the super class, you don't need to touch the subclasses.
+   Inheritance advantage: When you want to create a new class and there is already a class that includes some of the code that you want
+                          ,you can derive your new class from the existing class. In doing this, 
+                          you can reuse the fields and methods of the existing class without having to write and debug them yourself.
+                          When you modify the code, just modify the super class, you don't need to touch the subclasses.
 
 7. When you instanciate an array, Dog[] myDog = new Dog[7]; //here Dog[0], Dog[1] is still reference
    You need myDog[0] = new Dog(); myDog[1] = new Dog();
@@ -40,3 +46,10 @@ Basic concepts:
 11. When A class extends B class, A must IS-A B, otherwise the design is wrong
 
 12. Overload: Methods within a class can have the same name if they have different parameter lists
+
+13. Abstract Class: some classes shouldn't be instantiated, add keyword "abstract" before class, then the class can't be instantiated.
+    You can also use abstract method, such as public abstract void eat(); When you use an abstract method, you must also mark the class
+    to be abstract as well. The main purpose for an abstract class is polymophism. 
+    
+14. When you initiate an array of abstract class Animal, Animal[] myAni = new Animal[5]; Don't worry, this is just an array. No objects
+    are instantiated in array Animal.
