@@ -53,3 +53,14 @@ Basic concepts:
     
 14. When you initiate an array of abstract class Animal, Animal[] myAni = new Animal[5]; Don't worry, this is just an array. No objects
     are instantiated in array Animal.
+    
+15. You can only call a method of an object, only if the class of the reference variable has that method. 
+
+16. Interface: an interface is a 100% abstract class, all the methods must be abstract, all the subclasses must override and implement
+               the abstract classes. An interface gives you powerful polymophism. 
+               public interface Pet{
+                  //in an interface, all the methods are actually public and abstract even you don't write the keywords
+                  public abstract void beFriendly(); // you can have a curly braces here because it's abstract
+                  public abstract void play();
+               }
+               public class Dog extends Canine implements Pet{...}
