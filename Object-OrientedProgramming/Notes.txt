@@ -71,3 +71,6 @@ Basic concepts:
 
 18. Java has a stack, where local variables and methods live, it's like the stack idea in data structure, 
     and heap(garbage collectible heap), where objects live (Since instance variable is in a class, it lives inside of the object). 
+
+19. Constructer, example: public Duck(){  // this is a default one, note it must have same name as class and no return type
+                          }
