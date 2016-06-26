@@ -68,3 +68,6 @@ Basic concepts:
                A java class can only have 1 parent super class. Parent class defines who you are 
                and interfaces define what role you play. 
 17. Use super.method() to use parent's method of this object.
+
+18. Java has a stack, where local variables and methods live, it's like the stack idea in data structure, 
+    and heap(garbage collectible heap), where objects live (Since instance variable is in a class, it lives inside of the object). 
