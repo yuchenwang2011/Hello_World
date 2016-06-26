@@ -74,3 +74,8 @@ Basic concepts:
 
 19. Constructer, example: public Duck(){  // this is a default one, note it must have same name as class and no return type
                           }
+    You can have many constructers, but once you create one given an argument, you'd better write a non-arg one yourself. When you 
+    write one the compiler won't create a default one anymore. And you can write many constructers, and the order of argument can be 
+    different, for example, the below 2 constructers are different and both are valid.
+    public mushroom(boolean isMagic, int size) {}
+    public mushroom(int size, boolean isMagic){}
