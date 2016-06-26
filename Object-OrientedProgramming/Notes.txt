@@ -87,3 +87,5 @@ Basic concepts:
     So the object() constructor is on top of the stack frame. see Head First Java page 252. The compiler is actually calling 
     super() automatically if you don't. Just think about a child can't be born before a parent. 
     So super() should be the first statement in each constructor!!
+    Use this() to call a constructor from another overloaded constructor in the same class. It has to be the first statement in the
+    constructor too!!! So super() and this() can't appear at the same time. 
