@@ -72,10 +72,18 @@ Basic concepts:
 18. Java has a stack, where local variables and methods live, it's like the stack idea in data structure, 
     and heap(garbage collectible heap), where objects live (Since instance variable is in a class, it lives inside of the object). 
 
-19. Constructer, example: public Duck(){  // this is a default one, note it must have same name as class and no return type
+19. Constructor, example: public Duck(){  // this is a default one, note it must have same name as class and no return type
                           }
-    You can have many constructers, but once you create one given an argument, you'd better write a non-arg one yourself. When you 
-    write one the compiler won't create a default one anymore. And you can write many constructers, and the order of argument can be 
-    different, for example, the below 2 constructers are different and both are valid.
+    You can have many constructors, but once you create one given an argument, you'd better write a non-arg one yourself. When you 
+    write one the compiler won't create a default one anymore. And you can write many constructors, this is called, overloaded 
+    constructors, and the order of argument can be different, for example, the below 2 constructors are different and both are valid.
     public mushroom(boolean isMagic, int size) {}
     public mushroom(int size, boolean isMagic){}
+
+    All the constructors in the inheritance tree will run when a new object is created (like an onion). 
+    Even abstract class has a constructor. This is called constructor chaining. The lowest part of the tree is executed first,
+    but it's the reason it's in the lowest stack frame position -- the last one to be executed! So the second last one of the stack 
+    frame is it's superclass. 
+    So the object() constructor is on top of the stack frame. see Head First Java page 252. The compiler is actually calling 
+    super() automatically if you don't. Just think about a child can't be born before a parent. 
+    So super() should be the first statement in each constructor!!
