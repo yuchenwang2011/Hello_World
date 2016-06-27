@@ -89,3 +89,17 @@ Basic concepts:
     So super() should be the first statement in each constructor!!
     Use this() to call a constructor from another overloaded constructor in the same class. It has to be the first statement in the
     constructor too!!! So super() and this() can't appear at the same time. 
+
+20. static lets a method run without any instance of the class. Sometimes you can't instantiate an abstract class, so you use static 
+    method. Static methods can't use non-static instanace variables, nor the non-static methods. 
+    Static variable: value is hte same for all instances of the class, it lives in the class. Say you have newed 3 objects, they all 
+    use the same static variable. The static variable is initialized when a class is loaded, or to say, before a new object is created,
+    the static variable is already there. Static final variables are contants, like PI. Constant variable names must be in all caps!
+    A static initializer:
+                  class Foo{
+                    final static int FOO_X; //should be in all caps
+                    static {
+                      FOO_X = 42;
+                    }
+                  }
+    
