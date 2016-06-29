@@ -103,3 +103,8 @@ Basic concepts:
                     }
                   }
     
+21. try {
+       //something risky
+    } catch (Exception ex) {
+       //something to recover
+    }
