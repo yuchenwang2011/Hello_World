@@ -113,3 +113,4 @@ Basic concepts:
     } catch (Exception ex) {
        //something to recover
     }
+    The compiler won't check RunTimeExceptions.
