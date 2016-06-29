@@ -103,8 +103,13 @@ Basic concepts:
                     }
                   }
     
-21. try {
-       //something risky
+21. When you write a risky method, you must decare it will throw an exception. 
+    public void takeRisk() throws Exception {
+        if(abandonAllHope) throw new Exception();
+    }
+
+    try {
+       anObject.takeRisk();
     } catch (Exception ex) {
        //something to recover
     }
