@@ -110,7 +110,20 @@ Basic concepts:
 
     try {
        anObject.takeRisk();
+       anObject.takeRisk2();
     } catch (Exception ex) {
        //something to recover
+    } final {
+       //do something
     }
-    The compiler won't check RunTimeExceptions.
+    System.out.println("we made it");
+    Flow control of try/catch block: 
+      a. if the try block fails at takeRisk() (has an exception),flow control immediately moves
+          to the catch block(takeRisk2() won't run). When the catch block completes, the finally block runs. When the 
+          finally block completes, the rest of the method continues on(print "we made it").
+      b. if the try block succeeds(no exception), flow control skips over the catch block and moves to the finally block.
+         When the finally block completes, the rest of the method continues on. 
+      c. if the try or catch block has a return statement, finally will still run!!! FLow jumps to the finally, then back
+         to the return.
+    
+    The compiler won't check RunTimeExceptions. 
