@@ -126,4 +126,25 @@ Basic concepts:
       c. if the try or catch block has a return statement, finally will still run!!! FLow jumps to the finally, then back
          to the return.
     
-    The compiler won't check RunTimeExceptions. 
+    The compiler won't check RunTimeExceptions. And a method can throw multiple exceptions, such as line below.
+    Multiple catch blocks must be ordered from smallest to biggest!!
+    public class Laundry{
+        public void doLaundry () throws PantsException, SkirtsException{
+           //do something that throw either exception
+        }
+    }
+    If you don't want to handle an exception, you can duck it by declaring it.
+    public void foo() throws ReallyBadExcetion{ //now whoever calls you need to worry about it.
+      //call risky methodo without a try/catch
+      laundry.doLaundry();
+    }
+    Exception Rules:
+    a. You can't have a catch or finally without a try.
+    b. You can't put code between the try and the catch
+    c. A try must be followed by either a catch or a finally
+    d. A try with only a finally(no catch) must still declare the exception
+       void go() throws FooException{  //here you must declare the exception
+         try{
+            x.doStuff();
+         } finally {}
+       }
