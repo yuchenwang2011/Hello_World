@@ -161,3 +161,10 @@ Basic concepts:
     d. os.close();
     the os is the chain stream which hooks the object and the connection stream(fileStream). In Java, usually you need 2 streams, as
     one is not powerful enough, for example, the fileStream is too low level which only writes bytes. 
+    If you want to serialize your class, you need implement Serializable. The interface has nothing inside, it just to announce the
+    class is Serializable. If any superclass is serializable, the subclass is automatically serializable. 
+    You can't serialize a Pond object if its Duck instance variable refuses to be serialized (by not implementing Serializable)
+    If you have an instance variable that can't be saved because it isn't serializable, you can mark that variable with the
+    "transient" keyword and the serialization process will skip over it. Then this transient instance variable will be brought back
+    as null.
+    Static variables won't be serialized. Remember, static means "one per class". It won't be saved, it will still change dynamically.
