@@ -148,3 +148,16 @@ Basic concepts:
             x.doStuff();
          } finally {}
        }
+
+22. Inner class: For example, it's convenient to have a outerclass ActionListern and it has 2 innerclasses, so when one action is 
+                 detected, two classes can be created. And also those 2 classes will be meaningless to be written separately. 
+23. Layout Manager: It's an object associated with a component, if a panel has 5 things, those 5 things have their own layout manager, 
+                    the panel's LM can only control those 5 things. If 5 things each have somthing, it's the 5things' LM to control
+                    them, the panel's LM can't cross 2 levels.
+24. Write a serialized object to a file: 
+    a. FileOutputStream fileStream = new FileOutputStream("MyGame.txt");
+    b. ObjectOutputStream os = new ObjectOutputStream(fileStream);
+    c. os.writeObject(theObjectToSave);
+    d. os.close();
+    the os is the chain stream which hooks the object and the connection stream(fileStream). In Java, usually you need 2 streams, as
+    one is not powerful enough, for example, the fileStream is too low level which only writes bytes. 
