@@ -168,3 +168,14 @@ Basic concepts:
     "transient" keyword and the serialization process will skip over it. Then this transient instance variable will be brought back
     as null.
     Static variables won't be serialized. Remember, static means "one per class". It won't be saved, it will still change dynamically.
+    
+25. Socket :  an object that represents a network connection between two machines, and 2 pieces software know how to communicate
+              with each other. (We don't need to worry about low level details) To make a socket connection, you need to know 2 things
+              the IP address and TCP port
+              Socket chatSocket = new Socket("127.0.0.1", 5000);
+              InputStreamReader stream = new InputStreamReader(chatSocket.getInputStream());  //stream is a chain
+              BufferedReader reader = new BufferedReader(stream);
+              String message = reader.readLine();
+              PrintWrite writer = new PrintWriter(chatSocket.getOuputStream());
+              writer.println("message to send"); writer.println("another message");
+              
