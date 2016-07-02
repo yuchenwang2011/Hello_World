@@ -1,1 +1,8 @@
 I will finish this website first. http://www.hiredintech.com/system-design
+
+Don't panic, here are some Example Questions :
+  1. Design a URL shortening service like bit.ly.
+  2. How would you implement the Google search?
+  3. Design a client-server application which allows people to play chess with one another.
+  4. How would you store the relations in a social network like Facebook and implement a feature where one user receives notifications 
+     when their friends like the same things as they do?
