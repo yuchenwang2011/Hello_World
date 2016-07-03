@@ -178,4 +178,15 @@ Basic concepts:
               String message = reader.readLine();
               PrintWrite writer = new PrintWriter(chatSocket.getOuputStream());
               writer.println("message to send"); writer.println("another message");
-              
+26. It's very easy to create a thread in java, 
+    Runnable threadJob = new MyRunnable(); //this gives the new thread a run() method under at the bottom of its stack
+    Thread t = new Thread(threadJob);
+    t.start();
+    public class MyRunnable implements Runnable{
+      public void run(){}
+    }
+    Each machine has different thread scheduler. You can't reuse a thread, once its run() completes, the thread can never restart.
+    You can put your thread to sleep, when it wakes u, it goes back to the runnable state and waits the thread scheduler to call it.
+    There could be race conditions, so you need keyword "synchronized" method, then only one thread at a time can access a data.
+    Synchronized methods have slower performancen and may cause deadlock. A deadlock happens when you have 2 threads, both of which
+    holds a key that the other one needs, so the two threads will simply sit and wait forever. 
