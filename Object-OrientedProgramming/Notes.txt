@@ -193,3 +193,6 @@ Basic concepts:
 
 27. To use Collections.sort(), you have to have the List<SomeClass>, the SomeClass have to implements Comparable interface
     
+28. JAR is a Java ARchive, it's a bundle to wrap all you class files. To make it usable for the user, you need to make it
+    executable. 
+    You need to put your classes in a package, which prevents name conflicts. 
