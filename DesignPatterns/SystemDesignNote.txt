@@ -12,3 +12,10 @@ Don't panic, here are some Example Questions :
   load balancer: a blackbox module connecting clients and our backend servers, to distribute those client requests through the servers
   Database partioning: for example, users' name  A-M save into first 3 mysql servers, N-Z user names save into another 3 mysql servers
                        that gives you redundancy.
+
+The SNAKE law to solve those design problems: http://ying.ninja/?p=919 
+1. Scenario
+2. Necessary: constraints/hyposessis
+3. Algorithm
+4. Kilobyte
+5. Evolve
