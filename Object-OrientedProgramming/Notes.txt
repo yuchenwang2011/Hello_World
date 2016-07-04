@@ -190,3 +190,6 @@ Basic concepts:
     There could be race conditions, so you need keyword "synchronized" method, then only one thread at a time can access a data.
     Synchronized methods have slower performancen and may cause deadlock. A deadlock happens when you have 2 threads, both of which
     holds a key that the other one needs, so the two threads will simply sit and wait forever. 
+
+27. To use Collections.sort(), you have to have the List<SomeClass>, the SomeClass have to implements Comparable interface
+    
