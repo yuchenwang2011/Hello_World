@@ -173,6 +173,9 @@ Basic concepts:
       static class BarInner{}
     }
     FooOuter.BarInner foo = new FooOuter.BarInner(); //it's like to use a static method
+    The static nested class can only access the static variables and static methods of the outer class.
+    Static nested class is not called inner class, it's called nested class. So all inner classes are nested classes, but
+    not all nested classes are inner classes.
     
 25. Socket :  an object that represents a network connection between two machines, and 2 pieces software know how to communicate
               with each other. (We don't need to worry about low level details) To make a socket connection, you need to know 2 things
@@ -202,4 +205,7 @@ Basic concepts:
     executable. 
     You need to put your classes in a package, which prevents name conflicts. 
 
-29. You can also have a static 
+29. Java has 4 Access Levels and 3 Access Modifiers. Levels: public, protected, default, private
+    Access modifer: public, protected, private. 
+
+30.  public enum WeekDayEnum { Mon, Tue, Wed, Thu, Fri, Sat, Sun } 
