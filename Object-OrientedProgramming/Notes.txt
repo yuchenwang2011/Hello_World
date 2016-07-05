@@ -168,6 +168,11 @@ Basic concepts:
     "transient" keyword and the serialization process will skip over it. Then this transient instance variable will be brought back
     as null.
     Static variables won't be serialized. Remember, static means "one per class". It won't be saved, it will still change dynamically.
+    You can also use a static nested class, static means something tied to the class. 
+    public class FooOuter{
+      static class BarInner{}
+    }
+    FooOuter.BarInner foo = new FooOuter.BarInner(); //it's like to use a static method
     
 25. Socket :  an object that represents a network connection between two machines, and 2 pieces software know how to communicate
               with each other. (We don't need to worry about low level details) To make a socket connection, you need to know 2 things
@@ -196,3 +201,5 @@ Basic concepts:
 28. JAR is a Java ARchive, it's a bundle to wrap all you class files. To make it usable for the user, you need to make it
     executable. 
     You need to put your classes in a package, which prevents name conflicts. 
+
+29. You can also have a static 
