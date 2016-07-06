@@ -6,6 +6,7 @@ Don't panic, here are some Example Questions :
   3. Design a client-server application which allows people to play chess with one another.
   4. How would you store the relations in a social network like Facebook and implement a feature where one user receives notifications 
      when their friends like the same things as they do?
+  5. How to design a parking lot? goo.gl/Kmvoz8
 
   vertical scaling : make a single server better CPU, RAM, Disk
   horizontal scaling : instead of making a super expensive and good server, we can use several cheaper and old server instead
