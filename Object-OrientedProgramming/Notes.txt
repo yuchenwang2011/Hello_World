@@ -90,6 +90,7 @@ Basic concepts:
     So super() should be the first statement in each constructor!!
     Use this() to call a constructor from another overloaded constructor in the same class. It has to be the first statement in the
     constructor too!!! So super() and this() can't appear at the same time. 
+    A superclass must be constructed before a derived class could be constructed
 
 20. static lets a method run without any instance of the class. Sometimes you can't instantiate an abstract class, so you use static 
     method. Static methods can't use non-static instanace variables, nor the non-static methods. 
