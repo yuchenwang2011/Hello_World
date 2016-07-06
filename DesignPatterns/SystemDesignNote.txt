@@ -14,8 +14,16 @@ Don't panic, here are some Example Questions :
                        that gives you redundancy.
 
 The SNAKE law to solve those design problems: http://ying.ninja/?p=919 
-1. Scenario
+1. Scenario: case / interface
 2. Necessary: constraints/hyposessis
-3. Algorithm
+//first 2 are input, 3/4 are output
+3. Algorithm/Application
 4. Kilobyte
 5. Evolve
+
+Fundamental questions in a system design question:
+1. Please design the system
+2. Please evaluate query per second (QPS)
+3. Please scale your system
+
+How to design a Netflix?
