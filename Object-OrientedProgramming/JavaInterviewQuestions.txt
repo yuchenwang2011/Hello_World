@@ -1,1 +1,6 @@
 https://www.javacodegeeks.com/2014/04/java-interview-questions-and-answers.html
+This article will be written in the tone of I will speak to an interviewer. 
+1. Why java is platform independent? 
+   Suppose you want to talk to people in the world but you speak only 1 language, it's simple, you just need to hire an interpretor.
+   And that is JVM, the java virtual machine. It translates the code into the bytecode the hardware platform can understand. Of course,
+   you need first install the JRE java runtime environment on that machine. 
