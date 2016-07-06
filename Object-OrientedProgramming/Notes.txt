@@ -91,6 +91,8 @@ Basic concepts:
     Use this() to call a constructor from another overloaded constructor in the same class. It has to be the first statement in the
     constructor too!!! So super() and this() can't appear at the same time. 
     A superclass must be constructed before a derived class could be constructed
+    Java also supports copy constructor but you have to write it your own.
+    http://www.geeksforgeeks.org/copy-constructor-in-java/
 
 20. static lets a method run without any instance of the class. Sometimes you can't instantiate an abstract class, so you use static 
     method. Static methods can't use non-static instanace variables, nor the non-static methods. 
@@ -104,7 +106,16 @@ Basic concepts:
                       FOO_X = 42;
                     }
                   }
-    
+                  
+    You can also use a static nested class, static means something tied to the class. 
+    public class FooOuter{
+      static class BarInner{}
+    }
+    FooOuter.BarInner foo = new FooOuter.BarInner(); //it's like to use a static method
+    The static nested class can only access the static variables and static methods of the outer class.
+    Static nested class is not called inner class, it's called nested class. So all inner classes are nested classes, but
+    not all nested classes are inner classes.
+                  
 21. When you write a risky method, you must decare it will throw an exception. 
     public void takeRisk() throws Exception {
         if(abandonAllHope) throw new Exception();
@@ -170,14 +181,6 @@ Basic concepts:
     "transient" keyword and the serialization process will skip over it. Then this transient instance variable will be brought back
     as null.
     Static variables won't be serialized. Remember, static means "one per class". It won't be saved, it will still change dynamically.
-    You can also use a static nested class, static means something tied to the class. 
-    public class FooOuter{
-      static class BarInner{}
-    }
-    FooOuter.BarInner foo = new FooOuter.BarInner(); //it's like to use a static method
-    The static nested class can only access the static variables and static methods of the outer class.
-    Static nested class is not called inner class, it's called nested class. So all inner classes are nested classes, but
-    not all nested classes are inner classes.
     
 25. Socket :  an object that represents a network connection between two machines, and 2 pieces software know how to communicate
               with each other. (We don't need to worry about low level details) To make a socket connection, you need to know 2 things
