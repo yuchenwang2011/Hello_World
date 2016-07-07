@@ -4,3 +4,5 @@ This article will be written in the tone of I will speak to an interviewer.
    Suppose you want to talk to people in the world but you speak only 1 language, it's simple, you just need to hire an interpretor.
    And that is JVM, the java virtual machine. It translates the code into the bytecode the hardware platform can understand. Of course,
    you need first install the JRE java runtime environment on that machine. 
+2. What's the difference between comparator and comparable interfaces?
+   Comparable is that object can be used to compare with another object. Comparator is the object used to compare 2 objects. 
