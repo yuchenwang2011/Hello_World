@@ -214,3 +214,17 @@ Basic concepts:
     Access modifer: public, protected, private. 
 
 30.  public enum WeekDayEnum { Mon, Tue, Wed, Thu, Fri, Sat, Sun } 
+
+31. Singleton's purpose is to control object creation, limiting the number of obejcts to one only. 
+    public class ClassicSingleton{
+        private static ClassicSingleton instance = null;
+        private ClassicStingleton{
+            //private constructor to prevent instantiation
+        }
+        public static ClassicSingleton getInstance(){
+            if(instance == null) {
+                instance = new ClassicSingleton();
+            }
+            return instance;
+        }
+    }
