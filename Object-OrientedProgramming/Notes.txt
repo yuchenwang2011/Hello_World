@@ -228,3 +228,8 @@ Basic concepts:
             return instance;
         }
     }
+    There is another easy way to implement singleton, using enum
+    public enum EasySingleton{
+        instance;
+    }
+    You can use EasySingleton.instance to use it.
