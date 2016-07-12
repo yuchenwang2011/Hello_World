@@ -8,6 +8,17 @@
    So I think I can be a good candidate for this position.
 
 2. Introduce your work at Noxxx
+   First I think I need to introduce my department first. We are the most money making department in Axxxx. We do Axx's most famous
+   software router. It's the very big ones, the router used by ATT, verizon, T-mobile that kind of router. 
+   My team provides quality assurance to the software running on the router. It's a big produce line, so each one of
+   us is responsible for a few products. 
+   I have 2 main roles, first one is to test new software features introduced and new code 
+   committed. I need communicate with product manager, developers, to make sure we understand the customers' requirement correctly. 
+   Then I will write test plans for the features, writing code for test automations to performance kind of test cases. Looking for 
+   bugs, run regression tests, etc. 
+   Second one is to test the performance of the router, I need to make sure its best performance that no packets will be corrupted 
+   during traffic transmission. And also no packets should be dropped. I need to write code for hardware auto configuration, service
+   configuration, traffic flowing. And also write code simulating kinds of situations and control the chips threshold. 
 
 3. Introduce your work at Blxxx
 
