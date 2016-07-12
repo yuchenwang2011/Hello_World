@@ -1,0 +1,8 @@
+1. Introduce yourself
+   My name is Yuchen, which you already know. I went to University of Vxx in 2011 and got my masters degree in 2013. 
+   During which, I did 8 months coop term in Rx, now it's called Bxxx. When I was there, I was a software developer. 
+   It was in Ottaxx. So after my coop term, I found another job in Ottawa, it was Acxx-luxx. I have been working there
+   for 3 years as a software test engineer. Now Alxx is bought by Noxxx. So that's my work experience. Since I have been
+   working as a software tester for 3 years, a little bit tired, now I want to switch to a software developer position. 
+   I know Java and I'm good at data structure and algorithms. I'm detail-oriented and I know how to do quality assurance.
+   So I think I can be a good candidate for this position.
