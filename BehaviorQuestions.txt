@@ -41,7 +41,6 @@
    It has a lot of things to consider when developing, such as, someone is currently reading a file, old folder has new files, 
    new folder has old files, what if the service can't finish its job in 24 hours and then a new service is restarted. 
    
-   
 4. Introduce your work at Vicxxx
    I was a research assistant then. My supervisor had a project about improving current OFDM system which based on 802.11a, of course
    now no one would use that. We need to build the packets according to the 11a specification. Then build kinds of modules 
@@ -59,3 +58,11 @@
 6. What is your weakness
    My weakness is that I'm kinda giving myself too much pressure. Not pressure from work, it's the pressure from family, 
    from friends, afraid to left hind, afraid can't afford a house. Sometimes got bad mood because of that, can't enjoy life. 
+   
+7. What is your most successful project? / something you are most proud of
+   The project I'm most proud of is that during my work at Nxxx, I wrote a big code automation that can save a lot of effort.
+   Before I took that part of testing, every time we introduce a new module, I need to do a lot of manual configurations and write 
+   some code specifically for it. Then I used my spare time to write an interface to accept all kinds of modules, every new module
+   introduced, I just need to write some basic information into it. And I subtracted the things in common and tests in common as
+   a whole, integrate them together. And I integrated the performance check tests that makes checking performance a standard.
+   So after I build the system, I can save a lot of time testing new modules.
