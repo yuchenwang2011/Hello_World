@@ -66,3 +66,7 @@
    introduced, I just need to write some basic information into it. And I subtracted the things in common and tests in common as
    a whole, integrate them together. And I integrated the performance check tests that makes checking performance a standard.
    So after I build the system, I can save a lot of time testing new modules.
+   
+8. What was your biggest challenge?
+
+9. Why do you choose our company?
