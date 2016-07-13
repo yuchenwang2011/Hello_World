@@ -30,6 +30,18 @@
    My second role was to write some software at my spare cycle. Looking for what kind of thing that everyone in our team can benefit
    from. Duding then I wrote a windows background service running on a server to do the log file cleaning. 
    
+   SubQuestion: Can you describe the software? 
+   There are tons of log generated everyday for a big department. Before that the manager needs to manually delete those files.
+   The file structure was super complicated, a log of folders, folders nested with folders, different kinds of files in each level.
+   Some files are hidden, some files needs certain privilege to delete. Managers need to check the log when it's created. For example,
+   logs created 3 months ago should be deleted but if any single file in that nested folder was ever viewed by someone, files in that
+   folder should be protected.
+   So I wrote a clean up service running on the server that will start itself automatically to do that cleaning. The user can have
+   options to choose which folder they want to clean, how old the files needs to be deleted, the log file destination. 
+   It has a lot of things to consider when developing, such as, someone is currently reading a file, old folder has new files, 
+   new folder has old files, what if the service can't finish its job in 24 hours and then a new service is restarted. 
+   
+   
 4. Introduce your work at Vicxxx
 
 
