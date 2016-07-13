@@ -43,7 +43,13 @@
    
    
 4. Introduce your work at Vicxxx
-
+   I was a research assistant then. My supervisor had a project about improving current OFDM system which based on 802.11a, of course
+   now no one would use that. We need to build the packets according to the 11a specification. Then build kinds of modules 
+   multiplexer, demultiplexer kind of things to simualtion the signal transmitting. The idea of this project is to use polar 
+   coordinate instead the regular cartesian coordinate, which could save a lot of calculation of the system. We also combined soft 
+   decoder inside of regular hard decoder to get a 3dm performance improvement. We also try something more that instead of floating 
+   point calculation, we used fixed point and explored the minimum digits we can use for different situations but can also guarantee 
+   the system's performance.
 
 5. What is your strength?
    My strengh is that I am a self - starter, I don't need any supervision. I will always work my best and hardest to
