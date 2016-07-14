@@ -205,6 +205,7 @@ Basic concepts:
     holds a key that the other one needs, so the two threads will simply sit and wait forever. 
     A monitor is a guardian that watches over a sequence of synchronized code and ensure that only 1 thread at a time
     can execute a synchronized piece of code.
+    To make sure no deadlocks when there are N threads, you need force an order of each of them
 
 27. To use Collections.sort(), you have to have the List<SomeClass>, the SomeClass have to implements Comparable interface
     
