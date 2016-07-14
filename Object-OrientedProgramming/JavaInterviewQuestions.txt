@@ -6,3 +6,11 @@ This article will be written in the tone of I will speak to an interviewer.
    you need first install the JRE java runtime environment on that machine. 
 2. What's the difference between comparator and comparable interfaces?
    Comparable is that object can be used to compare with another object. Comparator is the object used to compare 2 objects. 
+3. What's the difference between interface and an abstract class?
+   a. All methods in interface are abstract. But abstract class may have a not abstract method.
+   b. A class can implements a few interfaces but can only extends 1 abstract class
+   c. When implements a interface, you have to override all the interface's methods. You only need to implement the
+      abstract methods in an abstract class, unless your class is also abstract.
+   d. Variables in interface are final. (int a = 1, must give val) But abstract class just normal you can be or not be final.
+      (subclass inherites the interface's a = 1)
+   e. All methods in an abstract class are public. But abstract class not necessary
