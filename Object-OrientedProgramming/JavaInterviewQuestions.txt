@@ -14,3 +14,15 @@ This article will be written in the tone of I will speak to an interviewer.
    d. Variables in interface are final. (int a = 1, must give val) But abstract class just normal you can be or not be final.
       (subclass inherites the interface's a = 1)
    e. All methods in an abstract class are public. But abstract class not necessary
+4. 3 ways to initialize a thread
+   a. A class implements Runnable interface
+   b. A class extends Thread class
+   c. An application use Executor framework to create a thread pool
+5. 7 states of a thread
+   a. Runnable
+   b. Running
+   c. Waiting
+   d. Sleeping
+   e. Blocked on I/O
+   f. Blocked on Synchronization
+   g. Dead
