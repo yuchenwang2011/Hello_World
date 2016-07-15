@@ -15,6 +15,9 @@ This article will be written in the tone of I will speak to an interviewer.
    d. Variables in interface are final. (int a = 1, must give val) But abstract class just normal you can be or not be final.
       (subclass inherites the interface's a = 1)
    e. All methods in an abstract class are public. But abstract class not necessary
+   f. Interface can't have static method, but abstract class can.
+   g. Interface can't have a constructor, but abstract class has one thought it can't be instantiated.
+   h. Interface can't have instance variable, but abstract class can.
 4. 3 ways to initialize a thread
    a. A class implements Runnable interface
    b. A class extends Thread class
@@ -49,3 +52,11 @@ This article will be written in the tone of I will speak to an interviewer.
 16. With method overloading, you can't just change the return type because the compiler will be confused.
 17. You can have many main methods by method overloading. 
 18. You cannot overide a static method because it belongs to a class not an object.
+19. Can you use final and abstract both with a method?
+    No. Because abstract method must need to be overriden. But after using final, method can't be overiden
+20. Can you use static and abstract keywords together?
+    No. That will be a bad logic. 
+21. Can you use static for an interface?
+    No. Because interface is abstract, you can't have abstract and static together. 
+22. What is a marker interface?
+    A marker interface has nothing inside, such as Serializable, Clonable, just used as a marker. 
