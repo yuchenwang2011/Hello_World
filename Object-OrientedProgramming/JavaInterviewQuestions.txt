@@ -1,4 +1,5 @@
 https://www.javacodegeeks.com/2014/04/java-interview-questions-and-answers.html
+http://www.javatpoint.com/corejava-interview-questions
 This article will be written in the tone of I will speak to an interviewer. 
 1. Why java is platform independent? 
    Suppose you want to talk to people in the world but you speak only 1 language, it's simple, you just need to hire an interpretor.
@@ -33,3 +34,18 @@ This article will be written in the tone of I will speak to an interviewer.
 7. What is fail safe? What is fail fast?
    Java collection has 2 kinds of iterators, one is fail fast and one is fail safe. If it is in the concurrent library,
    it is fail safe, then it's safe when iterating, you can modify the collection. 
+
+8. Two types of Exception?
+   Checked and unchecked, unchecked ones don't need to be declared by the method to throws.
+   
+9. If i don't provide an argument to the main method in the console, would the String[] args empty or null? 
+   It would be empty. Not null
+10. Writing static pulic void is ok as public static void
+11. Local variables are not initialized to any default values, instance variables will be defautly set as null.
+12. Constructor can't be final and is not inherited. 
+13. You can use static block instead of main method
+14. Super is the reference for the direct parent class object. 
+15. You can't use this() and super() at the same time both in a constructor, because they both need to be first line.
+16. With method overloading, you can't just change the return type because the compiler will be confused.
+17. You can have many main methods by method overloading. 
+18. You can overide a static method because it belongs to a class not an object.
