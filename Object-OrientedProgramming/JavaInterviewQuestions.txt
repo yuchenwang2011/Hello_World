@@ -48,4 +48,4 @@ This article will be written in the tone of I will speak to an interviewer.
 15. You can't use this() and super() at the same time both in a constructor, because they both need to be first line.
 16. With method overloading, you can't just change the return type because the compiler will be confused.
 17. You can have many main methods by method overloading. 
-18. You can overide a static method because it belongs to a class not an object.
+18. You cannot overide a static method because it belongs to a class not an object.
