@@ -60,3 +60,12 @@ This article will be written in the tone of I will speak to an interviewer.
     No. Because interface is abstract, you can't have abstract and static together. 
 22. What is a marker interface?
     A marker interface has nothing inside, such as Serializable, Clonable, just used as a marker. 
+23. Error and Exception both extends class Throwable.
+24. Is it necessary to have a catch block after try?
+    You have to unless you have a finally block. 
+25. String is immutable. The meaning of immutable is once created, it's value is not changable and not modifiable. It's designed
+    this way to prevent this case: Suppose there are 5 references pointing to one string, if one reference changes the string, 
+    others will be affected. So String is immutable, StringBuilder is mutable.
+26. How many objects will be created in the following code?
+    String s1 = "hello"; String s2 = "hello"; String s3 = "hello";
+    Only 1. This is more memory efficient.
