@@ -26,3 +26,10 @@ This article will be written in the tone of I will speak to an interviewer.
    e. Blocked on I/O
    f. Blocked on Synchronization
    g. Dead
+6. What is a Iterator?
+   Iterator is an interface that has methods for a collection to iterate all elements. Each java collection has a iterator
+   method to return a iterator instance. Iterator can remove an element from collection when iterating. 
+   
+7. What is fail safe? What is fail fast?
+   Java collection has 2 kinds of iterators, one is fail fast and one is fail safe. If it is in the concurrent library,
+   it is fail safe, then it's safe when iterating, you can modify the collection. 
