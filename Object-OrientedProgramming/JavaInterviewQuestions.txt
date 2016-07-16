@@ -78,4 +78,17 @@ This article will be written in the tone of I will speak to an interviewer.
     can also has a nested class, which is implicitly abstract.
 29. Runtime class provides access to the Java runtime system, you can use Runtime.getRuntime().exec() method to invode
     an external process.
-30. Reflection: 
+30. Reflection: https://www.youtube.com/watch?v=FSGGJ2qtikE
+    is a mechanism that during execution, the code can know the information of itself. Given a class name, 
+    You can get all the information of this class. And you can also create object, modify the state even it's private, 
+    use private methods. 
+    
+    The video has 4 methods to get the class object's name
+    //method 1 to get class type
+    Employee employee = new Employee("John", 30);
+    Class<?> classType = employee.getClass();
+    System.out.println(classType.getName());
+    //method 2 to get class type
+    Class<?> classType = Employee.class;
+    System.out.println(classType.getName());
+    
