@@ -236,3 +236,5 @@ Basic concepts:
         instance;
     }
     You can use EasySingleton.instance to use it.
+
+I'm further taking a back-end course on http://www.zhizuobiao.com/
