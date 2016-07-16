@@ -69,3 +69,13 @@ This article will be written in the tone of I will speak to an interviewer.
 26. How many objects will be created in the following code?
     String s1 = "hello"; String s2 = "hello"; String s3 = "hello";
     Only 1. This is more memory efficient.
+27. When you use String literal, String s = "hello", only 1 object is created in the String constant pool.
+    When you use new, String s = new String("Hello"); 2 objects are created, one in the String constant pool, the other
+    in normal heap. The reference s points to the address in the normal heap. So String literal is more
+    memory efficient because it just creates 1 and also it checks the string constant pool first, if already exists, 
+    it won't create again..
+28. Inner class is non-static, inner is part of nested class. You can even have nested interface. And an interface
+    can also has a nested class, which is implicitly abstract.
+29. Runtime class provides access to the Java runtime system, you can use Runtime.getRuntime().exec() method to invode
+    an external process.
+30. Reflection: 
