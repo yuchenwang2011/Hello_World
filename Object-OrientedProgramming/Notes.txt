@@ -237,4 +237,8 @@ Basic concepts:
     }
     You can use EasySingleton.instance to use it.
 
+32. Applet is a small java program running in the web browser. Add a main() method then you can make a class supports
+    both applet and application.
+33. A daemon thread is a low priority thread that provides background support.
+
 I'm further taking a back-end course on http://www.zhizuobiao.com/
