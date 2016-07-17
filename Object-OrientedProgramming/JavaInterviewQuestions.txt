@@ -92,3 +92,5 @@ This article will be written in the tone of I will speak to an interviewer.
     Class<?> classType = Employee.class;
     System.out.println(classType.getName());
     
+31. What's the difference between Collection and Collections?
+    Collection is an interface for list, set and map while Collections is a class to sort list/set/map.
