@@ -1,7 +1,0 @@
-1. Nested Classes: Nested classes are divided into two categories: static and non-static. 
-   Nested classes that are declared static are called static nested classes. 
-   Non-static nested classes are called inner classes.
-   http://docs.oracle.com/javase/tutorial/java/javaOO/nested.html 
-   A nested class is a member of its enclosing class. 
-   Non-static nested classes (inner classes) have access to other members of the enclosing class, 
-   even if they are declared private. Static nested classes do not have access to other members of the enclosing class. 
