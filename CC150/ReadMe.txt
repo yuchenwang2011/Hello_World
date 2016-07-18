@@ -83,5 +83,22 @@ Chapter 4 Trees and graphs
             }
         }
     Question 4.2, 4.5, 4.6, 4.7, 4.8, 4.9 are worthy to review.
+
 Chapter 5 Bit Manipulation
+Chapter 6 Brain Teasers
+    You have 9 balls, 1 of them is heavier, try to find it using 2 times scale.
+    Answer: we devide the balls into sets of three items each.
+
+Chapter 7 Mathematics and Probability
+    The Sieve of Eratosthenes to find a list of prime number.
+    P(A and B) = P(B given A) * P(A), for example, the probability to find an even number between 1 and 5 from 1 to 10.
+    P(x is even and x <= 5) = P(x is even and given x <= 5) * P(x <= 5) = 2/5 * 1/2 = 1/5
+    P(x is even or x <= 5) = P(x is even) + P(x<=5) - P(x is even and x<=5) = 1/2 + 1/2 - 1/5 = 4/5
+    Mutually exclusive means that A happens, then B won't happen.
+
+Chapter 8 Object-Oriented Design *************This chapter is important, review whole chapter a few times!!!!
+    First, Six W method: Who, When, Where, What, HoW, Why to ask interviewers to narrow down the question
+    Second, design the core products
+    Third, Analyze relationships
+    Fourth, Define actions
     
