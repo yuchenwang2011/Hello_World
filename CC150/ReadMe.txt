@@ -18,8 +18,70 @@ Chapter 2 Linked List:
     Question 2.7 is worthy to re-think recursive answer, but refer to my leetcode answer.
 
 Chapter 3 Stacks and Queues
-
+    Sample code to implement a stack using a linked list:
+    Class Stack[
+        Node top;
+        Object pop(){
+            if(top != null) {
+                Object item = top.data;
+                top = top.next;
+                return item;
+            }
+            return null;
+        }
+        Object push(Object item){
+            Node t = new Node(item);
+            t.next = pop;
+            top = t;
+        }
+        Object peek(){
+            return top.data;
+        }
+    }
+    Question 3.1, 3.2, 3.3, 3.4* and 3.7 are worthy to re-think. 
 Chapter 4 Trees and graphs
-
+    If a tree is unbalanced, you should describe your algorithm in terms of both the average and worse case time. 
+    
+    Full and complete trees are trees in which all leaves are at the bottom of the tree, and all non-leaf nodes
+        have exactly two children. Note that full and complete trees are extremely rare, as a tree must have exactly
+        2^n - 1 node to meet this condition. 
+    A trie, each path down the tree may represent a word.
+    
+    DFS is typically the easiest if we want to visit every node in the graph, or at least visit evry node until we
+        find whatever we're looking for. However, if we have a very large tree and want to be prepared to quite when 
+        we get too far from the original node, DFS can be problematic. We might search thousands of ancestors of the 
+        node, but never even search all of the node's children. BFS is typically prefered. 
+    Note that pre-order and other forms of tree traversal are a form of DFS. The key difference is that when
+        implementing this algorithm for a graph, we must check if the node has been visited. If we don't, we risk
+        getting stuck in infinite loop.
+    The pseudocode below implements DFS: 
+        void search(Node root){
+            if(root == null) return;
+            visit(root);
+            root.visited = true;
+            foreach(Node n in root.adjacent){
+                if(n.visited == false) search(n);
+            }
+        }
+    
+    BFS, we visit a node's adjacent nodes first before searching it's children. An iterative solution with a queue:
+        void search(Node root){
+            Queue queue = new Queue();
+            root.visited = true;
+            visit(root);
+            queue.enqueue(root); //add to end of queue
+            
+            while(!queue.isEmpty()){
+                Node r = queue.dequeue(); // Remove from front of queue
+                foreach (Node n in r.adjacent) {
+                    if(n.visited == false) [
+                        visit(n);
+                        n.visited = true;
+                        queue.enqueue(n);
+                    }   
+                }
+            }
+        }
+    Question 4.2, 4.5, 4.6, 4.7, 4.8, 4.9 are worthy to review.
 Chapter 5 Bit Manipulation
     
