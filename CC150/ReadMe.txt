@@ -107,11 +107,12 @@ Chapter 9 Recursion and Dynamic Programming
 Chapter 10 Scalability and Memory Limits *****************This is very important Chapter need review!!!!
 
 Chapter 11 Sorting and Searching ***********This Chapter very important!!!
-    Bubble Sort: average and worst both O(n^2), memory O(1)
-    Selection Sort: average and worse both O(n^2), memory O(1)
-    Merge Sort: average and worse both O(nlog(n)), memory depends
-    Quick Sort: average O(nlog(n)), worse case O(n^2), memory O(logN).
-    Radix Sort: O(kn)
-    Count Sort: 
-    Heap Sort:
-    Bucket Sort:
+    1. Bubble Sort: average and worst both O(n^2), best is O(n), memory O(1).
+    2. Selection Sort: average and worse both O(n^2), memory O(1)
+    3. Insertion Sort: 
+    4. Merge Sort: average and worse both O(nlog(n)), memory depends
+    5. Quick Sort: average O(nlog(n)), worse case O(n^2), memory O(logN).
+    6. Radix Sort: O(kn)
+    7. Count Sort: 
+    8. Heap Sort:
+    9. Bucket Sort:
