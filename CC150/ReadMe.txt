@@ -116,3 +116,17 @@ Chapter 11 Sorting and Searching ***********This Chapter very important!!!
     7. Count Sort: 
     8. Heap Sort:
     9. Bucket Sort:
+
+Chapter 12 Testing
+    How to test Amazon website?
+    Answer: It's great to make sure that the product images are appear in the right place. It's more important that payments work
+            properly, products are added to the shipment queue and customers are never charged twice. etc
+    How to test Google spreadsheet?
+    Answer: It's important that you test opening, saving and editing the document. But Google spreadsheet is also a part of the 
+            large ecosystem. You need to test integration with Gmail, with plug-ins and other components. 
+    How to troubleshooting when a chrome crashes when launch?
+    Answer: How long has been this user experiencing this issue?
+            What version is the browser? on what OS?
+            Does this issue happen consistently? or How often does it happen? When does it happen?
+            Is there an error reporting?
+    Question to review: 12.1
