@@ -130,3 +130,11 @@ Chapter 12 Testing
             Does this issue happen consistently? or How often does it happen? When does it happen?
             Is there an error reporting?
     Question to review: 12.1
+
+Chapter 13 C and C++ just ignore
+
+Chapter 14 Java
+    
+Chapter 15 Databases  ************Need to review when I pick up sql knowledge again
+
+Chapter 16 Threads and Locks    *********Need to review later
