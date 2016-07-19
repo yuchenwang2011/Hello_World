@@ -241,4 +241,13 @@ Basic concepts:
     both applet and application.
 33. A daemon thread is a low priority thread that provides background support.
 
+34. Simple Factory Mode: 
+    Before industrial revolution, when you need a BMW, you need to new one by yourself. After industrial revolution, 
+    there are factories, so when you want a BMW, you let factory new it and return it to you. 
+    
+35. Factory Method mode: 
+    It's more advanced. That every method is a factory. There are BMW 323, 325, 328. You can't make all of them in 
+    one factory, so you have many BWM factories, the 323 factory, 325 factory and 328 factory. 
+    Each news a BWM and return to you. But you need an abstract class "BMW Factory"
+    
 I'm further taking a back-end course on http://www.zhizuobiao.com/
