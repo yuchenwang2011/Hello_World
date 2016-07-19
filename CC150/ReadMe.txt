@@ -101,4 +101,17 @@ Chapter 8 Object-Oriented Design *************This chapter is important, review 
     Second, design the core products
     Third, Analyze relationships
     Fourth, Define actions
-    
+
+Chapter 9 Recursion and Dynamic Programming
+
+Chapter 10 Scalability and Memory Limits *****************This is very important Chapter need review!!!!
+
+Chapter 11 Sorting and Searching ***********This Chapter very important!!!
+    Bubble Sort: average and worst both O(n^2), memory O(1)
+    Selection Sort: average and worse both O(n^2), memory O(1)
+    Merge Sort: average and worse both O(nlog(n)), memory depends
+    Quick Sort: average O(nlog(n)), worse case O(n^2), memory O(logN).
+    Radix Sort: O(kn)
+    Count Sort: 
+    Heap Sort:
+    Bucket Sort:
