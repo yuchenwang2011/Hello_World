@@ -24,7 +24,13 @@ The SNAKE law to solve those design problems: http://ying.ninja/?p=919
 
 Fundamental questions in a system design question:
 1. Please design the system
+
 2. Please evaluate query per second (QPS)
+
 3. Please scale your system
 
 How to design a Netflix?
+
+How to design a blackjack?
+
+How to design a minesweeper? 	goo.gl/sua95o
