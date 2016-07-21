@@ -108,12 +108,12 @@ Chapter 10 Scalability and Memory Limits *****************This is very important
 
 Chapter 11 Sorting and Searching ***********This Chapter very important!!!
     1. Bubble Sort: average and worst both O(n^2), best is O(n), memory O(1).
-    2. Selection Sort: average and worst both O(n^2), memory O(1)
+    2. Selection Sort: all O(n^2), memory O(1)
     3. Insertion Sort: average and worst both O(n^2), best case O(n), memory O(1)
-    4. Merge Sort: average and worse both O(nlog(n)), memory depends
-    5. Quick Sort: average O(nlog(n)), worse case O(n^2), memory O(logN).
-    6. Radix Sort: O(kn)
-    7. Count Sort: 
+    4. Merge Sort: all O(nlog(n)), memory depends
+    5. Quick Sort: average and best O(nlog(n)), worse case O(n^2), memory O(logN).
+    6. Count Sort: all case O(n + k) = O(n), memory O(k), where k is the range of min and max value
+    7. Radix Sort: O(kn)
     8. Heap Sort:
     9. Bucket Sort:
 
