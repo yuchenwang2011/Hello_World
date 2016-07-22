@@ -119,60 +119,74 @@ Our Leadership Principles aren’t just a pretty inspirational wall hanging. The
 Customer Obsession
    Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. 
    Although leaders pay attention to competitors, they obsess over customers.
+   1. 以重视客户为荣，以重视对手为耻
 
 Ownership
    Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. 
    They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job". 
+   2. 以担当为荣，以逃避为耻
 
 Invent and Simplify
    Leaders expect and require innovation and invention from their teams and always find ways to simplify. 
    They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here". 
    As we do new things, we accept that we may be misunderstood for long periods of time.
+   3. 以创新为荣，以复杂为耻
 
 Are Right, A Lot
    Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work 
    to disconfirm their beliefs.
+   4. 以多元角度为荣，以固守己见为耻
 
 Learn and Be Curious
    Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore 
 them.
+   5. 以好学好奇为荣，以不思进取为耻
 
 Hire and Develop The Best
    Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, 
    and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others.  
    We work on behalf of our people to invent mechanisms for development like Career Choice.
+   6. 以提高表现为荣，以埋没天才为耻
 
 Insist on the Highest Standards
    Leaders have relentlessly high standards - many people may think these standards are unreasonably high. 
    Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. 
    Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.
+   7. 以严格标准为荣，以产品缺陷为耻
 
 Think Big
    Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. 
    They think differently and look around corners for ways to serve customers.
-
+   8. 以大格局为荣，以小眼界为耻
+   
 Bias for Action
    Speed matters in business. Many decisions and actions are reversible and do not need extensive study. 
    We value calculated risk taking. 
+   9. 以敢干为荣，以慢拍为耻
 
 Frugality
    Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. 
    There are no extra points for growing headcount, budget size or fixed expense.
+   10. 以省钱为荣，以花钱为耻
 
 Earn Trust
    Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, 
    even when doing so is awkward or embarrassing.  Leaders do not believe their or their team’s body odor smells of perfume.  
    They benchmark themselves and their teams against the best.
+   11. 以尊重员工为荣，以端着架子为耻
 
 Dive Deep
    Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ.
    No task is beneath them.
+   12. 以深究细节为荣，以忽视问题为耻
 
 Have Backbone; Disagree and Commit
    Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting.
    Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, 
    they commit wholly.
+   13. 以反对为荣，以妥协为耻
 
 Deliver Results
    Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. 
    Despite setbacks, they rise to the occasion and never settle.
+   以挺身而出为荣，以发布失败为耻
