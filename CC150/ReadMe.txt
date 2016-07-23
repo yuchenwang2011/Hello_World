@@ -107,15 +107,16 @@ Chapter 9 Recursion and Dynamic Programming
 Chapter 10 Scalability and Memory Limits *****************This is very important Chapter need review!!!!
 
 Chapter 11 Sorting and Searching ***********This Chapter very important!!!
+//http://bigocheatsheet.com/
     1. Bubble Sort: average and worst both O(n^2), best is O(n), memory O(1).
     2. Selection Sort: all O(n^2), memory O(1)
     3. Insertion Sort: average and worst both O(n^2), best case O(n), memory O(1)
     4. Merge Sort: all O(nlog(n)), memory depends
     5. Quick Sort: average and best O(nlog(n)), worse case O(n^2), memory O(logN).
     6. Count Sort: all case O(n + k) = O(n), memory O(k), where k is the range of min and max value
-    7. Radix Sort: O(kn)
-    8. Heap Sort:
-    9. Bucket Sort:
+    7. Radix Sort: all case O(kn), space complexity O(n + k)
+    8. Heap Sort:  all case O(nlogn), space complexity O(1)
+    9. Bucket Sort:best/average O(n + k), worst O(n^2), space O(n), where k is the number of bucket
 
 Chapter 12 Testing
     How to test Amazon website?
