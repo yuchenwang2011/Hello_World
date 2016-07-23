@@ -1,0 +1,10 @@
+//This is the note for Object oriented design problems
+//OOD is just the substraction of the real world, in this real world, every thing is an object
+//what you need to do is just to name them and find their attributes
+1. How to design a parking lot? goo.gl/Kmvoz8
+   Answer: refer to 9chapter's system design course lecture 7 notes.
+   http://javajuggler.blogspot.ca/2011/01/oo-design-for-parkinglot.html
+   http://massivetechinterview.blogspot.ca/2015/07/cc150v5-84-design-parking-lot.html
+2. How to design a blackjack?
+   Answer: refer to 9chapter's system design course lecture 7 notes
+3. How to design a minesweeper? 	goo.gl/sua95o
