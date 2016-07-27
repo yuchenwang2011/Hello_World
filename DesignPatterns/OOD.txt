@@ -13,4 +13,6 @@
 4. How to design an elevator?
    Answer: https://hellohell.gitbooks.io/java-/content/dian_ti_she_ji.html
    https://github.com/rx222/elevator
-3. How to design a minesweeper? 	goo.gl/sua95o
+5. How to design a minesweeper? 	
+   Answer: goo.gl/sua95o
+   https://github.com/zxm15/java-ood/blob/master/src/MineSweeper/Player.java
