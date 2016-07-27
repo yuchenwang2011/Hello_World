@@ -7,4 +7,9 @@
    http://massivetechinterview.blogspot.ca/2015/07/cc150v5-84-design-parking-lot.html
 2. How to design a blackjack?
    Answer: refer to 9chapter's system design course lecture 7 notes
+
+3. How to design an achievement system?
+
+4. How to design an elevator?
+   Answer: https://hellohell.gitbooks.io/java-/content/dian_ti_she_ji.html
 3. How to design a minesweeper? 	goo.gl/sua95o
