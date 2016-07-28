@@ -1,0 +1,20 @@
+Database table world:
+
+name	continent	 area	  population	gdp
+Afghanistan	Asia	652230	25500100	20343000000
+Albania	Europe	28748	2831741	12960000000
+Algeria	Africa	2381741	37100000	188681000000
+Andorra	Europe	468	78115	3712000000
+Angola	Africa	1246700	20609294	100990000000
+...
+
+//all the keywords can be lowercase, but it's more readable to use Capital letters
+//Question comes from http://sqlzoo.net/wiki/SELECT_basics
+1. show the population of Germany
+   Answer: SELECT population FROM world WHERE name = 'Germany';
+   
+2. Show the name and the population for 'Ireland', 'Iceland' and 'Denmark'.
+   Answer: SELECT name, population FROM world WHERE name IN ('Ireland','Iceland','Denmark');
+   
+3. Show the country and the area for countries with an area between 200,000 and 250,000
+   Answer: SELECT name, area FROM world WHERE area BETWEEN 200000 AND 250000;
