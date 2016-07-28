@@ -9,6 +9,7 @@ Angola	Africa	1246700	20609294	100990000000
 ...
 
 //all the keywords can be lowercase, but it's more readable to use Capital letters
+//sql grammar is case-incensitive
 //Question comes from http://sqlzoo.net/wiki/SELECT_basics
 1. show the population of Germany
    Answer: SELECT population FROM world WHERE name = 'Germany';
@@ -18,3 +19,21 @@ Angola	Africa	1246700	20609294	100990000000
    
 3. Show the country and the area for countries with an area between 200,000 and 250,000
    Answer: SELECT name, area FROM world WHERE area BETWEEN 200000 AND 250000;
+
+4. Show the country and population for country names start with Al
+   Answer: SELECT name, population FROM world WHERE name LIKE "Al%";
+
+5. Show the countries that end in A or L
+   Answer: SELECT name FROM world WHERE name LIKE "%A" or name LIKE "%L";
+   
+6. Show the countries and the length of the name
+   Answer: SELECT name, LENGTH(name) FROM world WHERE LENGTH(name) = 5 AND region = 'Europe';
+   
+7. Show the counties and area * 2
+   Answer: SELECT name, area*2 FROM world WHERE population = 64000
+
+8. Show the countries with an area larger than 50000 and a population smaller than 10000000
+   Answer: SELECT name, area, population FROM world WHERE area > 50000 AND population < 10000000;
+
+9. Show the population density of China, Australia, Nigeria and France
+   Answer: SELECT name, population/area WHERE name IN ('China','Australia','Nigeria','France');
