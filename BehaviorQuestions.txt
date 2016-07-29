@@ -117,6 +117,21 @@
 31. 有没有做过under deadline的项目
 
 **********************************Amazon Principles****************************************
+   1. 以重视客户为荣，以重视对手为耻
+   2. 以担当为荣，以逃避为耻
+   3. 以创新为荣，以复杂为耻
+   4. 以多元角度为荣，以固守己见为耻
+   5. 以好学好奇为荣，以不思进取为耻
+   6. 以提高表现为荣，以埋没天才为耻
+   7. 以严格标准为荣，以产品缺陷为耻
+   8. 以大格局为荣，以小眼界为耻
+   9. 以敢干为荣，以慢拍为耻
+   10. 以省钱为荣，以花钱为耻
+   11. 以尊重员工为荣，以端着架子为耻
+   12. 以深究细节为荣，以忽视问题为耻
+   13. 以反对为荣，以妥协为耻
+   14. 以挺身而出为荣，以发布失败为耻
+   
 Leadership Principles
 Our Leadership Principles aren’t just a pretty inspirational wall hanging. These Principles work hard, just like we do. 
    Amazonians use them, every day, whether they’re discussing ideas for new projects, deciding on the best solution for a customer’s 
@@ -195,4 +210,6 @@ Have Backbone; Disagree and Commit
 Deliver Results
    Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. 
    Despite setbacks, they rise to the occasion and never settle.
-   以挺身而出为荣，以发布失败为耻
+   14. 以挺身而出为荣，以发布失败为耻
+   
+https://www.linkedin.com/pulse/ace-leadership-interview-prakash-krishnan
