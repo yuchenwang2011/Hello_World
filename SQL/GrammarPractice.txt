@@ -125,3 +125,19 @@ Angola	Africa	1246700	20609294	100990000000
 22. List the winners, year and subject where the winner starts with Sir. Show the the most recent first, then by name order.
     Answer: SELECT winner, yr, subject FROM nobel WHERE winner LIKE 'Sir%'
             ORDER BY yr DESC,winner
+
+23. The expression subject IN ('Chemistry','Physics') can be used as a value - it will be 0 or 1.
+    Show the 1984 winners and subject ordered by subject and winner name; but list Chemistry and Physics last.
+    Answer: SELECT winner, subject
+            FROM 
+            (
+             SELECT winner,subject, subject IN ('Chemistry','Physics') AS rank
+               FROM nobel
+               WHERE yr = 1984
+             ) newTable
+            ORDER BY rank, subject, winner
+
+24. Show the amount of years where no Medicine awards were given
+    Answer: SELECT COUNT(DISTINCT yr) FROM nobel
+            WHERE yr NOT IN
+            (SELECT DISTINCT yr FROM nobel WHERE subject = 'Medicine')
