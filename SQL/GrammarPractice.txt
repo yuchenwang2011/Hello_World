@@ -13,6 +13,7 @@ Angola	Africa	1246700	20609294	100990000000
 //grammar is case-incensitive, single quote and double quote both OK
 //Question comes from http://sqlzoo.net/wiki/SELECT_basics
 //Here is an answer: https://github.com/jisaw/sqlzoo-solutions/blob/master/select-in-select.sql
+//Actually you can add "?answer=1" to the end of the url you can see the cheating answer
 1. show the population of Germany
    Answer: SELECT population FROM world WHERE name = 'Germany';
    
@@ -204,3 +205,50 @@ Angola	Africa	1246700	20609294	100990000000
 
 38. How many countries have an area of at least 1000000
     Answer: SELECT COUNT(name) FROM world WHERE area >= 1000000
+
+39. For each continent show the number of countries
+    Answer: SELECT continent, COUNT(name) FROM world GROUP BY continent
+
+40. For each continent show the total population:
+    Answer: SELECT continent, SUM(POPULATION) FROM world GROUP by continent
+
+41. For each relevant continent show the number of countries that has a population of at least 200000000.
+    Answer: SELECT continent, COUNT(continent) FROM world WHERE population >= 200000000
+            GROUP BY continent
+    有sum，count的时候用group by
+
+42. having 放在group by 后面,作用相当于select语句后的where,不过是限制group by分组的，是group by专用版本的“where”
+    Show the total population of those continents with a total population of at least half a billion.
+    Answer: SELECT continent, SUM(population) FROM world GROUP BY continent
+            HAVING SUM(population) > 1000000000/2
+
+43. For each continent show the continent and number of countries.
+    Answer: SELECT continent, COUNT(name) FROM world GROUP BY continent
+    
+44. For each continent show the continent and number of countries with populations of at least 10 million.
+    Answer: SELECT continent, COUNT(name) FROM world WHERE population >= 10000000
+            GROUP BY continent
+
+45. List the continents that have a total population of at least 100 million.
+    Answer: SELECT continent FROM world GROUP BY continent
+            HAVING SUM(population) >= 100000000
+
+46. List each subject - just once
+    Answer: SELECT DISTINCT(subject) FROM nobel
+
+47. For each subject show the first year that the prize was awarded.
+    Answer: SELECT subject, MIN(yr) FROM nobel GROUP BY subject
+
+48. Show the number of different winners for each subject.
+    Answer: SELECT subject, COUNT(DISTINCT(winner)) FROM nobel GROUP BY subject
+
+49. For each subject show how many years have had prizes awarded.
+    Answer: SELECT subject, COUNT(DISTINCT(yr)) FROM nobel GROUP BY subject
+
+50. Show winners who have won more than once.
+    Answer: SELECT DISTINCT(winner) FROM nobel GROUP BY winner
+            HAVING COUNT(winner) >= 2
+
+51. Show the year and subject where 3 prizes were given. Show only years 2000 onwards.
+    Answer: SELECT yr, subject FROM nobel WHERE yr >= 2000
+            GROUP BY yr, subject HAVING COUNT(winner) = 3
