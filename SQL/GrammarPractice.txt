@@ -252,3 +252,6 @@ Angola	Africa	1246700	20609294	100990000000
 51. Show the year and subject where 3 prizes were given. Show only years 2000 onwards.
     Answer: SELECT yr, subject FROM nobel WHERE yr >= 2000
             GROUP BY yr, subject HAVING COUNT(winner) = 3
+
+52. Show the medium population density of each region
+    Answer: SELECT region, SUM(population) / SUM(area) AS density FROM bbc GROUP BY region
