@@ -1,0 +1,319 @@
+作者：Mingche Su
+链接：https://zhuanlan.zhihu.com/p/21791045
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+1.编程语言问题（以java为例）
+
+Java vs C++
+
+Abstract class vs interface
+
+pass by reference vs pass by value
+
+Final/Finally/Finalize
+
+static
+
+volatile
+
+Primitive types
+
+overriding vs overloading
+
+Public static void main(String[] args)
+
+Checked / unchecked exception
+
+Garbage collection
+
+JVM
+
+Java object class method
+
+Java Serialization
+
+Java heap/stack
+
+Java thread
+
+Java 8 vs. java7
+
+
+2. 数据结构
+
+2.0. What is Big O?
+
+O(1)/Constant Complexity: Constant.
+
+O(log n)/Logarithmic Complexity: Not as good as constant, but still pretty good.
+
+O(n)/Linear Complexity: The larger the data set, the time taken grows proportionately.
+
+O(n log n):
+
+O(n^2)/Quadratic Complexity:
+
+O(2^n): Exponential Growth!
+
+O(n!): Factorial
+
+
+2.1.List
+
+ArrayList vs LinkedList
+
+Vector vs ArrayList
+
+Use Array implement ArrayList.
+
+
+2.2.Set
+
+TreeSet VS HashSet
+
+HashMap vs HashSet
+
+
+2.3. Map
+
+Collision resolution: Separate chainning/Linear Probing
+
+HashMap原理
+
+HashMap vs TreeMap
+
+HashMap vs Hashtable
+
+HashMap Vs. ConcurrentHashMap Vs. SynchronizedMap
+
+LinkededHashMap
+
+
+2.4. Arrays
+
+Collections.sort()
+
+Arrays.sort()
+
+array1.equals(array2);
+
+Arrays.equals(array1, array2);
+
+Array equals vs deepEquals
+
+
+2.5. Stack
+
+Recursion
+
+DFS
+
+
+2.6. Queue
+
+First in First out
+
+BFS
+
+Deque：Arraydeque/Linkedlist
+
+Blockingqueue
+
+
+2.7. Sort
+
+比较排序： bubble sort/selection sort/insert sort (n^2)
+
+mergesort/quicksort/heapsort (nlogn)
+
+非比较排序：count sort，radix sort，bucket sort
+
+
+2.8. heap
+
+Priority Queue
+
+Comparator vs Comparable
+
+
+2.9.Tree
+
+Binary Tree
+
+k叉树
+
+B树/B+ 树
+
+K-d Tree
+
+Trie Tree
+
+Segment Tree
+
+
+3. 算法题
+
+Reverse Linkedlist
+
+Binary Tree Upside Down
+
+Lowest Common Ancestor of a Binary Tree
+
+Happy Number
+
+Copy List with Random Pointer
+
+Binary Search in unkown size rotated array
+
+rand2()->rand3(); rand3()->rand5()
+
+Product of Array Except Self
+
+How to check if given four points form a square
+
+Topological sorting
+
+The idea is that you have 25 horses, a 5 lane track, no timer, and want to find the fastest 3 horses. How many races can you do it in?
+
+
+4. CS fundamentals
+
+4.1.组成原理：
+
+反码和补码：
+
+什么是cache？
+
+内存和硬盘
+
+
+4.2.操作系统：
+
+线程和进程的区别
+
+并发和并行
+
+线程的生命周期
+
+什么是死锁？
+
+
+4.3.计算机网络:
+
+输入www.google.com 会发生什么？（confluent／houzz／yahoo）
+
+1. TCP 三次握手，TCP/UDP 区别；
+
+2. http/https 区别；http request：post／get ；http port 80 ssl;
+
+3.Public key/Private key;
+
+4. HTTP 401, 403, or 404 Error
+
+5. Client/Server Model
+
+
+4.4.软件工程以及Linux：
+
+Unitest
+
+Design pattern:Singleton/Factory
+
+Linux Commands: kill -9 / scp / telnet / ps/ sort/ grep/less
+
+5. 数据库
+
+
+5.1.Design a database
+
+员工信息管理数据库
+
+设计一个电商数据库
+
+
+5.2.SQL知识点：
+
+建立表格：按需建表
+
+主键Primary Key
+
+副键Foreign Key
+
+数据类型Data Type
+
+数据类Number: Int, smallint, bigint, decimal
+
+字串类String: Char, varchar
+
+日期类Date: datetime
+
+Null or Not Null
+
+表与表之间的关系：一对多 （其他类型：一对一，多对多）
+
+ER图Entity Relationship Diagram
+
+
+5.3.基础语句
+
+Select…From…基本返回语句
+
+Where…and…查找前后条件均符合的记录
+
+Subquery 子查询句
+
+…Inner Join…on…
+
+Self Join
+
+Group by 组合项
+
+Order by…DESC 降序排序
+
+Count(), Sum() 计数，总计（Aggregate Function并集功能，还有avg, first, last, max, min）
+
+Top 3 前3项记录
+
+Where…in () 查找符合in后条件的记录
+
+Union VS. Union All 去重复项合表VS.不去重复项合表
+
+Rank()over(order by…) 按照…排序（结合where可用于查找第几项）
+
+Having查找并集后的记录，即在结果中查找
+
+Where VS. Having 查找单一记录（在过程中查找），查找并集记录（在结果中查找）
+
+
+5.4.SQL索引：
+
+什么是索引？
+
+为什么索引更快？
+
+何时建立索引有效？
+
+
+6. OOD
+
+Design a chess game
+
+Design a Elevator system
+
+Design a parking lot
+
+Design a file system
+
+Design a blackjack card game
+
+
+7. System design
+
+如何设计Uber;
+
+如何设计netflix;
+
+如何设计facebook;
+
+如何设计whatsapp;
