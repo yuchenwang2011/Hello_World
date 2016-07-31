@@ -12,7 +12,7 @@ Angola	Africa	1246700	20609294	100990000000
 //all the keywords can be lowercase, but it's more readable to use Capital letters
 //grammar is case-incensitive, single quote and double quote both OK
 //Question comes from http://sqlzoo.net/wiki/SELECT_basics
-//Here is an answer: https://github.com/jisaw/sqlzoo-solutions/blob/master/select-in-select.sql
+//Here is an answer: https://github.com/jisaw/sqlzoo-solutions
 //Actually you can add "?answer=1" to the end of the url you can see the cheating answer
 1. show the population of Germany
    Answer: SELECT population FROM world WHERE name = 'Germany';
@@ -276,3 +276,18 @@ Angola	Africa	1246700	20609294	100990000000
 
 57. List the player for every goal scored in a game where the stadium was 'National Stadium, Warsaw'
     Answer: SELECT player FROM goal JOIN game ON (id = matchid) WHERE stadium = 'National Stadium, Warsaw'
+    
+58. show the name of all players who scored a goal against Germany.
+    Answer: SELECT DISTINCT(player)
+            FROM game JOIN goal ON matchid = id 
+            WHERE (team1='GER' OR team2='GER') AND teamid != 'GER'
+            
+59. Show teamname and the total number of goals scored.
+    Answer: SELECT teamname, COUNT(gtime)
+            FROM goal JOIN eteam ON (id = teamid)
+            GROUP BY teamname
+
+60.Show the stadium and the number of goals scored in each stadium.
+   Answer: SELECT stadium, COUNT(gtime)
+           FROM goal JOIN  game ON (id = matchid)
+           GROUP BY stadium
