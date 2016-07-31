@@ -255,3 +255,16 @@ Angola	Africa	1246700	20609294	100990000000
 
 52. Show the medium population density of each region
     Answer: SELECT region, SUM(population) / SUM(area) AS density FROM bbc GROUP BY region
+
+53. Combine 2 tables game and goal
+    Answer: SElECT * FROM game JOIN goal ON (id = matchid)
+    or    : SELECT * FROM game JOIN goal ON (game.id = goal.matchid)
+
+54. Show the player, teamid, stadium and mdate and for every German goal.
+    Answer: SELECT player, teamid, stadium, mdate 
+            FROM goal JOIN game ON (id = matchid)
+            WHERE teamid = 'GER'
+
+55. Show the team1, team2 and player for every goal scored by a player called Mario player LIKE 'Mario%'
+    Answer: SELECT team1, team2, player FROM game JOIN goal ON (id = matchid)
+            WHERE player LIKE 'Mario%'
