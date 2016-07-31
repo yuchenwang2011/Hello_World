@@ -268,3 +268,11 @@ Angola	Africa	1246700	20609294	100990000000
 55. Show the team1, team2 and player for every goal scored by a player called Mario player LIKE 'Mario%'
     Answer: SELECT team1, team2, player FROM game JOIN goal ON (id = matchid)
             WHERE player LIKE 'Mario%'
+
+56. List the the dates of the matches and the name of the team in which 'Fernando Santos' was the team1 coach.
+    Answer: SELECT mdate, teamname
+            FROM game JOIN eteam ON (eteam.id = team1)
+            WHERE coach = 'Fernando Santos'
+
+57. List the player for every goal scored in a game where the stadium was 'National Stadium, Warsaw'
+    Answer: SELECT player FROM goal JOIN game ON (id = matchid) WHERE stadium = 'National Stadium, Warsaw'
