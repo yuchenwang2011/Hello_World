@@ -1,0 +1,76 @@
+//I took the Udemy 28 min JUnit course
+//https://www.udemy.com/junit-tutorial-for-beginners-with-java-examples/learn/v4/questions
+
+All test methods should be public void. A single test should only test a single test case.
+There are five steps, that you need to follow to create Parameterized tests.
+
+1. Annotate test class with @RunWith(Parameterized.class)
+2. Create a public static method annotated with @Parameters that returns 
+   a Collection of Objects (as Array) as test data set.
+3. Create a public constructor that takes in what is equivalent to one "row" of test data.
+4. Create an instance variable for each "column" of test data.
+5. Create your tests case(s) using the instance variables as the source of the test data.
+
+Question: What is @Test and where it’s used?
+
+Answer: @Test annotation is used to mark a method as test method, result of which is then compared 
+with expected output to check whether the test is successful or not.
+
+Question: What is @Before and @BeforeClass and it’s usage?
+
+Answer: 
+@Before annotation:
+
+syntax:
+@Before
+public void myMethod()
+
+This method should execute before each test. Such methods are generally used for initialization 
+before performing a actual test in test environment.
+
+@BeforeClass annotation:
+
+syntax:
+@BeforeClass
+public static void myMethod()
+
+This method should execute before all the tests. It executes only once. Method should be declared static. 
+Mostly used for database connectivity tasks before execution of any of the test.
+
+Question: What is @After and @AfterClass and it’s usage?
+
+@After annotation:
+
+syntax:
+@After
+public void myMethod()
+
+This method should execute after each test and used for cleaning up the test and temporary data to avoid memory issues.
+
+@AfterClass annotation:
+
+syntax:
+@AfterClass
+public static void myMethod()
+
+This method should execute at the end, once all the tests are finished. 
+Method should be declared static and executes only a single time. Mostly used for closing the database connection.
+
+Question: What is @Ignore and when it’s used?
+
+@Ignore is used to ignore a test method. It’s really useful when we have all the tests in advance 
+but the code is yet to be tested for the particular test, in such scenarios 
+such test methods should be marked with @Ignore annotation.
+
+Question: What is Parameterized test in JUnit and what all annotations used for this?
+
+Answer: Parameterized tests are possible in JUnit 
+and they provides us the liberty of passing parameters into the test classes.
+
+@RunWith(Parameterized.class) – For making a class parametrized.
+
+@Parameters – Parameterized class must have a static method for generating and returning a collection of array, 
+this method should be marked with @Parameters annotation.
+
+Question: How @Test annotation is used for testing exceptions?
+Answer: @Test (expected = Exception.class)
