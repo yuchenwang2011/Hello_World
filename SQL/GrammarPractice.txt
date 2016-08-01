@@ -322,3 +322,16 @@ Angola	Africa	1246700	20609294	100990000000
     Answer: SELECT who, color
             FROM ttms JOIN country ON (country = id)
             WHERE name = 'Sweden'
+
+66. Show the names of the actors who were in the movie. Use movie = Casablanca
+    Answer: SELECT name
+            FROM casting, actor
+            WHERE movieid = 
+            (SELECT id FROM movie WHERE title = 'Casablanca')
+            AND actor.id = actorid
+
+67. Obtain the cast list for the film 'Alien'
+    Answer: SELECT name FROM casting, actor
+            WHERE movieid = 
+            (SELECT id FROM movie WHERE title = 'ALIEN')
+            AND actor.id = actorid
