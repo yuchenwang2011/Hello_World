@@ -303,3 +303,22 @@ Angola	Africa	1246700	20609294	100990000000
            FROM game JOIN goal ON (id = matchid)
            WHERE teamid = 'GER'
            GROUP BY id, mdate
+
+63. If it was a team1 goal then a 1 appears in score1, otherwise there is a 0. 
+    You could SUM this column to get a count of the goals scored by team1. 
+    Sort your result by mdate, matchid, team1 and team2.
+    Answer: SELECT mdate,
+            team1,
+            SUM(CASE WHEN team1 = teamid THEN 1 ELSE 0 END) AS score1,
+            team2,
+            SUM(CASE WHEN team2 = teamid THEN 1 ELSE 0 END) AS score2
+            FROM game LEFT JOIN goal ON matchid = id
+            GROUP BY mdate, team1, team2
+            
+64. Show the athelete (who) and the country name for medal winners in 2000.
+    Answer: SELECT who, name FROM ttms JOIN country ON (country = id) WHERE games = 2000
+
+65. Show the who and the color of the medal for the medal winners from 'Sweden'.
+    Answer: SELECT who, color
+            FROM ttms JOIN country ON (country = id)
+            WHERE name = 'Sweden'
