@@ -335,3 +335,20 @@ Angola	Africa	1246700	20609294	100990000000
             WHERE movieid = 
             (SELECT id FROM movie WHERE title = 'ALIEN')
             AND actor.id = actorid
+
+68. List the films in which 'Harrison Ford' has appeared
+    Answer: SELECT title
+            FROM movie JOIN casting ON (movie.id = movieid) 
+            WHERE actorid = (SELECT id FROM actor WHERE name = 'Harrison Ford')
+
+69. List the films where 'Harrison Ford' has appeared - but not in the starring role. 
+    [Note: the ord field of casting gives the position of the actor. 
+    If ord=1 then this actor is in the starring role]
+    Answer: SELECT title FROM movie JOIN casting ON (movie.id = movieid)
+            WHERE actorid = (SELECT id FROM actor WHERE name = 'Harrison Ford' AND ord != 1)
+
+70. List the films together with the leading star for all 1962 films.
+    Answer: SELECT title, name
+            FROM movie JOIN casting ON (movie.id = casting.movieid)
+            JOIN actor ON (actor.id = casting.actorid)
+            WHERE yr = 1962 AND ord = 1
