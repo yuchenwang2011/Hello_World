@@ -364,3 +364,16 @@ Angola	Africa	1246700	20609294	100990000000
 
 74. Use a different JOIN so that all departments are listed.
     Answer: SELECT teacher.name, dept.name FROM teacher RIGHT JOIN dept ON (dept.id = teacher.dept)
+
+75. COALESCE takes any number of arguments and returns the first value that is not null.
+    COALESCE can be useful when you want to replace a NULL value with some other value.
+    SELECT name, party ,COALESCE(party,'None') AS aff FROM msp WHERE name LIKE 'C%'
+    
+76. Use COALESCE to print the mobile number. Use the number '07986 444 2266' if there is no number given. 
+    Show teacher name and mobile number or '07986 444 2266'
+    Answer: SELECT teacher.name, COALESCE(mobile,'07986 444 2266') AS mobile FROM teacher
+
+77. Use the COALESCE function and a LEFT JOIN to print the teacher name and department name. 
+    Use the string 'None' where there is no department.
+    Answer: SELECT teacher.name, COALESCE(dept.name, 'None') AS dept
+            FROM teacher LEFT JOIN dept ON (teacher.dept = dept.id)
