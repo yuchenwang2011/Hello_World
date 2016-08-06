@@ -1,0 +1,3 @@
+//This is the note for Selenium WebDriver notes
+Selenium has 2 softwares, Selenium IDE and Selenium RC. 
+    First one runs as an add-on on Firefox.
