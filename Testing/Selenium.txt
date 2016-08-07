@@ -1,3 +1,22 @@
 //This is the note for Selenium WebDriver notes
 Selenium has 2 softwares, Selenium IDE and Selenium RC. 
-    First one runs as an add-on on Firefox.
+First one runs as an add-on on Firefox.
+As for SeleniumRC, you can download the Java jar file from official website and add path to Eclipse
+    How to start a very simple selenium session:
+    Selenium mySelenium = new DefaultSelenium("localhost", 4444, "*Firefox","http://gmail.com");
+    mySelenium.start();
+    mySelenium.open('/'); //after slash, you give it a sub-url such as abcd.php, it is the part after gmail/abcd.php
+    mySelenium.windowMaximize();
+    mySelenium.windowFocus();
+    mySelenium.setSpeed("20000"); //in case anti robot, each operion has 2 seconds interval
+    mySelenium.type("/*[@id='Email']", "abc.gmail.com"); //to get the xpath, you can download a firefox add-on Firebug/Firepath
+    mySelenium.type("location","password");
+    mySelenium.click(locator);
+    String text = mySelenium.getText(locator);
+    Thread.sleep(1000); //stop my process 1 second
+    mySelenium.waitForPageToLoad("5000");
+    selenium.captureScreenShot("C:\\abc.jpg");
+    selenium.check(locator); //check the check box such as always signed in
+    selenium.close();
+    Before you can run the code, you have to enable your local selenium session. Go to cmd, then type:
+    java -jar selenium-server-standalone-2.33.0.jar (-port 1234, default one is 4444)
