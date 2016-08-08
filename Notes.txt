@@ -1,0 +1,3 @@
+#this is the my notes during learning python
+#Here is an online practice website: codingbat.com/python
+#Here is a beginner tutorial: learnpythonthehardway.org/book
