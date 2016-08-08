@@ -20,3 +20,12 @@ As for SeleniumRC, you can download the Java jar file from official website and 
     selenium.close();
     Before you can run the code, you have to enable your local selenium session. Go to cmd, then type:
     java -jar selenium-server-standalone-2.33.0.jar (-port 1234, default one is 4444)
+
+
+1. Selenium Integrated Development Environment (IDE) – Selenium IDE is a record and playback tool. 
+   It is distributed as a Firefox Plugin.
+2. Selenium Remote Control (RC) – Selenium RC is a server that allows user to create test scripts in a desired programming language.
+   It also allows executing test scripts within the large spectrum of browsers.
+3. Selenium WebDriver – WebDriver is a different tool altogether that has various advantages over Selenium RC. WebDriver directly 
+   communicates with the web browser and uses its native compatibility to automate.
+4. Selenium Grid – Selenium Grid is used to distribute your test execution on multiple platforms and environments concurrently.
