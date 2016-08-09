@@ -39,8 +39,14 @@
 
 
 Big O Notation
-                  Access    Search    Insertion   Deletion    
-Array   Average     O(1)      O(n)        O(n)       O(n)
-        Worst       O(1)      O(n)        O(n)       O(n)
-Stack   Average     O(n)      O(n)        O(1)       O(1)
-        Worst       O(n)      O(n)        O(1)       O(1)
+                     Access    Search     Insertion   Deletion    
+Array      Average     O(1)      O(n)        O(n)       O(n)
+           Worst       O(1)      O(n)        O(n)       O(n)
+Stack      Average     O(n)      O(n)        O(1)       O(1)
+           Worst       O(n)      O(n)        O(1)       O(1)
+Queue      Average     O(n)      O(n)        O(1)       O(1)
+           Worst       O(n)      O(n)        O(1)       O(1)
+LinkedList Average     O(n)      O(n)        O(1)       O(1)
+           Worst       O(n)      O(n)        O(1)       O(1)
+HashTable  Average     N/A      *O(1)*       O(1)       O(1)
+           Worst       N/A      *O(n)*       O(n)       O(n)
