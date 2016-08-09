@@ -38,7 +38,7 @@
   It's a special tree data structure that stores things in order, it can be min heap or max heap.
 
 
-Big O Notation
+Big O Notation: http://bigocheatsheet.com/
                      Access    Search     Insertion   Deletion    
 Array      Average     O(1)      O(n)        O(n)       O(n)
            Worst       O(1)      O(n)        O(n)       O(n)
@@ -50,3 +50,5 @@ LinkedList Average     O(n)      O(n)        O(1)       O(1)
            Worst       O(n)      O(n)        O(1)       O(1)
 HashTable  Average     N/A      *O(1)*       O(1)       O(1)
            Worst       N/A      *O(n)*       O(n)       O(n)
+BinaryST   Average  *O(logn)*  *O(logn)*   *O(logn)*  *O(logn)*
+           Worst      *O(n)*    *O(n)*      *O(n)*     *O(n)*
