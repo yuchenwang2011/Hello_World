@@ -36,3 +36,11 @@
 
 11. What is a heap?
   It's a special tree data structure that stores things in order, it can be min heap or max heap.
+
+
+Big O Notation
+                  Access    Search    Insertion   Deletion    
+Array   Average     O(1)      O(n)        O(n)       O(n)
+        Worst       O(1)      O(n)        O(n)       O(n)
+Stack   Average     O(n)      O(n)        O(1)       O(1)
+        Worst       O(n)      O(n)        O(1)       O(1)
