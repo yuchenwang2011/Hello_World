@@ -17,3 +17,6 @@ This is a reminder how to setup java develop environment on Windows7.
 5. Type in "javac Hello.java", then type "java Hello"
 
 6. Download an Eclipse IDE for Java Developers, for any Java developers
+
+7. If you want to set up a maven project, go to official website and download "Binary zip archive" file, unzio it to the C:\
+   Then you can have a C:\apache-maven-3.3.9\bin  . Add that to System varible path with ; Then you can try mvn -v in cmd. 
