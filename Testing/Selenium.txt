@@ -9,6 +9,7 @@ Selenium IDE: First download firefox browswer, second download firefox add-on fi
 
 First one runs as an add-on on Firefox.
 As for SeleniumRC, you can download the Java jar file from official website and add path to Eclipse
+http://seleniumsimplified.com/2016/06/use_selenium_webdriver_jar_locally/
     How to start a very simple selenium session:
     Selenium mySelenium = new DefaultSelenium("localhost", 4444, "*Firefox","http://gmail.com");
     mySelenium.start();
