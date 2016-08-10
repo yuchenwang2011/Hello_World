@@ -9,6 +9,8 @@ This is a reminder how to setup java develop environment on Windows7.
 3. Type "javac -version", to see if java works. Then you need go to Computer -> Property -> Advanced System Config->
    Environment Variable -> System Variable -> Path -> Edit, prepend:  C:\Program Files\Java\jdk1.8.0_91\bin;
    https://docs.oracle.com/javase/tutorial/essential/environment/paths.html
+   Then you will need to new a new System Variable, click new, then name "JAVA_HOME", path is C:\Program Files\Java\jdk1.8.0_101
+   ok to apply it.
 
 4. Create a file, called Hello.java, write a Class Hello and a main method helloWorld. 
 
