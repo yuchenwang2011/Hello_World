@@ -1,5 +1,12 @@
 //This is the note for Selenium WebDriver notes
 Selenium has 2 softwares, Selenium IDE and Selenium RC. 
+Selenium IDE: First download firefox browswer, second download firefox add-on firebug, and firepath. Firepath will be 
+              located inside of firebug. Then you download selenium ide add-on, open it in tools option. 
+              Then it can record whatever you do in the firefox browser. To export it to java code, you choose
+              "export to java/junit4/remote control"
+
+
+
 First one runs as an add-on on Firefox.
 As for SeleniumRC, you can download the Java jar file from official website and add path to Eclipse
     How to start a very simple selenium session:
