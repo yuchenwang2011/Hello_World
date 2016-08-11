@@ -30,6 +30,10 @@ http://seleniumsimplified.com/2016/06/use_selenium_webdriver_jar_locally/
     java -jar selenium-server-standalone-2.33.0.jar (-port 1234, default one is 4444)
 
 
+The new Selenium 3.0 beta has some problem, you have to download a firefox driver first to use it
+http://learn-automation.com/use-firefox-selenium-using-geckodriver-selenium-3/
+
+
 1. Selenium Integrated Development Environment (IDE) – Selenium IDE is a record and playback tool. 
    It is distributed as a Firefox Plugin.
 2. Selenium Remote Control (RC) – Selenium RC is a server that allows user to create test scripts in a desired programming language.
