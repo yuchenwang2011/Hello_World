@@ -20,3 +20,6 @@ This is a reminder how to setup java develop environment on Windows7.
 
 7. If you want to set up a maven project, go to official website and download "Binary zip archive" file, unzio it to the C:\
    Then you can have a C:\apache-maven-3.3.9\bin  . Add that to System varible path with ; Then you can try mvn -v in cmd. 
+
+8. To open an existing project in eclipse, click File -> import -> General -> Existing project -> root directory
+   -> the directory (note this dir must be put under your workspace)
