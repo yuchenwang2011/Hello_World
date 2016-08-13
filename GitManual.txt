@@ -1,0 +1,27 @@
+1. To add a folder to Github, you need first create a folder then create a file in it. 
+   Github seems can’t upload a folder directly. It works with files. So you can first create file readMe.txt,
+   then git add readMe.txt, then git commit -m “to add a file”. Then git push -u origin master to final commit it. 
+
+2. git config --global user.email "yuchen.wang2011@gmail.com"
+   you can use the same command but without the email in the quote “” to check if it’s set up properly. 
+
+3. To check the status of a file, it’s:
+    git status xxx.txt
+
+4. Here is how to add a new repository to Git, first "git init newFolder" which I think it's to mkdir a new direcotory/repository. 
+   Second, you make a file, such as readme there under that repo. 
+   Third, you git add the file, git commit the file, same as regular commit.
+   At the end, you go to the website to create a new repo, give a name, click the button to create a new repo. 
+   (Here is scary, the website makes me thought I will have made a repo by clicking the create button)
+   After click the create a new repo final certification button, you will be given a link for this repo. 
+   Then you do "git remote add origin xxxxxx(the link)", then "git remove -v" to validate it. 
+   Finally, "git push origin master" to commit the repo.
+   https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+   
+5. How to update your repository in local machine
+   git pull
+   
+6. How to add a big project to github
+   First "git add ." to add all the files under this folder
+   Second git commit -m "xxx", 
+   Third git push -u origin master
