@@ -23,3 +23,9 @@ This is a reminder how to setup java develop environment on Windows7.
 
 8. To open an existing project in eclipse, click File -> import -> General -> Existing project -> root directory
    -> the directory (note this dir must be put under your workspace)
+
+9. To compile a project package with a few java files in a command line, you need do this:
+   Assume the directory is: C:\Users\Yuchen\workspace\Dijkstra\src\com\Dijkstra\
+   So you first goto C:\Users\Yuchen\workspace\Dijkstra\
+   Then C:\Users\Yuchen\workspace\Dijkstra>javac -d bin src/com/Dijkstra/*.java
+   Then C:\Users\Yuchen\workspace\Dijkstra>java -cp ./bin com.Dijkstra.TestDijkstra
