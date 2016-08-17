@@ -111,3 +111,16 @@ This article will be written in the tone of I will speak to an interviewer.
        or not correctly matching the parameters, you will be warned that you method does not actually override 
        as you think it does. 
     2. Secondly, it makes your code easier to understand because it is more obvious when methods are overwritten.
+
+34. Design Pattern: Template Pattern
+public abstract class Game {
+   abstract void initialize();
+   abstract void startPlay();
+   abstract void endPlay();
+
+   public final void play(){    //the final here is necessary for the template not to be overriden,
+      initialize();
+      startPlay();
+      endPlay();
+   }
+}
