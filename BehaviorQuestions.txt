@@ -76,51 +76,64 @@
    from scrach to release. 
 
 9. Why do you choose our company?
+   Everyone knows xxxx is a great company, it's one of the best companies in the world. If I can get an offer, I can work on a
+   something used by millions of people every second. I can learn the lastest techonology. I can work together with most talented
+   people in this world. 
+   
+10. What can you bring to us?
+    My sense of responsibility. I am a person having a very high standard of myself and want to make my release perfect and free of 
+    bugs. I will feel a shame to fail release and not working my best. I've been doing software testing for 3 years, I know how
+    to quality control and make my code less bugs. 
 
-10. Why do you want to switch to a software developer? 
+11. Why do you want to switch to a software developer? 
+    Having been working as a software test engineer, I'm a little bit tired. 50% of my word was writing code automations, I like the
+    feeling to write code. I like the feeling to create things. I think I like to be a developer better.
 
-11. How can you prove your coding ability?
+12. How can you prove your coding ability?
+    For example, during my work, when I have spare time, I don't relax. I would read other people's code, assuming if I were them,
+    how I would write my code here. I would also spend quite a lot of time to read API documents. The more I'm familiar with it,
+    I can write better code. 
 
-12. Why should we hire u? / why do u think urself a good fit for this position?
+13. Why should we hire u? / why do u think urself a good fit for this position?
 
-13. Tell me about your teamwork / leadership experience
+14. Tell me about your teamwork / leadership experience
 
-14. How would other people describe you?
+15. How would other people describe you?
 
-15. Plans about ur career growth path?
+16. Plans about ur career growth path?
 
-16. Tell me a time that ur failed?
+17. Tell me a time that ur failed?
 
-17. What is your biggest failure?
+18. What is your biggest failure?
 
-18. 你有没有遇到过deadline来不及的情况，你怎么解决的？
+19. 你有没有遇到过deadline来不及的情况，你怎么解决的？
 
-19. 你发现你组里一个组员的任务实际上来不及赶上deadline了，你懂他负责的这块，他可能没有你懂，却以为来得及。
+20. 你发现你组里一个组员的任务实际上来不及赶上deadline了，你懂他负责的这块，他可能没有你懂，却以为来得及。
     你们的老板不清楚情况，你该怎么做?
 
-20. 你想用A方法来实现你负责的这块任务，你老板让你用B方法，但你觉得其实A方法更好，你怎么办?
+21. 你想用A方法来实现你负责的这块任务，你老板让你用B方法，但你觉得其实A方法更好，你怎么办?
 
-21. 你遇到一个问题，有方案A和方案B，必须选一个。它们互有利弊。你时间有限，无法花太多时间考虑，你应该怎么做?
+22. 你遇到一个问题，有方案A和方案B，必须选一个。它们互有利弊。你时间有限，无法花太多时间考虑，你应该怎么做?
     
-22. 一个如果项目中有很多bug，但是deadline快到期了，你会怎么办? 如果这些bug不重要呢？
+23. 一个如果项目中有很多bug，但是deadline快到期了，你会怎么办? 如果这些bug不重要呢？
 
-23. 你的老板如果在出差，你联系不到，你该怎么办?
+24. 你的老板如果在出差，你联系不到，你该怎么办?
 
-24. 曾经遇到过的项目中重大改变是什么，你怎么解决的?
+25. 曾经遇到过的项目中重大改变是什么，你怎么解决的?
 
-25. 对xx公司有什么改进意见？
+26. 对xx公司有什么改进意见？
 
-26. Describe a time you encountered an issue and how you fixed it.
+27. Describe a time you encountered an issue and how you fixed it.
 
-27. 列举你最近6个月看过的技术方面的书。你常看的技术blog，常去的讨论技术的网站?
+28. 列举你最近6个月看过的技术方面的书。你常看的技术blog，常去的讨论技术的网站?
 
-28. 你在现在公司,最大的creative idea是啥；你怎么跟teammate合作；遇到有人不合作你怎么办；
+29. 你在现在公司,最大的creative idea是啥；你怎么跟teammate合作；遇到有人不合作你怎么办；
 
-29. 有没有做过一些同事已经觉得足够好,但是你觉得还不够好的事.
+30. 有没有做过一些同事已经觉得足够好,但是你觉得还不够好的事.
 
-30. 有没有和领导有过争执.
+31. 有没有和领导有过争执.
 
-31. 有没有做过under deadline的项目
+32. 有没有做过under deadline的项目
 
 **********************************Amazon Principles****************************************
    1. 以重视客户为荣，以重视对手为耻
