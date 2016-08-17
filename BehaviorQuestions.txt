@@ -68,6 +68,12 @@
    So after I build the system, I can save a lot of time testing new modules.
    
 8. What was your biggest challenge?
+   Well, my biggest challenge was that when I first got hired by Axxxxxx, there was a probation period. I was given 2 month time to 
+   finish my first project. I was a fresh graduate then and I didn't know anything about the work my team was doing. They wanted to 
+   check if I am a fast learner. So I did my best, reading code to learn the APIs and the coding conventions here, checking twikis
+   about things I need to consider, asking people the logic behind the code and asking people about the knowledge of our product,
+   writing notes, working overtime to write my own code. So I proved my ability to learn fast and I managed to finish the project
+   from scrach to release. 
 
 9. Why do you choose our company?
 
