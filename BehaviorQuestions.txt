@@ -109,9 +109,11 @@
     (If not enough, make up an example helping another new guys guiding him through a project.)
 
 15. How would other people describe you?
-
+    People describe me a person with sense of responsibilities. They can trust me and rely on me.
+    
 16. Plans about ur career growth path?
-
+    I want to be a coding master/a top software tester.
+   
 17. Tell me a time that ur failed?
 
 18. What is your biggest failure?
