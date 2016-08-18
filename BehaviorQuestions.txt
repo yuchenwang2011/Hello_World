@@ -89,12 +89,15 @@
     Having been working as a software test engineer, I'm a little bit tired. 50% of my word was writing code automations, I like the
     feeling to write code. I like the feeling to create things. I think I like to be a developer better.
 
-12. How can you prove your coding ability?
+12. How can you improve your coding ability?
     For example, during my work, when I have spare time, I don't relax. I would read other people's code, assuming if I were them,
-    how I would write my code here. I would also spend quite a lot of time to read API documents. The more I'm familiar with it,
-    I can write better code. 
+    how I would write my code here. And we do code reviews, I can get feedback from other people, this really helps a lot.  
+    I would also spend quite a lot of time to read API documents. The more I'm familiar with it, I can write better code. 
 
 13. Why should we hire u? / why do u think urself a good fit for this position?
+    I have worked in a big company for 3 years. So I know how to teamwork with coworkers, how to interact with deverlopers, 
+    testers, product managers things like that. I know how to write code of a certain standard. I know how to provide quality
+    control and decrease the chance of bugs.
 
 14. Tell me about your teamwork / leadership experience
 
