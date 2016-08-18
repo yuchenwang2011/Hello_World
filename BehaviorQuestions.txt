@@ -100,6 +100,13 @@
     control and decrease the chance of bugs.
 
 14. Tell me about your teamwork / leadership experience
+    Once my team was suddenly notified that we shoud deliver a feature in a month. That was so rush because we are usually 
+    notified at least 3 months before release. So I and another team member rose to the accasion. We two took the project 
+    and collaborate. He knows configuring the hardware better and I know the feature related knowledge better. 
+    Then he wrote the configuring part of the code first then gave them to
+    me. I then build my code on top of his, to test the feature. At last, we managed to finish that in time. 
+    
+    (If not enough, make up an example helping another new guys guiding him through a project.)
 
 15. How would other people describe you?
 
