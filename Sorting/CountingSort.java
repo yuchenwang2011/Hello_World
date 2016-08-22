@@ -11,7 +11,9 @@ public void counting sort(int[] nums, int min, int max){
     //copy the count back to original array
     int j = 0;
     for(int i = min; i <= max; i++){
-        if(count[i - min] != 0) nums[j++] = i;
-        count[i - min]--;
+		while(count[i - min] > 0){
+			array[j++]= i;
+			count[i - min]--;
+		}
     }
 }
