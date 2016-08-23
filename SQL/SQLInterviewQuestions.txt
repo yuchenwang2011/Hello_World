@@ -1,1 +1,4 @@
 1. http://www.tutorialspoint.com/sql/sql_interview_questions.htm
+
+The difference between inner join, left join and right join
+http://i.stack.imgur.com/VQ5XP.png
