@@ -1,4 +1,74 @@
-1. http://www.tutorialspoint.com/sql/sql_interview_questions.htm
+http://www.tutorialspoint.com/sql/sql_interview_questions.htm
+1. What is the difference between SQL and MySQL?
+   SQL is a language but MySQL is the rational database management system.
+
+2. What are DDL? 
+   Data Defination Language: CREATE, ALTER, DROP
+
+3. What are DML? 
+   Data Manipulating Language: SELECT, INSERT, UPDATE, DELETE
+
+4. What are DCL?
+   Data Control Language: GRANT, REVOKE
+
+5. Is a NULL value same as zero or a blank space? 
+   No, NULL is a value is not available but zero is a integeter and space is a character.
+
+6. If a column value taking part in an arithmetic expression is NULL, then the result obtained would be NULLM.
+
+7. What are the case manipulation functions of SQL?
+   UPPER, LOWER, INITCAP
+
+8. What is the purpose of the NVL function?
+   NVL is to convert a null to a value
+
+9. What is the difference between the NVL and the NVL2 functions?
+   The NVL(exp1, exp2) function converts the source expression (or value) exp1 to the target expression (or value) exp2, 
+   if exp1 contains NULL. The return value has the same data type as that of exp1.
+
+   The NVL2(exp1, exp2, exp3) function checks the first expression exp1, if it is not null then, 
+   the second expression exp2 is returned. If the first expression exp1 is null, then the third expression exp3 is returned.
+   It's a more advanced versiono of NVL
+
+10. What is the use of the NULLIF function?
+   The NULLIF function compares two expressions. If they are equal, the function returns null. 
+   If they are not equal, the first expression is returned.
+
+11. Discuss the syntax and use of the COALESCE function?
+   The COALESCE function has the expression COALESCE(exp1, exp2, …. expn)
+   It returns the first non-null expression given in the parameter list.
+   
+12. Joining two tables with 20 and 10 rows respectively but forget to write the WHERE clause. What would be the result?
+    Cartesian product of two tables with 20 x 10 = 200 rows.
+
+13. What is the difference between cross joins and natural joins?
+    The cross join produces the cross product or Cartesian product of two tables. 
+    The natural join is based on all the columns having same name and data types in both the tables.
+
+14. What is the purpose of the group functions in SQL? Give some examples of group functions.
+    Group functions in SQL work on sets of rows and returns one result per group. 
+    Examples of group functions are AVG, COUNT, MAX, MIN, STDDEV, SUM, VARIANCE.
+    GROUP also considerate the duplicated rows and ignores NULL
+
+15. What are the various multiple row comparison operators in SQL?
+    IN, ALL, ANY
+    
+16. What happens if you omit the WHERE clause in the UPDATE statement?
+    All the rows in the table are modified.
+
+17. What happens if you omit the WHERE clause in a delete statement?
+    All the rows in the table are deleted.
+    
+18. What is the purpose of the MERGE statement in SQL?
+    UPDATE if the rows exists, or an INSERT if the row does not exist.
+
+19. What is the difference between VARCHAR2 AND CHAR datatypes?
+    VARCHAR2 represents variable length character data, whereas CHAR represents fixed length character data.
+    
+20. A DROP TABLE statement cannot be rolled back.
+
+21. Which SQL statement is used to add, modify or drop columns in a database table?
+    ALTER
 
 The difference between inner join, left join and right join
 http://i.stack.imgur.com/VQ5XP.png
