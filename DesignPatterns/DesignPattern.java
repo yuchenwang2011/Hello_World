@@ -68,3 +68,72 @@ public abstract class Game {
       m.execute();
       m.unexecute();
     }
+
+6. Proxy Mode: 
+   Provides a proxy to control the access to the object
+   1.经纪人和明星在一些行为上有共同点，所以定义一个共有接口：
+   public interface IStar {
+    void attendTheShow();
+    void loveWife();
+   }
+   
+   public class Star implements IStar {
+    private String mName;
+
+    public Star(String name) {
+        mName = name;
+    }
+
+    @Override
+    public void attendTheShow() {
+        System.out.print( this.mName + " 参加演出 \n");
+    }
+
+    @Override
+    public void loveWife() {
+        System.out.print(this.mName + " 照顾了妻子");
+    }
+   }
+  
+   经纪人要代表明星，就需要和明星有同样的行为，同时持有明星的引用：
+   public class Agent implements IStar {
+    //经纪人可以代表一个明星做一些决定
+    IStar mIStar;
+    boolean mIsHappy;
+
+    public Agent(IStar IStar) {
+        mIStar = IStar;
+    }
+
+    //代理可以在一定情况下拦截、修改被代理对象的行为，这里设置一个 “心情”的状态值
+    public Agent(IStar IStar, boolean isHappy) {
+        mIStar = IStar;
+        mIsHappy = isHappy;
+    }
+
+    @Override
+    public void attendTheShow() {
+        mIStar.attendTheShow();
+    }
+
+    @Override
+    public void loveWife() {
+        if (mIsHappy) {
+            mIStar.loveWife();
+        } else {
+            //当经纪人心情不好时，就会干坏事
+            System.out.print("经纪人 照顾妻子");
+        }
+    }
+   }
+   
+   public class Environment {
+        public static void main(String[] args) {
+          Star baoqiang = new Star("王宝强");
+          Agent songJJ = new Agent(baoqiang, false);
+          songJJ.attendTheShow();
+          songJJ.loveWife();
+        }
+    }
+    运行结果: 王宝强 参加演出
+              经纪人 照顾妻子
