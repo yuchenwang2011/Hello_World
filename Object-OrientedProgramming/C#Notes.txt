@@ -1,7 +1,12 @@
 1. C# vs .NET
    C# is the programming language
    .Net is the framework for building applications on Windows
+   .NET is used to be compared with JVM.
 
-2. .NET has 2 main components: 
+2. .NET has 2 main components:
    CLR: Common Language Runtime
    Class Library
+
+3. C# learned the idea from Java that JVM translate the code to byte code to be able to run universally.
+   C# translate code to IL(Intermediate Language) then through CLR, it's converted to the native code the computer uses.
+   https://en.wikipedia.org/wiki/File:CLR_diag.svg
