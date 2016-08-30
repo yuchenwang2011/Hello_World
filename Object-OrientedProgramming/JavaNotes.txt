@@ -164,6 +164,37 @@ Basic concepts:
 
 22. Inner class: For example, it's convenient to have a outerclass ActionListern and it has 2 innerclasses, so when one action is 
                  detected, two classes can be created. And also those 2 classes will be meaningless to be written separately. 
+                 In the example below, when you compile the code, you can get 3 class files, one is Demo.class, Outer1.class and 
+                 Outer1$Innter1.class. You can't have static stuff in an inner class, because the inner class is tied to outer class
+                 already. You must new a outer class first to be able to use inner class. So that's bad logic to have static
+                 in inner class. (But of course static final constant is ok)
+                 
+    public class Demo{
+        public static void main(String[] args){
+            Outer1 out = new Outer1();
+            //if the Inner1 class is private, you can never be able to call it here. It will only be accesible in Outer1
+            Outer1.Inner1 inner = out.new Inner1();
+        }
+    }
+    
+    public class Outer1{
+        private int name = "A";
+        public void outerShow(){
+            System.out.println(this.name);
+        }
+        
+        public class Inner1{
+            private int name = "B";
+            public void innerShow(){
+                System.out.println(this.name);
+                //inner class can use outer class attribute and methods, but not vise versa
+                System.out.println(Outer1.this.name); //here must use because both out and inner has "name"
+                outerShow(); //you can also write Outer1.this.outerShow();
+            }
+        }
+    }
+    
+                 
 23. Layout Manager: It's an object associated with a component, if a panel has 5 things, those 5 things have their own layout manager, 
                     the panel's LM can only control those 5 things. If 5 things each have somthing, it's the 5things' LM to control
                     them, the panel's LM can't cross 2 levels.
