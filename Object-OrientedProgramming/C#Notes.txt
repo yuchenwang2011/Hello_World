@@ -1,0 +1,7 @@
+1. C# vs .NET
+   C# is the programming language
+   .Net is the framework for building applications on Windows
+
+2. .NET has 2 main components: 
+   CLR: Common Language Runtime
+   Class Library
