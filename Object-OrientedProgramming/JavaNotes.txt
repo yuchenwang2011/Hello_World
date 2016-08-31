@@ -194,7 +194,34 @@ Basic concepts:
         }
     }
     
-                 
+    =====================Second Example of Inner Class for Multi Extension=============
+    public class Demo{
+        public static void main(String[] args){
+            C c = new C();
+            C.showA(); C.showB();
+        }
+    }
+    
+    public class A{
+        public void showA(){System.out.println("A");}
+    }
+    public class B{
+        public void showB(){System.out.println("B");}
+    }
+    public class C{
+        private class A1 extends A{
+            public void showA(){super.showA();}
+        }
+        private class B1 extends B{
+            public void showB(){super.showB();}
+        }
+        public void showA(){
+            new A1().showA();
+        }
+        public void showB(){
+            new B1().showB();
+        }
+    }
 23. Layout Manager: It's an object associated with a component, if a panel has 5 things, those 5 things have their own layout manager, 
                     the panel's LM can only control those 5 things. If 5 things each have somthing, it's the 5things' LM to control
                     them, the panel's LM can't cross 2 levels.
