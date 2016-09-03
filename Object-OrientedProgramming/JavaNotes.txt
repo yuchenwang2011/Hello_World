@@ -222,6 +222,27 @@ Basic concepts:
             new B1().showB();
         }
     }
+    ========================Another Example Innter Class to avoid renaming methods with same name============================
+    public abstract class Parent{
+        abstract void show();
+    }
+    interface IShow{
+        public abstract void show();
+    }
+    class son extends Parents{
+        public void show(){
+            System.out.println("This is the show method in parents");
+        }
+        private inner class Inner1 implements IShow{
+            public void show(){
+                System.out.println("This is the show method in IShow");
+            }
+        }
+        public void show2(){
+            new Inner1().show();
+        }
+    }
+    
 23. Layout Manager: It's an object associated with a component, if a panel has 5 things, those 5 things have their own layout manager, 
                     the panel's LM can only control those 5 things. If 5 things each have somthing, it's the 5things' LM to control
                     them, the panel's LM can't cross 2 levels.
