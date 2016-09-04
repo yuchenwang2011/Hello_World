@@ -4,7 +4,7 @@
    .NET is used to be compared with JVM.
 
 2. .NET has 2 main components:
-   CLR: Common Language Runtime
+   CLR: Common Language Runtime. It makes it possible for C# code to run on different hardware different platforms.
    Class Library
 
 3. C# learned the idea from Java that JVM translate the code to byte code to be able to run universally.
@@ -13,3 +13,16 @@
 
 4. C# groups classes by namespace, just like Java uses package. but there are some differences. see this link
    http://www.javacamp.org/javavscsharp/namespace.html
+
+5. JIT Compilation is the compilation of IL code to machine code at runtime. JIT is short for Just In Time compilation. 
+
+6. The console project is the simplest project to work on. To print a hello word same as in Java.
+   Use: console.Writeline("Hello world"); Then press ctrl + F5 to compile. 
+   
+7. ReSharper is a very useful tool to improve Visual studio productivity, which gives you 30 days free trial.
+
+8. What is an assembly?
+   A single unit of deployment of .net applications. It's a file, in the form of an executable or a DLL, that contains 
+   many classes and namespaces. When you have more and more namespaces, you can put relavent namespaces together as 
+   an assembly. An EXE file is a program to be executed. DLL is a file that includes code that to be re-used across 
+   different programs. 
