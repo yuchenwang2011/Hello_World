@@ -17,7 +17,9 @@
 5. JIT Compilation is the compilation of IL code to machine code at runtime. JIT is short for Just In Time compilation. 
 
 6. The console project is the simplest project to work on. To print a hello word same as in Java.
-   Use: console.Writeline("Hello world"); Then press ctrl + F5 to compile. 
+   Use: console.Writeline("Hello world"); 
+   Here is a trick: type cw then tap, you can have this automate finished.
+   (The method auto popup is called IntelliSense in C#)
    
 7. ReSharper is a very useful tool to improve Visual studio productivity, which gives you 30 days free trial.
 
@@ -26,3 +28,25 @@
    many classes and namespaces. When you have more and more namespaces, you can put relavent namespaces together as 
    an assembly. An EXE file is a program to be executed. DLL is a file that includes code that to be re-used across 
    different programs. 
+   
+9. Variables and Constants
+   int num; int Number = 1; //C# is case sensitive, num and Number are different
+   const float Pi = 3.14f;
+   Coding convention in C#: local variables --> Camel case  int number = 1;
+                            constants       --> Pascal case const int MaxZoom = 5;
+
+10. Primitives in C#: 9 common types (8 same as JAVA, but has one more "decimal", C# has even some more but less commonly used)
+    bool, char, byte, short, int, long, float, double, decimal
+    in C#, you can use "var" to instead of them, compiler will automatically identify them to the most possible data type.
+    
+11. byte num = 255; num = num + 1; //this will cause overflow
+    checked {byte num = 255; num = num + 1;} //this will not overflow but throw an Exception
+    
+12. Some shortcut: 
+    Then press ctrl + F5 to run.
+    To simply compile, you use Ctrl + Shift + B
+    To delete current line at the cursor: Ctrl + x
+    To go to the defination of the structure, Ctrl + Mouse Left Click
+    
+13. Console.WriteLine("{0} {1}", byte.Min_Value, byte.Max_Value); //C# syntax
+14. To do a type convert, you can use Convert. api.
