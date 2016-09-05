@@ -60,3 +60,7 @@
                   b 
                   c";
     var c = s2[0];
+
+16. Two main categories in C#: 
+    Classes: Arrays, Strings, your own classes
+    Structures: Primitive types, your own structures
