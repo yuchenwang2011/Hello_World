@@ -50,3 +50,13 @@
     
 13. Console.WriteLine("{0} {1}", byte.Min_Value, byte.Max_Value); //C# syntax
 14. To do a type convert, you can use Convert. api.
+
+15. String: 
+    C# has a verbatim string which allows you to get rid of double slashes, for instance
+    string s = "C:\\try\\try1\\try3";
+    string s2= @"C:\try\try1\try3"; //here string is a struct, but you can use class String s = xx; capital S
+    string s3 = "a\nb\nc";
+    string s4 = @"a
+                  b 
+                  c";
+    var c = s2[0];
