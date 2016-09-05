@@ -243,6 +243,56 @@ Basic concepts:
         }
     }
     
+    ================================Anonymous Inner Class Example===========================================
+    //it's very similar to the usage of a Comparator
+    public class Demo{
+        public static void main(String[] args){
+            People p = new People();
+            p.feed(new Animal(){
+                public void eat(){
+                    System.out.println("eat bones");
+                }
+            });
+            p.feed(new Animal(){
+                public void eat(){
+                    System.out.println("eat fish");
+                }
+            });
+            /* or you can do this way when you want to feed the same dog
+                Animal dog = new Animal(){
+                    private String name = "laxi"; //it can has its own attribute
+                    public void eat(){
+                        System.out.println("eat bones");
+                    }
+                    public void show(){ //it can has its own method
+                        System.out.println("wonwon"); 
+                    }
+                }
+                p.feed(dog); p.feed(dog);
+                dog.show();
+            */
+            
+            /* you can also do this
+                new Animal(){
+                    public void eat(){
+                        System.out.println("eat bones");
+                    }
+                    public void show(){
+                        System.out.println("wonwon");
+                    }
+                }.show();
+            */
+        }
+    }
+    public class People{
+        public void feed(Animal animal){
+            animal.eat();
+        }
+    }
+    public abstract Animal{ //this can also be an interface
+        public abstract void eat();
+    }
+    
 23. Layout Manager: It's an object associated with a component, if a panel has 5 things, those 5 things have their own layout manager, 
                     the panel's LM can only control those 5 things. If 5 things each have somthing, it's the 5things' LM to control
                     them, the panel's LM can't cross 2 levels.
