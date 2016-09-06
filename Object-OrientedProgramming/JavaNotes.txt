@@ -351,4 +351,35 @@ Basic concepts:
     both applet and application.
 33. A daemon thread is a low priority thread that provides background support.
 
+34. public class EnumDemo{
+        public static void main(String[] args){
+            System.out.println(Color.BLUE); //BLUE is static and it's a constant because all capital, it will print "BLUE"
+            Color[] colors = Color.values();
+            for(Color c : colors){
+                System.out.println(c);
+            }
+        }
+    }
+    public enum Color{
+      RED, BLUE, YELLOW; //they are all static final, so constant should be all capital
+      //here it's actually equal to:
+      //public static final Color RED = new Color();
+      //public static final Color BLUE = new Color();
+      //public static final Color YELLOW = new Color();
+      public Color(){ //note this constructor can't be put in the first line.
+          System.out.println("This constructor is used once"); //red, blue, yellow, so it's used 3 times in total
+      }
+    }
+    public enum Person{
+        P1("alen", 20); P2("Bob", 25);
+        //this is equal to:
+        //public static final Person P1 = new Person("alen", 20);
+        private String name; //enum is just a class type, Person is just a class, so it can has it's own isntance variables
+        private int age;
+        public Person(String name, int age){
+            this.name = name;
+            this.age = age;
+        }
+    }
+
 I'm further taking a back-end course on http://www.zhizuobiao.com/
