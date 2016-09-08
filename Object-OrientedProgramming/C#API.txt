@@ -6,3 +6,14 @@
 3. String s = "a b";
    String s1 = s.Split(' ')[0];
    String s2 = s.Split(' ')[1];
+   String val = Console.ReadLine();
+   if(String.isNullOrWhiteSpace(val)) break;
+
+4. String name = "Jone Smith";
+   foreach (var character in name) {
+      Console.WriteLine(character);
+   }
+   
+
+5. break to jump out of this loop
+   continue to get to next iteration of this loop
