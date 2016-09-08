@@ -20,3 +20,4 @@
 
 6. Random rand = new Random();
    int val = rand.next(1,10);
+   int val2 = new Random().next(1,10);
