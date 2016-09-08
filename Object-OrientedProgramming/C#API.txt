@@ -17,3 +17,6 @@
 
 5. break to jump out of this loop
    continue to get to next iteration of this loop
+
+6. Random rand = new Random();
+   int val = rand.next(1,10);
