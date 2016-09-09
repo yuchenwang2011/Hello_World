@@ -13,7 +13,6 @@
    foreach (var character in name) {
       Console.WriteLine(character);
    }
-   
 
 5. break to jump out of this loop
    continue to get to next iteration of this loop
@@ -26,3 +25,8 @@
    using System.Collections; //there is no * things in C# like in java, you need to import each of them
    IList<String> list = new List<String>();
    list.Add("haha");
+   Console.WriteLine(list[0]); //equal to java list.get(0);
+   //IList doesn't have a sort method, but sort has, so you need to use this way
+   //At the very beginning, let me just avoid using ArrayList anymore, can't understand the C# polymophsim yet
+   List<int> list = new List<int>();
+   list.Sort();
