@@ -30,3 +30,4 @@
    //At the very beginning, let me just avoid using ArrayList anymore, can't understand the C# polymophsim yet
    List<int> list = new List<int>();
    list.Sort();
+   int num = list.count;
