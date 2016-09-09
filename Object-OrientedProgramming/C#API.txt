@@ -21,3 +21,8 @@
 6. Random rand = new Random();
    int val = rand.next(1,10);
    int val2 = new Random().next(1,10);
+
+7. using System.Collections.Generic;
+   using System.Collections; //there is no * things in C# like in java, you need to import each of them
+   IList<String> list = new List<String>();
+   list.Add("haha");
