@@ -31,3 +31,11 @@
    List<int> list = new List<int>();
    list.Sort();
    int num = list.count;
+
+8. DateTime dt = new DateTime(1988, 02, 19);
+   Console.WriteLine(dt);
+   DateTime now = DateTime.Now;
+   DateTime tomorrow = now.AddDays(1);
+   Console.WriteLine(now);
+   Console.WriteLine(tomorrow.Date);
+   Console.WriteLine(now.ToString("yy--mm--dd HH-mm"));
