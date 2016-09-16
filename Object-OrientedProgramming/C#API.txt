@@ -1,10 +1,10 @@
 1. Console.WriteLine();
    Console.ReadLine();
    
-2. int.Parse(); //this might through an exception, so better to use Convert
+2. const int maxLength = 20;
+   int.Parse(); //this might through an exception, so better to use Convert
    String s = "1234";
    int result = Convert.ToInt32(s);
-   
 
 3. String s = "a b";
    String s1 = s.Split(' ')[0];
@@ -47,3 +47,9 @@
    TimeSpan.FromHours(1);
    TimeSpan sp = new TimeSpan(1,2,3); //1 hour 2 mins 3 seconds
    Console.WriteLine("Add example: " + sp.Add(TimeSpan.FromMinutes(8)));
+
+10. Some shortcuts in Visual Studio + Resharper: 
+    Type Ctrl + x to delete the current line
+    Type cw, then tab, you will auto finish Console.WriteLine();
+    Type Ctrl + w, resharper can auto select a block of code
+    Type Atl + Enter, you can call resharper to finish some operations
