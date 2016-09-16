@@ -35,7 +35,10 @@
    list.Sort();
    int num = list.count;
 
-8. DateTime dt = new DateTime(1988, 02, 19); //DateTime objec it immutable
+8. using System.Collections.Generic;
+   HashSet<int> set = new HashSet<int>(); 
+
+9. DateTime dt = new DateTime(1988, 02, 19); //DateTime objec it immutable
    Console.WriteLine(dt);
    DateTime now = DateTime.Now;
    DateTime tomorrow = now.AddDays(1);
