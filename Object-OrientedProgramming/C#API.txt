@@ -1,7 +1,10 @@
 1. Console.WriteLine();
    Console.ReadLine();
    
-2. int.Parse();
+2. int.Parse(); //this might through an exception, so better to use Convert
+   String s = "1234";
+   int result = Convert.ToInt32(s);
+   
 
 3. String s = "a b";
    String s1 = s.Split(' ')[0];
