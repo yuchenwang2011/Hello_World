@@ -32,10 +32,15 @@
    list.Sort();
    int num = list.count;
 
-8. DateTime dt = new DateTime(1988, 02, 19);
+8. DateTime dt = new DateTime(1988, 02, 19); //DateTime objec it immutable
    Console.WriteLine(dt);
    DateTime now = DateTime.Now;
    DateTime tomorrow = now.AddDays(1);
    Console.WriteLine(now);
    Console.WriteLine(tomorrow.Date);
    Console.WriteLine(now.ToString("yy--mm--dd HH-mm"));
+
+9. The best way to create a one-hour timespan is this way:
+   TimeSpan.FromHours(1);
+   TimeSpan sp = new TimeSpan(1,2,3); //1 hour 2 mins 3 seconds
+   Console.WriteLine("Add example: " + sp.Add(TimeSpan.FromMinutes(8)));
