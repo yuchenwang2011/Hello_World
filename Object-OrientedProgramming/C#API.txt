@@ -7,10 +7,12 @@
    int result = Convert.ToInt32(s);
 
 3. String s = "a b";
+   char c = s[0]; //equals to java charAt
    String s1 = s.Split(' ')[0];
    String s2 = s.Split(' ')[1];
    String val = Console.ReadLine();
    if(String.isNullOrWhiteSpace(val)) break;
+   String newString = input.Replace (" ", String.Empty);
 
 4. String name = "Jone Smith";
    foreach (var character in name) {
@@ -34,6 +36,8 @@
    List<int> list = new List<int>();
    list.Sort();
    int num = list.count;
+   List<char> vowels = new List<char> (new char[] {'a', 'e', 'i', 'o', 'u'});
+   if (vowels.Contains (input [i])) sum++;
 
 8. using System.Collections.Generic;
    HashSet<int> set = new HashSet<int>(); 
