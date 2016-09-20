@@ -64,3 +64,8 @@
 16. Two main categories in C#: 
     Classes: Arrays, Strings, your own classes
     Structures: Primitive types, your own structures
+
+17. Delegates are used to pass methods as arguments to other methods. Using a delegate allows to encapsulate a
+    reference to a method inside a delegate object. The delegate object can then be passed to code which can call the referenced 
+    method, without having to know at compile time which method will be invoked. 
+    
