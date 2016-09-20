@@ -27,7 +27,12 @@
    A single unit of deployment of .net applications. It's a file, in the form of an executable or a DLL, that contains 
    many classes and namespaces. When you have more and more namespaces, you can put relavent namespaces together as 
    an assembly. An EXE file is a program to be executed. DLL is a file that includes code that to be re-used across 
-   different programs. 
+   different programs. Assembly can be compared with Java's Jar
+   Java                    .Net
+   ====                    ====
+   Class                   Class
+   Package                 Namespace
+   Jar                     Assembly
    
 9. Variables and Constants
    int num; int Number = 1; //C# is case sensitive, num and Number are different
