@@ -25,3 +25,6 @@
    First "git add ." to add all the files under this folder
    Second git commit -m "xxx", 
    Third git push -u origin master
+
+7. To check what has been configured on your git glocal env, you can do blow to list all the configs
+   git config -l   // or git config --list
