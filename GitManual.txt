@@ -28,3 +28,8 @@
 
 7. To check what has been configured on your git glocal env, you can do blow to list all the configs
    git config -l   // or git config --list
+
+8. You want to overwrite the current changed files because they are garbage, you can
+   git reset --hard
+   Then
+   git pull
