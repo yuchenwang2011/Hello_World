@@ -33,3 +33,6 @@
    git reset --hard
    Then
    git pull
+
+9. To start working on a branch because you were working on another branch, and check if it is up-to-date, you can do
+   git checkout
