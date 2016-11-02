@@ -46,3 +46,7 @@ The user setting:
 }
 
 After install it on Mac, in bash, type: sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/bin/subl
+
+To make sublime text to show in JSON style, you can
+Install this packages via CMD + SHIFT + P > Install package > Search for Pretty JSON and install.
+And then turn ugly json via CMD + CTRL + J (OSX) CTRL + ALT + J (Windows/Linux) in pretty JSON!
