@@ -36,3 +36,8 @@
 
 9. To start working on a branch because you were working on another branch, and check if it is up-to-date, you can do
    git checkout
+
+10. To clone the project, go to a folder to use command
+    git clone xxxlink
+    If this is a branch called abc, you can 
+    git clone -b abc xxxlink
