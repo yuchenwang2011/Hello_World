@@ -1,1 +1,11 @@
-<html> </html>
+Files are ended with either .htm or .html file. 
+After finishing a file writing with a notepad, you can double click to open it using a browser
+<html>
+  <body>
+    <h1>My First Heading</h1>
+    <h2>My Second Heading smaller font</h2>
+    <p>My first paragraph</p>
+    <a href="www.google.ca">This is a link</a>
+    <img src="/i/eg_w3school.gif" width="300" height="120" />
+  </body>
+</html>
