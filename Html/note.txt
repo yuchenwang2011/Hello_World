@@ -12,6 +12,11 @@ After finishing a file writing with a notepad, you can double click to open it u
     <p>My first paragraph</p>
     <a href="www.google.ca">This is a link</a>
     <img src="/i/eg_w3school.gif" width="300" height="120" />
+    <pre>
+      for i = 1 to 10
+       print i
+       next i
+    </pre>
   </body>
 </html>
 
