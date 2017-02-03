@@ -3,7 +3,12 @@ After finishing a file writing with a notepad, you can double click to open it u
 <html>
   <body>
     <h1>My First Heading</h1>
+    <h1 style="text-align:center">This is a heading</h1>
+    <hr/>
+    <!--This is a comment line-->
     <h2>My Second Heading smaller font</h2>
+    <h2 style="background-color:red">This is a heading in red</h2>
+    <h2 style="font-family:verdana">This is a heading with different font</h2>
     <p>My first paragraph</p>
     <a href="www.google.ca">This is a link</a>
     <img src="/i/eg_w3school.gif" width="300" height="120" />
