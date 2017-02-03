@@ -9,3 +9,5 @@ After finishing a file writing with a notepad, you can double click to open it u
     <img src="/i/eg_w3school.gif" width="300" height="120" />
   </body>
 </html>
+
+Cheat sheet for all the tag names: http://w3school.com.cn/tags/index.asp
