@@ -17,6 +17,17 @@ After finishing a file writing with a notepad, you can double click to open it u
        print i
        next i
     </pre>
+    <h4>带有普通的边框：</h4>  
+    <table border="1">
+    <tr>
+      <td>First</td>
+      <td>Row</td>
+    </tr>   
+    <tr>
+      <td>Second</td>
+      <td>Row</td>
+    </tr>
+    </table>
   </body>
 </html>
 
