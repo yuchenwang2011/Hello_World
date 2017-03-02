@@ -60,3 +60,8 @@
     Type cw, then tab, you will auto finish Console.WriteLine();
     Type Ctrl + w, resharper can auto select a block of code
     Type Atl + Enter, you can call resharper to finish some operations
+
+11. To create a file
+    String date = DateTime.Now.ToString("MMM dd HH mm EST");
+    String filePath = String.Format("C:\\Scripts\\{0:yyyy-MM-dd-HH-mm-ss}Number{1}.txt", DateTime.Now, Number);
+    StreamWriter file = new StreamWriter(filePath);
