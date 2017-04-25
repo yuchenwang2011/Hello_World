@@ -41,3 +41,6 @@
     git clone xxxlink
     If this is a branch called abc, you can 
     git clone -b abc xxxlink
+    
+11. To go back to a previous commit, you can 
+    git reset --hard adbasdcaewg
