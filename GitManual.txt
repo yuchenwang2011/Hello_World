@@ -44,3 +44,7 @@
     
 11. To go back to a previous commit, you can 
     git reset --hard adbasdcaewg
+
+12. To git pull and ignoring local changes, you can
+    git reset --hard
+    git pull
