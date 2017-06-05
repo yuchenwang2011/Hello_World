@@ -1,3 +1,4 @@
+http://gitexercises.fracz.com/
 1. To add a folder to Github, you need first create a folder then create a file in it. 
    Github seems can’t upload a folder directly. It works with files. So you can first create file readMe.txt,
    then git add readMe.txt, then git commit -m “to add a file”. Then git push -u origin master to final commit it. 
