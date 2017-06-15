@@ -4,7 +4,10 @@ http://gitexercises.fracz.com/
    then git add readMe.txt, then git commit -m “to add a file”. Then git push -u origin master to final commit it. 
 
 2. git config --global user.email "yuchen.wang2011@gmail.com"
-   you can use the same command but without the email in the quote “” to check if it’s set up properly. 
+   you can use the same command but without the email in the quote “” to check if it’s set up properly.
+   To show the name or email address, you can use 
+   git config user.name
+   git config user.email
 
 3. To check the status of a file, it’s:
     git status xxx.txt
