@@ -52,3 +52,9 @@ http://gitexercises.fracz.com/
 12. To git pull and ignoring local changes, you can
     git reset --hard
     git pull
+
+13. Git has 3 main stages: commited, modified, staged.
+    The basic Git workflow goes something like this:
+    1. You modify files in your working tree.
+    2. You stage the files, adding snapshots of them to your staging area.
+    3. You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
