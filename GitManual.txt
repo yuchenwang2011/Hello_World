@@ -8,6 +8,8 @@ http://gitexercises.fracz.com/
    To show the name or email address, you can use 
    git config user.name
    git config user.email
+   git config --global user.name "John Doe"
+   git config --global user.email johndoe@example.com
 
 3. To check the status of a file, it’s:
     git status xxx.txt
@@ -58,3 +60,7 @@ http://gitexercises.fracz.com/
     1. You modify files in your working tree.
     2. You stage the files, adding snapshots of them to your staging area.
     3. You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
+
+14. To find manual
+    git help <verb>, for example: 
+    git help config. 
