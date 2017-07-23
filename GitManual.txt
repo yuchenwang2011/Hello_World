@@ -64,3 +64,9 @@ http://gitexercises.fracz.com/
 14. To find manual
     git help <verb>, for example: 
     git help config. 
+
+15. You can put a .gitignore file in the repo root level you are working on
+    ps, when you use git status to check, you can edit the .gitignore file by adding ".gitignore" to ignore itself.
+
+16. To rename a file from a.txt to b.txt, you can do
+    git mv a.txt b.txt
