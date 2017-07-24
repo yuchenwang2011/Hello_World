@@ -1,4 +1,4 @@
-http://gitexercises.fracz.com/
+https://git-scm.com/book/en/v2 <<Pro Git Book>> very useful
 1. To add a folder to Github, you need first create a folder then create a file in it. 
    Github seems can’t upload a folder directly. It works with files. So you can first create file readMe.txt,
    then git add readMe.txt, then git commit -m “to add a file”. Then git push -u origin master to final commit it. 
@@ -70,3 +70,16 @@ http://gitexercises.fracz.com/
 
 16. To rename a file from a.txt to b.txt, you can do
     git mv a.txt b.txt
+    
+17. To view the history of this repo, you can do
+    git log
+    But it's giving too much information, instead, you can do
+    git log -p -2 , where -p means to show the difference introduced in each commit, -2 means the latest 2 changes
+    git log -3 --stat
+    git log --pretty=oneline , make a lot of code change easier to read
+    git log --since=2.weeks
+    git log --committer
+
+18. To discard all the change you have made to a file, you can first git status, it tells you how to do that, by 
+    This is a dangerous command will clear your change!!
+    git checkout -- filename  (note a space between -- and filename.)
