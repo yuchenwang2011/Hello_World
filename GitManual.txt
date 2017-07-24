@@ -26,6 +26,8 @@ https://git-scm.com/book/en/v2 <<Pro Git Book>> very useful
    
 5. How to update your repository in local machine
    git pull
+   Actually 
+   git pull = git fetch + git merge (merge to local)
    
 6. How to add a big project to github
    First "git add ." to add all the files under this folder
@@ -83,3 +85,13 @@ https://git-scm.com/book/en/v2 <<Pro Git Book>> very useful
 18. To discard all the change you have made to a file, you can first git status, it tells you how to do that, by 
     This is a dangerous command will clear your change!!
     git checkout -- filename  (note a space between -- and filename.)
+    
+19. To unstage a file, (mistake git add a file), you can
+    git reset HEAD filename...
+    
+20. To show all your remote(s) when you are in the repo folder, 
+    git remote -v
+    (a repo can have multiple remotes if have many collaborators, once you have cloned the repo, you've already added origin
+    as a remote)
+    You can add a remote by 
+    git remote add remoteNameByYou remoteWebsite
