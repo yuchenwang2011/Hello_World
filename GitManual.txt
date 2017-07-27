@@ -95,3 +95,13 @@ https://git-scm.com/book/en/v2 <<Pro Git Book>> very useful
     as a remote)
     You can add a remote by 
     git remote add remoteNameByYou remoteWebsite
+
+21. To get the update of the update from remote but doesn't affect your current code. You can do
+    git fetch
+    You can also specify the remote name and the branch
+    git fetch origin master   (origin is host, master is the branch)
+
+22. After get the update from remote, you can merge it with your current branch, you can do
+    git merge origin/master  or
+    git rebase origin/master
+   
