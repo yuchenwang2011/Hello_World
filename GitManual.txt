@@ -105,3 +105,15 @@ https://git-scm.com/book/en/v2 <<Pro Git Book>> very useful
     git merge origin/master  or
     git rebase origin/master
    
+23. To create a branch called "testing", you do
+    git branch testing
+
+24. How does git know which branch you are working on? It uses a "HEAD". If you want to see where now the head is pointing to, you can
+    git log --oneline --decorate
+    
+24. If you want to switch to an existing branch called "testing", you can do. 
+    git checkout testing
+    Then the "HEAD" is moved to pointing to testing branch.
+
+25. You can also create a branch and switch to it at the same time, you can do 
+    git checkout -b newBranchName
