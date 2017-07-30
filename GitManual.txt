@@ -117,3 +117,10 @@ https://git-scm.com/book/en/v2 <<Pro Git Book>> very useful
 
 25. You can also create a branch and switch to it at the same time, you can do 
     git checkout -b newBranchName
+
+26. When you want to delete a branch, you can do
+    git branch -d testing
+
+27. You can check merged / no-merged branch, by
+    git branch --merged
+    git branch --no-merged
