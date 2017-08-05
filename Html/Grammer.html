@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--this is a comment-->
+<html>
+
+	<head>
+		<!--this part is usually for important things, not for visible content-->
+		<meta charset="UTF-8">
+		<title>First HTML</title>
+		<style>
+			h1 {
+				text-align: center;
+				color: red;
+			}
+			
+			#p01 {
+				text-align: center;
+				font-size: 50px;
+			}
+			
+			a.a01 {
+				background-color: rgb(200, 25, 12);
+			}
+		</style>
+		
+		<style>
+			
+		</style>
+	</head>
+
+	<body>
+		<h1> hello world </h1>
+		<!--Note: Browsers display <strong> as <b>, and <em> as <i>. 
+		<b> and <i> defines bold and italic text, 
+		but <strong> and <em> means that the text is "important".-->
+		<p id="p01"> <b>this is a <mark>bold</mark> line</b> </p>
+		<p class="p02"><i>This is an <mark>italic</mark> line</i></p>
+		<p><strong>This is a <mark>strong</mark> line </strong></p>
+		<p><em>This is a <del>em</del><mark>important</mark> line</em></p>
+		<p style="font-family:courier">This is a paragraph.</p>
+
+		<a class="a01" href="http://www.google.ca" target="_top">This is a <br> website</a>
+		<hr>
+		<img src="http://www.google.ca" alt="not exist" height="100px" width="100%">
+
+		<pre style="color:blue;">
+			a, my sun
+			b, my moon
+			<blockquote cite="#">
+			   	Good good study, day day up
+			</blockquote>
+		</pre>
+
+		<table style="width:100%;border-spacing: 20px;" border="1px">
+			<caption style="color:#00F101;">Yellow Page</caption>
+			<tr>
+				<th bgcolor="#FF0000">First Name</th>
+				<th>Last Name</th>
+				<th>Email</th>
+			</tr>
+			<tr>
+				<td>Tom</td>
+				<td>Ford</td>
+				<td>TF@gmail.com</td>
+			</tr>
+			<tr>
+				<td colspan="2">bill gates</td>
+				<td rowspan="2">gates@gmail.com</td>
+			</tr>	
+			<tr>
+				<td>john</td>
+				<td>doe</td>
+			</tr>
+		</table>
+		<ol type="1">
+			<li><a href="#">Coffee</a></li>
+			<li><a href="#">Tea</a></li>
+			<li><a href="#">Milk</a></li>
+		</ol>
+
+		<button type="button" onclick="document.getElementById('demo').innerHTML=Date()">
+			click me to show the date
+		</button>
+        <p id="demo">hello</p>
+		
+		<form method="post">
+			First Name: <br>
+			<input type="text" name="firstname" value="John"> 
+			<br>
+			Last Name: <br>
+			<input type="text" name="lastname" value="Smith">
+			<br>
+			Gender: <br>
+			<input type="radio" name="gender" checked value="male"> Male
+			<input type="radio" name="gender" value="female"> Female
+			<br>
+			<textarea name="introduce" rows="30" cols="30"> 
+				Say hi to everyone			
+			</textarea>
+			<br>
+			
+			<select name="car">
+				<option>N/A</option>
+				<option value="volvo" selected>volo</option>
+				<option valu="BMW">BMW</option>
+			</select>
+			
+			<input type="submit" value="submit">
+			
+	    </form>
+		
+		
+	</body>
+	<script>
+		document.getElementById('demo').innerHTML="Hello Script";
+	</script>
+
+
+</html>
