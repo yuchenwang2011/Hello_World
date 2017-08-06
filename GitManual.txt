@@ -1,4 +1,5 @@
 https://git-scm.com/book/en/v2 <<Pro Git Book>> very useful
+https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000 (this is a very very good Chinese tutorial)
 1. To add a folder to Github, you need first create a folder then create a file in it. 
    Github seems can’t upload a folder directly. It works with files. So you can first create file readMe.txt,
    then git add readMe.txt, then git commit -m “to add a file”. Then git push -u origin master to final commit it. 
@@ -44,14 +45,31 @@ https://git-scm.com/book/en/v2 <<Pro Git Book>> very useful
 
 9. To start working on a branch because you were working on another branch, and check if it is up-to-date, you can do
    git checkout
+   You can also use checkout to goto another branch
+   git checkout branchName to go to that branch
+   If you want to discard the changes in the file and go back what was in the staging state. For example, you made a change first, 
+   commmited, then you made some more changes, but you want to discard them and want to go to last commmited state (snapshot), you can
+   git checkout --filename
+   git checkout --filename is actually replace whatever in workspace with what in the staging area. So if you make a mistake and delete a file
+   but you want to recover it, you can use this command to use the one in the "staging" area to replace the one you have "empty removed one"
 
 10. To clone the project, go to a folder to use command
     git clone xxxlink
     If this is a branch called abc, you can 
     git clone -b abc xxxlink
     
-11. To go back to a previous commit, you can 
-    git reset --hard adbasdcaewg
+
+11. if revert to last last commit, it can be HEAD^^, if revert to 100 commits ago, it can be HEAD~100
+    A git commit is like a snapshot, you put all the organized and well prepared file to a commit,
+    once you made some mistake, you can easily revert to the last commit
+    To go back to a previous commit, you can 
+    git reset --hard adbasdcaewg (this string is the commmit id, so you can go to the commit you want, first few digits is enough)
+    You can also do this 
+    git reset --hard HEAD^ 
+    Git is very fast to change to different version, because it just move the HEAD, it's like a linkedlist
+    But after revert to previous version, you want to revert back to latest, but you forget the commit id, you can 
+    git reflog  to see all the git command history on your local machine, you can see the commit id there
+
 
 12. To git pull and ignoring local changes, you can
     git reset --hard
@@ -68,7 +86,9 @@ https://git-scm.com/book/en/v2 <<Pro Git Book>> very useful
     git help config. 
 
 15. You can put a .gitignore file in the repo root level you are working on
-    ps, when you use git status to check, you can edit the .gitignore file by adding ".gitignore" to ignore itself.
+    ps, when you use git status to check, you can edit the .gitignore file by adding ".gitignore" to ignore itself, for example
+    *.zip
+    *.g*
 
 16. To rename a file from a.txt to b.txt, you can do
     git mv a.txt b.txt
@@ -81,6 +101,7 @@ https://git-scm.com/book/en/v2 <<Pro Git Book>> very useful
     git log --pretty=oneline , make a lot of code change easier to read
     git log --since=2.weeks
     git log --committer
+    git log --graph --pretty=oneline --abbrev-commit , to view the commit tree
 
 18. To discard all the change you have made to a file, you can first git status, it tells you how to do that, by 
     This is a dangerous command will clear your change!!
@@ -90,7 +111,8 @@ https://git-scm.com/book/en/v2 <<Pro Git Book>> very useful
     git reset HEAD filename...
     
 20. To show all your remote(s) when you are in the repo folder, 
-    git remote -v
+    git remote  ,it shows what is your remote
+    git remote -v , this one shows all the details of the remote
     (a repo can have multiple remotes if have many collaborators, once you have cloned the repo, you've already added origin
     as a remote)
     You can add a remote by 
@@ -124,3 +146,41 @@ https://git-scm.com/book/en/v2 <<Pro Git Book>> very useful
 27. You can check merged / no-merged branch, by
     git branch --merged
     git branch --no-merged
+
+28. To install git in linux / ubuntu, you can
+    sudo apt-get install git
+    Then git config --global user.name / user.email to config it
+
+29. You can git add a file many times before commit, if you git add a file, then you make some changes to the file again,
+    you need to git add it again. 
+    if you want to add an ignored file, you can use -f
+    git add -f filename
+    But if you a. edit a file, b. git add, c. edit file again. d. git commit
+    The second edit will not be commited because git commit will only commit things already in the staging
+    So if you want the second edit, a. edit a file, b. git add, c. edit file again, d. git add, e. git commit
+
+30. You can see the difference between the modified file and what is in the staging by 
+    git diff filename
+    If you do a git add the file, then you do a git diff again, you won't see anything.
+    You can see the difference between newest version and the workspace by
+    git diff HEAD -- filename
+
+31. To generate a ssh key, you can use follow the instructions and use the default settings
+    ssh-keygen -t rsa -C "youremailaddress" 
+
+32. To connect to a remote repo, you can do
+    git remote add origin git@server-name:path/repo-name.git 
+    After you connect to a remote, you can push all your local files to remote the first time, by
+    git push -u origin master
+    where u is to connect the remote master and local master
+
+33. If you are working on a branch not finished yet but you need to switch to another branch, you can save your working state by
+    git stash
+    if will save everything for you before you come back. You can check what has been saved by
+    git stash list
+    if you want to recover the previous state, you can
+    git stash pop   to recover the latest one, if there are many stashes you can
+    git stash apply stash@{0} (the stash id by checking git stash list)
+
+34. To change the default editor to Vim not Emacs, you can
+    git config --global core.editor "vim"
