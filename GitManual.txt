@@ -89,6 +89,12 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     ps, when you use git status to check, you can edit the .gitignore file by adding ".gitignore" to ignore itself, for example
     *.zip
     *.g*
+    You can find a lot of official template. super easy to use
+    https://github.com/github/gitignore
+    But sometimes you want to add a ignored file, you can
+    git add -f filename
+    If you fail to add a App.class file, you can let git check for you by
+    git check-ignore -v App.class
 
 16. To rename a file from a.txt to b.txt, you can do
     git mv a.txt b.txt
@@ -122,6 +128,9 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     git fetch
     You can also specify the remote name and the branch
     git fetch origin master   (origin is host, master is the branch)
+    The remote repo is always getting updated, so you need sync the branch info
+    git fetch --prune (git fetch -p)
+    To remove some local branch not connected to remote and sync the branches/tag in remote
 
 22. After get the update from remote, you can merge it with your current branch, you can do
     git merge origin/master  or
@@ -195,3 +204,39 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 
 34. To change the default editor to Vim not Emacs, you can
     git config --global core.editor "vim"
+
+
+35. To fork a repo, you can follow this link
+    https://help.github.com/articles/fork-a-repo/ 
+
+36. To create a local branch connected to the remote branch (you first time cloned the repo and have no other branches yet), you can
+    git checkout -b your-branch-name origin/original-branch-name
+    To set a connection between the two branches, you need
+    git branch --set-upstream branch-name origin/branch-name
+
+37. To add a tag, which will be easier for you to find something in the future instead of searching through the git commit string, you can
+    git add tag-name, for example, git tag v1.0
+    Then one tag called v1.0 pointing to HEAD (latest change) is created, you can find all the tags by
+    git tag
+    To delete a tag, you can 
+    git tag -d tag-name
+    To add a tag to a previous commit, you can
+    git tag tag-name commitString
+    To show the details for a tag, you can
+    git show tag-name
+    You can also give some more description to a tag when you create it, by
+    git tag -a v1.0 -m "added some git knowledge" commit-id
+    All the tags are created local, if you want to push to remote, you can
+    git push origin tag-name
+
+38. If you want git command has colorful output, you can
+    git config --global color.ui true
+    To check it
+    git config color.ui
+
+39. To configure alias for git, you can 
+    git config --global alias.younameit originalcommand , for example
+    git config --global alias.st status , so after using this command, next time I can use git st instead of git status
+
+40. To edit the git config file, it's in each repo .git/config , it's the config for each repo,
+    To edit the git config for global, the current user, you can go to ~, the home of the user and change the .gitconfig file
