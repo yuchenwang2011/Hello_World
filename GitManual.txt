@@ -126,6 +126,13 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 22. After get the update from remote, you can merge it with your current branch, you can do
     git merge origin/master  or
     git rebase origin/master
+    A very very good article (especially the pictures) http://www.jianshu.com/p/cca69cb695a6
+    But! you should never rebase a shared branch
+    If your change doesn't deserver a seperate branch, you should use
+    git pull --rebase
+    To squash a few commits into one, you can do
+    git rebase --interactive <after this commit>
+    After that, change the "pick" into "squash" except the first one
    
 23. To create a branch called "testing", you do
     git branch testing
@@ -158,12 +165,16 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     But if you a. edit a file, b. git add, c. edit file again. d. git commit
     The second edit will not be commited because git commit will only commit things already in the staging
     So if you want the second edit, a. edit a file, b. git add, c. edit file again, d. git add, e. git commit
+    If you want to change the commit message, you can 
+    git commit --amend
 
 30. You can see the difference between the modified file and what is in the staging by 
     git diff filename
     If you do a git add the file, then you do a git diff again, you won't see anything.
     You can see the difference between newest version and the workspace by
     git diff HEAD -- filename
+    once you have git add the file, you can see the diff, you need use
+    git diff --cached filename to see what has been added
 
 31. To generate a ssh key, you can use follow the instructions and use the default settings
     ssh-keygen -t rsa -C "youremailaddress" 
