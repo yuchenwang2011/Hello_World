@@ -4,25 +4,35 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
    Github seems can’t upload a folder directly. It works with files. So you can first create file readMe.txt,
    then git add readMe.txt, then git commit -m “to add a file”. Then git push -u origin master to final commit it. 
 
-2. git config --global user.email "yuchen.wang2011@gmail.com"
-   you can use the same command but without the email in the quote “” to check if it’s set up properly.
-   To show the name or email address, you can use 
+2. To show the name or email address, you can use 
    git config user.name
    git config user.email
    git config --global user.name "John Doe"
    git config --global user.email johndoe@example.com
+   git config -l // or git config --list to show all the configurations
+   To change the default editor to Vim not Emacs, you can
+   git config --global core.editor "vim"
+   If you want git command has colorful output, you can
+   git config --global color.ui true
+   To check it
+   git config color.ui
+   To edit the git config file, it's in each repo .git/config , it's the config for each repo,
+   To edit the git config for global, the current user, you can go to ~, the home of the user and change the .gitconfig file
 
 3. To check the status of a file, it’s:
-    git status xxx.txt
+   git status xxx.txt
+   You can also check the whole status by 
+   git status
 
-4. Here is how to add a new repository to Git, first "git init newFolder" which I think it's to mkdir a new direcotory/repository. 
-   Second, you make a file, such as readme there under that repo. 
-   Third, you git add the file, git commit the file, same as regular commit.
-   At the end, you go to the website to create a new repo, give a name, click the button to create a new repo. 
+4. Here is how to add a new repository to Git, 
+   a. "git init newFolder" to mkdir a new direcotory/repository or "git init" when you are in a folder already
+   b. make a file, such as readme there under that repo. 
+   c. git add the file, git commit the file, same as regular commit.
+   d. go to the website to create a new repo, give a name, click the button to create a new repo. 
    (Here is scary, the website makes me thought I will have made a repo by clicking the create button)
-   After click the create a new repo final certification button, you will be given a link for this repo. 
-   Then you do "git remote add origin xxxxxx(the link)", then "git remove -v" to validate it. 
-   Finally, "git push origin master" to commit the repo.
+   e. After click the create a new repo final certification button, you will be given a link for this repo. 
+   f. git remote add origin xxxxxx(the link), then "git remote -v" to validate it. 
+   g. Finally, "git push origin master" to commit the repo.
    https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
    
 5. How to update your repository in local machine
@@ -35,15 +45,12 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
    Second git commit -m "xxx", 
    Third git push -u origin master
 
-7. To check what has been configured on your git glocal env, you can do blow to list all the configs
-   git config -l   // or git config --list
+7. To overwrite the current changed files because they are garbage, you can
+   a. git reset --hard
+   b. git pull
 
-8. You want to overwrite the current changed files because they are garbage, you can
-   git reset --hard
-   Then
-   git pull
-
-9. To start working on a branch because you were working on another branch, and check if it is up-to-date, you can do
+8. Checkout
+   To start working on a branch because you were working on another branch, and check if it is up-to-date, you can do
    git checkout
    You can also use checkout to goto another branch
    git checkout branchName to go to that branch
@@ -53,13 +60,13 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
    git checkout --filename is actually replace whatever in workspace with what in the staging area. So if you make a mistake and delete a file
    but you want to recover it, you can use this command to use the one in the "staging" area to replace the one you have "empty removed one"
 
-10. To clone the project, go to a folder to use command
+9. To clone the project, go to a folder to use command
     git clone xxxlink
     If this is a branch called abc, you can 
     git clone -b abc xxxlink
-    
 
-11. if revert to last last commit, it can be HEAD^^, if revert to 100 commits ago, it can be HEAD~100
+10. Revert
+    if revert to last last commit, it can be HEAD^^, if revert to 100 commits ago, it can be HEAD~100
     A git commit is like a snapshot, you put all the organized and well prepared file to a commit,
     once you made some mistake, you can easily revert to the last commit
     To go back to a previous commit, you can 
@@ -69,23 +76,22 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     Git is very fast to change to different version, because it just move the HEAD, it's like a linkedlist
     But after revert to previous version, you want to revert back to latest, but you forget the commit id, you can 
     git reflog  to see all the git command history on your local machine, you can see the commit id there
+    To unstage a file, (mistake git add a file), you can
+    git reset HEAD filename
 
-
-12. To git pull and ignoring local changes, you can
-    git reset --hard
-    git pull
-
-13. Git has 3 main stages: commited, modified, staged.
+11. Git has 3 main stages: modified, staged, commited
     The basic Git workflow goes something like this:
-    1. You modify files in your working tree.
-    2. You stage the files, adding snapshots of them to your staging area.
-    3. You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
+    a. You modify files in your working tree.
+    b. You stage the files, adding snapshots of them to your staging area.
+    c. You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
 
-14. To find manual
+12. To find manual
     git help <verb>, for example: 
     git help config. 
+    man git config is also ok
 
-15. You can put a .gitignore file in the repo root level you are working on
+13. .gitignore file
+    You can put a .gitignore file in the repo root level you are working on
     ps, when you use git status to check, you can edit the .gitignore file by adding ".gitignore" to ignore itself, for example
     *.zip
     *.g*
@@ -96,43 +102,41 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     If you fail to add a App.class file, you can let git check for you by
     git check-ignore -v App.class
 
-16. To rename a file from a.txt to b.txt, you can do
+14. To rename a file from a.txt to b.txt, you can do
     git mv a.txt b.txt
     
-17. To view the history of this repo, you can do
-    git log
-    But it's giving too much information, instead, you can do
+15. log
+    git log to view the history of the repo
     git log -p -2 , where -p means to show the difference introduced in each commit, -2 means the latest 2 changes
     git log -3 --stat
     git log --pretty=oneline , make a lot of code change easier to read
     git log --since=2.weeks
     git log --committer
     git log --graph --pretty=oneline --abbrev-commit , to view the commit tree
+    How does git know which branch you are working on? It uses a "HEAD". If you want to see where now the head is pointing to, you can
+    git log --oneline --decorate
 
-18. To discard all the change you have made to a file, you can first git status, it tells you how to do that, by 
-    This is a dangerous command will clear your change!!
-    git checkout -- filename  (note a space between -- and filename.)
-    
-19. To unstage a file, (mistake git add a file), you can
-    git reset HEAD filename...
-    
-20. To show all your remote(s) when you are in the repo folder, 
+16. To show all your remote(s) when you are in the repo folder, 
     git remote  ,it shows what is your remote
     git remote -v , this one shows all the details of the remote
-    (a repo can have multiple remotes if have many collaborators, once you have cloned the repo, you've already added origin
-    as a remote)
-    You can add a remote by 
-    git remote add remoteNameByYou remoteWebsite
+    (a repo can have multiple remotes if have many collaborators, once you have cloned the repo, you've already added origin as a remote)
+    Add a remote: 
+    git remote add remoteNameByYou remoteWebsite 
+    for example:
+    git remote add origin git@server-name:path/repo-name.git 
+    After you connect to a remote, you can push all your local files to remote the first time, by
+    git push -u origin master
+    where u is to connect the remote master and local master
 
-21. To get the update of the update from remote but doesn't affect your current code. You can do
+17. To get the update of the update from remote but doesn't affect your current code. You can do
     git fetch
     You can also specify the remote name and the branch
     git fetch origin master   (origin is host, master is the branch)
     The remote repo is always getting updated, so you need sync the branch info
     git fetch --prune (git fetch -p)
-    To remove some local branch not connected to remote and sync the branches/tag in remote
+    to remove some local branch not connected to remote and sync the branches/tag in remote
 
-22. After get the update from remote, you can merge it with your current branch, you can do
+18. After get the update from remote, you can merge it with your current branch, you can do
     git merge origin/master  or
     git rebase origin/master
     A very very good article (especially the pictures) http://www.jianshu.com/p/cca69cb695a6
@@ -143,58 +147,45 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     git rebase --interactive <after this commit>
     After that, change the "pick" into "squash" except the first one
    
-23. To create a branch called "testing", you do
+19. Branch
+    To create a branch called "testing", you do
     git branch testing
-
-24. How does git know which branch you are working on? It uses a "HEAD". If you want to see where now the head is pointing to, you can
-    git log --oneline --decorate
-    
-24. If you want to switch to an existing branch called "testing", you can do. 
-    git checkout testing
-    Then the "HEAD" is moved to pointing to testing branch.
-
-25. You can also create a branch and switch to it at the same time, you can do 
+    git checkout testing to switch to a branch called testing, the "HEAD" is moved to pointing to testing branch.
+    Create a branch and switch to it at the same time, you can do 
     git checkout -b newBranchName
-
-26. When you want to delete a branch, you can do
+    To delete a branch, you can do
     git branch -d testing
-
-27. You can check merged / no-merged branch, by
+    Check merged / no-merged branch, by
     git branch --merged
     git branch --no-merged
+    To create a local branch connected to the remote branch (you first time cloned the repo and have no other branches yet), you can
+    git checkout -b your-branch-name origin/original-branch-name
+    To set a connection between the two branches, you need
+    git branch --set-upstream branch-name origin/branch-name
 
-28. To install git in linux / ubuntu, you can
+20. To install git in linux / ubuntu, you can
     sudo apt-get install git
     Then git config --global user.name / user.email to config it
 
-29. You can git add a file many times before commit, if you git add a file, then you make some changes to the file again,
+21. You can git add a file many times before commit, if you git add a file, then you make some changes to the file again,
     you need to git add it again. 
-    if you want to add an ignored file, you can use -f
-    git add -f filename
-    But if you a. edit a file, b. git add, c. edit file again. d. git commit
-    The second edit will not be commited because git commit will only commit things already in the staging
-    So if you want the second edit, a. edit a file, b. git add, c. edit file again, d. git add, e. git commit
     If you want to change the commit message, you can 
     git commit --amend
 
-30. You can see the difference between the modified file and what is in the staging by 
+22. diff 
+    difference between the modified file and what is in the staging by 
     git diff filename
-    If you do a git add the file, then you do a git diff again, you won't see anything.
+    So if you do a git add the file, then you do a git diff again, you won't see anything.
     You can see the difference between newest version and the workspace by
     git diff HEAD -- filename
     once you have git add the file, you can see the diff, you need use
     git diff --cached filename to see what has been added
 
-31. To generate a ssh key, you can use follow the instructions and use the default settings
+23. To generate a ssh key, you can use follow the instructions and use the default settings
     ssh-keygen -t rsa -C "youremailaddress" 
 
-32. To connect to a remote repo, you can do
-    git remote add origin git@server-name:path/repo-name.git 
-    After you connect to a remote, you can push all your local files to remote the first time, by
-    git push -u origin master
-    where u is to connect the remote master and local master
-
-33. If you are working on a branch not finished yet but you need to switch to another branch, you can save your working state by
+24. Stash
+    If you are working on a branch not finished yet but you need to switch to another branch, you can save your working state by
     git stash
     if will save everything for you before you come back. You can check what has been saved by
     git stash list
@@ -202,19 +193,11 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     git stash pop   to recover the latest one, if there are many stashes you can
     git stash apply stash@{0} (the stash id by checking git stash list)
 
-34. To change the default editor to Vim not Emacs, you can
-    git config --global core.editor "vim"
-
-
-35. To fork a repo, you can follow this link
+25. To fork a repo, you can follow this link
     https://help.github.com/articles/fork-a-repo/ 
 
-36. To create a local branch connected to the remote branch (you first time cloned the repo and have no other branches yet), you can
-    git checkout -b your-branch-name origin/original-branch-name
-    To set a connection between the two branches, you need
-    git branch --set-upstream branch-name origin/branch-name
-
-37. To add a tag, which will be easier for you to find something in the future instead of searching through the git commit string, you can
+26. tag
+    To add a tag, which will be easier for you to find something in the future instead of searching through the git commit string, you can
     git add tag-name, for example, git tag v1.0
     Then one tag called v1.0 pointing to HEAD (latest change) is created, you can find all the tags by
     git tag
@@ -229,14 +212,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     All the tags are created local, if you want to push to remote, you can
     git push origin tag-name
 
-38. If you want git command has colorful output, you can
-    git config --global color.ui true
-    To check it
-    git config color.ui
-
-39. To configure alias for git, you can 
+27. alias
+    To configure alias for git, you can 
     git config --global alias.younameit originalcommand , for example
     git config --global alias.st status , so after using this command, next time I can use git st instead of git status
-
-40. To edit the git config file, it's in each repo .git/config , it's the config for each repo,
-    To edit the git config for global, the current user, you can go to ~, the home of the user and change the .gitconfig file
