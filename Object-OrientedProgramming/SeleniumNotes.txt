@@ -1,0 +1,105 @@
+Based on tutorial: https://www.youtube.com/watch?v=6HS8-u96JJM&list=PL9ooVrP1hQOFP9H8Y15DVGCA6GavhgJ8a&index=6
+1. Prerequisit
+   Install Java
+   Install Eclipse JavaEE version
+   Download Selenium server.zip, build path include all the jar files
+   Download Selenium standalone.jar file and build path include it
+   Downlaod the 3rd party chrome driver / firefox driver (all exe filess), in selenium download page
+   (If you need test image, you need sikuli)
+   Download sikuli.setup.jar
+   
+2. To play with XPath, you can download a firebug extension and then downlaod a firepath extension
+   XPath relative path syntax:
+   //htmltag[@attribute='value']
+   By attributes example: //input[@placehold='Password' and @id='user_password']
+   By keywords example:   //input[contains(@id,'userID')]
+                          //input[starts-with[@name,'user_login']]
+                          //label[contains[text(),'Weekend']]
+                          //a[@id='nav-link-account']/span[1]
+
+3. Get
+   driver.get("URL"); to open a specified url
+   driver.getTitle(); to get the title of the current page
+   driver.getPageSource(); to get the source code of the current page
+   driver.getCurrent(); get the url of the current page
+
+4. Navigation
+   driver.navigate().to("URL"); navigate to a new page in the current browser window
+   driver.navigate().refresh(); refresh current page
+   driver.navigate().back(); navigate to previous visited page
+   driver.navigate().forward(); navigate to the page visted after current page
+
+5. Close
+   driver.close(); to close the current browswer page
+   driver.quit(); to quick the browser window
+
+6. Other useful commands
+   findElement(); to find an element/object on a web page
+   sendKeys();  to send characters/text to the text box in the web page
+   click(); to click on the element / object on the page
+
+7. 8 locators in Selenium
+   By ID
+   By Name
+   By ClassName
+   By TagName
+   By LinkText
+   By Partial Link Text
+   By CSS
+   By XPath 
+
+8. Selenium Grid
+   java -jar selenium-server-standalone-3.5.0.jar -role hub
+   You can verify it's running by using browser visit 
+   http://localhost:4444/grid/console , on other machine, replace localhost with hub's ip
+   java -Dwebdriver.chrome.driver=C:\Selenium\chromedriver.exe -jar selenium-server-standalone-3.4.0.jar \
+   -role node -hub http://hubIpAddress:4444/grid/register
+   Once you have registered the node, go to the console website, refresh, it will be different
+   DesiredCapabilities capability = DesiredCapabilities.chrome();
+
+9. Exceptions in Selenium WebDriver and Exception Test
+   TimeoutException ,thrown when command does not complete in enough time  
+   NoSuchElementException ,thrown when element with given attribute is not found
+   ElementNotVisibleException ,thrown when element is present in DOM but not visible
+   StaleElementException ,thrown when element is deleted or is no longer attached to DOM
+   Exception Test , @Test(expectedException = NoSuchElementException.class)
+
+10. Direct Browsing through a proxy
+    String proxy = "199.201.125.147:8080";
+    DesiredCapabilities cap = new DesiredCapabilities();
+    cap.setCapability(CapabilityType.Proxy, proxy);
+    WebDriver driver = new FirefoxDriver(cap);
+    
+11. Page Object Model (POM) + Page Factory
+    https://www.guru99.com/page-object-model-pom-page-factory-in-selenium-ultimate-guide.html
+
+12. Implicity Wait / Explicit Wait
+    http://toolsqa.com/selenium-webdriver/implicit-explicit-n-fluent-wait/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

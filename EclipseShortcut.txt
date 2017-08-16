@@ -1,0 +1,13 @@
+1. Ctrl + shift + o , to auto import reference
+2. Ctrl + d , to delete this line 
+3. Click the next empty space after the curly bracket, it will choose and highlight all the code in the curly bracket
+4. Ctrl + m, to maximize the current window
+5. Ctrl + shift + / , to add block comment
+6. Ctrl + space , content assist, but doesn't work some time, you can go to Window->Preference->General->Keys->Content Assist to edit
+7. Ctrl + / , to comment current line
+8. Ctrl + shift + f , to format your code to make it clean, but it's ugly for your block comment
+9. Alt + up / down , to move current line one line up or one line down
+10. Use Alt + up, then Alt + down, it's a trick to select current line
+11. Alt + shift + z, to surround with try/catch
+12. Ctrl + 1 ,auto fix the code
+13. Ctrl + o ,to open the outline, so you can navigate to different part of code
