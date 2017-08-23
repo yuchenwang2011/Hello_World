@@ -6,6 +6,8 @@ Basic concepts:
 2. Instance variables are things an object knows about itself. They represent the state of an object. 
 
 3. public static void main, static here means that method can be run without instantiate an instance of main. static variables and methods belongs to the class not a specific instance.
+   a good website explaining static variable
+   https://www.caveofprogramming.com/java/java-for-beginners-static-variables-what-are-they.html
 
 4. 8 Java primitive types: Be careful! Bears shoudn't ingest large fury dogs. 
                         boolean, char, byte, short,   int,  long, float, double 
