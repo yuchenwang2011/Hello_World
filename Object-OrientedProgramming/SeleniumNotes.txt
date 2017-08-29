@@ -76,8 +76,8 @@ Based on tutorial: https://www.youtube.com/watch?v=6HS8-u96JJM&list=PL9ooVrP1hQO
 12. Implicity Wait / Explicit Wait
     http://toolsqa.com/selenium-webdriver/implicit-explicit-n-fluent-wait/
 
-
-
+13. A practise website
+    http://automationpractice.com/index.php
 
 
 
