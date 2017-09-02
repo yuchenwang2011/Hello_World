@@ -9,13 +9,15 @@ Based on tutorial: https://www.youtube.com/watch?v=6HS8-u96JJM&list=PL9ooVrP1hQO
    Download sikuli.setup.jar
    
 2. To play with XPath, you can download a firebug extension and then downlaod a firepath extension
-   XPath relative path syntax:
+   XPath relative path syntax: // means search all
    //htmltag[@attribute='value']
    By attributes example: //input[@placehold='Password' and @id='user_password']
    By keywords example:   //input[contains(@id,'userID')]
                           //input[starts-with[@name,'user_login']]
                           //label[contains[text(),'Weekend']]
                           //a[@id='nav-link-account']/span[1]
+                          //a[@name='link1' and @href='http://www.google.com']"
+                         (//div[@class="post-body entry-content"])[2]//a[1]  , where [2] means the second result, [1] second result
 
 3. Get
    driver.get("URL"); to open a specified url

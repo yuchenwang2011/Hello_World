@@ -384,4 +384,10 @@ Basic concepts:
         }
     }
 
+34. About Final, a very good tutorial
+https://www.javatpoint.com/final-keyword
+
 I'm further taking a back-end course on http://www.zhizuobiao.com/
+
+https://beginnersbook.com/2014/07/final-keyword-java-final-variable-method-class/
+https://www.javatpoint.com/java-tutorial

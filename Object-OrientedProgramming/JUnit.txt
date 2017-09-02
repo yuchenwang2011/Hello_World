@@ -1,0 +1,10 @@
+https://www.tutorialspoint.com/junit/junit_quick_guide.htm
+1. Basic JUnit Assert Methods:
+   assertEquals(); supports objects and primitives, also supports a format: expected, actual, allowed-difference
+   assertSame();   two arguments refer to the same object
+   assertTrue();   support boolean
+   assertFalse();
+   assertNull();
+   assertNotNull();
+   fail();
+2. @Test(timeout=2000)
