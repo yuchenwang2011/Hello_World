@@ -1,0 +1,42 @@
+body{
+	background-color: beige;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+p{
+	font-size: 20px;
+	font-family: monospace;
+}
+
+#para2{
+	font-family: arial;
+	margin-left: 20px;
+}
+
+/* you can use p.para3 or .para3, but a period character is a must
+also a HTML element can have multiple classes*/
+p.para3{
+	font-family: "agency fb";
+}
+
+p.para4{
+	text-align: center;
+}
+
+/*You can group multiple selectors together, but you must have a comma*/
+#para5,.para6{
+	text-align: right;
+}
+
+/* priority from high to low, which one is defined later closer to the element
+ 1. Inline style (inside an HTML element)
+ 2. External and internal style sheets (in the head section)
+ 3. Browser default */
+
+/* For rgb(x,x,x), check https://www.w3schools.com/css/css_colors.asp */
+
+/* the order for box property is top, right, bottom, left */
