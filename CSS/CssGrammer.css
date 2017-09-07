@@ -32,6 +32,25 @@ p.para4{
 	text-align: right;
 }
 
+/* list-style is a combination of list-style-type, position, image*/
+ol {
+	list-style: square inside none;
+}
+
+table{
+	border-collapse: collapse;
+	empty-cells: hide;
+	table-layout: auto;
+}
+
+a:hover{
+	color: red;
+}
+
+a:link{
+	text-decoration: none;
+}
+
 /* priority from high to low, which one is defined later closer to the element
  1. Inline style (inside an HTML element)
  2. External and internal style sheets (in the head section)

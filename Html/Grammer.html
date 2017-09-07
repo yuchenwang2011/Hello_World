@@ -99,6 +99,9 @@
 		
 		<form method="post">
 			First Name: <br>
+      <!--value: for text and password is to set default value -->
+      <!--value: for radio and checkbox is to set the value to be posted to server -->
+      <!--value: for submit, reset, button is to set the text to be shown as their name -->
 			<input type="text" name="firstname" value="John"> 
 			<br>
 			Last Name: <br>
@@ -106,6 +109,7 @@
 			<br>
 			Gender: <br>
 			<!--name is necessary to group a few buttons -->
+      <!--when you want to post to server, you must provide name -->
 			<input type="radio" name="gender" checked value="male"> Male
 			<input type="radio" name="gender" value="female"> Female
 			<br>

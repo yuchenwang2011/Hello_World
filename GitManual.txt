@@ -95,6 +95,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     ps, when you use git status to check, you can edit the .gitignore file by adding ".gitignore" to ignore itself, for example
     *.zip
     *.g*
+    *.*~
     You can find a lot of official template. super easy to use
     https://github.com/github/gitignore
     But sometimes you want to add a ignored file, you can
@@ -177,7 +178,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     git diff filename
     So if you do a git add the file, then you do a git diff again, you won't see anything.
     You can see the difference between newest version and the workspace by
-    git diff HEAD -- filename
+    git diff HEAD filename
     once you have git add the file, you can see the diff, you need use
     git diff --cached filename to see what has been added
 
