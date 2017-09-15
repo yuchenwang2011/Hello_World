@@ -1,10 +1,18 @@
 body{
 	background-color: beige;
+	background-image: url("https://images-na.ssl-images-amazon.com/images/G/15/img16/x-site/other/1017968_ca_x-site_gateway_popular_departments_16_292x292_1._CB525774053_.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
 }
 
 h1{
 	color: white;
 	text-align: center;
+	border-style: dotted;
+	border-width: 2px;
+	border-left: 6px solid red;
+	border-radius: 12px
 }
 
 p{
@@ -12,24 +20,32 @@ p{
 	font-family: monospace;
 }
 
+/* CSS box model from inside to outside: 
+   content(heigth and width), padding, border, margin
+*/
 #para2{
 	font-family: arial;
 	margin-left: 20px;
+	background-color: rgb(255,10,0);
+	padding: 25px 50px 75px 100px;
 }
 
 /* you can use p.para3 or .para3, but a period character is a must
 also a HTML element can have multiple classes*/
 p.para3{
 	font-family: "agency fb";
+	text-transform: uppercase;
 }
 
 p.para4{
 	text-align: center;
+	letter-spacing: 3px;
 }
 
 /*You can group multiple selectors together, but you must have a comma*/
 #para5,.para6{
 	text-align: right;
+	font-style: italic;
 }
 
 /* list-style is a combination of list-style-type, position, image*/
@@ -37,19 +53,39 @@ ol {
 	list-style: square inside none;
 }
 
+li{
+	display: inline;
+}
+
 table{
 	border-collapse: collapse;
 	empty-cells: hide;
 	table-layout: auto;
+	font-family: serif, Times, arial;
+	overflow-x: auto;
+}
+
+/* 
+   a:hover MUST come after a:link and a:visited
+   a:active MUST come after a:hover
+ */
+a:link{
+	text-decoration: none;
+	color: blue;
+}
+
+a:visited{
+	color: red;
 }
 
 a:hover{
 	color: red;
 }
 
-a:link{
-	text-decoration: none;
+a:active{
+	color: blue;
 }
+
 
 /* priority from high to low, which one is defined later closer to the element
  1. Inline style (inside an HTML element)
