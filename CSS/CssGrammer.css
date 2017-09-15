@@ -86,6 +86,19 @@ a:active{
 	color: blue;
 }
 
+div{
+	background-color: red;
+}
+
+.divClass{
+	background-color: green;
+}
+
+/* Attribute selector */
+span[hello="world"]{
+	background: blue;
+	color: red;
+}
 
 /* priority from high to low, which one is defined later closer to the element
  1. Inline style (inside an HTML element)
