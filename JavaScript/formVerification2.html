@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+
+	<body>
+		    First Name: 
+		    <br>
+			<input type="text" id="firstName" value="tom" onblur="focusFunc()"> 
+			<br>
+			<span id="firstNameSpan"></span>
+			<br>
+			Last name: 
+		    <br>
+			<input type="text" id="lastName" value="cat" onblur="focusFunc2(this)"> 
+			<br>
+			<span id="lastNameSpan"></span>
+	
+		<script>
+			function focusFunc() {
+				var firstName = document.getElementById("firstName");
+				var firstNameSpan = document.getElementById("firstNameSpan");
+				if(firstName.value == null ||firstName.value == ""){
+					firstNameSpan.innerHTML = "username can't be empty";
+				} else {
+					firstNameSpan.innerHTML = "";
+				}
+			}
+			function focusFunc2(obj){
+				document.getElementById("lastNameSpan").innerHTML = obj.value;
+			}
+		</script>
+	</body>
+
+</html>

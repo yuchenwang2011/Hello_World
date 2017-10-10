@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="myScript.js"></script>
+	</head>
+
+	<body>
+		<h1>First JavaScript Project</h1>
+		<button onclick="showDate()" id="clickButton">Click Me to Show Date</button>
+		<p id="showDate"></p>
+
+		<p id="changeSize">Change my Size</p>
+		<!--Remember to use single quote in a double quote, though JS accepts both -->
+		<button onclick="document.getElementById('changeSize').style.fontSize='35px'">Click to resize</button>
+
+		<p id="hide">This will be hidden</p>
+		<button onclick="hideElement()">Click to hide</button>
+
+		</br>
+		<script>
+			document.write("Written by document.write")
+			window.alert("Morning!");
+			alert("Morning again!");
+			//var val = confirm();
+			//alert(val);
+			//var result = prompt();
+			//alert(result);
+			//BOM:, window(window can find other boms), location, history
+			//location.href = "";
+			//history.go(1);history.go(-1);
+			console.log("This is a log mesesage");
+		</script>
+
+		<!--Using document.write() after a html page fully loaded, whole page will be gone
+			It should only be used for testing purpose
+		-->
+		</br>
+		<button onclick="document.write(5+6)">Clean the page</button>
+		<button onclick="this.innerHTML=Date()">The time is?</button>
+
+		<p id="demo">demo purpose</p>
+		<script>
+			//JS has 4 primitives, string, boolean, number, undefined
+			var a;
+			var b = typeof person.first_name;
+			var c = typeof 3.14;
+			var d = null; //null is object in JS
+			var e =
+				document.getElementById("demo").innerHTML = b + " " + c + " " + a + " " + typeof d;
+		</script>
+
+		<p id="demo2">Second demo</p>
+		<script>
+			console.log("person2");
+			var person2 = {
+				firstname: "john",
+				lastname: "doe",
+				fullname: function() {
+					//"this" is necessary
+					return this.firstname + " " + this.lastname;
+				}
+			};
+			document.getElementById("demo2").innerHTML = person2.fullname();
+		</script>
+
+		<button onclick="myFunction()">Try it</button>
+
+		<p id="demoSort"></p>
+
+		<script>
+			var points = [40, 100, 1, 5, 25, 10];
+			document.getElementById("demoSort").innerHTML = points;
+
+			function myFunction() {
+				points.sort(function(a, b) {
+					return b - a
+				});
+				document.getElementById("demoSort").innerHTML = points;
+			}
+		</script>
+
+		<script>
+			function startTime() {
+				var today = new Date();
+				var h = today.getHours();
+				var m = today.getMinutes();
+				var s = today.getSeconds();
+				m = checkTime(m);
+				s = checkTime(s);
+				document.getElementById('clock').innerHTML =
+					h + ":" + m + ":" + s;
+				var t = setTimeout(startTime, 500);
+			}
+
+			function checkTime(i) {
+				if(i < 10) {
+					i = "0" + i
+				}; // add zero in front of numbers < 10
+				return i;
+			}
+			
+			//starst with ^, ends with $, most common is i and g, test()
+			var r1=/^[0-9]$/;
+			var i=1;
+			//alert(r1.test(i));
+		</script>
+		
+		<button onclick="startTime()">Click to show time</button>
+		<p id="clock"></p>
+	</body>
+
+</html>

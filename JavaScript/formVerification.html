@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			function checkForm() {
+				var username = document.getElementById("username").value;
+				var password = document.getElementById("password").value;
+				
+				if(username == null || username == "") {
+					alert("username can 't be empty");
+					return false;
+				}
+				if(password == null || password == "") {
+					alert("password can't be empty");
+					return false;
+				}
+				return true;
+			}
+		</script>
+	</head>
+
+	//a single <p> won't trigger onload, you need put onload at body
+	//in the script part, you can write onload = function(){} , then you don't need onload at body here
+	<body onload="typeMachine()">
+		<form method="get" onsubmit="return checkForm()">
+			First Name: <br>
+			<input type="text" name="firstname" id="username"> <br>
+			Last Name: <br>
+			<input type="text" name="lastname" id="password"> <br>
+			Another Name: <br>
+			<input type="text" name="anotherName" id="anotherName" value="tom" onfocus="focusFunc"> <br>
+			<span id="anotherNameSpan"></span>
+			<button type="submit">click me</button>
+	    </form>
+
+		<p id="typeMachine">hi</p>
+		<button type="button" onclick="typeMachine()">Click me to show js</button>
+		<script>
+			var s = "practice makes perfect";
+			var size = s.length;
+			var ss = "";
+			var i = 0;
+			function typeMachine(){
+				var t1 = setInterval(show, 100); //not () here
+			}
+			function show(){
+				ss = ss + s.substring(i, i+1);
+				i++;
+				if(i > size) {
+					i = 0;
+					ss = "";
+				}
+				document.getElementById("typeMachine").innerHTML = ss;				
+			}
+			
+			function blurFunc(){
+			}
+		</script>
+	</body>
+
+</html>
