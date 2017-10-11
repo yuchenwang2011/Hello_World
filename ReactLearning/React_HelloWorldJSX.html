@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="ReactContainer"></div>
+        
+        <!--Remember! React.js must be in front of react-dom.js  -->
+		<script src="Common/react.js"></script>
+		<script src="Common/react-dom.js"></script>
+   		<script src="http://cdn.bootcss.com/babel-core/5.8.38/browser.js"></script>
+   		
+   		<script type="text/babel">
+      		var HelloComponent =React.createClass({
+            	render:function(){
+            	    return <h1>Hello {this.props.name == "yuchen"? this.props.name : "world"}</h1>;
+           		 }
+       		});
+ 
+        	ReactDOM.render(
+           		 <HelloComponent name="yucheng" />,
+            	document.getElementById('ReactContainer')
+        	);
+         </script>
+	</body>
+</html>
