@@ -1,0 +1,6 @@
+//http://blog.csdn.net/qq_30100043/article/details/78204186
+//Then install babel-preset-react
+//http://babeljs.io/docs/plugins/preset-react/#basic-setup-with-the-cli-
+//Then install babel-preset-env
+//Then configure the 
+//http://babeljs.io/docs/usage/babelrc/

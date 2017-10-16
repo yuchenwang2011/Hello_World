@@ -37,3 +37,14 @@ points.sort(function(a, b){return a - b});
 //very useful knowledge about JS types
 //very difficult
 //A closure is a function having access to the parent scope, even after the parent function has closed.
+
+//JS Prototype
+function Person(first, last, age, eyecolor) {
+    this.firstName = first;
+    this.lastName = last;
+    this.age = age;
+    this.eyeColor = eyecolor;
+}
+Person.prototype.nationality = "English";
+//Also setPrototypeOf is also very important, it's actually java's parent class
+//it's simply you need to manually chain them by yourself

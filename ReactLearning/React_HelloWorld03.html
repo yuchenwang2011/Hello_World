@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<div id="ReactContainer"></div>
+        
+        <!--Remember! React.js must be in front of react-dom.js  -->
+		<script src="Common/react.js"></script>
+		<script src="Common/react-dom.js"></script>
+   		<script src="http://cdn.bootcss.com/babel-core/5.8.38/browser.js"></script>
+   		
+   		<script type="text/babel">
+			let names = ["jspang", "React","tutorial"];
+			var helloComponent = React.createClass({
+				render:function(){
+					return 
+					<div>
+						{
+							names.map(function(name)){
+								return <div></div>
+							}
+						}
+					</div>
+				}
+			});
+         </script>
+	</body>
+</html>
