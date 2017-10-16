@@ -34,6 +34,10 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
    f. git remote add origin xxxxxx(the link), then "git remote -v" to validate it. 
    g. Finally, "git push origin master" to commit the repo.
    https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
+   h. Sometimes you already commited, but you forget to add a file and you don't want to unstage, you don't want to commit one more time.
+         git add the_left_out_file
+         git commit --amend --no-edit
+     The --no-edit flag allow to make amendment to commit without changing commit message.
    
 5. How to update your repository in local machine
    git pull
