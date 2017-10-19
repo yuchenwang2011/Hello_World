@@ -11,3 +11,4 @@
 11. Alt + shift + z, to surround with try/catch
 12. Ctrl + 1 ,auto fix the code
 13. Ctrl + o ,to open the outline, so you can navigate to different part of code
+14. Shift + tab, to remove an indent
