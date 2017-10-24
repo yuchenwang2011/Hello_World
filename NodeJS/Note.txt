@@ -7,3 +7,19 @@ d. es7 async + await
 
 To understand the idea of Async
 https://medium.com/@hyWang/%E9%9D%9E%E5%90%8C%E6%AD%A5-asynchronous-%E8%88%87%E5%90%8C%E6%AD%A5-synchronous-%E7%9A%84%E5%B7%AE%E7%95%B0-c7f99b9a298a
+
+2. Understand "require"
+http://blog.csdn.net/kaosini/article/details/8085731
+require(X)
+1. If X is a core module,
+   a. return the core module
+   b. STOP
+2. If X begins with `./` or `/`,
+   a. LOAD_AS_FILE(Y + X)
+   b. LOAD_AS_DIRECTORY(Y + X)
+3. LOAD_NODE_MODULES(X, dirname(Y))
+4. THROW "not found"
+
+3. Understand "route"
+在web开发中，“route”是指根据url分配到对应的处理程序。
+Web里根据网址找到能处理这个URL的程序或模块。
