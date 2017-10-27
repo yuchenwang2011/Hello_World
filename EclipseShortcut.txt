@@ -1,5 +1,7 @@
-1. Ctrl + shift + o , to auto import reference
-2. Ctrl + d , to delete this line 
+1. Auto import reference 
+   Ctrl + shift + o , to auto import reference
+2. Delete this line
+   Ctrl + d , to delete this line 
 3. Click the next empty space after the curly bracket, it will choose and highlight all the code in the curly bracket
 4. Ctrl + m, to maximize the current window
 5. Ctrl + shift + / , to add block comment
@@ -11,4 +13,7 @@
 11. Alt + shift + z, to surround with try/catch
 12. Ctrl + 1 ,auto fix the code
 13. Ctrl + o ,to open the outline, so you can navigate to different part of code
-14. Shift + tab, to remove an indent
+14. Shift + tab, to remove an indent for the whole section of code
+15. sysout, then ctrl + space, to auto complete System.out.println();
+    a.in mac, you might need to turn off spot light and input source, or go to eclipse->preference->general->keys->right side, search "content"->content assist, change ctrl to command
+    b. sysout is defined in eclipse->preference->Java->Editor->Template 
