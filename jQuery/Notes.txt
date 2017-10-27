@@ -1,0 +1,155 @@
+//jQuery repl: https://repl.it/JCsR/24
+
+1. Ready
+   It's better to wait until page loaded fully, then run jQuery code
+    $(document).ready(function(){
+      $("#a1").html("hello");
+    });
+
+   For simplicity, usually people write like this
+    $(function(){
+      $("#a1").html("hello");
+    });
+
+2. Selectors
+   jQuery uses all the CSS selectors
+   $("p").hide();      //hides all <p> elements
+   $(".demo").hide();  //hides all class demo elements
+   $("#demo")..hide(); //hides all elements with id "demo"
+
+3. attr(): 
+   To get the attribute of a tag
+   		$(function(){
+    		let val = $("a").attr("href");
+    		alert(val);
+   		});
+  
+   To set the value of the attribute of a tag:
+   		$(function(){
+    		$("a").attr("href","www.google.com");
+    		let newVal = $("a").attr("href");
+    		console.log(newVal);
+   		});
+
+   To remove attribute:
+   		$("table").removeAttr("class");
+
+4. html() / text():
+   For example
+   		<p>
+  			JQuery is <b>fun</b>
+	 		</p>
+   To get the html content, you can 
+  	 	let content = $("p").html(); //content is "JQuery is <b>fun</b>"
+   To get rid the <b></b>, use text()
+  		let content2 = $("p").text(); //content2 is "JQuery is fun"
+   To set the content of it, just give a value in the parenthesis
+      $("p").text("hello");
+
+5. val():
+   Similar to html() and text(), this val() can be used to get and set for input
+   		<input type ="text" id="name" value="Your Name">
+  		 alert($("#name").val());  //alerts "Your Name"
+
+6. append() / prepend() / after() / before()
+   append() inserts text content at the end of the selected elements.	
+	 prepend() inserts text content at the beginning of the selected elements.
+	 after() inserts tag element after the selected elements.
+	 before() inserts tag element before the selected elements.
+
+7. Create new element:
+   		var txt = $("<p></p>").text("hello"); //created a <p> tag with text "hello"
+  	  $("#demo").after(txt);
+
+8. Add a class attribute to an element
+   		<div>Hello<div>
+  		 $("div").addClass("demo");
+   Remove a class attribute from an element
+      $("div").removeClass("demo");
+
+9. toggleClass():
+   Add a class if there wasn't; remove the class if there was one 
+	   <div>some text</div>
+	   <button>click to change color</button>
+ 		  	$(function(){
+ 			  	$("button").click(function(){
+						$("div").toggleClass("red");
+					});
+     		}
+   		);
+
+10. css(): to get and set css properties
+   CSS:
+			p {
+ 			 background-color:red;
+ 			 color: white;
+			}
+	 JS:
+    	$(function() {
+ 				 alert($("p").css("background-color"));
+  			$("p").css("background-color", "blue");
+			}); 
+
+   To set multiple css properties, use JSON format
+      css({"property":"value","property":"value",...});
+      $("p").css({"color": "red", "font-size": "200%"});
+
+11. width() / height(): 
+    This can also set and get the css property of a html tag element
+    $("div").width(100); //100px without padding, border and margin
+    $("div").height(100);
+
+12. parent() / parents() : 
+    		var e = $("p").parent();
+
+13. eq():
+    if there are multiple div at the same time and we want the 3rd div
+        $("div").eq(2);
+
+14. remove():
+    To remove an element, also it's children elments
+		    $("p").eq(1).remove();
+
+15. Empty():
+    To remove all the sub children elements of this elemment
+        $("div").empty();
+
+16. Handle Event:
+    		var x = document.getElementById("demo");
+        x.onclick= function(){
+					document.body.innerHTML = Date();
+				}
+    Using jQuery, you can simplify it like this
+        $("#demo").click(function(){
+					$("body").html(Date());
+				});
+
+        $(function() {
+ 				   $("#name").keydown(function() {
+       			 $("#msg").html($("#name").val());
+    				});
+				});
+
+17. on(): 
+    Attach an event to an elment
+   		$("p").on("click",function() {
+  			alert("clicked");
+			});
+
+18. off():
+    Remove the event attached to the element
+				$("div").off("click");
+
+19. Event Object:
+    Every time there is an event, an event object is actually created. it has many properties.
+				$("a").click(function(event){
+					alert(event.pageX);
+          event.preventDefault(); //prevent to open the default link
+				});
+
+20. trigger():
+    You can trigger an event without a user actually click it
+		   $("div").click(function() {
+ 				  alert("Clicked!");
+			 });
+		  $("div").trigger("click");
