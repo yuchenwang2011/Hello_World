@@ -16,6 +16,8 @@
    $("p").hide();      //hides all <p> elements
    $(".demo").hide();  //hides all class demo elements
    $("#demo")..hide(); //hides all elements with id "demo"
+   more selectors here: 
+   https://www.w3schools.com/jquery/jquery_selectors.asp
 
 3. attr(): 
    To get the attribute of a tag
@@ -52,10 +54,10 @@
   		 alert($("#name").val());  //alerts "Your Name"
 
 6. append() / prepend() / after() / before()
-   append() inserts text content at the end of the selected elements.	
-	 prepend() inserts text content at the beginning of the selected elements.
-	 after() inserts tag element after the selected elements.
-	 before() inserts tag element before the selected elements.
+   append() inserts text content or tag element at the end of the selected elements. (this is to add child)	
+	 prepend() inserts text content or tag element at the beginning of the selected elements.
+	 after() inserts text content or tag element after the selected elements. (this is to add sibling)
+	 before() inserts text content or tag element before the selected elements.
 
 7. Create new element:
    		var txt = $("<p></p>").text("hello"); //created a <p> tag with text "hello"
@@ -77,6 +79,9 @@
 					});
      		}
    		);
+
+    also, toggle() can be used to hide and show the element
+    toggle(1000) will hide/show the element in 1000ms, a good animation effect
 
 10. css(): to get and set css properties
    CSS:
@@ -107,7 +112,7 @@
         $("div").eq(2);
 
 14. remove():
-    To remove an element, also it's children elments
+    To remove this element, also it's children elments
 		    $("p").eq(1).remove();
 
 15. Empty():
@@ -153,3 +158,38 @@
  				  alert("Clicked!");
 			 });
 		  $("div").trigger("click");
+
+21. animate():
+			$("div").animate({
+  			width: '+=250px',
+ 				 height: '+=250px'
+			}, 1000);
+
+22. slideToggle():
+    Creates a drop-down menu
+    $(function(){
+    	$("#item").click(function(){
+        $("#submenu").slideToggle(500);
+    	});
+		});
+
+23. this:
+    $(this).hide() //hide the current element
+    
+    $("p").click(function(){
+      $(this).hide();
+    });
+
+24. noConclict():
+    You can replace the $ sign by using "jq" in the example below when you use other framework also uses $
+   		 var jq = $.noConflict();
+
+25. Convert JS object to JQ object
+    	 var obj = document.getElementById("username");
+   		 var username = $(obj);
+
+26. each:
+    	$("p").each(function(){
+        //alert(this.value);
+    		alert($(this).val());
+    	});
