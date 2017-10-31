@@ -21,3 +21,20 @@ Best case O(n), worse case and average O(n^2), memory O(1) auxiliary
 		}
 		
 	}
+The best case O(n) is when the array is already sorted, but from above code, it's hard to understand. Actually, we need optimize
+the code.
+//According to this blog, http://www.cnblogs.com/melon-h/archive/2012/09/20/2694941.html
+public void bubbleSort(int arr[]) {
+    boolean didSwap;
+    for(int i = 0, len = arr.length; i < len - 1; i++) {
+        didSwap = false;
+        for(int j = 0; j < len - i - 1; j++) {
+            if(arr[j + 1] < arr[j]) {
+                swap(arr, j, j + 1);
+                didSwap = true;
+            }
+        }
+        if(didSwap == false)
+            return;
+    }    
+}
