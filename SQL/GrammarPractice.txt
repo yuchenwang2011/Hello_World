@@ -392,3 +392,20 @@ Angola	Africa	1246700	20609294	100990000000
     Add a HAVING clause to restrict the output to these two routes.
     Answer: SELECT company, num, COUNT(*) FROM route WHERE stop=149 OR stop=53
             GROUP BY company, num HAVING COUNT(*)=2
+
+81. Limit
+    select city from map limit 5;
+
+82. SELECT City FROM customers; is equal to
+    SELECT customers.City from customers
+
+83. SELECT CONCAT(FirstName, ',' LastName) AS new_column from people;
+
+84. UNION combines multiple tables/dataset into one, and also removes the duplicates
+    UNION ALL combines multiple tables/dataset into one, but keeps duplicates
+    	SELECT name FROM students1
+      UNION
+      SELECT name FROM students2
+
+85. INSERT INTO tableName
+    VALUES('val1','val2');

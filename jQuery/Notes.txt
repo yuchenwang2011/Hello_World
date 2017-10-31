@@ -193,3 +193,11 @@
         //alert(this.value);
     		alert($(this).val());
     	});
+
+27. validate extension
+    first import jQuery.js
+    second import validate.js
+    	$("selector").validate({
+				rules:{},
+        messages: {}
+			});
