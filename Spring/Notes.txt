@@ -1,2 +1,6 @@
 1. Hello World (Eclipse + Maven + Spring Core)
    https://www.youtube.com/watch?v=TtikLlZstkE
+2. IOC, Inversion of Control
+   Don't generate objects in the class methods anymore. Give that to Spring to handle
+3. DI, Dependency Injection
+   

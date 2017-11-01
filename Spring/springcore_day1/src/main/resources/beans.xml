@@ -1,11 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns = "http://www.springframework.org/schema/beans"
    xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:p = "http://www.springframework.org/schema/p"
    xsi:schemaLocation = "http://www.springframework.org/schema/beans
    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
    
-	 <bean id="HelloBean" class="springcore_day1.HelloBean">
+     <!-- You can write whatever in the ID property -->
+	 <bean id="helloBean" class="springcore_day1.HelloBean" scope="singleton">
+	 	<!-- the "name" is the private property in the class HelloBean -->
 	 	<property name="name" value="World" />
 	 </bean>
  
+ 	<bean id = "helloBean2" class = "springcore_day1.HelloBean2" scope="prototype">
+ 		<constructor-arg name="beanName" value="World2"></constructor-arg>
+ 	</bean>
+ 	
+ 	<!-- Dependency Injection -->
+ 	<bean id = "userDaoId" class = "springcore_day1.UserDao"></bean>
+ 	<bean id = "userService" class = "springcore_day1.UserService">
+ 		<property name="userDao" ref="userDaoId"></property>
+ 	</bean>
+ 	
+ 	<!-- User p Name Space, not used often -->
+ 	<!-- You need add this xmlns:p  at beans header-->
+ 	<bean id="person" class="springcore_day1.Person" p:personName="Lucy"></bean>
+ 	
+ 	<!-- For complex injections -->
+ 	<bean id = "person2" class="springcore_day1.Person2">
+ 		<!-- Array -->
+ 		<property name="strings">
+ 			<list>
+ 				<value>Adam</value>
+ 				<value>Adele</value>
+ 				<value>Adrain</value>
+ 			</list>
+ 		</property>
+ 		<!-- List -->
+ 		<property name="list">
+ 			<list>
+ 				<value>Bob</value>
+ 				<value>Betty</value>
+ 				<value>Bill</value>
+ 			</list>
+ 		</property>
+ 		<!-- Map -->
+ 		<property name="map">
+ 			<map>
+ 				<entry key="aa" value="chloe"></entry>
+ 				<entry key="bb" value="Chris"></entry>
+ 				<entry key="cc" value="Claire"></entry>
+ 			</map>
+ 		</property>
+ 		<!-- Properties -->
+ 		<property name="properties">
+ 			<props>
+ 				<prop key="driverclass">com.mysql.jdbc.Driver</prop>
+ 				<prop key="username">root</prop>
+ 				<prop key="password">password</prop>
+ 			</props>
+ 		</property>
+ 	</bean>
  </beans>
