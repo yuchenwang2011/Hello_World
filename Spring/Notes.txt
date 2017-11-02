@@ -1,6 +1,13 @@
+Two website: 
+Watch this first
+http://yun.itheima.com/course/215.html
+Review this second, (if you first read this you won't understand)
+https://www.tutorialspoint.com/spring/index.htm
+
 1. Hello World (Eclipse + Maven + Spring Core)
    https://www.youtube.com/watch?v=TtikLlZstkE
 2. IOC, Inversion of Control
    Don't generate objects in the class methods anymore. Give that to Spring to handle
 3. DI, Dependency Injection
-   
+4. AOP jar files and XML Schema needed
+   https://www.tutorialspoint.com/spring/schema_based_aop_appoach.htm

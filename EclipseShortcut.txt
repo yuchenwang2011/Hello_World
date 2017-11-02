@@ -6,7 +6,10 @@
 4. Ctrl + m, to maximize the current window
 5. Ctrl + shift + / , to add block comment
 6. Ctrl + space , content assist, but doesn't work some time, you can go to Window->Preference->General->Keys->Content Assist to edit
-7. Ctrl + / , to comment current line
+7. Comment current line (also works for xml file)
+   Ctrl + /
+   Remove current comment
+   Ctrl + \
 8. Ctrl + shift + f , to format your code to make it clean, but it's ugly for your block comment
 9. Alt + up / down , to move current line one line up or one line down
 10. Use Alt + up, then Alt + down, it's a trick to select current line
@@ -14,6 +17,6 @@
 12. Ctrl + 1 ,auto fix the code
 13. Ctrl + o ,to open the outline, so you can navigate to different part of code
 14. Shift + tab, to remove an indent for the whole section of code
-15. sysout, then ctrl + space, to auto complete System.out.println();
+15. sysout / syso, then ctrl + space, to auto complete System.out.println();
     a.in mac, you might need to turn off spot light and input source, or go to eclipse->preference->general->keys->right side, search "content"->content assist, change ctrl to command
     b. sysout is defined in eclipse->preference->Java->Editor->Template 

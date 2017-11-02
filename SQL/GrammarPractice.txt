@@ -409,3 +409,28 @@ Angola	Africa	1246700	20609294	100990000000
 
 85. INSERT INTO tableName
     VALUES('val1','val2');
+
+86. UPDATE table_name 
+    SET column1 = value1, column2 = value2...
+    WHERE condition
+ 
+    UPDATE Employees 
+    SET Salary=5000
+    WHERE ID=1;
+
+87. DELETE FROM table_name
+    WHERE condition
+   
+    DELETE FROM Employees
+    WHERE ID=1;
+
+88. CREATE TABLE table_name
+    (
+    column_name1 data_type(size),
+    column_name2 data_type(size),
+    ....
+    columnN data_type(size)
+    );
+    - data_type parameter specifies what type of data the column can hold. 
+      For example, use int for whole numbers, varchar for text
+    - size parameter specifies the maximum length of the table's column.

@@ -5,7 +5,7 @@
    command + up
    command + down (it can also open a file)
 3. Get a Folder Path
-   right click + option, then you can see an option "Copy something as FilePath"
+   right click the file/folder->get Info -> Where, command + c -> paste. 
 4. Delete a file
    command + delete
 5. Go to desktop
