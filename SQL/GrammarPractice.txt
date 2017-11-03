@@ -434,3 +434,23 @@ Angola	Africa	1246700	20609294	100990000000
     - data_type parameter specifies what type of data the column can hold. 
       For example, use int for whole numbers, varchar for text
     - size parameter specifies the maximum length of the table's column.
+
+89. user_id int NOT NULL AUTO_INCREMENT
+    PRIMARY ID(user_id)
+    
+90. Add a new column to the table
+    ALTER TABLE People ADD DateOfBirth date;
+    
+91. Delete the column
+    ALTER TABLE People 
+    DROP COLUMN DateOfBirth
+    
+92. Delete a table
+    DROP TABLE People;
+    
+93. ALTER TABLE People
+    CHANGE FirstName name varchar(100);
+    changes column Firstname to name
+
+94. RENAME TABLE People TO Users;
+    changes the name of table from People to Users
