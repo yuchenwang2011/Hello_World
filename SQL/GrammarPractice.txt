@@ -1,3 +1,4 @@
+SELECT ... from table_name where group by...having... orderby ... ase|desc
 Database table world:
 
 name	continent	 area	  population	gdp
@@ -454,3 +455,41 @@ Angola	Africa	1246700	20609294	100990000000
 
 94. RENAME TABLE People TO Users;
     changes the name of table from People to Users
+
+95. View
+    CREATE VIEW view_name AS
+    SELECT column_name(s)
+    FROM table_name
+    WHERE condition;
+
+    Views allow us to:
+    - Structure data in a way that users or classes of users find natural or intuitive.
+    - Restrict access to the data in such a way that a user can see and (sometimes) modify exactly what they need and no more.
+    - Summarize data from various tables and use it to generate reports.
+
+96. Update a view
+    CREATE OR REPLACE VIEW view_name AS
+    SELECT column_name(s)
+    FROM table_name
+     
+    Drop a view
+    DROP VIEW name;
+    WHERE condition;
+
+97. Comment
+    # then your comment or
+    "-- " -- and a space then comes your words
+
+98. Multiple primary keys
+    You can have multiple primary keys in a table, only when two rows have exact same primary keys, can they be considered as 
+    same
+    For example, "id" and "name" are both primary keys, you can 
+    insert into user values(1,"tom");
+    insert into user values(1,"tomcat"); -- this will success
+    insert into user values(1,"tom"); -- this will fail
+
+99. Foreign key references
+    alter table orders add foreign key(user_id) references user(id);
+
+100. sql Cartesian JOIN (Cross Join)
+     select a.*, b.* from a, b;

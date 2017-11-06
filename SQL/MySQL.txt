@@ -2,7 +2,9 @@ This is the note during I use MySQL.
 
 1. To install mysql, go to the official website and download the dmg archive for mac, install.
    Then download mysql workbench and install.
-2. In kernal, type in: mysql -u root -p -h 127.0.0.1  to connect to mysql server. 
+2. In kernal, 
+   go to /user/local/mysql
+   type in: ./mysql -u root -p -h 127.0.0.1  to connect to mysql server. 
 3. To create a new database
    show databases;
    create database userlogin;
@@ -11,3 +13,12 @@ This is the note during I use MySQL.
    create table user(id int(11) unsigned auto_increment primary key not null,username varchar(25) not null);
    show tables;
    describe user;
+4. Change password
+   SET PASSWORD = PASSWORD('root');
+5. See the structure of a table
+   describe tablename
+   or desc tablename
+6. See the command used to create the table
+   show create table table_name;
+7. Change the type of a column
+   alter table table_name MODIFY column_name int;
