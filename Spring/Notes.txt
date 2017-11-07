@@ -11,3 +11,5 @@ https://www.tutorialspoint.com/spring/index.htm
 3. DI, Dependency Injection
 4. AOP jar files and XML Schema needed
    https://www.tutorialspoint.com/spring/schema_based_aop_appoach.htm
+5. PO BO VO DTO POJO DAO understanding
+   http://www.blogjava.net/vip01/archive/2013/05/25/92430.html

@@ -1,0 +1,8 @@
+1. You need install java, ide
+2. Download and install mysql, create a db and insert data
+3. Download mysql-connector-java package
+4. Build path, you can either
+   a. right click project, build path, add external archives, select the mysql-connector-java jar file
+   b. create a lib folder, copy the jar file to lib, then right click the jar, build path, add to build path
+5. Interview Questions:
+   https://www.tutorialspoint.com/jdbc/jdbc_interview_questions.htm
