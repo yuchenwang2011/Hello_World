@@ -1,0 +1,8 @@
+1. Naming Convention:
+   http://maven.apache.org/guides/mini/guide-naming-conventions.html
+2. Configure Spring Core on Eclipse Maven
+   https://www.youtube.com/watch?v=TtikLlZstkE
+3. After configure Maven dependencies, you can right click the Maven project -> maven -> update project, 
+   then you will the see the jar files downloaded in the "Maven Dependencies" folder
+4. To create the hello world example project in this folder, follow this link
+   https://spring.io/guides/gs/maven/

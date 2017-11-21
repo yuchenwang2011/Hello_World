@@ -20,3 +20,8 @@
 15. sysout / syso, then ctrl + space, to auto complete System.out.println();
     a.in mac, you might need to turn off spot light and input source, or go to eclipse->preference->general->keys->right side, search "content"->content assist, change ctrl to command
     b. sysout is defined in eclipse->preference->Java->Editor->Template 
+16. Auto finish creating instance:
+    Ctrl + 2, release, l
+    For example you write ResourceBundle.getBundle("filenameNoExtension");
+    Then type ctrl + 2, then l. It will auto finish becomes:
+    ResourceBundle bundle = ResourceBunlde.getBundle("filenameNoExtension");
