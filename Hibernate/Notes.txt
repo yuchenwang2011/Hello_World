@@ -1,0 +1,4 @@
+1. JavaEE 3 layers:
+   a. web or presentation, framework: struct2
+   b. service or business, framework: spring
+   c. dao,                 framework: hibernate

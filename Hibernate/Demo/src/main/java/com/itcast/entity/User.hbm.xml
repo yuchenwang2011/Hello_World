@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="com.itcast.entity.User" table="user">
+		<id name="uid" column="uid">
+		    <!-- native means the sql column will be primary key and auto_increment -->
+			<generator class="native"></generator>
+		</id>
+		<!-- name is the entity attribute, column mapping the sql column -->
+		<property name="username" column="username"></property>
+		<property name="password" column="password"></property>
+		<property name="address" column="address"></property>
+	</class>
+</hibernate-mapping>
