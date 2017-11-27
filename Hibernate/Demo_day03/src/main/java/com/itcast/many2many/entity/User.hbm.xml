@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.itcast.many2many.entity.User" table="user">
+		<id name="user_id" column="user_id">
+			<generator class="native"></generator>
+		</id>
+		<property name="user_name" column="user_name"></property>
+		<property name="user_password" column="user_password"></property>
+		<!-- name is the attribute name -->
+		<!-- table is the name of the third table -->
+		<set name="roleSet" table="user_role" cascade="save-update,delete">
+			<!-- key is the corresponding foreign key name -->
+			<key column="userid"></key>
+			<!-- class is the path of role -->
+			<!-- column is the foreign key name for role in the third table -->
+			<many-to-many class="com.itcast.many2many.entity.Role" column="roleid"></many-to-many>
+		</set>
+	</class>
+</hibernate-mapping>

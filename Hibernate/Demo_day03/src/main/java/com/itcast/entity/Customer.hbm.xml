@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.itcast.entity.Customer" table="customer">
+		<id name="cid" column="cid">
+			<generator class="native"></generator>
+		</id>
+		
+		<property name="custName" column="custName"></property>
+		<property name="custLevel" column="custLevel"></property>
+		<property name="custSource" column="custSource"></property>
+		<property name="custPhone" column="custPhone"></property>
+		<property name="custMobile" column="custMobile"></property>
+		<!-- One-to-Many mapping, need maintain by both side xml files -->
+		<!-- Inverse default to false, means the relationship needs to be maintained by both side -->
+		<!-- Otherwise hibernate will update both table, worse performance -->
+		<set name="contactPersonSet" cascade="save-update,delete" inverse="true">
+			<!-- foreign key name, in the sql table, you can name the key as you want -->
+			<key column="ccpid"></key> 
+			<one-to-many class="com.itcast.entity.ContactPerson"/>
+		</set>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="com.itcast.entity.ContactPerson" table="ContactPerson">
+		<id name="pid" column="pid">
+			<generator class="native"></generator>
+		</id>
+		<property name="p_name" column="p_name"></property>
+		<property name="p_gender" column="p_gender"></property>
+		<property name="p_phone" column="p_phone"></property>
+		
+		<many-to-one name="customer" class="com.itcast.entity.Customer" column="ccpid"></many-to-one>
+	</class>
+</hibernate-mapping>
