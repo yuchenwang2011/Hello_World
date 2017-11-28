@@ -16,7 +16,7 @@
 		<!-- One-to-Many mapping, need maintain by both side xml files -->
 		<!-- Inverse default to false, means the relationship needs to be maintained by both side -->
 		<!-- Otherwise hibernate will update both table, worse performance -->
-		<set name="contactPersonSet" cascade="save-update,delete" inverse="true">
+		<set name="contactPersonSet" cascade="save-update,delete" inverse="true" fetch="select" lazy="true" batch-size="5">
 			<!-- foreign key name, in the sql table, you can name the key as you want -->
 			<key column="ccpid"></key> 
 			<one-to-many class="com.itcast.entity.ContactPerson"/>
