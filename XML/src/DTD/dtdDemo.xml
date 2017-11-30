@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app SYSTEM "web-app_2_3.dtd">
+<web-app>
+	<servlet>
+		<servlet-name></servlet-name>
+		<description/>
+		<servlet-class></servlet-class>		
+	</servlet>
+	<welcome-file-list>
+		<welcome-file></welcome-file>
+	</welcome-file-list>
+</web-app>
