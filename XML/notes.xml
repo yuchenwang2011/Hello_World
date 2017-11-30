@@ -25,4 +25,8 @@ xmlns:f="">
     <homepage xlink:type="simple" xlink:href="https://www.w3schools.com">Visit W3Schools</homepage>
     <homepage xlink:type="simple" xlink:href="http://www.w3.org">Visit W3C</homepage>
   </homepages>
+  <!--CDATA, you can write special characters inside -->
+  <![CDATA[
+		<img><c><a>blablabla
+  ]]>
 </root>

@@ -15,3 +15,15 @@ https://www.tutorialspoint.com/spring/index.htm
    http://blog.csdn.net/qukaiwei/article/details/50367761
 6. MapStruct Introduction
    http://blog.csdn.net/lx_yoyo/article/details/75061614
+
+
+
+
+
+===============================
+Need to learn these
+https://spring.io/guides/gs/spring-boot/
+https://www.javatpoint.com/spring-boot-jpa
+http://www.cnblogs.com/chenpi/p/6357527.html
+https://spring.io/guides/gs/rest-service/
+http://stamen.iteye.com/blog/1497981

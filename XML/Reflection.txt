@@ -1,0 +1,63 @@
+反射可以实现在运行时可以知道任意一个类的属性和方法。
+http://www.cnblogs.com/chenliang901114/archive/2013/04/23/javalearner.html
+http://www.jianshu.com/p/5b3acad0f025
+Java反射的作用？
+假如有两个程序员，一个程序员在写程序的时需要使用第二个程序员所写的类，但第二个程序员并没完成他所写的类。那么第一个程序员的代码是不能通过编译的。
+此时，利用Java反射的机制，就可以让第一个程序员在没有得到第二个程序员所写的类的时候，来完成自身代码的编译。
+package com.reflection.classForName;
+
+ 
+
+import java.lang.reflect.Field;
+
+import java.lang.reflect.Method;
+
+import javax.swing.JOptionPane;
+
+/**
+  *本类用于测试反射API，利用用户输入类的全路径，such as java.lang.String
+  *找到该类所有的成员方法和成员属性
+  */
+
+public class ClassForName {
+   /**
+    *构造方法
+    */
+   public ClassForName(){
+      String classInfo=JOptionPane.showInputDialog(null,"输入类全路径");//要求用户输入类的全路径
+      try {
+         Class<?> cla=Class.forName(classInfo);//根据类的全路径进行类加载，返回该类的Class对象
+         Method[] method=cla.getDeclaredMethods();//利用得到的Class对象的自审，返回方法对象集合
+         System.out.println("forName:"+cla);
+         for(Method me:method){//遍历该类方法的集合
+            System.out.println("方法有:"+me.toString());//打印方法信息
+         }
+         System.out.println("*****************************************************");
+
+         Field[] field=cla.getDeclaredFields();//利用得到的Class对象的自审，返回属性对象集合
+         for(Field me:field){ //遍历该类属性的集合
+            System.out.println("属性有:"+me.toString());//打印属性信息
+         }
+      } catch (ClassNotFoundException e) {
+         e.printStackTrace();
+      }
+   }
+
+   public static void main(String[] args) {
+      new ClassForName();
+   }
+}
+
+3 Ways to get the class
+  a.if you already have an objcet 
+    Class c = obj.getClass();
+    For example: TextField t = new TextField();
+                 Class c = t.getClass();
+                 Class s = c.getSuperclass();
+  b. if you know the class name
+     Class c = Integer.TYPE;
+     Class c = int.class;
+     Class c = ClassName.class;
+  c. if you don't know the class name
+     Class c = Class.forName(str);
+     where str is the qualified name of the class
