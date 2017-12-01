@@ -1,0 +1,13 @@
+1. How to install Apache Tomcat on Mac
+   https://www.youtube.com/watch?v=bUkhS3GdVC4
+2. How to add Tomcat to Eclipse
+     Eclipse->preference->Server->Runtime Environment->Add->Apache Tomcat 9.0->Next
+     ->Browse->Choose the tomcat folder->JRE select our own->Finish->Apply
+   To see Tomcat in Eclipse, 
+     Eclipse->Window->Show View->Other->Search "Server/Servers"->OK
+     Click "No Servers available"->Apache Tomcat 9.0->Finish
+   To configure the new created Tomcat server in Eclipse
+     Double click the new added server->Server Locations->Use Tomcat Installations
+     ->Deploy path change to "webapps"->ctrl+s to save
+   To publish a project,
+   Right click on the Tomcat Server->Add and Remove->Add the project->Choose Tomcat Server->Run
