@@ -6,3 +6,6 @@
 *.prefs
 target/
 *.jar
+*.jsdtscope
+.settings/
+*.class

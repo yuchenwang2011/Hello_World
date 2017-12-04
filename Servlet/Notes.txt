@@ -1,0 +1,3 @@
+https://www.javatpoint.com/servlet-tutorial
+1. After configure tomcat, in Eclipse
+   Right click the dynamic web project->right click->configure build path->library, add library->server runtime->add tomcat

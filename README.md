@@ -7,13 +7,15 @@ Study Notes for:
 6. SQL
 7. JDBC
 8. XML
-9. Maven
-8. Spring
+9. Servlet
+10. Spring
    a. Spring Core
    b. Spring MVC
    c. Spring Boot
    d. Spring Data
-9. Hibernate
+11. Hibernate
+12. Tomcat
+13. Maven
+14. Git
+15. DataStructure
 
-DataStructure
-Git
