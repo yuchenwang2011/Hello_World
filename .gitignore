@@ -9,3 +9,4 @@ target/
 *.jsdtscope
 .settings/
 *.class
+*\ \(1\)*

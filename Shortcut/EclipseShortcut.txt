@@ -25,3 +25,5 @@
     For example you write ResourceBundle.getBundle("filenameNoExtension");
     Then type ctrl + 2, then l. It will auto finish becomes:
     ResourceBundle bundle = ResourceBunlde.getBundle("filenameNoExtension");
+17. For Mac, ctrl+option+s, open source
+18. Ctrl + o, to see all the methods of a class
