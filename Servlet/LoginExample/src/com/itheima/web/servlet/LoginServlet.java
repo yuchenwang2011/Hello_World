@@ -32,8 +32,9 @@ public class LoginServlet extends HttpServlet {
 		
 		//3.判断user是否为空
 		if(user==null){
-			//3.1若为空 写"用户名和密码不匹配"
+			//若为空 写"用户名和密码不匹配"
 			response.getWriter().print("用户名和密码不匹配,3秒之后跳转");
+			response.addHeader("refresh", "3;url=/LoginExample/login.htm");
 		}else{
 			response.getWriter().print(user.getUsername()+":欢迎回来");
 		}
