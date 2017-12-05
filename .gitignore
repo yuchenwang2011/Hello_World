@@ -10,3 +10,4 @@ target/
 .settings/
 *.class
 *\ \(1\)*
+/build/

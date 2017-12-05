@@ -1,3 +1,10 @@
 https://www.javatpoint.com/servlet-tutorial
 1. After configure tomcat, in Eclipse
    Right click the dynamic web project->right click->configure build path->library, add library->server runtime->add tomcat
+2. Servlet is single instance, multi-threaded
+3. Life Cycle:
+   a. When first time visit the servlet, the server will create the servlet, call once the init() method
+      and once the service() method 
+   b. Every time there is a request, the server creates a thread, the thread calls the service() method once
+   c. When servlet is removed, or the server is normally shutdown, server calls the destroy() method of servlet
+   d. if load-on-start is set in the web.xml file, the servlet will be created and init() is called without visiting after the server is loaded.
