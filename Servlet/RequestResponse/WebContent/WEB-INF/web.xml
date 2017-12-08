@@ -29,4 +29,34 @@
     <servlet-name>Location2Servlet</servlet-name>
     <url-pattern>/location2</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ResponseBody</display-name>
+    <servlet-name>ResponseBody</servlet-name>
+    <servlet-class>com.itheima.a_response.body.ResponseBody</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ResponseBody</servlet-name>
+    <url-pattern>/body</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DownloadServlet</display-name>
+    <servlet-name>DownloadServlet</servlet-name>
+    <servlet-class>com.itheima.a_response.download.DownloadServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DownloadServlet</servlet-name>
+    <url-pattern>/download</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CapchaServlet</display-name>
+    <servlet-name>CapchaServlet</servlet-name>
+    <servlet-class>com.itheima.a_response.capcha.CapchaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CapchaServlet</servlet-name>
+    <url-pattern>/capcha</url-pattern>
+  </servlet-mapping>
 </web-app>

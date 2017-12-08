@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!-- 
+	http-equiv: to insert a http header key
+	content: the value of key, header's content
+ -->
+ <meta http-equiv="refresh" content="3;url=/RequestResponse/refresh2.html">
+<title>Insert title here</title>
+</head>
+<body>
+	This is refresh1.html, <span id="count">3</span> seconds later, will redirect to refresh2.html
+</body>
+
+<script type="text/javascript">
+	var i = 3;
+	onload = function(){
+		setInterval(() => {
+			document.getElementById("count").innerHTML = --i;
+		}, 1000);
+	}
+</script>
+
+</html>

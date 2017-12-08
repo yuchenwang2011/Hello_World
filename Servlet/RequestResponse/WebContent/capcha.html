@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<img alt="CHAPCHA" src="/RequestResponse/capcha" title="try another one" onclick="changeImage(this)">
+</body>
+
+<script type="text/javascript">
+	function changeImage(obj){
+		obj.src="/RequestResponse/capcha?i="+Math.random();
+	}
+</script>
+</html>
