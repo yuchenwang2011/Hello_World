@@ -2,6 +2,7 @@ package com.itheima.a_response.download;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.net.URLEncoder;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
@@ -11,6 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.io.IOUtils;
+
+import com.itheima.utf.util.DownLoadUtils;
 
 /**
  * Servlet implementation class DownloadServlet
@@ -26,7 +29,12 @@ public class DownloadServlet extends HttpServlet {
 		
 		//2. config response
 		response.setContentType(mimeType);
-		response.setHeader("content-disposition", "attachment;filename="+fileName);
+		//a. regular english file name download
+		//response.setHeader("content-disposition", "attachment;filename="+fileName);
+		//b. for filename contains chinese, but not work for firefox
+		//response.setHeader("content-disposition", "attachment;filename=" + URLEncoder.encode(fileName, "utf-8"));
+		//works for all browsers
+		response.setHeader("content-disposition", "attachment;filename=" + DownLoadUtils.getName(request.getHeader("user-agent"), fileName));
 		
 		//3. get input and output streams
 		InputStream input = context.getResourceAsStream("/Download/"+fileName);

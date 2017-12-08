@@ -59,4 +59,54 @@
     <servlet-name>CapchaServlet</servlet-name>
     <url-pattern>/capcha</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RequestHeaderServlet</display-name>
+    <servlet-name>RequestHeaderServlet</servlet-name>
+    <servlet-class>com.itheima.b_request.header.RequestHeaderServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RequestHeaderServlet</servlet-name>
+    <url-pattern>/header</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ParamServlet</display-name>
+    <servlet-name>ParamServlet</servlet-name>
+    <servlet-class>com.itheima.b_request.param.ParamServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ParamServlet</servlet-name>
+    <url-pattern>/param</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Param2Servlet</display-name>
+    <servlet-name>Param2Servlet</servlet-name>
+    <servlet-class>com.itheima.b_request.param.Param2Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Param2Servlet</servlet-name>
+    <url-pattern>/param2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DispatcherServlet</display-name>
+    <servlet-name>DispatcherServlet</servlet-name>
+    <servlet-class>com.itheima.b_request.dispatcher.DispatcherServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DispatcherServlet</servlet-name>
+    <url-pattern>/dispatcher</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Dispatcher2Servlet</display-name>
+    <servlet-name>Dispatcher2Servlet</servlet-name>
+    <servlet-class>com.itheima.b_request.dispatcher.Dispatcher2Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Dispatcher2Servlet</servlet-name>
+    <url-pattern>/dispatcher2</url-pattern>
+  </servlet-mapping>
 </web-app>
