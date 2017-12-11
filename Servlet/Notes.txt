@@ -16,3 +16,10 @@ https://www.javatpoint.com/servlet-tutorial
 	 get会把参数放在url的后面 post不会
 	 get参数大小有限制,post请求却没有限制
 	 get请求没有请求体;post请求有请求体 请求参数放在请求体中
+6. 重定向(redirect)和请求转发(dispatcher)区别:
+  	重定向发送两次请求,请求转发一次请求
+  	重定向地址栏发生该表,请求转发不变
+  	重定向是从浏览器发送,请求转发是服务器内部
+  	重定向不存在request域对象,请求转发可以使用request域对象
+  	重定向是response的方法,请求转发是request的方法
+  	重定向可以请求站外资源,请求转发不可以	

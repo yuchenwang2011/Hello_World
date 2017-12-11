@@ -8,14 +8,15 @@ Study Notes for:
 7. [JDBC](https://github.com/yuchenwang2011/Hello_World/tree/master/JDBC)
 8. [XML](https://github.com/yuchenwang2011/Hello_World/tree/master/XML)
 9. [Servlet](https://github.com/yuchenwang2011/Hello_World/tree/master/Servlet)
-10. [Spring](https://github.com/yuchenwang2011/Hello_World/tree/master/Spring)
+10. [JSP](https://github.com/yuchenwang2011/Hello_World/tree/master/JSP)
+11. [Spring](https://github.com/yuchenwang2011/Hello_World/tree/master/Spring)
    a. Spring Core
    b. Spring MVC
    c. Spring Boot
    d. Spring Data
-11. [Hibernate](https://github.com/yuchenwang2011/Hello_World/tree/master/Hibernate)
-12. [Tomcat](https://github.com/yuchenwang2011/Hello_World/tree/master/Tomcat)
-13. [Maven](https://github.com/yuchenwang2011/Hello_World/tree/master/Maven)
-14. [Git](https://github.com/yuchenwang2011/Hello_World/tree/master/Git)
-15. [DataStructure](https://github.com/yuchenwang2011/Hello_World/tree/master/DataStructure)
-16. [DesignPattern](https://github.com/yuchenwang2011/Hello_World/tree/master/DesignPatterns)
+12. [Hibernate](https://github.com/yuchenwang2011/Hello_World/tree/master/Hibernate)
+13. [Tomcat](https://github.com/yuchenwang2011/Hello_World/tree/master/Tomcat)
+14. [Maven](https://github.com/yuchenwang2011/Hello_World/tree/master/Maven)
+15. [Git](https://github.com/yuchenwang2011/Hello_World/tree/master/Git)
+16. [DataStructure](https://github.com/yuchenwang2011/Hello_World/tree/master/DataStructure)
+17. [DesignPattern](https://github.com/yuchenwang2011/Hello_World/tree/master/DesignPatterns)

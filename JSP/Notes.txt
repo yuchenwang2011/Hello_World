@@ -1,0 +1,11 @@
+1. To configure the automatic encoding of JSP file in Eclipse:
+   Preference->Web->JSP files->ISO 10646/Unicode(UTF-8)
+2.  JSP cycle
+    1.浏览器发送请求,访问jsp页面
+		2.服务器接受请求,jspSerlvet会帮我们查找对应的jsp文件
+		3.服务器将jsp页面翻译成java文件.
+		4.jvm会将java编译成.class文件
+		5.服务器运行class文件,生成动态的内容.
+		6.将内容发送给服务器,
+		7.服务器组成响应信息,发送给浏览器
+		8.浏览器接受数据,解析展示
