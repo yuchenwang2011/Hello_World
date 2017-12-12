@@ -63,6 +63,9 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
    git checkout --filename
    git checkout --filename is actually replace whatever in workspace with what in the staging area. So if you make a mistake and delete a file
    but you want to recover it, you can use this command to use the one in the "staging" area to replace the one you have "empty removed one"
+   if you want to clone a sub folder
+   git checkout HEAD foldername for example:
+   git checkout HEAD Servlet/
 
 9. To clone the project, go to a folder to use command
     git clone xxxlink
