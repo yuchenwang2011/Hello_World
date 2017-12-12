@@ -9,4 +9,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>HelloServlet</display-name>
+    <servlet-name>HelloServlet</servlet-name>
+    <servlet-class>com.itheima.a_cookie.a_hello.HelloServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HelloServlet</servlet-name>
+    <url-pattern>/hello</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>LastVisitServlet</display-name>
+    <servlet-name>LastVisitServlet</servlet-name>
+    <servlet-class>com.itheima.a_cookie.b_last_visit.LastVisitServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LastVisitServlet</servlet-name>
+    <url-pattern>/last</url-pattern>
+  </servlet-mapping>
 </web-app>

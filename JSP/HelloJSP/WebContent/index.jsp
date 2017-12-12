@@ -6,6 +6,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<a href="/HelloJSP/hello">Cookie Hello Wolrd Example</a><br>
 </body>
 </html>
