@@ -29,4 +29,14 @@
     <servlet-name>ClearCookieServlet</servlet-name>
     <url-pattern>/clear</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Add2CartServlet</display-name>
+    <servlet-name>Add2CartServlet</servlet-name>
+    <servlet-class>com.itheima.web.servlet.Add2CartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Add2CartServlet</servlet-name>
+    <url-pattern>/add2Cart</url-pattern>
+  </servlet-mapping>
 </web-app>

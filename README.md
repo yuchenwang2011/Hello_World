@@ -8,7 +8,7 @@ Study Notes for:
 7. [JDBC](https://github.com/yuchenwang2011/Hello_World/tree/master/JDBC)
 8. [XML](https://github.com/yuchenwang2011/Hello_World/tree/master/XML)
 9. [Servlet](https://github.com/yuchenwang2011/Hello_World/tree/master/Servlet)
-10.[CookieSession](https://github.com/yuchenwang2011/Hello_World/tree/master/CookieSession)
+10. [CookieSession](https://github.com/yuchenwang2011/Hello_World/tree/master/CookieSession)
 11. [JSP](https://github.com/yuchenwang2011/Hello_World/tree/master/JSP)
 12. [Spring](https://github.com/yuchenwang2011/Hello_World/tree/master/Spring) <br />
    a. Spring Core <br />
