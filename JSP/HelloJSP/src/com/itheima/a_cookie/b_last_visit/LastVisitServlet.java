@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class LastVisitServlet
+ * Visit http://localhost:8080/HelloJSP/last
  */
 public class LastVisitServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
