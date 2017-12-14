@@ -39,4 +39,14 @@
     <servlet-name>Add2CartServlet</servlet-name>
     <url-pattern>/add2Cart</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ClearCartServlet</display-name>
+    <servlet-name>ClearCartServlet</servlet-name>
+    <servlet-class>com.itheima.web.servlet.ClearCartServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ClearCartServlet</servlet-name>
+    <url-pattern>/clearCart</url-pattern>
+  </servlet-mapping>
 </web-app>

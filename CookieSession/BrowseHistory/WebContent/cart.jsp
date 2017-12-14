@@ -36,6 +36,10 @@
 		%>
 	</table>
 	<hr>
-	<center><a href="/BrowseHistory/product_list.jsp">Continue Shopping</a>&nbsp;&nbsp;&nbsp; </center>
+	<center>
+		<a href="/BrowseHistory/product_list.jsp">Continue Shopping</a>&nbsp;&nbsp;&nbsp; 
+		<a href="/BrowseHistory/clearCart">Clear Cart</a>
+	</center>
+	
 </body>
 </html>
