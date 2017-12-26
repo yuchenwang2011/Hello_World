@@ -6,15 +6,15 @@ Study Notes for:
 5. Bootstrap
 6. [SQL](https://github.com/yuchenwang2011/Hello_World/tree/master/SQL)
 7. [JDBC](https://github.com/yuchenwang2011/Hello_World/tree/master/JDBC)
-8. [XML](https://github.com/yuchenwang2011/Hello_World/tree/master/XML)
+8. [XML](https://github.com/yuchenwang2011/Hello_World/tree/master/XML) (Reflection)
 9. [Servlet](https://github.com/yuchenwang2011/Hello_World/tree/master/Servlet)
 10. [CookieSession](https://github.com/yuchenwang2011/Hello_World/tree/master/CookieSession)
 11. [JSP](https://github.com/yuchenwang2011/Hello_World/tree/master/JSP)
 12. [Spring](https://github.com/yuchenwang2011/Hello_World/tree/master/Spring) <br />
-   a. Spring Core <br />
-   b. Spring MVC  <br />
-   c. Spring Boot <br />
-   d. Spring Data <br />
+   a. [Spring Core](https://github.com/yuchenwang2011/Hello_World/tree/master/Spring/SpringCore) <br />
+   b. [Spring MVC](https://github.com/yuchenwang2011/Hello_World/tree/master/Spring/SpringMVC)  <br />
+   c. [Spring Boot](https://github.com/yuchenwang2011/Hello_World/tree/master/Spring/SpringBoot) <br />
+   d. [Spring Data](https://github.com/yuchenwang2011/Hello_World/tree/master/Spring/SpringData) <br />
 13. [Hibernate](https://github.com/yuchenwang2011/Hello_World/tree/master/Hibernate)
 14. [Tomcat](https://github.com/yuchenwang2011/Hello_World/tree/master/Tomcat)
 15. [Maven](https://github.com/yuchenwang2011/Hello_World/tree/master/Maven)
