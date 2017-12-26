@@ -26,5 +26,13 @@
        	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"></bean>
        	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"></bean> -->
        	
+       	<!-- This will configure the handler and adapter for us automatically -->
         <mvc:annotation-driven></mvc:annotation-driven>
+        
+        <!-- Under spring mvc jar,  DispatcherServlet.properties -->
+        <!-- Define your own prefix and suffix for convenience -->
+        <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        		<property name="prefix" value="/WEB-INF/jsp/"></property>
+        		<property name="suffix" value=".jsp"></property>
+        </bean>
 </beans>

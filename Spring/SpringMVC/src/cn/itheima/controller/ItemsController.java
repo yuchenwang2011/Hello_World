@@ -33,7 +33,7 @@ public class ItemsController {
 
 		ModelAndView mv = new ModelAndView();
 		mv.addObject("itemList", itemList);
-		mv.setViewName("/WEB-INF/jsp/itemList.jsp");
+		mv.setViewName("itemList");
 		return mv;
 	}
 }
