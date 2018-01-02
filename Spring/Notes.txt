@@ -15,6 +15,8 @@ https://www.tutorialspoint.com/spring/index.htm
    http://blog.csdn.net/qukaiwei/article/details/50367761
 6. MapStruct Introduction
    http://blog.csdn.net/lx_yoyo/article/details/75061614
+7. Spring core tutorial
+   http://blog.csdn.net/napoay/article/details/72237031
 
 
 

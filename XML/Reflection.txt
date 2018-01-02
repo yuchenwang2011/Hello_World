@@ -61,3 +61,9 @@ public class ClassForName {
   c. if you don't know the class name
      Class c = Class.forName(str);
      where str is the qualified name of the class
+
+if the method got from declaredMethod, is private, you can
+   Class class = Class.forName("xxxxxx");
+   Method m = clazz.getDeclaredMethods();
+   m.setAccessible(true);
+   m.invoke(clazz.newInstance());
