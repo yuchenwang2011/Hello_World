@@ -18,6 +18,7 @@ Study Notes for:
 13. [Hibernate](https://github.com/yuchenwang2011/Hello_World/tree/master/Hibernate)
 14. [Tomcat](https://github.com/yuchenwang2011/Hello_World/tree/master/Tomcat)
 15. [Maven](https://github.com/yuchenwang2011/Hello_World/tree/master/Maven)
+    [Gradle](https://github.com/yuchenwang2011/Hello_World/tree/master/Gradle)
 16. [Git](https://github.com/yuchenwang2011/Hello_World/tree/master/Git)
 17. [DataStructure](https://github.com/yuchenwang2011/Hello_World/tree/master/DataStructure)
 18. [DesignPattern](https://github.com/yuchenwang2011/Hello_World/tree/master/DesignPatterns)

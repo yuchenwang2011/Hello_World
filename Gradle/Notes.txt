@@ -1,0 +1,2 @@
+1. Guide
+   http://www.vogella.com/tutorials/EclipseMaven/article.html#using-maven-with-the-eclipse-ide
