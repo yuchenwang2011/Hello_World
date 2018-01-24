@@ -1,0 +1,242 @@
+Docker lifecycle 3 stages:
+1. image
+    An image is a lightweight, stand-alone, 
+    executable package that includes everything needed to run a piece of software, 
+    including the code, a runtime, libraries, environment variables, and config files.
+2. container
+    A container is a runtime instance of an image—what the image becomes in memory when actually executed. 
+    It runs completely isolated from the host environment by default, only accessing host files and ports if configured to do so.
+3. repository
+
+
+One/many containers run in a service, a service runs in a stack
+In production, app runs as a service
+
+
+
+Follow the official installation guide on 
+   https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/#os-requirements
+a translated version
+   https://yeasy.gitbooks.io/docker_practice/content/install/ubuntu.html
+All the docker official documents are here
+   https://docs.docker.com/engine/installation/
+
+On Ubuntu
+
+=================First install a Docker Repo==========================
+1. Update apt packages 
+     sudo apt-get update
+2. Remove old version of docker engine
+     sudo apt-get remove docker docker-engine docker.io
+3. Install HTTPS certificate
+   sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    software-properties-common
+4. Add a Key to secure download
+     curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+   To check the key is valid, by command
+     sudo apt-key fingerprint 0EBFCD88
+   Verify the output has 9DC8 5822 9FC7 DD38 854A  E2D8 8D81 803C 0EBF CD88
+5. Install the repo
+   sTo check this:
+     docker service lsTo check this:
+     docker service lsudo add-apt-repository \
+    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+    $(lsb_release -cs) \
+    stable"  
+=================Second install a Docker CE (CE is free for 3 months, EE needs to pay)=========
+1. Update apt package we already done
+    sudo apt-get update
+2. Install the latest version of Docker CE, it takes about 5 mins
+    sudo apt-get install docker-ce
+   If you want to use a specific version in production, you can use this command
+    sudo apt-get install docker-ce=<VERSION>
+3. After installation, you need start docker, two commands:
+    sudo systemctl enable docker
+    sudo systemctl start docker
+4. Verify that docker has installed correctly, hello world:
+    sudo docker run hello-world
+   This command downloads a test image and runs it in a container. When the container runs, 
+   it prints an informational message and exits.
+5. This step is for linux user because in the current docker group, you only have a root user,
+   to add your current user into docker group(means you don't need "sudo" every time you use docker command)
+   a. add a docker group (which may already exists, doesn't matter)
+        sudo groupadd docker
+   b. add current user to the group
+        sudo usermod -aG docker $USER
+   c. exit the terminal and re-enter (or restart the VM), try run hello world without using "sudo"
+        docker run hello-world
+   d. add docker to start automatically when the system reboots
+        sudo systemctl enable docker
+      To disable, use this
+        sudo systemctl disable docker
+6. If you want to uninstall Docker CE, you can 
+     sudo apt-get purge docker-ce
+   To remove all the images, containeres, volumes (those won't be deleted automatically), you can 
+     sudo rm -rf /var/lib/docker
+=================================How to use Docker==========================================
+1. You can register a docker ID 
+     https://cloud.docker.com/
+2. Then login docker, run command:
+     docker login
+3. Create a Dockerfile
+     mkdir app
+     cd app 
+   Create a file called "Dockerfile"
+   Then copy and paste following to the file and save
+     # Use an official Python runtime as a parent image
+     FROM python:2.7-slim
+     
+     # Set the working directory to /app
+     WORKDIR /app
+     
+     # Copy the current directory contents into the container at /app
+     ADD . /app
+     
+     # Install any needed packages specified in requirements.txt
+     RUN pip install --trusted-host pypi.python.org -r requirements.txt
+     
+     # Make port 80 available to the world outside this container
+     EXPOSE 80
+     
+     # Define environment variable
+     ENV NAME World
+     
+     # Run app.py when the container launches
+     CMD ["python", "app.py"]
+    
+4. Create two more files, requirements.txt and app.py in the same folder
+   requirements.txt content:
+     Flask
+     Redis
+   app.py content:
+     from flask import Flask
+     from redis import Redis, RedisError
+     import os
+     import socket
+     
+     # Connect to Redis
+     redis = Redis(host="redis", db=0, socket_connect_timeout=2, socket_timeout=2)
+     
+     app = Flask(__name__)
+     
+     @app.route("/")
+     def hello():
+         try:
+             visits = redis.incr("counter")
+         except RedisError:
+             visits = "<i>cannot connect to Redis, counter disabled</i>"
+     
+         html = "<h3>Hello {name}!</h3>" \
+                "<b>Hostname:</b> {hostname}<br/>" \
+                "<b>Visits:</b> {visits}"
+         return html.format(name=os.getenv("NAME", "world"), hostname=socket.gethostname(), visits=visits)
+     
+     if __name__ == "__main__":
+         app.run(host='0.0.0.0', port=80)
+
+5. Build the app by running command, where -t means gives the buidl a name reference, the " ." is necessary
+     docker build -t friendlyhello .
+   After build the app, you can check the images you have 
+6. Run the app, mapping your machine’s port 4000 to the container’s published port 80 using -p:
+     docker run -p 4000:80 friendlyhello
+   You should see a message that Python is serving your app at http://0.0.0.0:80. 
+   But that message is coming from inside the container, which doesn’t know you mapped port 80 of that container to 4000, 
+   making the correct URL http://localhost:4000. Go to that URL in a web browser 
+   to see the display content served up on a web page.
+   You can also get the same content in shell:
+     curl http://localhost:4000
+   Type Ctrl + C to exit
+7. A way to exit decently
+   Run the image in background
+     docker run -d -p 4000:80 friendlyhello
+   Using the string it gives, you can check it is running now by
+     docker container ls
+   To stop it, copy the hash string, then:
+     docker container stop 1fa4ab2cf395
+=====================================Share the image================================
+1. Login to your registry (your account) by:
+     docker login
+   Each registry can have many repository, each repository can have many images
+2. Tag the image, the naming convention is username/repository:tag, so the command is like:
+     docker tag image username/repository:tag
+   For example: 
+     docker tag friendlyhello yuchenwang/get-started:part2
+   Then you can check it by using:
+     docker images
+3. Publish the image, upload your tagged image to the repository:
+     docker push username/repository:tag
+   You can always push latest images to this repository by:
+     docker push yuchenwang/get-started:tagname
+   After push, you can find it in your repo when you login your own docker account. Also now you can pull the image from
+   anywhere by visiting here to get the pull command:
+     https://hub.docker.com/
+4. From now on, you can use docker run and run your app on any machine with this command:
+     docker run -p 4000:80 username/repository:tag
+   If the image isn’t available locally on the machine, Docker will pull it from the repository.
+5. To remove a container from local machine
+      docker container rm <hash> 
+   To remove a image from local machine
+      docker image rm <image id>
+======================================Services=====================================
+1. First install docker-composer
+   Follow this page https://docs.docker.com/compose/install/#install-compose  Linux version
+     sudo curl -L https://github.com/docker/compose/releases/download/1.18.0/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
+     sudo chmod +x /usr/local/bin/docker-compose
+2. Compose also needs "bash completion", so you also need install it
+    sudo curl -L https://raw.githubusercontent.com/docker/compose/1.18.0/contrib/completion/bash/docker-compose -o /etc/bash_completion.d/docker-compose
+3. Test the installation:
+    docker-compose --version
+4. Uninstall docker-composer
+    sudo rm /usr/local/bin/docker-compose
+5. Create a docker-compose.yml file, modify the template below a little bit, but before creating the file, you need
+   first have pushed your image to registry
+    version: "3"
+    services:
+      web:
+        # replace username/repo:tag with your name and image details
+        image: yuchenwang/get-started:part2
+        deploy:
+          replicas: 5
+          resources:
+            limits:
+              cpus: "0.1"
+              memory: 50M
+          restart_policy:
+            condition: on-failure
+        ports:
+          - "80:80"
+        networks:
+          - webnet
+    networks:
+      webnet:
+6. Then run this load-balanced app by:, which makes the current node a manager 
+     docker swarm init
+7. Now let’s run it. You have to give your app a name. Here, it is set to getstartedlab
+     docker stack deploy -c docker-compose.yml getstartedlab
+8. Our single service stack is running 5 container instances of our deployed image on one host. To check this:
+     docker service ls
+9. To check all the containers/tasks currently running under the service:
+     docker service ps getstartedlab_web
+   Or simply all the containers/tasks running
+     docker container ls -q
+   You can check they are running by calling your website:
+     curl -4 http://localhost
+   To check the stack:
+     docker stack ls 
+10. you can change the replica number in yml file and run command in step 7 the stack deploy command
+11. Take the app down:
+       docker stack rm getstartedlab
+12. Take the swarm down:
+       docker swarm leave --force
+========================================Swarms====================================================
+
+
+
+
+
+we want finally install a docker server on a remote server https://www.digitalocean.com/
+then build a local container
+then upload/publish the local image to remote server
