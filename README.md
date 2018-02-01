@@ -15,6 +15,7 @@ Study Notes for:
    b. [Spring MVC](https://github.com/yuchenwang2011/Hello_World/tree/master/Spring/SpringMVC)  <br />
    c. [Spring Boot](https://github.com/yuchenwang2011/Hello_World/tree/master/Spring/SpringBoot) <br />
    d. [Spring Data JPA](https://github.com/yuchenwang2011/Hello_World/tree/master/Spring/SpringData) <br />
+   e. [REST](https://github.com/yuchenwang2011/Hello_World/tree/master/Spring/REST) <br />
 13. [Hibernate](https://github.com/yuchenwang2011/Hello_World/tree/master/Hibernate)
 14. [Tomcat](https://github.com/yuchenwang2011/Hello_World/tree/master/Tomcat) <br />
 15. a. [Maven](https://github.com/yuchenwang2011/Hello_World/tree/master/Maven) <br />
