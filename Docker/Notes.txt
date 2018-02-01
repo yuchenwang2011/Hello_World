@@ -7,6 +7,7 @@ Docker lifecycle 3 stages:
     A container is a runtime instance of an image—what the image becomes in memory when actually executed. 
     It runs completely isolated from the host environment by default, only accessing host files and ports if configured to do so.
 3. repository
+4. Swarm is a group of machines that are running Docker and joined into a cluster.
 
 
 One/many containers run in a service, a service runs in a stack
@@ -138,6 +139,7 @@ On Ubuntu
          app.run(host='0.0.0.0', port=80)
 
 5. Build the app by running command, where -t means gives the buidl a name reference, the " ." is necessary
+   where the "." means to save to current directory
      docker build -t friendlyhello .
    After build the app, you can check the images you have 
 6. Run the app, mapping your machine’s port 4000 to the container’s published port 80 using -p:
@@ -232,9 +234,73 @@ On Ubuntu
 12. Take the swarm down:
        docker swarm leave --force
 ========================================Swarms====================================================
+1. First install Docker Machine:
+   https://docs.docker.com/machine/install-machine/#install-machine-directly
 
+   curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine && \
+   chmod +x /tmp/docker-machine && \
+   sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
+2. Check the Machine version to verify installation successfully
+     docker-machine version
+3. Install bash completion script, check the version first (better follow the official doc)
+     in the /usr/local/etc/bash_completion.d , add:
+     scripts=( docker-machine-prompt.bash docker-machine-wrapper.bash docker-machine.bash ); for i in "${scripts[@]}"; do sudo wget https://raw.githubusercontent.com/docker/machine/v0.13.0/contrib/completion/bash/${i} -P /etc/bash_completion.d; done
+4. In ~/.bashrc file, add:
+     PS1='[\u@\h \W$(__docker_machine_ps1)]\$ '
+5. To remove Docker Machine
+     rm $(which docker-machine)
+6. Create two VMs, (not possible if your machine is already a VM)
+     docker-machine create --driver virtualbox myvm1
+     docker-machine create --driver virtualbox myvm2
+   To remove the machines you can
+     docker-machine rm myvm1
+     docker-machine rm myvm2
+7. To check the status of your docker VMs, you can
+     docker-machine ls
+8. Make the first VM a swarm manager
+     docker-machine ssh myvm1 "docker swarm init --advertise-addr <myvm1 ip>"
+9. Let the second VM join the swarm as a worker
+     docker-machine ssh myvm2 "docker swarm join \
+      --token <token> \
+      <ip>:2377"
+10. Check all the nodes on the swarm:
+     docker-machine ssh myvm1 "docker node ls"
+11. Leave the swarm, you can:
+     docker swarm leave from each node.
+12. Configure a docker-machine shell to the swarm manager, thus you can use your local yml file to talk to the swarm manager
+     docker-machine env myvm1
+    Then
+     eval $(docker-machine env myvm1)
+    Then, you can find the myvm1 is shown with an active star
+     docker-machine ls
 
-
+    (to unbind it, unset the docker-machine environment variables in your current shell, you can
+			eval $(docker-machine env -u)
+    )
+    
+========================================Deploy your APP on the swarm==============================
+Now that you have myvm1, you can use its powers as a swarm manager to deploy your app 
+by using the same docker stack deploy command you used in part 3 to myvm1, and your local copy of docker-compose.yml.
+1. Now you can deploy your app on myvm1 directly
+     docker stack deploy -c docker-compose.yml getstartedlab
+2. You can verify that they are running on VMs not on your local machine, you can check
+     docker stack ps getstartedlab
+3. Now you can access your app from both ips of the two VMs, or visit through browser (no port number)
+     curl http://192.168.99.100
+4. From here you can do everything you learned above.
+    a. Scale the app by changing the docker-compose.yml file.
+    b. Change the app behavior by editing code, then rebuild, and push the new image. 
+    c. In either case, simply run docker stack deploy again to deploy these changes.
+    You can join any machine, physical or virtual, 
+    to this swarm, using the same docker swarm join command you used on myvm2, and capacity will be added to your cluster. 
+    Just run docker stack deploy afterwards, and your app will take advantage of the new resources.
+5. You can tear down the stack by
+     docker stack rm getstartedlab
+6. You can remove the swarm by
+     docker-machine ssh myvm2 "docker swarm leave" on the worker
+     docker-machine ssh myvm1 "docker swarm leave --force"
+7. When you shutdown your local host, the VMs will also stop, to restart them, you can
+     docker-machine start <machine-name>
 
 
 we want finally install a docker server on a remote server https://www.digitalocean.com/

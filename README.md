@@ -24,3 +24,4 @@ Study Notes for:
 18. [DesignPattern](https://github.com/yuchenwang2011/Hello_World/tree/master/DesignPatterns)
 19. [J2EE](https://github.com/yuchenwang2011/Hello_World/tree/master/J2EE)
 20. [Docker](https://github.com/yuchenwang2011/Hello_World/tree/master/Docker)
+21. [Shortcut](https://github.com/yuchenwang2011/Hello_World/tree/master/Shortcut)
