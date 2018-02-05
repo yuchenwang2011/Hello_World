@@ -1,0 +1,43 @@
+Use Vim Efficiently For Me Current Stage (work 1-3 years):
+1.	:help   to check all of these
+2.	hjkl, sometimes the paragraph is long, use a g before hjkl, (combine with number, such as 10j)
+3.	fx, x is any letter, to jump to the x in this line
+4.	tx, x is any letter, to jump to the left of x
+5.	Fx,x is any letter, to jump back to the x in this line
+6.	w, move the cursor one word.
+7.	b, move the cursor one word back
+8.	^, move the cursor to the first letter of current line
+9.	Ctrl+f, page down
+10.	Ctrl+b, page up
+11.	G, end of the current file
+12.	numG, move to the num lines of the file
+13.	gg, move the beginning of the file
+14.	H, move to the top of current screen
+15.	M, move to the middle of current screen
+16.	L, move to the bottom of current screen
+17.	*, search the current word and jump to next one
+18.	#, search the current word and jump to previous one
+19.	., repeat last command you use
+20.	?text, is to backsearch opposite to /
+21.	`., (no need to type shift), jump to the line where you last edited
+22.	Ctrl+N/P, word auto completion
+23.	I, start to insert at beginning of current line
+24.	a, start to insert at the right of cursor
+25.	O, insert a new line at above line
+26.	v, selection mode, can be combined with other, such as vwww, will select next three words
+27.	V, line selection mode, (v/V you can combine with numbers, vj, v10j)
+28.	During selection, you can use d, or y to delete or copy 
+29.	cfx, ctx, cw, etc, will cut the text till to the selected letter
+30.	yfx, ctx, cw, etc, will copy the text till to the selected letter
+31.	dfx, dtx, dw,etc, will delete the text till to the selected letter
+32.	cc, to cut the current line and leave the cursor at insert mode
+33.	D, delete the text from cursor to end of line
+34.	C, cut the text from cursor to end of line but leave at insert mode
+35.	]p, not only paste, but also automatically adjust the indent level for you, super useful
+36.	>>, will do the indent for you for selected text, (combine use with v/V)
+37.	gd, go to the definition of the current variable at the cursor
+38.	ZZ, save and quit
+39.	Ctl+z, fg, combine these two to switch between vim and shell
+40.	:sh, exit, same to switch between vim and shell but using a different mechanism.
+41.	~, to change the small or Capital in the selected text
+42.	Basic search   :1,$s/search/replace/g    (means replace from line 1 to the end)
