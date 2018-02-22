@@ -14,7 +14,7 @@ This article will be written in the tone of I will speak to an interviewer.
       abstract methods in an abstract class, unless your class is also abstract.
    d. Variables in interface are final. (int a = 1, must give val) But abstract class just normal you can be or not be final.
       (subclass inherites the interface's a = 1)
-   e. All methods in an abstract class are public. But abstract class not necessary
+   e. All methods in an interface are (implicitly)public. But abstract class not necessary
    f. Interface can't have static method, but abstract class can.
    g. Interface can't have a constructor, but abstract class has one thought it can't be instantiated.
    h. Interface can't have instance variable, but abstract class can.
