@@ -200,6 +200,13 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     if you want to recover the previous state, you can
     git stash pop   to recover the latest one, if there are many stashes you can
     git stash apply stash@{0} (the stash id by checking git stash list)
+    If you have worked on a branch already but you have a new branch, you want to keep the changes on the new branch, you can
+    git stash   to save the current code to a weird branch
+    git fetch   to update the repo
+    git checkout newBranchName
+    git stash apply  to merge the stashed code with the new branch fresh code
+    git stash clear  to clean that weird branch
+    git stash list   to check if you have that branch cleaned
 
 25. To fork a repo, you can follow this link
     https://help.github.com/articles/fork-a-repo/ 
