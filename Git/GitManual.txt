@@ -235,3 +235,18 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     To configure alias for git, you can 
     git config --global alias.younameit originalcommand , for example
     git config --global alias.st status , so after using this command, next time I can use git st instead of git status
+
+28. master
+    origin master is two separate things, and origin/master is one thing. Three things total.
+    Two branches:
+       master is a local branch
+       origin/master is a remote branch (which is a local copy of the branch named "master" on the remote named "origin") 
+    One remote:
+       origin is a remote
+    
+    Example: pull in two steps
+    Since origin/master is a branch, you can merge it. Here's a pull in two steps:
+    Step one, fetch master from the remote origin. The master branch on origin will be fetched and the local copy will be named 
+       origin/master. git fetch origin master   
+    Step two, you merge origin/master into master. git merge origin/master   
+    Step three, you can push your new changes in master back to origin: git push origin master
