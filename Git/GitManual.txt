@@ -156,6 +156,8 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     After that, change the "pick" into "squash" except the first one
    
 19. Branch
+    To check which you are working on and show all the branches you ever worked on, do
+    git branch
     To create a branch called "testing", you do
     git branch testing
     git checkout testing to switch to a branch called testing, the "HEAD" is moved to pointing to testing branch.
