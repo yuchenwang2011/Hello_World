@@ -255,3 +255,12 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     To check the head history or where is your current head, you do
     git reflog  or
     git reflog show HEAD
+
+30. Merge
+    If you are working on a feature branch, where develop branch has many updates already which you don't want to miss.
+    You can merge the things into feature branch.
+    a. git checkout develop  to goto dev branch 
+    b. git pull              to update dev branch to get all the new stuff
+    c. git checkout featureBranch   to goto feature branch
+    d. git merge develop            to merge what you get in develop branch to feature branch
+    e. git push                     to push it to remote to finish the merge, otherwise the merge is only on your local
