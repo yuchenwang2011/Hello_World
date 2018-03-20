@@ -250,3 +250,8 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
        origin/master. git fetch origin master   
     Step two, you merge origin/master into master. git merge origin/master   
     Step three, you can push your new changes in master back to origin: git push origin master
+
+29. HEAD
+    To check the head history or where is your current head, you do
+    git reflog  or
+    git reflog show HEAD
