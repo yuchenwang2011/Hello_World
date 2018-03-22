@@ -264,3 +264,10 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     c. git checkout featureBranch   to goto feature branch
     d. git merge develop            to merge what you get in develop branch to feature branch
     e. git push                     to push it to remote to finish the merge, otherwise the merge is only on your local
+
+31. How to redo a pushed commit when you made a mistake first time?
+    https://stackoverflow.com/questions/22682870/git-undo-pushed-commits  The second answer
+    git reset <previous label or sha1>   to change your local back but the file is still kept with your bad change
+    then you "do your work" to edit files
+    then you git add the file, git commit to make a right comment
+    git push -f         to push the correct change to remote
