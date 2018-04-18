@@ -493,3 +493,9 @@ Angola	Africa	1246700	20609294	100990000000
 
 100. sql Cartesian JOIN (Cross Join)
      select a.*, b.* from a, b;
+
+101. Find a specific column in the current tables and views (schema)
+     SELECT   COLUMN_NAME AS 'ColumnName', TABLE_NAME AS  'TableName'
+     FROM     INFORMATION_SCHEMA.COLUMNS
+     WHERE    COLUMN_NAME LIKE '%MyName%'
+     ORDER BY TableName,ColumnName;
