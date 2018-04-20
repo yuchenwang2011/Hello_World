@@ -76,7 +76,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     if revert to last last commit, it can be HEAD^^, if revert to 100 commits ago, it can be HEAD~100
     A git commit is like a snapshot, you put all the organized and well prepared file to a commit,
     once you made some mistake, you can easily revert to the last commit
-    To go back to a previous commit, you can 
+    To go back to a previous commit, you can (BE CAREFULL! this will clean all your changed files!)
     git reset --hard adbasdcaewg (this string is the commmit id, so you can go to the commit you want, first few digits is enough)
     You can also do this 
     git reset --hard HEAD^ 
@@ -85,6 +85,13 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     git reflog  to see all the git command history on your local machine, you can see the commit id there
     To unstage a file, (mistake git add a file), you can
     git reset HEAD filename
+    To unstage a wrong commit but still keep your local changes, you can 
+    https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git
+    $ git commit -m "Something terribly misguided"              (1)
+    $ git reset HEAD~                                           (2)
+    << edit files as necessary >>                               (3)
+    $ git add ...                                               (4)
+    $ git commit -c ORIG_HEAD                                   (5)
 
 11. Git has 3 main stages: modified, staged, commited
     The basic Git workflow goes something like this:
