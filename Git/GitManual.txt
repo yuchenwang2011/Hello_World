@@ -179,6 +179,8 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     git checkout -b your-branch-name origin/original-branch-name
     To set a connection between the two branches, you need
     git branch --set-upstream branch-name origin/branch-name
+    To delete a branch on your local once you have finished working on it and pushed things to remote already
+    git branch -d yourlocalbranchname
 
 20. To install git in linux / ubuntu, you can
     sudo apt-get install git
