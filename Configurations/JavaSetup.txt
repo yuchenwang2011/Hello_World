@@ -29,3 +29,10 @@ This is a reminder how to setup java develop environment on Windows7.
    So you first goto C:\Users\Yuchen\workspace\Dijkstra\
    Then C:\Users\Yuchen\workspace\Dijkstra>javac -d bin src/com/Dijkstra/*.java
    Then C:\Users\Yuchen\workspace\Dijkstra>java -cp ./bin com.Dijkstra.TestDijkstra
+   
+   
+For Mac Java setup:
+If you didnt' install using brew, brew cask, but download JDK dmg directly, after installation, you need:
+   vim ~/.bash_profile 
+   export JAVA_HOME=$(/usr/libexec/java_home)
+   source ~/.bash_profile
