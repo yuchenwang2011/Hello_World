@@ -1,3 +1,8 @@
+Good to remember how to add a debugger
+in JS code, add "debugger;"
+then grun -f
+
+
 function showDate() {
 	document.getElementById("showDate").innerHTML = Date();
 }
