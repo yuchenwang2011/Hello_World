@@ -299,3 +299,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     git cherry-pick the_hash_value_of_that_commit
     The commit will automatically applied and also it will make a commit automatically (using the comment from that hash)
     Later you will need to push. Also if there are conflicts, you need to manually git add those files after solved conflicts
+
+35. Rebase
+    A good example about squash commands history into one
+    https://feeding.cloud.geek.nz/posts/combining-multiple-commits-into-one/
