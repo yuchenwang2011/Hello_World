@@ -181,6 +181,11 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     git branch --set-upstream branch-name origin/branch-name
     To delete a branch on your local once you have finished working on it and pushed things to remote already
     git branch -d yourlocalbranchname
+    
+    To Create new branch from existing branch locally
+      git checkout -b {NEW_branch_name} {SOURCE_branch_name}
+    To Push changes to origin
+      git push origin {NEW_branch_name}
 
 20. To install git in linux / ubuntu, you can
     sudo apt-get install git
