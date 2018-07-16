@@ -36,3 +36,15 @@ If you didnt' install using brew, brew cask, but download JDK dmg directly, afte
    vim ~/.bash_profile 
    export JAVA_HOME=$(/usr/libexec/java_home)
    source ~/.bash_profile
+
+
+For Mac Java updating to a different JDK
+https://stackoverflow.com/questions/21964709/how-to-set-or-change-the-default-java-jdk-version-on-os-x
+   1. Install the jdks and check what you've got
+   /usr/libexec/java_home -V
+   2. Pick the version you want is to be default
+   export JAVA_HOME=`/usr/libexec/java_home -v 1.6.0_65-b14-462`
+   3. Check now what it is the version
+   java -version
+   4. Add JAVA_HOME to bashrc
+   export JAVA_HOME=$(/usr/libexec/java_home)
