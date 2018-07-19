@@ -1,0 +1,3 @@
+JS Closure: 
+  https://www.w3schools.com/jS/js_function_closures.asp
+  http://javascriptissexy.com/understand-javascript-closures-with-ease/
