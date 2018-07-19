@@ -1,3 +1,6 @@
 JS Closure: 
   https://www.w3schools.com/jS/js_function_closures.asp
   http://javascriptissexy.com/understand-javascript-closures-with-ease/
+  
+A website to try writing front-end code
+  https://jsfiddle.net/u7wc0j2r/
