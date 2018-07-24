@@ -66,6 +66,11 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
    if you want to clone a sub folder
    git checkout HEAD foldername for example:
    git checkout HEAD Servlet/
+   
+   If you want to make a PR against develop and find you don't want a file, you can
+      git checkout develop file_name
+   then 
+      git commit and push
 
 9. To clone the project, go to a folder to use command
     git clone xxxlink
