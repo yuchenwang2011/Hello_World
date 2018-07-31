@@ -322,3 +322,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 37. To remove all untracked files, the simpliest way is to :
       git add --all
       git reset --hard HEAD
+
+38. To remove a file from a PR
+      git checkout target_branch file_name .This will make file in feature branch same as in target branch
+      git commit/push . 
