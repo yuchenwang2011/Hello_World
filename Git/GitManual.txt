@@ -130,6 +130,7 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     git log -p -2 , where -p means to show the difference introduced in each commit, -2 means the latest 2 changes
     git log -3 --stat
     git log --pretty=oneline , make a lot of code change easier to read
+    git log --name-only
     git log --since=2.weeks
     git log --committer
     git log --graph --pretty=oneline --abbrev-commit , to view the commit tree
