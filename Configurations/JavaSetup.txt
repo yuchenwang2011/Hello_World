@@ -32,10 +32,13 @@ This is a reminder how to setup java develop environment on Windows7.
    
    
 For Mac Java setup:
-If you didnt' install using brew, brew cask, but download JDK dmg directly, after installation, you need:
-   vim ~/.bash_profile 
-   export JAVA_HOME=$(/usr/libexec/java_home)
-   source ~/.bash_profile
+    1. Install using brew
+    2. brew install cask
+    3. brew cask install java8 (if it says no java8 cask not available, you can use commmand brew tap caskroom/versions first)
+After installation, you need:
+   1. vim ~/.bash_profile 
+   2. export JAVA_HOME=$(/usr/libexec/java_home)
+   3. source ~/.bash_profile
 
 
 For Mac Java updating to a different JDK
