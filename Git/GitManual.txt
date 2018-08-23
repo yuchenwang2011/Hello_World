@@ -136,6 +136,8 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     git log --graph --pretty=oneline --abbrev-commit , to view the commit tree
     How does git know which branch you are working on? It uses a "HEAD". If you want to see where now the head is pointing to, you can
     git log --oneline --decorate
+    git log --author="YourName"
+    git log --committer="YourName"
 
 16. To show all your remote(s) when you are in the repo folder, 
     git remote  ,it shows what is your remote
