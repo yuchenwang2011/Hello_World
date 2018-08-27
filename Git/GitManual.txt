@@ -82,21 +82,23 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     A git commit is like a snapshot, you put all the organized and well prepared file to a commit,
     once you made some mistake, you can easily revert to the last commit
     To go back to a previous commit, you can (BE CAREFULL! this will clean all your changed files!)
-    git reset --hard adbasdcaewg (this string is the commmit id, so you can go to the commit you want, first few digits is enough)
+       git reset --hard adbasdcaewg (this string is the commmit id, so you can go to the commit you want, first few digits is enough)
     You can also do this 
-    git reset --hard HEAD^ 
+      git reset --hard HEAD^ 
     Git is very fast to change to different version, because it just move the HEAD, it's like a linkedlist
     But after revert to previous version, you want to revert back to latest, but you forget the commit id, you can 
-    git reflog  to see all the git command history on your local machine, you can see the commit id there
+      git reflog  to see all the git command history on your local machine, you can see the commit id there
     To unstage a file, (mistake git add a file), you can
-    git reset HEAD filename
+       git reset HEAD filename
     To unstage a wrong commit but still keep your local changes, you can 
-    https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git
-    $ git commit -m "Something terribly misguided"              (1)
-    $ git reset HEAD~                                           (2)
-    << edit files as necessary >>                               (3)
-    $ git add ...                                               (4)
-    $ git commit -c ORIG_HEAD                                   (5)
+       https://stackoverflow.com/questions/927358/how-to-undo-the-most-recent-commits-in-git
+      $ git commit -m "Something terribly misguided"              (1)
+      $ git reset HEAD~                                           (2)
+      << edit files as necessary >>                               (3)
+      $ git add ...                                               (4)
+      $ git commit -c ORIG_HEAD                                   (5)
+    To revert a wrong commit which has bas been pushed. you can
+        git revert the_commit_hash
 
 11. Git has 3 main stages: modified, staged, commited
     The basic Git workflow goes something like this:
