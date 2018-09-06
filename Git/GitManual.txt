@@ -224,22 +224,23 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 
 24. Stash
     If you are working on a branch not finished yet but you need to switch to another branch, you can save your working state by
-    git stash
+      git stash
     if will save everything for you before you come back. You can check what has been saved by
-    git stash list
+      git stash list
     if you want to recover the previous state, you can
-    git stash pop   to recover the latest one, if there are many stashes you can
-    git stash apply stash@{0} (the stash id by checking git stash list (apply will apply but also keep the code in stash)
+      git stash pop   to recover the latest one, if there are many stashes you can
+      git stash apply stash@{0} (the stash id by checking git stash list (apply will apply but also keep the code in stash)
     If you have worked on a branch already but you have a new branch, you want to keep the changes on the new branch, you can
-    git stash   to save the current code to a weird branch
-    git fetch   to update the repo
-    git checkout newBranchName
-    git stash apply  to merge the stashed code with the new branch fresh code
-    git stash clear  to clean that weird branch
-    git stash list   to check if you have that branch cleaned
+      git stash   to save the current code to a weird branch
+      git fetch   to update the repo
+      git checkout newBranchName
+      git stash apply  to merge the stashed code with the new branch fresh code
+      git stash clear  to clean that weird branch
+      git stash list   to check if you have that branch cleaned
     If you want to give a name when you do stash, you can
-    git stash save "my_stash"
-    
+      git stash save "my_stash"
+    If you want to stash unstracked files as well, you can
+      git stash --include-untracked
 
 25. To fork a repo, you can follow this link
     https://help.github.com/articles/fork-a-repo/ 
