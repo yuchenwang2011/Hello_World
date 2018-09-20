@@ -38,6 +38,12 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
          git add the_left_out_file
          git commit --amend --no-edit
      The --no-edit flag allow to make amendment to commit without changing commit message.
+   i. To see where is your origin, you need check the url of the remote
+         git remote show origin | head -10
+      Or
+         git config --get remote.origin.url
+      To change the origin url,
+         git remote set-url origin the_url
    
 5. How to update your repository in local machine
    git pull
