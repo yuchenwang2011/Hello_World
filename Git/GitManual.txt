@@ -134,18 +134,20 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
     git mv a.txt b.txt
     
 15. log
-    git log to view the history of the repo
-    git log -p -2 , where -p means to show the difference introduced in each commit, -2 means the latest 2 changes
-    git log -3 --stat
-    git log --pretty=oneline , make a lot of code change easier to read
-    git log --name-only
-    git log --since=2.weeks
-    git log --committer
-    git log --graph --pretty=oneline --abbrev-commit , to view the commit tree
+      git log to view the history of the repo
+      git log -p -2 , where -p means to show the difference introduced in each commit, -2 means the latest 2 changes
+      git log -3 --stat
+      git log --pretty=oneline , make a lot of code change easier to read
+      git log --name-only
+      git log --since=2.weeks
+      git log --committer
+      git log --graph --pretty=oneline --abbrev-commit , to view the commit tree
     How does git know which branch you are working on? It uses a "HEAD". If you want to see where now the head is pointing to, you can
-    git log --oneline --decorate
-    git log --author="YourName"
-    git log --committer="YourName"
+      git log --oneline --decorate
+      git log --author="YourName"
+      git log --committer="YourName"
+    To check a specific commit SHAs on your branch, not on develop, you can
+      git cherry -v develop your_branch
 
 16. To show all your remote(s) when you are in the repo folder, 
     git remote  ,it shows what is your remote
