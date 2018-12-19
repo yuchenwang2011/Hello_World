@@ -1,2 +1,11 @@
+Learning from this url:
+
+https://github.com/donnemartin/system-design-primer
 1. a very inspiring video, intro what is system design
 https://www.youtube.com/watch?v=ZgdS0EUmn70
+
+2. Harvard lecture about scalability system
+https://www.youtube.com/watch?v=-W9F__D3oY4
+vertical: more cpu, more disk, more ram
+
+1 byte is 1 letter
