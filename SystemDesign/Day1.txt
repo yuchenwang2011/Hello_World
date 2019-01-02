@@ -1,11 +1,16 @@
 Learning from this url:
-
 https://github.com/donnemartin/system-design-primer
+
 1. a very inspiring video, intro what is system design
-https://www.youtube.com/watch?v=ZgdS0EUmn70
+  https://www.youtube.com/watch?v=ZgdS0EUmn70
 
 2. Harvard lecture about scalability system
-https://www.youtube.com/watch?v=-W9F__D3oY4
-vertical: more cpu, more disk, more ram
+  https://www.youtube.com/watch?v=-W9F__D3oY4
+  vertical: more cpu, more disk, more ram
+  1 byte is 1 letter
 
-1 byte is 1 letter
+3. Scalability for dummies
+   http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones
+   http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database
+   http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache
+   http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism
