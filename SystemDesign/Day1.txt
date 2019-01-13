@@ -14,3 +14,10 @@ https://github.com/donnemartin/system-design-primer
    http://www.lecloud.net/post/7994751381/scalability-for-dummies-part-2-database
    http://www.lecloud.net/post/9246290032/scalability-for-dummies-part-3-cache
    http://www.lecloud.net/post/9699762917/scalability-for-dummies-part-4-asynchronism
+ 
+   DB Sharding: divide the db into a few parts, each has part of the information, for example, from a-d, e-g, h-z.
+
+4. CAP theory: Consistency, Availability, Partition tolerance
+   http://robertgreiner.com/2014/08/cap-theorem-revisited/
+   http://ksat.me/a-plain-english-introduction-to-cap-theorem/
+   Partition tolerance: https://www.zhihu.com/question/54105974
