@@ -25,6 +25,7 @@ Study Notes for:
 18. [DesignPattern](https://github.com/yuchenwang2011/Hello_World/tree/master/DesignPatterns)
 19. [J2EE](https://github.com/yuchenwang2011/Hello_World/tree/master/J2EE)
     [Java](https://github.com/yuchenwang2011/Hello_World/tree/master/Object-OrientedProgramming/Java8)
+20. [MultiThreading](https://github.com/yuchenwang2011/Hello_World/tree/master/MultiThreading)
 20. [Docker](https://github.com/yuchenwang2011/Hello_World/tree/master/Docker)
 21. [Shortcut](https://github.com/yuchenwang2011/Hello_World/tree/master/Shortcut)
 22. [Interview](https://github.com/yuchenwang2011/Hello_World/tree/master/Interview)
