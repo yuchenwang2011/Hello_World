@@ -21,3 +21,4 @@ https://github.com/donnemartin/system-design-primer
    http://robertgreiner.com/2014/08/cap-theorem-revisited/
    http://ksat.me/a-plain-english-introduction-to-cap-theorem/
    Partition tolerance: https://www.zhihu.com/question/54105974
+   Consistency: https://www.youtube.com/watch?v=srOgpXECblk
