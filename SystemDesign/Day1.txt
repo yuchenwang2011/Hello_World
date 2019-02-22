@@ -28,5 +28,6 @@ https://github.com/donnemartin/system-design-primer
                 https://www.youtube.com/watch?v=0QKjnCu6tAM&index=4&t=27s&list=LLYjubd5bmrVyvyfLAapEJBw
    CDN Akamai:  https://www.youtube.com/watch?v=zAxSE1M4yKE
    
-   AWS S3: https://www.youtube.com/watch?v=zAxSE1M4yKE
-   AWS EC2: 
+   What is AWS S3: https://www.youtube.com/watch?v=zAxSE1M4yKE
+   What is AWS EC2: https://www.youtube.com/watch?v=TsRBftzZsQo
+   How to launch EC2 instance: https://www.youtube.com/watch?v=Xs0g_ZEv2bw
