@@ -4,7 +4,7 @@ https://github.com/donnemartin/system-design-primer
 1. a very inspiring video, intro what is system design
   https://www.youtube.com/watch?v=ZgdS0EUmn70
 
-2. Harvard lecture about scalability system
+2. Harvard lecture about scalability system (understand load balancer)
   https://www.youtube.com/watch?v=-W9F__D3oY4
   vertical: more cpu, more disk, more ram
   1 byte is 1 letter
@@ -31,3 +31,4 @@ https://github.com/donnemartin/system-design-primer
    What is AWS S3: https://www.youtube.com/watch?v=zAxSE1M4yKE
    What is AWS EC2: https://www.youtube.com/watch?v=TsRBftzZsQo
    How to launch EC2 instance: https://www.youtube.com/watch?v=Xs0g_ZEv2bw
+   Sticky session used on load balancer: https://www.youtube.com/watch?v=xKdnvYThFwE
