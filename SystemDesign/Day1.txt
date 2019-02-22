@@ -22,3 +22,11 @@ https://github.com/donnemartin/system-design-primer
    http://ksat.me/a-plain-english-introduction-to-cap-theorem/
    Partition tolerance: https://www.zhihu.com/question/54105974
    Consistency: https://www.youtube.com/watch?v=srOgpXECblk
+
+5. Some general technologies:
+   what is CDN: https://www.youtube.com/watch?v=nle1q0qSYmA&index=3&t=0s&list=LLYjubd5bmrVyvyfLAapEJBw
+                https://www.youtube.com/watch?v=0QKjnCu6tAM&index=4&t=27s&list=LLYjubd5bmrVyvyfLAapEJBw
+   CDN Akamai:  https://www.youtube.com/watch?v=zAxSE1M4yKE
+   
+   AWS S3: https://www.youtube.com/watch?v=zAxSE1M4yKE
+   AWS EC2: 
