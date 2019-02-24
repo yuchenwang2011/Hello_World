@@ -8,6 +8,7 @@ https://github.com/donnemartin/system-design-primer
   https://www.youtube.com/watch?v=-W9F__D3oY4
   vertical: more cpu, more disk, more ram
   1 byte is 1 letter
+  Nginx is load balancer: https://www.youtube.com/watch?v=SpL_hJNUNEI
 
 3. Scalability for dummies
    http://www.lecloud.net/post/7295452622/scalability-for-dummies-part-1-clones
