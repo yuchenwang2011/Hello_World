@@ -33,3 +33,4 @@ https://github.com/donnemartin/system-design-primer
    What is AWS EC2: https://www.youtube.com/watch?v=TsRBftzZsQo
    How to launch EC2 instance: https://www.youtube.com/watch?v=Xs0g_ZEv2bw
    Sticky session used on load balancer: https://www.youtube.com/watch?v=xKdnvYThFwE
+   DNS: https://www.youtube.com/watch?v=mpQZVYPuDGU
