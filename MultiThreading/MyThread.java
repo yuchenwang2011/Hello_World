@@ -19,3 +19,7 @@ public class MyThread extends Thread{
         service.execute(new MyThread());
     }
 }
+
+
+Multithreading interview questions:
+https://www.youtube.com/watch?v=rSHXanQaSQs
