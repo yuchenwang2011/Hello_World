@@ -50,16 +50,20 @@
    point calculation, we used fixed point and explored the minimum digits we can use for different situations but can also guarantee 
    the system's performance.
 
-5. What is your strength?
+5. Introduce your work at Pfpt
+
+6. Introduce your work at LD
+
+7. What is your strength?
    My strengh is that I am a self - starter, I don't need any supervision. I will always work my best and hardest to
    finish my tasks. I know my responsbility and I'm proud of owning my responsibility. 
    Second I have the enthusasim to learn, I'm always full of energy to improve myself. 
    
-6. What is your weakness
+8. What is your weakness
    My weakness is that I'm kinda giving myself too much pressure. Not pressure from work, it's the pressure from family, 
    from friends, afraid to left hind, afraid can't afford a house. Sometimes got bad mood because of that, can't enjoy life. 
    
-7. What is your most successful project? / something you are most proud of
+9. What is your most successful project? / something you are most proud of
    The project I'm most proud of is that during my work at Nxxx, I wrote a big code automation that can save a lot of effort.
    Before I took that part of testing, every time we introduce a new module, I need to do a lot of manual configurations and write 
    some code specifically for it. Then I used my spare time to write an interface to accept all kinds of modules, every new module
@@ -67,7 +71,7 @@
    a whole, integrate them together. And I integrated the performance check tests that makes checking performance a standard.
    So after I build the system, I can save a lot of time testing new modules.
    
-8. What was your biggest challenge?
+10. What was your biggest challenge?
    Well, my biggest challenge was that when I first got hired by Axxxxxx, there was a probation period. I was given 2 month time to 
    finish my first project. I was a fresh graduate then and I didn't know anything about the work my team was doing. They wanted to 
    check if I am a fast learner. So I did my best, reading code to learn the APIs and the coding conventions here, checking twikis
@@ -75,31 +79,31 @@
    writing notes, working overtime to write my own code. So I proved my ability to learn fast and I managed to finish the project
    from scrach to release. 
 
-9. Why do you choose our company?
+11. Why do you choose our company? (Google, Amazon, Apple, Uber, Netflix, Facebook)
    Everyone knows xxxx is a great company, it's one of the best companies in the world. If I can get an offer, I can work on a
    something used by millions of people every second. I can learn the lastest techonology. I can work together with most talented
    people in this world. 
    
-10. What can you bring to us?
+12. What can you bring to us?
     My sense of responsibility. I am a person having a very high standard of myself and want to make my release perfect and free of 
     bugs. I will feel a shame to fail release and not working my best. I've been doing software testing for 3 years, I know how
     to quality control and make my code less bugs. 
 
-11. Why do you want to switch to a software developer? 
+13. Why do you want to switch to a software developer? 
     Having been working as a software test engineer, I'm a little bit tired. 50% of my word was writing code automations, I like the
     feeling to write code. I like the feeling to create things. I think I like to be a developer better.
 
-12. How can you improve your coding ability?
+14. How can you improve your coding ability?
     For example, during my work, when I have spare time, I don't relax. I would read other people's code, assuming if I were them,
     how I would write my code here. And we do code reviews, I can get feedback from other people, this really helps a lot.  
     I would also spend quite a lot of time to read API documents. The more I'm familiar with it, I can write better code. 
 
-13. Why should we hire u? / why do u think urself a good fit for this position?
+15. Why should we hire u? / why do u think urself a good fit for this position?
     I have worked in a big company for 3 years. So I know how to teamwork with coworkers, how to interact with deverlopers, 
     testers, product managers things like that. I know how to write code of a certain standard. I know how to provide quality
     control and decrease the chance of bugs.
 
-14. Tell me about your teamwork / leadership experience
+16. Tell me about your teamwork / leadership experience
     Once my team was suddenly notified that we shoud deliver a feature in a month. That was so rush because we are usually 
     notified at least 3 months before release. So I and another team member rose to the accasion. We two took the project 
     and collaborate. He knows configuring the hardware better and I know the feature related knowledge better. 
@@ -108,15 +112,15 @@
     
     (If not enough, make up an example helping another new guys guiding him through a project.)
 
-15. How would other people describe you?
+17. How would other people describe you?
     People describe me a person with sense of responsibilities. They can trust me and rely on me.
     
-16. Plans about ur career growth path?
+18. Plans about ur career growth path?
     I want to be a coding master/a top software tester.
    
-17. Tell me a time that ur failed?
+18. Tell me a time that ur failed?
 
-18. What is your biggest failure?
+19. What is your biggest failure?
 
 19. 你有没有遇到过deadline来不及的情况，你怎么解决的？
 
@@ -258,3 +262,40 @@ For general collegue: can you describe your daily routine?
 For hiring manager: what I can learn from this role?
 For director: what's the expectation for this role? (also ok to ask hiring manager)
               which one do you prefer, quality or delivery (also ok to ask hiring manager)
+
+1. 一个最有挑战的项目说起，哪些挑战，学到什么，然后中间穿插各种技术细节
+2. 怎么做重要决定
+3. 有没有和队友意见不合闹崩了情况
+4. 自己犯的比较错误的一个decision
+5. leadership principle和相應的例子
+6. 印象最深的项目经验
+7. 有没有过主动承担队友任务的经历，为什么
+8. 有没有走出舒适区的经历
+9. 在学习新技术时，你的thought process是怎样的
+10. DDL 快到了 没做完 该怎么办
+11. 项目信息量比较少 该怎么办
+13. 合作 teamwork的经历
+14. 你和其他小伙伴有冲突或吵架怎么办；
+15. 有没有过miss deadline，怎么做的；
+16. 有没有自学过什么是后来觉得很有用的；
+17. 项目中最难的地方/最难的项目；
+19. 有没有做过一些你很讨厌做的项目，被迫要做的那种；
+20. 有没有在一个项目当过领导；
+21. 问了要马上开始做一个你还没有完全理解的project时会怎么办 PM 举个例子
+22. 问了有没有要很短时间内完成一个project的经历，时间不够是因为哪些原因之类的， 突
+   然需求改了，需要做的东西就不够了，加班加点，先完成重点需求
+23. 有没有走出舒适区的经历举个例子
+24. 有没有对自己的承诺失误过，帮助别人还有紧急情况这三个
+25. teamwork，obstacle
+26. tell me about a time that you failed
+27. introduce yourself? tell me about a time when you have to move fast (make a decision fast); tight
+    deadline; when you made a mistake and how you correct it?
+28. Most challenge project、Hard deadline、How you help teammate、How you insist the highest
+     standard、Who make the decision、One thing you fail、How you clarify requirement
+29. team work disagreement
+31. most challenging project
+32. make mistake project
+33. favorite project, the technology you use, what is the part you don't like a time when you take a calculated risk
+35. tight ddl and have to make decision without considering alternatives + experience of making a
+36. decision without consulting manager
+37. anything you don't fully understand, but you do it anyway
