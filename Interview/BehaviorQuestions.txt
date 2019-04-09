@@ -27,8 +27,8 @@ First of all: Do some research of the company:
 
 3. Introduce your work at Blxxx,the technology you use
    When I was there, my team was responsible for providing software for bb factories. You know at that time, bb's market was still not
-   as bad as now. Their factory needs to manufacture hundreds of products. The factory needs a lot of software to do manufactoring and
-   testing for their assembly lines. So we wrote software and maintain existing software for them. 
+   as bad as now. Their factory needs to manufacture thousands of products. The factory needs a lot of software to do manufactoring and
+   assembling for their phones. So we wrote software and maintain existing software for them. 
    For me, I had 2 main roles, first one was responsible for a few older products, maintain the existing software. When our customer 
    the factory ask for a requirement, for example, they need change a specific configuration, I would update the code for them.
    Of course I need to guarantee nothing would be broken by my code change.
