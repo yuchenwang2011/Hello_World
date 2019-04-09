@@ -56,6 +56,10 @@ First of all: Do some research of the company:
    the system's performance.
 
 5. Introduce your work at Pfpt,the technology you use
+   I was a QA automation engineer there, or a QA developer. I was responsible to maintain the automation framework, when some new 
+   feature introduced or some backend api changes, we need update the corresponding automation script. 
+   Also when there are new test cases added in regression, I will convert the manual testing into automation code. I left there after 
+   worked for a year because I feel the project was not very challenging.
 
 6. Introduce your work at LD,the technology you use
 
