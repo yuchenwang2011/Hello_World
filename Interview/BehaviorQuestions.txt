@@ -74,7 +74,7 @@ First of all: Do some research of the company:
    from friends, afraid to left hind, afraid can't afford a house. Sometimes got bad mood because of that, can't enjoy life. 
   
    
-10. What was your biggest challenge?
+9. What was your biggest challenge?
    Well, my biggest challenge was that when I first got hired by Axxxxxx, there was a probation period. I was given 2 month time to 
    finish my first project. I was a fresh graduate then and I didn't know anything about the work my team was doing. They wanted to 
    check if I am a fast learner. So I did my best, reading code to learn the APIs and the coding conventions here, checking twikis
@@ -82,43 +82,43 @@ First of all: Do some research of the company:
    writing notes, working overtime to write my own code. So I proved my ability to learn fast and I managed to finish the project
    from scrach to release. 
 
-11. Why do you choose our company? (Google, Amazon, Apple, Uber, Netflix, Facebook)
+10. Why do you choose our company? (Google, Amazon, Apple, Uber, Netflix, Facebook)
    Everyone knows xxxx is a great company, it's one of the best companies in the world. If I can get an offer, I can work on a
    something used by millions of people every second. I can learn the lastest techonology. I can work together with most talented
    people in this world. 
    
-12. What can you bring to us?
+11. What can you bring to us?
     My sense of responsibility. I am a person having a very high standard of myself and want to make my release perfect and free of 
     bugs. I will feel a shame to fail release and not working my best. I've been doing software testing for 3 years, I know how
     to quality control and make my code less bugs. 
 
-13. Why do you want to switch to a software developer? 
+12. Why do you want to switch to a software developer? 
     Having been working as a software test engineer, I'm a little bit tired. 50% of my word was writing code automations, I like the
     feeling to write code. I like the feeling to create things. I think I like to be a developer better.
 
-14. How can you improve your coding ability?
+13. How can you improve your coding ability?
     For example, during my work, when I have spare time, I don't relax. I would read other people's code, assuming if I were them,
     how I would write my code here. And we do code reviews, I can get feedback from other people, this really helps a lot.  
     I would also spend quite a lot of time to read API documents. The more I'm familiar with it, I can write better code. 
 
-15. Why should we hire u? / why do u think urself a good fit for this position?
+14. Why should we hire u? / why do u think urself a good fit for this position?
     I have worked in a big company for 3 years. So I know how to teamwork with coworkers, how to interact with deverlopers, 
     testers, product managers things like that. I know how to write code of a certain standard. I know how to provide quality
     control and decrease the chance of bugs.
     
-17. How would other people describe you?
+15. How would other people describe you?
     People describe me a person with sense of responsibilities. They can trust me and rely on me.
     
-18. Plans about ur career growth path?
+16. Plans about ur career growth path?
     I want to be a java expert
     
-28. 列举你最近6个月看过的技术方面的书。你常看的技术blog，常去的讨论技术的网站?
-16. 有没有自学过什么是后来觉得很有用的；
+17. 列举你最近6个月看过的技术方面的书。你常看的技术blog，常去的讨论技术的网站?
+18. 有没有自学过什么是后来觉得很有用的；
 
 
 ==================TeamWork==============================
 
-16. Tell me about your teamwork / leadership experience
+1. Tell me about your teamwork / leadership experience
     Once my team was suddenly notified that we shoud deliver a feature in a month. That was so rush because we are usually 
     notified at least 3 months before release. So I and another team member rose to the accasion. We two took the project 
     and collaborate. He knows configuring the hardware better and I know the feature related knowledge better. 
@@ -127,101 +127,106 @@ First of all: Do some research of the company:
     
     (If not enough, make up an example helping another new guys guiding him through a project.)
     
-17. 你怎么跟teammate合作；遇到有人不合作你怎么办；
+2. 你怎么跟teammate合作；遇到有人不合作你怎么办；
 
-25. teamwork，obstacle
+3. teamwork，obstacle
 
-3. 有没有和队友意见不合闹崩了情况
+4. 有没有和队友意见不合闹崩了情况
 
-7. 有没有过主动承担队友任务的经历，为什么
+5. 有没有过主动承担队友任务的经历，为什么
 
-13. 合作 teamwork的经历
+7. 合作 teamwork的经历
 
-20. 有没有在一个项目当过领导；
+8. 有没有在一个项目当过领导；
 
-有没有帮助别人的经历 How you help teammate
+9. 有没有帮助别人的经历 How you help teammate
 
 
 ==================Conflict==============================
 
-30. 有没有做过一些同事已经觉得足够好,但是你觉得还不够好的事. How you insist the highest standard
+1. 有没有做过一些同事已经觉得足够好,但是你觉得还不够好的事. How you insist the highest standard
 
-31. 有没有和领导有过争执.
+2. 有没有和领导有过争执.
 
-21. 你想用A方法来实现你负责的这块任务，你老板让你用B方法，但你觉得其实A方法更好，你怎么办? 
+2. 你想用A方法来实现你负责的这块任务，你老板让你用B方法，但你觉得其实A方法更好，你怎么办? 
 
-36. decision without consulting manager
+3. decision without consulting manager
 
-24. 你的老板如果在出差，你联系不到，你该怎么办?
+4. 你的老板如果在出差，你联系不到，你该怎么办?
 
-14. 你和其他小伙伴有冲突或吵架怎么办；
+5. 你和其他小伙伴有冲突或吵架怎么办；
 
-29. team work disagreement
+6. team work disagreement
+
 ==================Deadline==============================
-32. 有没有做过under deadline的项目
+1. 有没有做过under deadline的项目
 
-19. 你有没有遇到过deadline来不及的情况，你怎么解决的？
+2. 你有没有遇到过deadline来不及的情况，你怎么解决的？
 
-tight ddl and have to make decision without considering alternatives 
+3. tight ddl and have to make decision without considering alternatives 
 
-20. 你发现你组里一个组员的任务实际上来不及赶上deadline了，你懂他负责的这块，他可能没有你懂，却以为来得及。
+4. 你发现你组里一个组员的任务实际上来不及赶上deadline了，你懂他负责的这块，他可能没有你懂，却以为来得及。
     你们的老板不清楚情况，你该怎么做?
     
-22. 你遇到一个问题，有方案A和方案B，必须选一个。它们互有利弊。你时间有限，无法花太多时间考虑，你应该怎么做?
+5. 你遇到一个问题，有方案A和方案B，必须选一个。它们互有利弊。你时间有限，无法花太多时间考虑，你应该怎么做?
 
-23. 一个如果项目中有很多bug，但是deadline快到期了，你会怎么办? 如果这些bug不重要呢？
-17. 项目中最难的地方/最难的项目；
+6. 一个如果项目中有很多bug，但是deadline快到期了，你会怎么办? 如果这些bug不重要呢？
 
-10. DDL 快到了 没做完 该怎么办
-15. 有没有过miss deadline，怎么做的；
-22. 问了有没有要很短时间内完成一个project的经历，时间不够是因为哪些原因之类的， 突
+7. 项目中最难的地方/最难的项目；
+
+8. DDL 快到了 没做完 该怎么办
+
+9. 有没有过miss deadline，怎么做的；
+
+10. 问了有没有要很短时间内完成一个project的经历，时间不够是因为哪些原因之类的， 突
    然需求改了，需要做的东西就不够了，加班加点，先完成重点需求
    
-有一个紧急情况
+11. 有一个紧急情况
 
-tell me about a time when you have to move fast (make a decision fast)
+12. tell me about a time when you have to move fast (make a decision fast)
 
 ==================Solve Problem Experience==============================
-2. 怎么做重要决定
+1. 怎么做重要决定
 
-what is the part you don't like a time when you take a calculated risk
+2. what is the part you don't like a time when you take a calculated risk
 
-4. 自己犯的比较错误的一个decision
+3. 自己犯的比较错误的一个decision
 
-24. 有没有对自己的承诺失误过，
+4. 有没有对自己的承诺失误过，
 
-26. tell me about a time that you failed
+5. tell me about a time that you failed
 
-29. 你在现在公司,最大的creative idea是啥；
+6. 你在现在公司,最大的creative idea是啥；
 
-19. 有没有做过一些你很讨厌做的项目，被迫要做的那种；
+7. 有没有做过一些你很讨厌做的项目，被迫要做的那种；
 
-37. anything you don't fully understand, but you do it anyway
+8. anything you don't fully understand, but you do it anyway
 
-21. 问了要马上开始做一个你还没有完全理解的project时会怎么办 PM 举个例子
+9. 问了要马上开始做一个你还没有完全理解的project时会怎么办 PM 举个例子
 
-How you clarify requirement
+10. How you clarify requirement
 
 11. 项目信息量比较少 该怎么办
 
-8. 有没有走出舒适区的经历
-9. 在学习新技术时，你的thought process是怎样的
+12. 有没有走出舒适区的经历
 
-18. Tell me a time that ur failed?
+13. 在学习新技术时，你的thought process是怎样的
 
-19. What is your biggest failure?
+14. Tell me a time that ur failed?
 
-25. 曾经遇到过的项目中重大改变是什么，你怎么解决的?
+15. What is your biggest failure?
 
-6. 印象最深的项目经验
+16. 曾经遇到过的项目中重大改变是什么，你怎么解决的?
 
-26. 对xx公司有什么改进意见？
+17. 印象最深的项目经验
 
-27. Describe a time you encountered an issue and how you fixed it.
+18. 对xx公司有什么改进意见？
 
-28. when you made a mistake and how you correct it?
+19. Describe a time you encountered an issue and how you fixed it.
 
-9. What is your most successful project? / something you are most proud of
+20. when you made a mistake and how you correct it?
+
+21. What is your most successful project? / something you are most proud of
    The project I'm most proud of is that during my work at Nxxx, I wrote a big code automation that can save a lot of effort.
    Before I took that part of testing, every time we introduce a new module, I need to do a lot of manual configurations and write 
    some code specifically for it. Then I used my spare time to write an interface to accept all kinds of modules, every new module
@@ -229,11 +234,9 @@ How you clarify requirement
    a whole, integrate them together. And I integrated the performance check tests that makes checking performance a standard.
    So after I build the system, I can save a lot of time testing new modules.
 
-Most challenge project
+22. Most challenge project
 
-favorite project
-
-
+23. favorite project
 
 **********************************Amazon Principles****************************************
    1. 以重视客户为荣，以重视对手为耻
@@ -349,7 +352,7 @@ https://www.linkedin.com/pulse/ace-leadership-interview-prakash-krishnan
 *********************************************************************************************************
 
 Do you have quesions to ask me?
-For general collegue: can you describe your daily routine?
-For hiring manager: what I can learn from this role?
-For director: what's the expectation for this role? (also ok to ask hiring manager)
-              which one do you prefer, quality or delivery (also ok to ask hiring manager)
+   For general collegue: can you describe your daily routine?
+   For hiring manager: what I can learn from this role?
+   For director: what's the expectation for this role? (also ok to ask hiring manager)
+                 which one do you prefer, quality or delivery (also ok to ask hiring manager)
