@@ -9,24 +9,19 @@ First of all: Do some research of the company:
 ==================Resume Question==============================
 
 1. Introduce yourself
-   My name is Yuchen, which you already know. I went to University of Vxx in 2011 and got my masters degree in 2013. 
-   During which, I did 8 months coop term in Rx, now it's called Bxxx. When I was there, I was a software developer. 
-   It was in Ottaxx. So after my coop term, I found another job in Ottawa, it was Acxx-luxx. I have been working there
-   for 3 years as a software test engineer. Now Alxx is bought by Noxxx. So that's my work experience. Since I have been
-   working as a software tester for 3 years, a little bit tired, now I want to switch to a software developer position. 
-   I know Java and I'm good at data structure and algorithms. I'm detail-oriented and I know how to do quality assurance.
-   So I think I can be a good candidate for this position.
+   My name is Yuchen, which you already know. I went to University of Vxx in 2011 and got my masters degree. 
+   Then, I did 8 months coop as a software develop in Bxxx. They were not doing well. I didn't get an offer.
+   It was in Ottaxx. So after my coop term, I found another job in Ottawa, it was Noxxx. I worked there
+   for 3 years as a software engineer. I felt Ottawa is so boring, so then I came Toronto. After that I worked 
+   in a us based company in downtown called pxxx. I worked there for 1 year. Then I started my current job in LD.
+   That's my work experience.
 
-2. Introduce your work at Noxxx, the technology you use
-   First I think I need to introduce my department first. We are the most money making department in Axxxx. We do Axx's most famous
-   software router. It's the very big ones, the router used by ATT, verizon, T-mobile that kind of router. 
-   My team provides quality assurance to the software running on the router. It's a big produce line, so each one of
-   us is responsible for a few products. 
-   I have 2 main roles, first one is to test new software features introduced and new code 
-   committed. I need communicate with product manager, developers, to make sure we understand the customers' requirement correctly. 
-   Then I will write test plans for the features, writing code for test automations to performance kind of test cases. Looking for 
-   bugs, run regression tests, etc. 
-   Second one is to test the performance of the router, I need to make sure its best performance that no packets will be corrupted 
+2. Introduce your work at Noxxx
+   First I think I need to introduce my department first. We are the most money making department in Nxxxx. We do their most famous
+   software router. It's the very big ones, the router used by ATT, verizon, Roger that kind of router, big like a wall. 
+   We build the software running on it. 
+   I work on delivering new features and bug fixing. I need dicuss with product manager to make sure we understand the customers' 
+   requirement correctly. Also need make sure the performance of the router, which means that no packets will be corrupted 
    during traffic transmission. And also no packets should be dropped. I need to write code for hardware auto configuration, service
    configuration, traffic flowing. And also write code simulating kinds of situations and control the chips threshold. 
 
