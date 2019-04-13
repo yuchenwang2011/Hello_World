@@ -1,0 +1,20 @@
+1. How to design a Payment Process System
+今天幫我高中同學 mock 某家獨角 onsite 常出的這道 system design 題，他一時想不出來，就跟我說他不會。還好我去年十月去 AWS Summit 聽過一些 startup talks，
+他們在台上分享了他們用 AWS 解決問題的方法，使我受益匪淺。其中一家多倫多的 payment startup Pungle 就發表了他們用 AWS 解決 scalable, robust and secure real-time payment processing 的經驗，我就給他講了一遍，非常值得參考: https://youtu.be/_2i_-z-IiOk
+給他 mock 過一遍之後，我才突然想到原來也可以藉由看 Amazon 上傳到 YouTube 的 real-world case studies 來學 system design。
+以下分享多倫多的 startup talks: https://www.youtube.com/playlist ... reG2Y6-8R0u7cN5lH63
+
+2019-04-08 晚上補充：我覺得以 payment 來說，無論是個人對個人，個人對公司，或公司對公司都需要解決：
+1. scalability (突然有大量的 requests 來時都可以即時處理)
+2. reliability (盡量接近 100% availability + 失敗之後能後 retry)
+3. timeliness (支付是有時間性的，最好能按照時間順序處理，這樣越早收到的交易可以越早完成)
+4. no double spend (要是帳戶裡每一塊錢只能花一次)
+
+樓主我是個新碼農，離開大學才工作了一年半，所以系統設計還沒弄太熟。想趁這個機會，總結一下我在公司裡（不是 payment 公司）在 AWS Summit 看到很多新創常見的 high level 解決方案：
+1. 用 load balancer + auto-scale instances 來處理 surge in traffic。同時跑好幾個 instances 不僅可以增加 availability，當一個有 outage 其他 instances 可以幫忙頂替
+2. 用一個 queue (e.g. AWS SQS) 來存放 failed jobs，instances 會從 queue 裡取出 failed jobs 再試一次。要是失敗太多次了可能就要放到另一個 queue (e.g. AWS DLQ) 
+然後丟 alerts 叫 ops 或工程師來看發生什麼事，手動處理，或是改 code 以後就不需要手動處理了
+3. time sequencing 很重要，所以每個 job 可以放到 queue 或 event stream 裡 (e.g. SQS, AWS Kinesis or Kafka)，來個 producer-consumer pattern (producer 放 jobs 到 stream 裡，consumer 取出工作來做)
+4. balance check + cache 正在處理的交易或把交易細節存在 database 裡，每看到一筆新交易都要檢查有沒有正在處理或已經處理完的同一筆交易
+最後又回到 1. 最後如果需要 scale 更大，可以有 mutiple load balancers，multiple producer workers (instances)，multiple streams，multiple consumer workers (instances) 哈哈哈
+
