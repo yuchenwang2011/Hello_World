@@ -114,6 +114,7 @@ First of all: Do some research of the company:
 17. 列举你最近6个月看过的技术方面的书。你常看的技术blog，常去的讨论技术的网站?
 18. 有没有自学过什么是后来觉得很有用的；
 
+19. 你想去哪个组，哪个产品，对哪方面感兴趣。当然，如果是面试特定的组，就不会问这个问题。
 
 ==================TeamWork==============================
 
@@ -130,7 +131,7 @@ First of all: Do some research of the company:
 
 3. teamwork，obstacle
 
-4. 有没有和队友意见不合闹崩了情况
+4. 有没有和队友意见不合闹崩了情况. How was it resolved?
 
 5. 有没有过主动承担队友任务的经历，为什么
 
@@ -236,6 +237,8 @@ First of all: Do some research of the company:
 22. Most challenge project
 
 23. favorite project
+
+24. Describe a situation where you exceeded expectations/did more than required
 
 **********************************Amazon Principles****************************************
    1. 以重视客户为荣，以重视对手为耻
@@ -355,3 +358,5 @@ Do you have quesions to ask me?
    For hiring manager: what I can learn from this role?
    For director: what's the expectation for this role? (also ok to ask hiring manager)
                  which one do you prefer, quality or delivery (also ok to ask hiring manager)
+   What do you like most about this company/team?
+   
