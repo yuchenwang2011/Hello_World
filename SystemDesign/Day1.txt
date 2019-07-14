@@ -1,5 +1,6 @@
 Learning from this url:
 https://github.com/donnemartin/system-design-primer
+https://www.mitbbs.com/article_t/JobHunting/32777529.html  try to read this later
 
 1. a very inspiring video, intro what is system design
   https://www.youtube.com/watch?v=ZgdS0EUmn70
