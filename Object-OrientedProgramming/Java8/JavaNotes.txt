@@ -40,9 +40,10 @@ Basic concepts:
 9. Java Access Levels
    Modifier	  Class	Package	Subclass	World
    public	      Y	    Y	       Y	      Y
-   protected	  Y	    Y	       Y	      N
-   no modifier	Y	    Y      	 N	      N
-   private	    Y	    N	       N	      N
+   protected	   Y	    Y	       Y	      N
+   no modifier	   Y	    Y      	 N	      N
+   private	      Y	    N	       N	      N
+   https://stackoverflow.com/questions/18573016/understanding-javas-protected-modifier
 
 10. When calling a method on an object reference, it starts from the lowest level of the inheritance tree. 
 
