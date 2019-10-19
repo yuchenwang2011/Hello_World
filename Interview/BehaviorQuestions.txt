@@ -39,11 +39,16 @@
    First I think I need to introduce my department first. We are the most money making department in Nxxxx. We do their most famous
    software router. It's the very big ones, the router used by ATT, verizon, Rogers that kind of router, big like a wall. 
    We build the software running on it. 
-   I was working on the switch fabric related areas. The switch fabric is a virtual data path 
-   that the data, packets flowing through. And we need to guarantee the data path is alwasy working at a high performance level. 
-   No packets should be corrupted or dropped during traffic transmission. 
-   I need to write code for hardware auto configuration, service
-   configuration, traffic flowing. And also write code simulating kinds of situations and control the chips threshold. 
+   I was working on the switch fabric related area. The switch fabric is a virtual data path 
+   that the data, the packets flowing through. We need to guarantee the data path is always working at a high performance level. 
+   No packets should be corrupted or dropped during traffic transmission. So I built the related features to monitor the performance
+   under different circumstances. There are many chips in the router, different configurations can make a huge difference. So we need 
+   to figure out the best paramters for the chips and FPGAs. 
+   (There are small sfps, they are in a bigger MDAs, MDAs are in SFPs, then in a chassis. The sfps are connected by optical fibres, then 
+   connected to the data generator.
+   so there are Level 1 code written by C/C++ to control all those hardware. And we write the Level 2 commmands to connect all those 
+   hardware to form an internal data path. Then on the Level 3 we write other features to monitor the performance, to dump data, 
+   I was also responsible for mirroring the data)
    
 4. Introduce your work at Vicxxx
    I was a research assistant then. My supervisor had a project about improving current OFDM system which based on 802.11a, of course
