@@ -13,7 +13,7 @@
    engineer. I worked for Bxx for less a year, 3 years for Nxxx, 1 year for Pxxx then now I'm working for Lxxx, which is almost 
    2 years so far. 
 
-2. Introduce your work at Blxxx,the technology you use
+2. Introduce your work at Bxxx,the technology you use
    When I was there, my team was responsible for providing software for bb factories. You know at that time, bb's market was still not
    as bad as now. Their factory needs to manufacture thousands of products every day. The factory needs a lot of software 
    to do manufactoring and assembling for their phones. So we wrote software and maintain existing software for them. 
@@ -53,7 +53,8 @@
 4. Introduce your work at Vicxxx
    I was a research assistant then. My supervisor had a project about improving current OFDM system which based on 802.11a, of course
    now no one would use that. We need to build the packets according to the 11a specification. Then build kinds of modules 
-   multiplexer, demultiplexer kind of things to simualtion the signal transmitting. The idea of this project is to use polar 
+   multiplexer, demultiplexer, sending and receiving, to simualtion the signal transmitting from end to end. 
+   The idea of this project is to use polar 
    coordinate instead the regular cartesian coordinate, which could save a lot of calculation of the system. We also combined soft 
    decoder inside of regular hard decoder to get a 3dm performance improvement. We also try something more that instead of floating 
    point calculation, we used fixed point and explored the minimum digits we can use for different situations but can also guarantee 
@@ -62,8 +63,8 @@
 5. Introduce your work at Pfpt,the technology you use
    I was a QA automation engineer there, or a QA developer. I was responsible to maintain the automation framework, when some new 
    feature introduced or some backend api changes, we need update the corresponding automation script. 
-   Also when there are new test cases added in regression, I will convert the manual testing into automation code. I left there after 
-   worked for a year because I feel the project was not very challenging.
+   Also there are a lot of manual testings need to be performed by QAs, so my job is to convert the manual testing 
+   into automation code. (I left there after worked for a year because I feel the project was not very challenging.)
 
 6. Introduce your work at LD,the technology you use
 
