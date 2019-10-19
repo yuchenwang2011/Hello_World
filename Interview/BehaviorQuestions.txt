@@ -1,4 +1,4 @@
-First of all: Do some research of the company:
+==================公司问题=============================
 1. Their product
 2. Their future (why they are optimizing)
 3. How they can beat their competitors
@@ -6,43 +6,44 @@ First of all: Do some research of the company:
 5. Why do you want to come this company
 6. Why do you want to work on this role
 
-==================Resume Question==============================
+==================经历问题==============================
 
 1. Introduce yourself
    My name is Yuchen, which you already know. I got my masters degree in 2013. After that I have been working as a software
-   engineer. I worked for Bxx for less a year, 3 years for Nokia, 1 year for 
-   proofpoint then now I'm working for Loblaw Digital, which is almost 2 years. 
-   
+   engineer. I worked for Bxx for less a year, 3 years for Nxxx, 1 year for Pxxx then now I'm working for Lxxx, which is almost 
+   2 years so far. 
 
-2. Introduce your work at Noxxx
-   First I think I need to introduce my department first. We are the most money making department in Nxxxx. We do their most famous
-   software router. It's the very big ones, the router used by ATT, verizon, Roger that kind of router, big like a wall. 
-   We build the software running on it. 
-   I work on delivering new features and bug fixing. I need dicuss with product manager to make sure we understand the customers' 
-   requirement correctly. Also need make sure the performance of the router, which means that no packets will be corrupted 
-   during traffic transmission. And also no packets should be dropped. I need to write code for hardware auto configuration, service
-   configuration, traffic flowing. And also write code simulating kinds of situations and control the chips threshold. 
-
-3. Introduce your work at Blxxx,the technology you use
+2. Introduce your work at Blxxx,the technology you use
    When I was there, my team was responsible for providing software for bb factories. You know at that time, bb's market was still not
-   as bad as now. Their factory needs to manufacture thousands of products. The factory needs a lot of software to do manufactoring and
-   assembling for their phones. So we wrote software and maintain existing software for them. 
-   For me, I had 2 main roles, first one was responsible for a few older products, maintain the existing software. When our customer 
+   as bad as now. Their factory needs to manufacture thousands of products every day. The factory needs a lot of software 
+   to do manufactoring and assembling for their phones. So we wrote software and maintain existing software for them. 
+   For me, I had 2 main roles, first one was responsible for a few older products, to maintain the existing software. When our customer 
    the factory ask for a requirement, for example, they need change a specific configuration, I would update the code for them.
    Of course I need to guarantee nothing would be broken by my code change.
-   My second role was to write some software at my spare cycle. Looking for what kind of thing that everyone in our team can benefit
+   My second role was to write some software at my spare cycle. Looking for what kind of thing that everyone on our team can benefit
    from. Duding then I wrote a windows background service running on a server to do the log file cleaning. 
    
    SubQuestion: Can you describe the software? 
+   
    There are tons of log generated everyday for a big department. Before that the manager needs to manually delete those files.
-   The file structure was super complicated, a log of folders, folders nested with folders, different kinds of files in each level.
-   Some files are hidden, some files needs certain privilege to delete. Managers need to check the log when it's created. For example,
-   logs created 3 months ago should be deleted but if any single file in that nested folder was ever viewed by someone, files in that
-   folder should be protected.
    So I wrote a clean up service running on the server that will start itself automatically to do that cleaning. The user can have
    options to choose which folder they want to clean, how old the files needs to be deleted, the log file destination. 
-   It has a lot of things to consider when developing, such as, someone is currently reading a file, old folder has new files, 
+   The file structure was super complicated, a log of folders, folders nested with folders, different kinds of files in each level.
+   It has a lot of things to consider when developing, for example, 
+   Some files are hidden, some files needs certain privilege to delete. 
+   Logs created 3 months ago should be deleted but if any single file in that nested folder was ever viewed by someone, 
+   files in that folder should be protected. someone is currently reading a file, old folder has new files, 
    new folder has old files, what if the service can't finish its job in 24 hours and then a new service is restarted. 
+
+2. Introduce your work at Nxxx
+   First I think I need to introduce my department first. We are the most money making department in Nxxxx. We do their most famous
+   software router. It's the very big ones, the router used by ATT, verizon, Rogers that kind of router, big like a wall. 
+   We build the software running on it. 
+   I was working on the switch fabric related areas. The switch fabric is a virtual data path 
+   that the data, packets flowing through. And we need to guarantee the data path is alwasy working at a high performance level. 
+   No packets should be corrupted or dropped during traffic transmission. 
+   I need to write code for hardware auto configuration, service
+   configuration, traffic flowing. And also write code simulating kinds of situations and control the chips threshold. 
    
 4. Introduce your work at Vicxxx
    I was a research assistant then. My supervisor had a project about improving current OFDM system which based on 802.11a, of course
@@ -217,6 +218,11 @@ First of all: Do some research of the company:
 16. 曾经遇到过的项目中重大改变是什么，你怎么解决的?
 
 17. 印象最深的项目经验
+
+还有两个常见问题就是 1 你从这个项目中学到了什么，有什么是以前不会的？做完之后就会了。
+
+2 有没有make什么wrong decision, 是怎么发现怎么解决的。
+
 
 18. 对xx公司有什么改进意见？
 
