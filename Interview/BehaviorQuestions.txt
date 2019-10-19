@@ -9,12 +9,10 @@ First of all: Do some research of the company:
 ==================Resume Question==============================
 
 1. Introduce yourself
-   My name is Yuchen, which you already know. I went to University of Vxx in 2011 and got my masters degree. 
-   Then, I did 8 months coop as a software develop in Bxxx. They were not doing well. I didn't get an offer.
-   It was in Ottaxx. So after my coop term, I found another job in Ottawa, it was Noxxx. I worked there
-   for 3 years as a software engineer. I felt Ottawa is so boring, so then I came Toronto. After that I worked 
-   in a us based company in downtown called pxxx. I worked there for 1 year. Then I started my current job in LD.
-   That's my work experience.
+   My name is Yuchen, which you already know. I got my masters degree in 2013. After that I have been working as a software
+   engineer. I worked for Bxx for less a year, 3 years for Nokia, 1 year for 
+   proofpoint then now I'm working for Loblaw Digital, which is almost 2 years. 
+   
 
 2. Introduce your work at Noxxx
    First I think I need to introduce my department first. We are the most money making department in Nxxxx. We do their most famous
