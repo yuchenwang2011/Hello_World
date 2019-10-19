@@ -61,17 +61,28 @@
    the system's performance.
 
 5. Introduce your work at Pfpt,the technology you use
-   I was a QA automation engineer there, or a QA developer. I was responsible to maintain the automation framework, when some new 
-   feature introduced or some backend api changes, we need update the corresponding automation script. 
+   I was a QA automation engineer there, or a QA developer. I was responsible to maintain the automation framework, 
+   which is running every night, in the morning I will need to debug and figure out what fails the tests. 
+   When some new feature introduced or some backend api changes, we need update the corresponding automation script. 
    Also there are a lot of manual testings need to be performed by QAs, so my job is to convert the manual testing 
    into automation code. (I left there after worked for a year because I feel the project was not very challenging.)
 
-6. Introduce your work at LD,the technology you use
+6. Introduce your work at Lxx,the technology you use
+   Do you know lxx, it's the biggest grocery store in Canada, Canada version of Walmart. For LD, we are responsible for 
+   building all the e-commerce platforms, enterprise software required for the big company. We have many teams in the company,
+   such as grociery, id, membership, bank, searching, fullfillment. 
+   I work on the Drugmart department, which is the Canada's most famous cosmetics and pharmacy store. It's like the CVS. 
+   We are building the online shopping website for it. So customers can browse and shop online. Our tech stack frontend is 
+   html,css,js,jq,jsp,react. On backend, we use Java, SpringMVC, Oracle. From this year, we are trying to decouple the frontend and 
+   backend. We don't want jsp anymore, we want to use react to replace all frontend. So backend now only provide APIs for frontend and 
+   mobile apps. 
+   I work most of the time as a backend developer. 
+   
+
 
 7. What is your strength?
-   My strengh is that I am a self - starter, I don't need any supervision. I will always work my best and hardest to
-   finish my tasks. I know my responsbility and I'm proud of owning my responsibility. 
-   Second I have the enthusasim to learn, I'm always full of energy to improve myself. 
+   My strengh is that I am a self - starter, I don't need any supervision. I have a very strong sense of ownership.
+   I always work my best and hardest to finish my tasks.  
    
 8. What is your weakness
    My weakness is that I'm kinda giving myself too much pressure. Not pressure from work, it's the pressure from family, 
