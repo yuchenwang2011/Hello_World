@@ -96,10 +96,17 @@
    to do A/B test whenever a new feature is going to be released. 
    b. We also integrationed 3 sets of cybersource APIs for our credit card checkout. We use cybersource iframe for new credit card 
    payment, and CS simple order API for existing card payment. To prevent fraud, we use CS decision manager and device finger print.
+   c. I also delivered a Colleague Discount Program. Call an api endpoint, decode. 
+   Apply price strategy to qualified cart and entries.  
    
    Sub Question 3: what do you do for api?
-   a. 
+   First we already have an existing web app, but backend and frontend is not decoupled. We use MVC to pass attributes through
+   model to frontend, and we have the CMS page system as template. This time we are going to launch a new mobile, so we want to 
+   use APIs to support them, and btw decouple frontend and backend as well. 
+   First of all we need to discuss 
    
+   
+   Sub Question 4: Can you draw the system structure of your web app? 
    
 7. What is your strength?
    My strengh is that I am a self - starter, I don't need any supervision. I have a very strong sense of ownership.
