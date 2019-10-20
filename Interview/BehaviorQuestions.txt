@@ -4,6 +4,9 @@
 3. How they can beat their competitors
 4. The future of the industry
 5. Why do you want to come this company
+      Everyone knows xxxx is a great company, it's one of the best companies in the world. If I can get an offer, I can work on a
+   something used by millions of people every second around the world. I can learn the lastest techonology. I can work together with 
+   most talented people in this world. 
 6. Why do you want to work on this role
 
 ==================经历问题==============================
@@ -35,7 +38,7 @@
    files in that folder should be protected. someone is currently reading a file, old folder has new files, 
    new folder has old files, what if the service can't finish its job in 24 hours and then a new service is restarted. 
 
-2. Introduce your work at Nxxx
+3. Introduce your work at Nxxx
    First I think I need to introduce my department first. We are the most money making department in Nxxxx. We do their most famous
    software router. It's the very big ones, the router used by ATT, verizon, Rogers that kind of router, big like a wall. 
    We build the software running on it. 
@@ -60,7 +63,7 @@
    point calculation, we used fixed point and explored the minimum digits we can use for different situations but can also guarantee 
    the system's performance.
 
-5. Introduce your work at Pfpt,the technology you use
+5. Introduce your work at Pxxx,the technology you use
    I was a QA automation engineer there, or a QA developer. I was responsible to maintain the automation framework, 
    which is running every night, in the morning I will need to debug and figure out what fails the tests. 
    When some new feature introduced or some backend api changes, we need update the corresponding automation script. 
@@ -76,19 +79,36 @@
    html,css,js,jq,jsp,react. On backend, we use Java, SpringMVC, Oracle. From this year, we are trying to decouple the frontend and 
    backend. We don't want jsp anymore, we want to use react to replace all frontend. So backend now only provide APIs for frontend and 
    mobile apps. 
-   I work most of the time as a backend developer. 
+   I work most of the time as a backend developer. I'm focused on login, checkout, api related features. 
    
-
-
+   Sub Question 1: what do you do for login?
+   For example, all the user related features, such as 
+   a. if you are a hacker, you have 4 failed login attempt, you will be warned, if you fail 5 times, your account 
+   will be temporarily locked. 
+   b. Also when you register a new account, there will be strength meter under the password form to indicate how strong
+   the password is, if it's too weak, we won't let you register.
+   c. From last year, we started to adopt Oauth2 login. At first we tried integrated Okta as our Oauth2 server. 
+   This year we switched to Oracle IDCS service. 
+   
+   Sub Question 2: what do you do for checkout?
+   a. We need to find out the best checkout flow by integrating google analytics, each button click on the page is recorded, 
+   to figure out the best conversion rate. Then based on the analyse to rebuild frontend pages. We also user Adobe target 
+   to do A/B test whenever a new feature is going to be released. 
+   b. We also integrationed 3 sets of cybersource APIs for our credit card checkout. We use cybersource iframe for new credit card 
+   payment, and CS simple order API for existing card payment. To prevent fraud, we use CS decision manager and device finger print.
+   
+   Sub Question 3: what do you do for api?
+   a. 
+   
+   
 7. What is your strength?
    My strengh is that I am a self - starter, I don't need any supervision. I have a very strong sense of ownership.
    I always work my best and hardest to finish my tasks.  
    
 8. What is your weakness
    My weakness is that I'm kinda giving myself too much pressure. Not pressure from work, it's the pressure from family, 
-   from friends, afraid to left hind, afraid can't afford a house. Sometimes got bad mood because of that, can't enjoy life. 
+   from friends, afraid to left hind. Sometimes got bad mood because of that, can't enjoy life. 
   
-   
 9. What was your biggest challenge?
    Well, my biggest challenge was that when I first got hired by Axxxxxx, there was a probation period. I was given 2 month time to 
    finish my first project. I was a fresh graduate then and I didn't know anything about the work my team was doing. They wanted to 
@@ -96,11 +116,6 @@
    about things I need to consider, asking people the logic behind the code and asking people about the knowledge of our product,
    writing notes, working overtime to write my own code. So I proved my ability to learn fast and I managed to finish the project
    from scrach to release. 
-
-10. Why do you choose our company? (Google, Amazon, Apple, Uber, Netflix, Facebook)
-   Everyone knows xxxx is a great company, it's one of the best companies in the world. If I can get an offer, I can work on a
-   something used by millions of people every second. I can learn the lastest techonology. I can work together with most talented
-   people in this world. 
    
 11. What can you bring to us?
     My sense of responsibility. I am a person having a very high standard of myself and want to make my release perfect and free of 
