@@ -85,8 +85,15 @@
    For example, all the user related features, such as 
    a. if you are a hacker, you have 4 failed login attempt, you will be warned, if you fail 5 times, your account 
    will be temporarily locked. 
+   (Details: In the DB, add 3 new fields for the user, attemptCount, activited, lastLoginTimeStamp, every time it has a
+   succssful login, it will reset the value. If there is a failure, we count the failure and put it into session. 
+   We will use this value in the authenticationFailureHandler. If 4 times, we warn it. If 5 times, 
+   we will deactive it the account. When a user login, we will check the lastLoginTimeStamp, when it cools down, 
+   the account will be activated.)
+   
    b. Also when you register a new account, there will be strength meter under the password form to indicate how strong
    the password is, if it's too weak, we won't let you register.
+   
    c. From last year, we started to adopt Oauth2 login. At first we tried integrated Okta as our Oauth2 server. 
    This year we switched to Oracle IDCS service. 
    
@@ -94,8 +101,10 @@
    a. We need to find out the best checkout flow by integrating google analytics, each button click on the page is recorded, 
    to figure out the best conversion rate. Then based on the analyse to rebuild frontend pages. We also user Adobe target 
    to do A/B test whenever a new feature is going to be released. 
+   
    b. We also integrationed 3 sets of cybersource APIs for our credit card checkout. We use cybersource iframe for new credit card 
    payment, and CS simple order API for existing card payment. To prevent fraud, we use CS decision manager and device finger print.
+   
    c. I also delivered a Colleague Discount Program. Call an api endpoint, decode. 
    Apply price strategy to qualified cart and entries.  
    
@@ -109,7 +118,9 @@
    they are as wanted. Then we split all the tickets to develop the remaining apis. 
    During the process, we need integrate Swagger UI together.
    
-   Sub Question 4: Can you draw the system structure of your web app? 
+   Sub Question 4: Can you draw the system structure of your web app?
+   https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3
+   /687474703a2f2f692e696d6775722e636f6d2f6a6a3341354e382e706e67
    
 7. What is your strength?
    My strengh is that I am a self - starter, I don't need any supervision. I have a very strong sense of ownership.
