@@ -101,10 +101,13 @@
    
    Sub Question 3: what do you do for api?
    First we already have an existing web app, but backend and frontend is not decoupled. We use MVC to pass attributes through
-   model to frontend, and we have the CMS page system as template. This time we are going to launch a new mobile, so we want to 
+   model to frontend JSP pages. This time we are going to launch a new mobile, so we want to 
    use APIs to support them, and btw decouple frontend and backend as well. 
-   First of all we need to discuss 
-   
+   First of all we need to discuss with mobile developers, PMs and designers to figure out the requirements, what the response will
+   be. Then we look at our current code base to figure out how many APIs we currently have, then we need map them together. 
+   Then we know how many exisiting apis we have, and how many we need develop. We need to validate the existing ones to make sure
+   they are as wanted. Then we split all the tickets to develop the remaining apis. 
+   During the process, we need integrate Swagger UI together.
    
    Sub Question 4: Can you draw the system structure of your web app? 
    
