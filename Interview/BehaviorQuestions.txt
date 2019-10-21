@@ -93,9 +93,19 @@
    
    b. Also when you register a new account, there will be strength meter under the password form to indicate how strong
    the password is, if it's too weak, we won't let you register.
+   (Details: we used an open source library called zxcvbn, give it a string value, it will give a score how strong it is.
+   We integrated on the frontend, when the user types in the pwd, it will dynamically give the score and based on the score, 
+   we show a meter under the form. If it's too weak, user won't be able to submit the pwd. Backend also integrated passwordping
+   api, it will pass the value to password ping server and check if the password is ever been used frequently. Then backend
+   throws exception to frontend to fail register)
    
    c. From last year, we started to adopt Oauth2 login. At first we tried integrated Okta as our Oauth2 server. 
    This year we switched to Oracle IDCS service. 
+   (Details: Backend will first gather all the attributes and pass to frontend. when the user clicks login, we send a call to 
+   the authentication server. We registered our app on oracle. It asks the user to login enter username and password. 
+   After success login, the auth server sends us an authorize code, we use the auth code to generate another call to the auth
+   server, the server will send us the jwt token, it has a Id token and an access token. We use the id token for membership
+   authorization, and the access token will be used to access API. )
    
    Sub Question 2: what do you do for checkout?
    a. We need to find out the best checkout flow by integrating google analytics, each button click on the page is recorded, 
