@@ -105,7 +105,7 @@
    the authentication server. We registered our app on oracle. It asks the user to login enter username and password. 
    After success login, the auth server sends us an authorize code, we use the auth code to generate another call to the auth
    server, the server will send us the jwt token, it has a Id token and an access token. We use the id token for membership
-   authorization, and the access token will be used to access API. )
+   authorization, and the access token will be used to access API.)
    
    =Sub Question 2: what do you do for checkout?=
    a. We need to find out the best checkout flow by integrating google analytics, each button click on the page is recorded, 
@@ -114,6 +114,11 @@
    
    b. We also integrationed 3 sets of cybersource APIs for our credit card checkout. We use cybersource iframe for new credit card 
    payment, and CS simple order API for existing card payment. To prevent fraud, we use CS decision manager and device finger print.
+   (iframe Details: frontend will make a call to CS iframe endpoint to get the form confirmation. After that will send backend request 
+   to get the required fields. Backend will according to previous checkout steps to generate the corresponsding required fields. 
+   then frontend will fill the form with generated data. After click submit, the integrated form will send data to cybersource 
+   endpoint, and it will return response with response code. Based on the code, backend will do corresponding order creation.)
+   
    
    c. I also delivered a Colleague Discount Program. Call an api endpoint, decode. 
    Apply price strategy to qualified cart and entries.  
