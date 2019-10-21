@@ -118,6 +118,8 @@
    to get the required fields. Backend will according to previous checkout steps to generate the corresponsding required fields. 
    then frontend will fill the form with generated data. After click submit, the integrated form will send data to cybersource 
    endpoint, and it will return response with response code. Based on the code, backend will do corresponding order creation.)
+   (DM Details: There are so many fraud nowadays. 
+   So when CS response with the transaction code, it will have a code, which indicates the )
    
    
    c. I also delivered a Colleague Discount Program. Call an api endpoint, decode. 
@@ -131,7 +133,7 @@
    be. Then we look at our current code base to figure out how many APIs we currently have, then we need map them together. 
    Then we know how many exisiting apis we have, and how many we need develop. We need to validate the existing ones to make sure
    they are as wanted. Then we split all the tickets to develop the remaining apis. 
-   During the process, we need integrate Swagger UI together.
+   During the process, we need integrate Swagger UI together, which is our final delivery.
    
    =Sub Question 4: Can you draw the system structure of your web app?=
    https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3
