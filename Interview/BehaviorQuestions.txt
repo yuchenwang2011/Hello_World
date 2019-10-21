@@ -11,12 +11,12 @@
 
 ==================经历问题==============================
 
-1. Introduce yourself
+1. ==Introduce yourself==
    My name is Yuchen, which you already know. I got my masters degree in 2013. After that I have been working as a software
    engineer. I worked for Bxx for less a year, 3 years for Nxxx, 1 year for Pxxx then now I'm working for Lxxx, which is almost 
    2 years so far. 
 
-2. Introduce your work at Bxxx,the technology you use
+2. ==Introduce your work at Bxxx,the technology you use==
    When I was there, my team was responsible for providing software for bb factories. You know at that time, bb's market was still not
    as bad as now. Their factory needs to manufacture thousands of products every day. The factory needs a lot of software 
    to do manufactoring and assembling for their phones. So we wrote software and maintain existing software for them. 
@@ -26,7 +26,7 @@
    My second role was to write some software at my spare cycle. Looking for what kind of thing that everyone on our team can benefit
    from. Duding then I wrote a windows background service running on a server to do the log file cleaning. 
    
-   SubQuestion: Can you describe the software? 
+   =SubQuestion: Can you describe the software? =
    
    There are tons of log generated everyday for a big department. Before that the manager needs to manually delete those files.
    So I wrote a clean up service running on the server that will start itself automatically to do that cleaning. The user can have
@@ -38,7 +38,7 @@
    files in that folder should be protected. someone is currently reading a file, old folder has new files, 
    new folder has old files, what if the service can't finish its job in 24 hours and then a new service is restarted. 
 
-3. Introduce your work at Nxxx
+3. ==Introduce your work at Nxxx==
    First I think I need to introduce my department first. We are the most money making department in Nxxxx. We do their most famous
    software router. It's the very big ones, the router used by ATT, verizon, Rogers that kind of router, big like a wall. 
    We build the software running on it. 
@@ -53,7 +53,7 @@
    hardware to form an internal data path. Then on the Level 3 we write other features to monitor the performance, to dump data, 
    I was also responsible for mirroring the data)
    
-4. Introduce your work at Vicxxx
+4. ==Introduce your work at Vicxxx==
    I was a research assistant then. My supervisor had a project about improving current OFDM system which based on 802.11a, of course
    now no one would use that. We need to build the packets according to the 11a specification. Then build kinds of modules 
    multiplexer, demultiplexer, sending and receiving, to simualtion the signal transmitting from end to end. 
@@ -63,14 +63,14 @@
    point calculation, we used fixed point and explored the minimum digits we can use for different situations but can also guarantee 
    the system's performance.
 
-5. Introduce your work at Pxxx,the technology you use
+5. ==Introduce your work at Pxxx,the technology you use==
    I was a QA automation engineer there, or a QA developer. I was responsible to maintain the automation framework, 
    which is running every night, in the morning I will need to debug and figure out what fails the tests. 
    When some new feature introduced or some backend api changes, we need update the corresponding automation script. 
    Also there are a lot of manual testings need to be performed by QAs, so my job is to convert the manual testing 
    into automation code. (I left there after worked for a year because I feel the project was not very challenging.)
 
-6. Introduce your work at Lxx,the technology you use
+6. ==Introduce your work at Lxx,the technology you use==
    Do you know lxx, it's the biggest grocery store in Canada, Canada version of Walmart. For LD, we are responsible for 
    building all the e-commerce platforms, enterprise software required for the big company. We have many teams in the company,
    such as grociery, id, membership, bank, searching, fullfillment. 
@@ -81,7 +81,7 @@
    mobile apps. 
    I work most of the time as a backend developer. I'm focused on login, checkout, api related features. 
    
-   Sub Question 1: what do you do for login?
+   =Sub Question 1: what do you do for login?=
    For example, all the user related features, such as 
    a. if you are a hacker, you have 4 failed login attempt, you will be warned, if you fail 5 times, your account 
    will be temporarily locked. 
@@ -107,7 +107,7 @@
    server, the server will send us the jwt token, it has a Id token and an access token. We use the id token for membership
    authorization, and the access token will be used to access API. )
    
-   Sub Question 2: what do you do for checkout?
+   =Sub Question 2: what do you do for checkout?=
    a. We need to find out the best checkout flow by integrating google analytics, each button click on the page is recorded, 
    to figure out the best conversion rate. Then based on the analyse to rebuild frontend pages. We also user Adobe target 
    to do A/B test whenever a new feature is going to be released. 
@@ -118,7 +118,7 @@
    c. I also delivered a Colleague Discount Program. Call an api endpoint, decode. 
    Apply price strategy to qualified cart and entries.  
    
-   Sub Question 3: what do you do for api?
+   =Sub Question 3: what do you do for api?=
    First we already have an existing web app, but backend and frontend is not decoupled. We use MVC to pass attributes through
    model to frontend JSP pages. This time we are going to launch a new mobile, so we want to 
    use APIs to support them, and btw decouple frontend and backend as well. 
@@ -128,19 +128,19 @@
    they are as wanted. Then we split all the tickets to develop the remaining apis. 
    During the process, we need integrate Swagger UI together.
    
-   Sub Question 4: Can you draw the system structure of your web app?
+   =Sub Question 4: Can you draw the system structure of your web app?=
    https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3
    /687474703a2f2f692e696d6775722e636f6d2f6a6a3341354e382e706e67
    
-7. What is your strength?
+7. ==What is your strength?==
    My strengh is that I am a self - starter, I don't need any supervision. I have a very strong sense of ownership.
    I always work my best and hardest to finish my tasks.  
    
-8. What is your weakness
+8. ==What is your weakness==
    My weakness is that I'm kinda giving myself too much pressure. Not pressure from work, it's the pressure from family, 
    from friends, afraid to left hind. Sometimes got bad mood because of that, can't enjoy life. 
   
-9. What was your biggest challenge?
+9. ==What was your biggest challenge?==
    Well, my biggest challenge was that when I first got hired by Axxxxxx, there was a probation period. I was given 2 month time to 
    finish my first project. I was a fresh graduate then and I didn't know anything about the work my team was doing. They wanted to 
    check if I am a fast learner. So I did my best, reading code to learn the APIs and the coding conventions here, checking twikis
@@ -148,29 +148,29 @@
    writing notes, working overtime to write my own code. So I proved my ability to learn fast and I managed to finish the project
    from scrach to release. 
    
-11. What can you bring to us?
+11. ==What can you bring to us?==
     My sense of responsibility. I am a person having a very high standard of myself and want to make my release perfect and free of 
     bugs. I will feel a shame to fail release and not working my best. I've been doing software testing for 3 years, I know how
     to quality control and make my code less bugs. 
 
-12. Why do you want to switch to a software developer? 
+12. ==Why do you want to switch to a software developer?==
     Having been working as a software test engineer, I'm a little bit tired. 50% of my word was writing code automations, I like the
     feeling to write code. I like the feeling to create things. I think I like to be a developer better.
 
-13. How can you improve your coding ability?
+13. ==How can you improve your coding ability?==
     For example, during my work, when I have spare time, I don't relax. I would read other people's code, assuming if I were them,
     how I would write my code here. And we do code reviews, I can get feedback from other people, this really helps a lot.  
     I would also spend quite a lot of time to read API documents. The more I'm familiar with it, I can write better code. 
 
-14. Why should we hire u? / why do u think urself a good fit for this position?
+14. ==Why should we hire u? / why do u think urself a good fit for this position?==
     I have worked in a big company for 3 years. So I know how to teamwork with coworkers, how to interact with deverlopers, 
     testers, product managers things like that. I know how to write code of a certain standard. I know how to provide quality
     control and decrease the chance of bugs.
     
-15. How would other people describe you?
+15. ==How would other people describe you?==
     People describe me a person with sense of responsibilities. They can trust me and rely on me.
     
-16. Plans about ur career growth path?
+16. ==Plans about ur career growth path?==
     I want to be a java expert
     
 17. 列举你最近6个月看过的技术方面的书。你常看的技术blog，常去的讨论技术的网站?
