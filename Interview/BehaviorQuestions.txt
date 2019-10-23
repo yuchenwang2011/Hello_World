@@ -73,7 +73,7 @@
 6. ==Introduce your work at Lxx,the technology you use==
    Do you know lxx, it's the biggest grocery store in Canada, Canada version of Walmart. For LD, we are responsible for 
    building all the e-commerce platforms, enterprise software required for the big company. We have many teams in the company,
-   such as grociery, id, membership, bank, searching, fullfillment. 
+   such as grociery, id, membership, bank, searching, fullfillment, AI. 
    I work on the Drugmart department, which is the Canada's most famous cosmetics and pharmacy store. It's like the CVS. 
    We are building the online shopping website for it. So customers can browse and shop online. Our tech stack frontend is 
    html,css,js,jq,jsp,react. On backend, we use Java, SpringMVC, Oracle. From this year, we are trying to decouple the frontend and 
