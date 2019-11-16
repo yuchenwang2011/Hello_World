@@ -1,5 +1,8 @@
 https://leetcode.com/discuss/general-discussion/390646/i-leetcoded-and-so-can-you
 
+1. What happens when you type an url in the browser and press enter?
+https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+
 1. How to design a Payment Process System
 今天幫我高中同學 mock 某家獨角 onsite 常出的這道 system design 題，他一時想不出來，就跟我說他不會。還好我去年十月去 AWS Summit 聽過一些 startup talks，
 他們在台上分享了他們用 AWS 解決問題的方法，使我受益匪淺。其中一家多倫多的 payment startup Pungle 就發表了他們用 AWS 解決 scalable, robust and secure real-time payment processing 的經驗，我就給他講了一遍，非常值得參考: https://youtu.be/_2i_-z-IiOk
