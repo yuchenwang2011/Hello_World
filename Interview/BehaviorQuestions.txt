@@ -9,6 +9,14 @@
    most talented people in this world. 
 6. Why do you want to work on this role
 
+
+Do you have quesions to ask me?
+   1. For general collegue: can you describe your daily routine?
+   2. For hiring manager: what I can learn from this role?
+   3. For director: a. what's the expectation for this role? (also ok to ask hiring manager)
+                    b. which one do you prefer, quality or delivery (also ok to ask hiring manager)
+   4. What do you like most about this company/team?
+
 ==================经历问题==============================
 
 1. ==Introduce yourself==
@@ -142,10 +150,11 @@
    
 =========================简单问题===================================================
 1. ==Why do you want to work for Amazon==
-   Amazon is one of the biggest company in the world but that's not the main reason I wanted to apply. The thing I really like
-   is it has the latest technology. I'm applying for AWS, it's the best cloud solution in the world. it can support an incredibale 
-   large scale of users, millions of companies, affecting billions of people in the world. I would like to understand and learn more 
-   about how AWS is implemented and also i want to make a big impact, any single line of code can affect so many people.
+   Amazon is one of the biggest company in the world. Top Internet Retailing Company. 
+   The thing I really like is it has the latest technology. I'm applying for AWS, it's the best cloud solution in the world. 
+   it can support an incredibale large scale of users. Millions of companies using it, affecting billions of people in the world. 
+   I would like to understand and learn more about how AWS is implemented and also i want to make a big impact, 
+   any single line of code can affect so many people.
    
 2. ==What is your strength?==
    My strengh is that I am a self - starter, I don't need any supervision. I have a very strong sense of ownership.
@@ -165,57 +174,58 @@
    
 5. ==What was your biggest achievement?==   
    
-6. ==What can you bring to us?==
+6. ==What was your most difficult / proud of project? 1你从这个项目中学到了什么? 2. 有什么是以前不会的？做完之后就会了。==
+   The project I'm most proud of is that during my work at Nxxx, I wrote a big code automation that can save a lot of effort.
+   Before I took that part of testing, every time we introduce a new module, I need to do a lot of manual configurations and write 
+   some code specifically for it. Then I used my spare time to write an interface to accept all kinds of modules, every new module
+   introduced, I just need to write some basic information into it. And I subtracted the things in common and tests in common as
+   a whole, integrate them together. And I integrated the performance check tests that makes checking performance a standard.
+   So after I build the system, I can save a lot of time testing new modules.
+
+7. ==What can you bring to us?==
     My sense of responsibility. I am a person having a very high standard of myself and want to make my release perfect and free of 
     bugs. I will feel a shame to fail release and not working my best. I've been doing software testing for 3 years, I know how
     to quality control and make my code less bugs. 
 
-7. ==Why should we hire u? / why do u think urself a good fit for this position?==
+8. ==Why should we hire u? / why do u think urself a good fit for this position?==
     I have worked in a big company for 3 years. So I know how to teamwork with coworkers, how to interact with deverlopers, 
     testers, product managers things like that. I know how to write code of a certain standard. I know how to provide quality
     control and decrease the chance of bugs.
 
-8. ==How can you improve your coding ability?==
+9. ==How can you improve your coding ability?==
     For example, during my work, when I have spare time, I don't relax. I would read other people's code, assuming if I were them,
     how I would write my code here. And we do code reviews, I can get feedback from other people, this really helps a lot.  
     I would also spend quite a lot of time to read API documents. The more I'm familiar with it, I can write better code. 
     
-9. ==How would other people describe you?==
+10. ==How would other people describe you?==
     People describe me a person with sense of responsibilities. They can trust me and rely on me.
     
-10. ==Plans about ur career growth path?==
+11. ==Plans about ur career growth path?==
     I want to be a java expert
     
-11. 列举你最近6个月看过的技术方面的书。你常看的技术blog，常去的讨论技术的网站?
+12. 列举你最近6个月看过的技术方面的书。你常看的技术blog，常去的讨论技术的网站?
 
-12. 有没有自学过什么是后来觉得很有用的；
+13. 有没有自学过什么是后来觉得很有用的；
 
-13. 你想去哪个组，哪个产品，对哪方面感兴趣。当然，如果是面试特定的组，就不会问这个问题。
+14. 你想去哪个组，哪个产品，对哪方面感兴趣。当然，如果是面试特定的组，就不会问这个问题。
 
 ==================TeamWork==============================
 
-1. Tell me about your teamwork / leadership experience
+1. Tell me about your teamwork experience
     Once my team was suddenly notified that we shoud deliver a feature in a month. That was so rush because we are usually 
     notified at least 3 months before release. So I and another team member rose to the accasion. We two took the project 
     and collaborate. He knows configuring the hardware better and I know the feature related knowledge better. 
     Then he wrote the configuring part of the code first then gave them to
     me. I then build my code on top of his, to test the feature. At last, we managed to finish that in time. 
-    
-    (If not enough, make up an example helping another new guys guiding him through a project.)
+
     
 2. 你怎么跟teammate合作；遇到有人不合作你怎么办；
 
-3. teamwork，obstacle
+3. 有没有过主动承担队友任务的经历，为什么
 
-4. 有没有和队友意见不合闹崩了情况. How was it resolved?
+4. 有没有在一个项目当过领导；
 
-5. 有没有过主动承担队友任务的经历，为什么
-
-7. 合作 teamwork的经历
-
-8. 有没有在一个项目当过领导；
-
-9. 有没有帮助别人的经历 How you help teammate
+5. 有没有帮助别人的经历 How you help teammate
 
 
 ==================Conflict==============================
@@ -224,260 +234,268 @@
 
 2. 有没有和领导有过争执.
 
-2. 你想用A方法来实现你负责的这块任务，你老板让你用B方法，但你觉得其实A方法更好，你怎么办? 
+3. 你想用A方法来实现你负责的这块任务，你老板让你用B方法，但你觉得其实A方法更好，你怎么办? 
 
-3. decision without consulting manager
+4. decision without consulting manager
 
-4. 你的老板如果在出差，你联系不到，你该怎么办?
+5. 你的老板如果在出差，你联系不到，你该怎么办?
 
-5. 你和其他小伙伴有冲突或吵架怎么办；
+6. 你和其他小伙伴有冲突或吵架怎么办；
 
-6. team work disagreement
 
 ==================Deadline==============================
-1. 有没有做过under deadline的项目
+1. 你有没有遇到过deadline来不及的情况，你怎么解决的？
 
-2. 你有没有遇到过deadline来不及的情况，你怎么解决的？
+2. tight ddl and have to make decision without considering alternatives 
 
-3. tight ddl and have to make decision without considering alternatives 
-
-4. 你发现你组里一个组员的任务实际上来不及赶上deadline了，你懂他负责的这块，他可能没有你懂，却以为来得及。
+3. 你发现你组里一个组员的任务实际上来不及赶上deadline了，你懂他负责的这块，他可能没有你懂，却以为来得及。
     你们的老板不清楚情况，你该怎么做?
     
-5. 你遇到一个问题，有方案A和方案B，必须选一个。它们互有利弊。你时间有限，无法花太多时间考虑，你应该怎么做?
+4. 你遇到一个问题，有方案A和方案B，必须选一个。它们互有利弊。你时间有限，无法花太多时间考虑，你应该怎么做?
 
-6. 一个如果项目中有很多bug，但是deadline快到期了，你会怎么办? 如果这些bug不重要呢？
+5. 一个如果项目中有很多bug，但是deadline快到期了，你会怎么办? 如果这些bug不重要呢？
 
-7. 项目中最难的地方/最难的项目；
+6. DDL 快到了 没做完 该怎么办
 
-8. DDL 快到了 没做完 该怎么办
+7. 有没有过miss deadline，怎么做的；
 
-9. 有没有过miss deadline，怎么做的；
-
-10. 问了有没有要很短时间内完成一个project的经历，时间不够是因为哪些原因之类的， 突
+8. 问了有没有要很短时间内完成一个project的经历，时间不够是因为哪些原因之类的， 突
    然需求改了，需要做的东西就不够了，加班加点，先完成重点需求
    
-11. 有一个紧急情况
+9. 有一个紧急情况
 
-12. tell me about a time when you have to move fast (make a decision fast)
-
-==================Solve Problem Experience==============================
+==================Make Decision Experience==============================
 1. 怎么做重要决定
 
-2. what is the part you don't like a time when you take a calculated risk
+2. tell me about a time when you have to move fast (make a decision fast)
 
-3. 自己犯的比较错误的一个decision
+3. what is the part you don't like a time when you take a calculated risk
 
-4. 有没有对自己的承诺失误过，
+4. 自己犯的比较错误的一个decision
 
-5. tell me about a time that you failed
+5. 有没有对自己的承诺失误过，
 
-6. 你在现在公司,最大的creative idea是啥；
+6. tell me about a time that you failed
 
-7. 有没有做过一些你很讨厌做的项目，被迫要做的那种；
+7. 你在现在公司,最大的creative idea是啥；
 
-8. anything you don't fully understand, but you do it anyway
+8. 有没有做过一些你很讨厌做的项目，被迫要做的那种；
 
-9. 问了要马上开始做一个你还没有完全理解的project时会怎么办 PM 举个例子
+9. anything you don't fully understand, but you do it anyway
 
-10. How you clarify requirement
+10. 问了要马上开始做一个你还没有完全理解的project时会怎么办 PM 举个例子
 
-11. 项目信息量比较少 该怎么办
+11. How you clarify requirement
 
-12. 有没有走出舒适区的经历
+12. 项目信息量比较少 该怎么办
 
-13. 在学习新技术时，你的thought process是怎样的
+13. 有没有走出舒适区的经历
 
-14. Tell me a time that ur failed?
+14. 在学习新技术时，你的thought process是怎样的
 
-15. What is your biggest failure?
+15. 曾经遇到过的项目中重大改变是什么，你怎么解决的?
 
-16. 曾经遇到过的项目中重大改变是什么，你怎么解决的?
+18 有没有make什么wrong decision, 是怎么发现怎么解决的。
 
-17. 印象最深的项目经验
+19. 对xx公司有什么改进意见？
 
-还有两个常见问题就是 1 你从这个项目中学到了什么，有什么是以前不会的？做完之后就会了。
+20. Describe a time you encountered an issue and how you fixed it.
 
-2 有没有make什么wrong decision, 是怎么发现怎么解决的。
+21. when you made a mistake and how you correct it?
 
-
-18. 对xx公司有什么改进意见？
-
-19. Describe a time you encountered an issue and how you fixed it.
-
-20. when you made a mistake and how you correct it?
-
-21. What is your most successful project? / something you are most proud of
-   The project I'm most proud of is that during my work at Nxxx, I wrote a big code automation that can save a lot of effort.
-   Before I took that part of testing, every time we introduce a new module, I need to do a lot of manual configurations and write 
-   some code specifically for it. Then I used my spare time to write an interface to accept all kinds of modules, every new module
-   introduced, I just need to write some basic information into it. And I subtracted the things in common and tests in common as
-   a whole, integrate them together. And I integrated the performance check tests that makes checking performance a standard.
-   So after I build the system, I can save a lot of time testing new modules.
-
-22. Most challenge project
-
-23. favorite project
-
-24. Describe a situation where you exceeded expectations/did more than required
+22. Describe a situation where you exceeded expectations/did more than required
 
 **********************************Amazon Principles****************************************
-   1. 以重视客户为荣，以重视对手为耻
-   2. 以担当为荣，以逃避为耻
-   3. 以创新为荣，以复杂为耻
-   4. 以多元角度为荣，以固守己见为耻
-   5. 以好学好奇为荣，以不思进取为耻
-   6. 以提高表现为荣，以埋没天才为耻
-   7. 以严格标准为荣，以产品缺陷为耻
-   8. 以大格局为荣，以小眼界为耻
-   9. 以敢干为荣，以慢拍为耻
-   10. 以省钱为荣，以花钱为耻
-   11. 以尊重员工为荣，以端着架子为耻
-   12. 以深究细节为荣，以忽视问题为耻
-   13. 以反对为荣，以妥协为耻
-   14. 以挺身而出为荣，以发布失败为耻
-   
-Leadership Principles
-Our Leadership Principles aren’t just a pretty inspirational wall hanging. These Principles work hard, just like we do. 
-   Amazonians use them, every day, whether they’re discussing ideas for new projects, deciding on the best solution for a customer’s 
-   problem, or interviewing candidates. It’s just one of the things that makes Amazon peculiar.
-
-Customer Obsession
+每个都要有3个例子, 一正一反，争取不同角度
+==Customer Obsession==
    Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. 
    Although leaders pay attention to competitors, they obsess over customers.
    1. 以重视客户为荣，以重视对手为耻
-   例子: can't right click the product to open new tabs. back customer experience but designers don't agree with it. 
+   例子: 1. 不能右键打开PDP，can't right click the product to open new tabs. back customer experience but designers don't agree with it. 
          performed a survey among the company to prove and persuaded designers, marketing, product teams.
+         2. Lighter PDP
+         3. 
 
-Ownership
+   相关问题 
+    • Who was your most difficult customer?
+
+	• Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
+
+	• When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
+
+	• Tell the story of the last time you had to apologize to someone.
+
+
+==Ownership==
    Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. 
    They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job". 
    2. 以担当为荣，以逃避为耻
-   例子: I always have a strong sense of ownership, even my director praised me many times for my sense of ownership. 
+   例子: 1. I always have a strong sense of ownership, even my director praised me many times for my sense of ownership. 
          We do have support team to solve some issues and slack channels. And after work people don't usually check their phones.
          I always check. for example, extra calls made for shopping bag, it's frontend issue, I still jump in to support 
          at the weekend.
+         2. 
+         3.
+   相关问题：
+   • Tell me about a time when you had to leave a task unfinished.
 
-Invent and Simplify
+   • Tell me about a time when you had to work on a project with unclear responsibilities.
+
+==Invent and Simplify==
    Leaders expect and require innovation and invention from their teams and always find ways to simplify. 
    They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here". 
    As we do new things, we accept that we may be misunderstood for long periods of time.
    3. 以创新为荣，以复杂为耻
-   例子: creating scripts to simplify the onboarding process. Even in last company, wrote a lot of scripts. 
+   例子: 1. creating scripts to simplify the onboarding process. Even in last company, wrote a lot of scripts. 
+         2. 
+         3. 
+   相关问题
+	• Tell me about a time when you gave a simple solution to a complex problem.
 
-Are Right, A Lot
+	• Tell me about a time when you invented something.
+
+
+==Are Right, A Lot==
    Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work 
    to disconfirm their beliefs.
    4. 以多元角度为荣，以固守己见为耻
    例子: 跟队友争执的例子.
+   相关问题:
+   • Tell me about a time when you were wrong.
 
-Learn and Be Curious
+	• Tell me about a time when you had to work with incomplete data or information.
+
+==Learn and Be Curious==
    Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore 
 them.
    5. 以好学好奇为荣，以不思进取为耻
    例子: better code, reading books, giving training sessions. 
+   相关问题:
+   • Tell me about a time when you influenced a change by only asking questions.
 
-Hire and Develop The Best
+   • Tell me about a time when you solved a problem through just superior knowledge or observation.
+
+==Hire and Develop The Best==
    Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, 
    and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others.  
    We work on behalf of our people to invent mechanisms for development like Career Choice.
    6. 以提高表现为荣，以埋没天才为耻
    例子: i'm responsible for interviewing and hiring. always let interviewee better than half of the people. Coaching others.
+   相关问题:
+   • Tell me about a time when you mentored someone.
 
-Insist on the Highest Standards
+   • Tell me about a time when you made a wrong hire. When did you figure it out and what did you do?
+
+==Insist on the Highest Standards==
    Leaders have relentlessly high standards - many people may think these standards are unreasonably high. 
    Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. 
    Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.
    7. 以严格标准为荣，以产品缺陷为耻
    例子: sonarqube cognitive score too high, insist the bar. 
+   相关问题:
+   • Tell me about a time when you couldn’t meet your own expectations on a project.
 
-Think Big
+   • Tell me about a time when a team member didn’t meet your expectations on a project.
+
+==Think Big==
    Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. 
    They think differently and look around corners for ways to serve customers.
    8. 以大格局为荣，以小眼界为耻
    例子: lead bb to be the first team to try pcid login, because big custom numbers, better customer experience. and result prooved that decision good.
+   相关问题:
+   • Tell me about your proudest professional achievement.
+
+   • Tell me about a time when you went way beyond the scope of the project and delivered.
    
-Bias for Action
+==Bias for Action==
    Speed matters in business. Many decisions and actions are reversible and do not need extensive study. 
    We value calculated risk taking. 
    9. 以敢干为荣，以慢拍为耻
    例子: new checkout flow, in one single page, before it's several page. take risk.
+   相关问题：
+   • Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it.
 
-Frugality
+   • Tell me about a time when you took a calculated risk.
+
+   • Tell me about a time you needed to get information from someone who wasn’t very responsive. What did you do?
+
+==Frugality==
    Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. 
    There are no extra points for growing headcount, budget size or fixed expense.
    10. 以省钱为荣，以花钱为耻
-   例子: GCP nodes, created channel, build the culture to share env.
+   例子: (这个例子不对题)GCP nodes, created channel, build the culture to share env.
+   相关问题:
+   • Tell me about a time when you had to work with limited time or resources.
 
-Earn Trust
+==Earn Trust==
    Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, 
    even when doing so is awkward or embarrassing.  Leaders do not believe their or their team’s body odor smells of perfume.  
    They benchmark themselves and their teams against the best.
    11. 以尊重员工为荣，以端着架子为耻, 学会自我批评
    例子: decision manager affected 800 orders, didn't update events.
+   相关问题:
+   • What would you do if you found out that your closest friend at work was stealing?
 
-Dive Deep
+   • Tell me about a time when you had to tell someone a harsh truth.
+
+==Dive Deep==
    Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ.
    No task is beneath them.
    12. 以深究细节为荣，以忽视问题为耻
    例子: 有一次contact us page remove footer. affect checkout. 从那以后，再小的PR也要仔细看
+   相关问题:
+   • Give me two examples of when you did more than what was required in any job experience.
 
-Have Backbone; Disagree and Commit
+   • Tell me about something that you learnt recently in your role.
+
+==Have Backbone; Disagree and Commit==
    Leaders are obligated to respectfully challenge decisions when they disagree, even when doing so is uncomfortable or exhausting.
    Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, 
    they commit wholly.
    13. 以反对为荣;一旦妥协，就得照着做
    例子: A/B test for pcid. 最后还是照着做了, 因为答应了. 但是一开始尽力说服别人
+   相关问题:
+   • Tell me about a time when you did not accept the status quo.
 
-Deliver Results
+   • Tell me about an unpopular decision of yours.
+
+   • Tell me about a time when you had to step up and disagree with a team members approach.
+
+   • If your direct manager was instructing you to do something you disagreed with, how would you handle it?
+
+==Deliver Results==
    Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. 
    Despite setbacks, they rise to the occasion and never settle.
    14. 以挺身而出为荣，以发布失败为耻
    例子: must deliver api in a month. not possible. negotiation. then deliver such apis by first deadline.
    converting optimum to pc optimum, update spring security context. took long long time than expected. update people timely.
-   
+   相关问题:
+   • By providing an example, tell me when you have had to handle a variety of assignments. Describe the results.
+
+   • What is the most difficult situation you have ever faced in your life? How did you handle it?
+
+   • Give me an example of a time when you were 75% of the way through a project, and you had to pivot strategy–how were you able to make that into a success story?
+
 https://www.linkedin.com/pulse/ace-leadership-interview-prakash-krishnan
 *********************************************************************************************************
-
-Do you have quesions to ask me?
-   For general collegue: can you describe your daily routine?
-   For hiring manager: what I can learn from this role?
-   For director: what's the expectation for this role? (also ok to ask hiring manager)
-                 which one do you prefer, quality or delivery (also ok to ask hiring manager)
-   What do you like most about this company/team?
    
    
    
    
 一个别人的帖子
-刚面完Amazon onsite，巨多巨多的behaviour问题，各种情况的，每轮都有，一个情况还要多个例子，而且要求讲的详细，你做的项目是干什么的，具体实现了什么功能。我这个准备了好几天的人都被问得撑不住了。大家可以多多读一下下面这个文章。具体问题就不透露了，签了协议。
-
-
 
 http://kraftshala.com/how-to-raise-the-bar-in-the-amazon-interview/
+每个项目具体的流程是什么一定要很清楚，会问得很细，然后才是你干了什么。
 
-地里面基本没有什么behaviour问题的样本，所以准备起来好艰难。下面是我准备的一些例子，本来准备每一条准备两个cases，然后14条太多了，写的快死掉了也没写完，大家可以用作样本看看。具体onsite回答的时候根本想不起来哪个对应哪个问题，但是准备的例子多了可以快速先选一个，然后说的时候往问题上套。我也遇到好多没准备的问题，就随便挑一个然后必要时伪造下经历。每个项目具体的流程是什么一定要很清楚，会问得很细，然后才是你干了什么。
-
-Be professional
 it’s a pleasure to be here and I am very excited about this opportunity.
-Thank you for giving me the opportunity to interview today.
-I am very exited to have the opportunity to be interviewed here in Amazon.
-Show your curiosity
-research the company before interview
-come up with two or three reasons you want to work for the company
-mission statement, product and service information, principles’s backgrounds
-check company financials through US securities and Exchange commision
-Know your stuff
+
 use STAR
 situation
 task
 action
 results
-Leadership principles. check 1point3acres for more.
 
-Amazon
-Top Internet Retailing Company
-Our vision is to be earth’s most customer-centric company; to build a place where people can come to find and discover anything they might want to buy online
+
 product lines
 kindle e-readers
 Amazon Prime
