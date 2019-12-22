@@ -120,7 +120,7 @@
    then frontend will fill the form with generated data. After click submit, the integrated form will send data to cybersource 
    endpoint, and it will return response with response code. Based on the code, backend will do corresponding order creation.)
    (DM Details: There are so many fraud nowadays. 
-   So when CS response with the transaction code, it will have a code, which indicates the )
+   So when CS response with the transaction code, it will have a code, which indicates the order is suspicious....)
    
    
    c. I also delivered a Colleague Discount Program. Call an api endpoint, decode. 
@@ -140,18 +140,22 @@
    https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3
    /687474703a2f2f692e696d6775722e636f6d2f6a6a3341354e382e706e67
    
-=========================以下问题全都是按照Star原则回答===================================================
-1. Why do you want to work for Amazon
+=========================简单问题===================================================
+1. ==Why do you want to work for Amazon==
+   Amazon is one of the biggest company in the world but that's not the main reason I wanted to apply. The thing I really like
+   is it has the latest technology. I'm applying for AWS, it's the best cloud solution in the world. it can support an incredibale 
+   large scale of users, millions of companies, affecting billions of people in the world. I would like to understand and learn more 
+   about how AWS is implemented and also i want to make a big impact, any single line of code can affect so many people.
    
-7. ==What is your strength?==
+2. ==What is your strength?==
    My strengh is that I am a self - starter, I don't need any supervision. I have a very strong sense of ownership.
    I always work my best and hardest to finish my tasks.  
    
-8. ==What is your weakness==
+3. ==What is your weakness==
    My weakness is that I'm kinda giving myself too much pressure. Not pressure from work, it's the pressure from family, 
    from friends, afraid to left hind. Sometimes got bad mood because of that, can't enjoy life. 
   
-9. ==What was your biggest challenge?==
+4. ==What was your biggest challenge?==
    Well, my biggest challenge was that when I first got hired by Axxxxxx, there was a probation period. I was given 2 month time to 
    finish my first project. I was a fresh graduate then and I didn't know anything about the work my team was doing. They wanted to 
    check if I am a fast learner. So I did my best, reading code to learn the APIs and the coding conventions here, checking twikis
@@ -159,35 +163,34 @@
    writing notes, working overtime to write my own code. So I proved my ability to learn fast and I managed to finish the project
    from scrach to release. 
    
-11. ==What can you bring to us?==
+5. ==What was your biggest achievement?==   
+   
+6. ==What can you bring to us?==
     My sense of responsibility. I am a person having a very high standard of myself and want to make my release perfect and free of 
     bugs. I will feel a shame to fail release and not working my best. I've been doing software testing for 3 years, I know how
     to quality control and make my code less bugs. 
 
-12. ==Why do you want to switch to a software developer?==
-    Having been working as a software test engineer, I'm a little bit tired. 50% of my word was writing code automations, I like the
-    feeling to write code. I like the feeling to create things. I think I like to be a developer better.
-
-13. ==How can you improve your coding ability?==
-    For example, during my work, when I have spare time, I don't relax. I would read other people's code, assuming if I were them,
-    how I would write my code here. And we do code reviews, I can get feedback from other people, this really helps a lot.  
-    I would also spend quite a lot of time to read API documents. The more I'm familiar with it, I can write better code. 
-
-14. ==Why should we hire u? / why do u think urself a good fit for this position?==
+7. ==Why should we hire u? / why do u think urself a good fit for this position?==
     I have worked in a big company for 3 years. So I know how to teamwork with coworkers, how to interact with deverlopers, 
     testers, product managers things like that. I know how to write code of a certain standard. I know how to provide quality
     control and decrease the chance of bugs.
+
+8. ==How can you improve your coding ability?==
+    For example, during my work, when I have spare time, I don't relax. I would read other people's code, assuming if I were them,
+    how I would write my code here. And we do code reviews, I can get feedback from other people, this really helps a lot.  
+    I would also spend quite a lot of time to read API documents. The more I'm familiar with it, I can write better code. 
     
-15. ==How would other people describe you?==
+9. ==How would other people describe you?==
     People describe me a person with sense of responsibilities. They can trust me and rely on me.
     
-16. ==Plans about ur career growth path?==
+10. ==Plans about ur career growth path?==
     I want to be a java expert
     
-17. 列举你最近6个月看过的技术方面的书。你常看的技术blog，常去的讨论技术的网站?
-18. 有没有自学过什么是后来觉得很有用的；
+11. 列举你最近6个月看过的技术方面的书。你常看的技术blog，常去的讨论技术的网站?
 
-19. 你想去哪个组，哪个产品，对哪方面感兴趣。当然，如果是面试特定的组，就不会问这个问题。
+12. 有没有自学过什么是后来觉得很有用的；
+
+13. 你想去哪个组，哪个产品，对哪方面感兴趣。当然，如果是面试特定的组，就不会问这个问题。
 
 ==================TeamWork==============================
 
