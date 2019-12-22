@@ -75,11 +75,11 @@
    building all the e-commerce platforms, enterprise software required for the big company. We have many teams in the company,
    such as grociery, id, membership, bank, searching, fullfillment, AI, mobile. 
    I work on the Drugmart department, which is the Canada's most famous cosmetics and pharmacy store. It's like the CVS. 
-   We are building the online shopping website for it. So customers can browse and shop online. Our tech stack frontend is 
-   html,css,js,jq,jsp,react. On backend, we use Java, SpringMVC, Oracle. From this year, we are trying to decouple the frontend and 
+   We are building the online shopping website for it. So customers can browse and shop xxxxx online.
+   On backend, we use Java, SpringMVC, Oracle. From this year, we are trying to decouple the frontend and 
    backend. We don't want jsp anymore, we want to use react to replace all frontend. So backend now only provide APIs for frontend and 
    mobile apps. 
-   I work most of the time as a backend developer. I'm focused on login, checkout, api related features. 
+   I work most of the time as a backend developer. I'm focused on login, checkout, api 3 areas. 
    
    =Sub Question 1: what do you do for login?=
    For example, all the user related features, such as 
@@ -113,7 +113,8 @@
    to do A/B test whenever a new feature is going to be released. 
    
    b. We also integrationed 3 sets of cybersource APIs for our credit card checkout. We use cybersource iframe for new credit card 
-   payment, and CS simple order API for existing card payment. To prevent fraud, we use CS decision manager and device finger print.
+   payment, and CS simple order API for existing card payment and cs flex microform api. 
+   To prevent fraud, we use CS decision manager and device finger print.
    (iframe Details: frontend will make a call to CS iframe endpoint to get the form confirmation. After that will send backend request 
    to get the required fields. Backend will according to previous checkout steps to generate the corresponsding required fields. 
    then frontend will fill the form with generated data. After click submit, the integrated form will send data to cybersource 
@@ -138,6 +139,9 @@
    =Sub Question 4: Can you draw the system structure of your web app?=
    https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3
    /687474703a2f2f692e696d6775722e636f6d2f6a6a3341354e382e706e67
+   
+=========================以下问题全都是按照Star原则回答===================================================
+1. Why do you want to work for Amazon
    
 7. ==What is your strength?==
    My strengh is that I am a self - starter, I don't need any supervision. I have a very strong sense of ownership.
