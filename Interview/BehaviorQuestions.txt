@@ -356,16 +356,53 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
 
    相关问题 
     • Who was your most difficult customer?
-I just introduced it that I work for Shoppers beauty.and there was a time some beauty advisor in the store contact us and said our software is hard to use. It is so slow and we're not able to help customers. I can't skip these complains because beauty adviser they're facing our customers directly  and we need to guarantee that we provide the best customer experience.
+	I just introduced it that I work for Shoppers beauty.and there was a time some beauty advisor in the store contact us 
+	and said our software is hard to use. It is so slow and we're not able to help customers. 
+	I can't skip these complains because beauty adviser they're facing our customers directly  
+	and we need to guarantee that we provide the best customer experience.
 
-so I scheduled a few store visit and visited is a few beauty advisors in our real stores. I tried to figure out what was really slow was it because the iPad or itself or it is because the network or is it because the software running all of that or something else. But they are expersts on makeups but they don't know tech at all, they coudn't even describe what they need and what part is bad. So I stayed a long time with each of them to see how they support their customers. 
+	so I scheduled a few store visit and visited is a few beauty advisors in our real stores. 
+	I tried to figure out what was really slow was it because the iPad or itself or it is because the network 
+	or is it because the software running all of that or something else. But they are expersts on makeups 
+	but they don't know tech at all, they coudn't even describe what they need and what part is bad. 
+	So I stayed a long time with each of them to see how they support their customers. 
 
-so actually I find out they are two things make the process slow that is one is we have a big CSS file to load on a certain page. But real store usually have a slower Network so which makes they feel that software is slow second the process was slow there was a step I need the beauty advisors to to login for the customer but there will be a lot of extra process because the need to ask their customers to login. Their usernames and password a litter the customers doesn't trust the device. they have to spend a lot of time to log in and log out.
+	so actually I find out they are two things make the process slow that is one is we have a big CSS file 
+	to load on a certain page. But real store usually have a slower Network so which makes they feel 
+	that software is slow second the process was slow there was a step I need the beauty advisors to 
+	to login for the customer but there will be a lot of extra process because the need to ask their customers to login. 
+	Their usernames and password a litter the customers doesn't trust the device. 
+	they have to spend a lot of time to log in and log out.
 
- so I removed the process for a beauty advisor to login anymore. second break the css into 
- smaller pieces and refactor some unused code.
- After that our beauty advisor thinks it makes their life much easier. 
+	so I removed the process for a beauty advisor to login anymore. second break the css into 
+	smaller pieces and refactor some unused code. After that our beauty advisor thinks it makes their life much easier. 
+ 
     • Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
+
+	there was a time in my previous company and that time I was a QA. 
+	we did a POC that is to customer, which is to archive all items in BOX.
+	you know the software box which is similar to Dropbox where people can upload their files. 
+	For big Banks or investment Banks they need to track there is like internal confidential item leaking. 
+	so they will need to ask as to archive all the items that once been uploaded to box and who did that. 
+	so we did a POC on that and then a customer really satisfied with that and they give us 2 months to implemented 
+	and we under estimated time. 
+
+	but actually 2 months not possible at all so what team of 4 we work so hard everyday use like 
+	14 hours a day to work on it for 2 months and we're still not able to delivery on time. 
+	there are still a lot of issues to going on such as Multi threading issues duplicating issues, missing information. 
+	if there is a huge file uploaded then we'll crash. So by 2 months we stilll haven't finished it, we asked customer 
+	to have another 2 months to finish it. It was lucky the customer was nice and said yes. 
+	Finally we finished that in the fourth month. 
+
+	But this this give me a very good lesson, that never under estimate things in the software industry. 
+	You will always see different issue. 
+	at the very beginning of the POC we should be able to insist the highest quality, a lot of things could have been considered. 
+	At that time, especially I was a QA, before doing POC, I should have given a lot of my concerns 
+	and also another point of view to developers. People should gather together to estimate.
+
+	also second thing I've learned is always take think about customer  before the two months not 
+	when it comes to two months are just say okay we didn't finish it before that 
+	we should let the customer know there's a chance that we couldn't finish it, to let customer know the risk beforehand.
 
     • When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
 
