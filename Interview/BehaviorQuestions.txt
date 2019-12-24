@@ -156,12 +156,14 @@ R: your result;
 
 =========================简单问题===================================================
 1. ==Why do you want to work for Amazon==
-
-
-
-Why Amazon? Why you choose this position?
-  Amazon is the top e-commerce company and has strong focus on customer experience. so many talented people working here and using the latest Technologies to make people's life easier. people always have ownership and always trying their best to make their project perfect. I really like those spirits. I'm also working with LD, BB platform, this is also an position to help customers life easier. 
-  Second i'm applying for AWS. AWS uses the latest technology and its the best Cloud solution in the world. millions of website there's deployed to it and billions of people are affected by it. every single line of code change can make a big impact to help more customers.
+  Amazon is the top e-commerce company and has strong focus on customer experience. 
+  so many talented people working here and using the latest Technologies to make people's life easier. 
+  people always have ownership and always trying their best to make their project perfect. 
+  I really like those spirits. I'm also working with LD, BB platform, this is also an position to help customers life easier. 
+  
+  Second i'm applying for AWS. AWS uses the latest technology and its the best Cloud solution in the world. 
+  millions of website there's deployed to it and billions of people are affected by it. 
+  every single line of code change can make a big impact to help more customers.
    
 2. ==What is your strength?==
    My strengh is that I am a self - starter, I don't need any supervision. I have a very strong sense of ownership.
