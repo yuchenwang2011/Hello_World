@@ -166,8 +166,7 @@ R: your result;
   every single line of code change can make a big impact to help more customers.
    
 2. ==What is your strength?==
-   My strengh is that I am a self - starter, I don't need any supervision. I have a very strong sense of ownership.
-   I always work my best and hardest to finish my tasks.  
+   My strengh is that I have a strong sense of ownership.  
    
 3. ==What is your weakness==
    My weakness is that I'm kinda giving myself too much pressure. Not pressure from work, it's the pressure from family, 
@@ -341,7 +340,7 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
 24. tell me about a time you have Two ways of implementation, you choose which way and why
 
 **********************************Amazon Principles****************************************
-每个都要有3个例子, 一正一反，争取不同角度
+每个都要有多个例子, 一正一反，争取不同角度
 ==Customer Obsession==
    Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. 
    Although leaders pay attention to competitors, they obsess over customers.
@@ -361,11 +360,11 @@ The customer was obsessed with our professional process and result, and start to
    相关问题 
     • Who was your most difficult customer?
 
-	• Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
+    • Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
 
-	• When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
+    • When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
 
-	• Tell the story of the last time you had to apologize to someone.
+    • Tell the story of the last time you had to apologize to someone.
 
     • describe a time you persuade the customer to use a different view to see things
 
@@ -374,11 +373,8 @@ The customer was obsessed with our professional process and result, and start to
    They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job". 
    2. 以担当为荣，以逃避为耻
    例子: 1. I always have a strong sense of ownership, even my director praised me many times for my sense of ownership. 
-         We do have support team to solve some issues and slack channels. And after work people don't usually check their phones.
-         I always check. for example, extra calls made for shopping bag, it's frontend issue, I still jump in to support 
-         at the weekend.
-         2. SEO
-         3.
+         Frontend make extra calls to payment auth.
+         2. A/B test takes more to finish faster.
          Case 1: When I worked on the SLA project, I was required to deploy elastalert and create few rules for the alerting system. Our alerting system is based on various elasticsearch indexes, and the situations and requirements for each index are definitely different. Since I was the person who was leading SLA project, I want my customers to always have the best experience. So I started to think about automate the generation. After the agreement from my manager, I categorized the current rules and the future rules based on different scenarios and requirements. Then I wrote a bunch of shell scripts to do the automation. I also created the APIs for those alerts, so if the customer doesn’t want the rule to be enabled, he can just click on website to turn it off. After delivery, we had strong positive feedbacks from customer.
    相关问题：
    • Tell me about a time when you had to leave a task unfinished.
@@ -393,8 +389,8 @@ The customer was obsessed with our professional process and result, and start to
    As we do new things, we accept that we may be misunderstood for long periods of time.
    3. 以创新为荣，以复杂为耻
    例子: 1. creating scripts to simplify the onboarding process. Even in last company, wrote a lot of scripts. 
-         2. 
-         3. 
+         2. create a cron job to help support people
+         3. create a script to generate emails to help people.
          Case 1: When I worked at CCG, we have a ticketing system to record the development process, keep tracking all the tasks, bugs. But you know the ticketing system is a little bit crowded. It only shows a long list of tickets. With the first glance, you can hardly know current process of development. So to simplify it, I used a vis timeline to show all the tickets. Then we can see the whole process clearly through the timeline. With the timeline, we can schedule the tasks more easily. Everyone is happy with that.
    相关问题
 	• Tell me about a time when you gave a simple solution to a complex problem.
@@ -412,7 +408,7 @@ The customer was obsessed with our professional process and result, and start to
    • Tell me about a time when you were wrong.
 
 	• Tell me about a time when you had to work with incomplete data or information.
-
+	SEO
 ==Learn and Be Curious==
    Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore 
 them.
