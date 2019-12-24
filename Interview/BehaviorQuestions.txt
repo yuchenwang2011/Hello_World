@@ -137,7 +137,6 @@ R: your result;
    (DM Details: There are so many fraud nowadays. 
    So when CS response with the transaction code, it will have a code, which indicates the order is suspicious....)
    
-   
    c. I also delivered a Colleague Discount Program. Call an api endpoint, decode. 
    Apply price strategy to qualified cart and entries.  
    
@@ -154,29 +153,15 @@ R: your result;
    =Sub Question 4: Can you draw the system structure of your web app?=
    https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3
    /687474703a2f2f692e696d6775722e636f6d2f6a6a3341354e382e706e67
-   
-7. Can you tell me more about the day-to-day responsibilities of this job? Or your job? (if he is a software engineer)
-
-8. What are your favorite and least favorite things about working here?
-
-9. How do you keep your work-life balance working on this team?
 
 =========================简单问题===================================================
 1. ==Why do you want to work for Amazon==
-   Amazon is one of the biggest company in the world. Top Internet Retailing Company. 
-   The thing I really like is it has the latest technology. I'm applying for AWS, it's the best cloud solution in the world. 
-   it can support an incredibale large scale of users. Millions of companies using it, affecting billions of people in the world. 
-   I would like to understand and learn more about how AWS is implemented and also i want to make a big impact, 
-   any single line of code can affect so many people.
+
 
 
 Why Amazon? Why you choose this position?
-it’s a pleasure to be here and I am very excited about this opportunity. Because I know Amazon is a top ecommerce company with a strong focus on customer experience. And there are a lot of talented people in amazon creating amazing products to make people’s life easier. They are always showing strong ownership to their projects and they always want to make things perfect. Those spirits do touch my heart. I remember when I just started to lead smart log analyzer project, everything is new to me. And I’m so passionate about creating great services for customers to save their precious time and money. 
-My current work is also on ecommerce. That’s one big reason why I want to join Amazon.
-Secondly, the growth of amazon is so impressive, it is not only an online retail shop, it also has a wide range of products like Alexa, kindle, fire tablet and TV, Amazon web service, etc. There are so many fantastic technologies and products here. I will never feel boring if I am in amazon. I can learn a lot of new technologies here. I can take ownership of the projects I am truly passionate about.
-
-
-The job I applied is Software development engineer in Amazon web service network team. The reason why I choose this job is I have the similar experience. I remember when I just started to lead smart log analyzer project, everything is new to me. And I’m so passionate about creating great services for customers to save their precious time and money. The customer only needs to do clicks on the website to make simple decisions based on the suggestions system provide and they can focus more on their own things. That is really similar with Quilt. Quilt also does a great job to help customers focus on their codes. It will take care of patching automatically for hosts. That’s really amazing for customer. 
+  Amazon is the top e-commerce company and has strong focus on customer experience. so many talented people working here and using the latest Technologies to make people's life easier. people always have ownership and always trying their best to make their project perfect. I really like those spirits. I'm also working with LD, BB platform, this is also an position to help customers life easier. 
+  Second i'm applying for AWS. AWS uses the latest technology and its the best Cloud solution in the world. millions of website there's deployed to it and billions of people are affected by it. every single line of code change can make a big impact to help more customers.
    
 2. ==What is your strength?==
    My strengh is that I am a self - starter, I don't need any supervision. I have a very strong sense of ownership.
