@@ -424,8 +424,21 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
 	Both of the features launched on time. 
 
     • Tell the story of the last time you had to apologize to someone.
+	it was a long time ago when I was coops at BlackBerry I was implementing a windows background service.
+	the service is to delete all the server logs that has been more than 3 months, that's all the ticket says.
+	because there are tons of logs generated every day and sometimes the manager needs to delete them manually
+	then I just wrote the software to delete files in the folder. but later someone on the other team 
+	send an email to everyone saying they cannot find his very important files anymore
+	those files are very important to him so I said I was very sorry I didn't mean to do it. 
+	he said it's ok since I was a coop. it was lucky has has backup files but he still needs 2 days to recover those files. 
+	Then I asked people on all teams who have access to the drive, updated the service to avoid delete certain type of files.
 
-    • describe a time you persuade the customer to use a different view to see things
+	From this I've learned a life experience that whenever I got a requirement which doesn't have a lot of description 
+	I need to gather as much information as possible whenever I need to touch something
+	that could break existing features. I need gather all the stakeholders' opinon to clarify the requirements 
+	so the new feature won't break current functionality
+
+    • Describe a time you persuade the customer to use a different view to see things
 
 ==Ownership==
    Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. 
