@@ -439,6 +439,21 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
 	so the new feature won't break current functionality
 
     • Describe a time you persuade the customer to use a different view to see things
+	it happened this recently and I'm working on the rest API suite to support mobile app development 
+	so the mobile team is my customer. for each our API it has an access level. 
+	It can be anonymous user or some of them must be authenticated user. 
+	so the API should have a header of Authentication with access token with it. this is a standard 
+	are all rest API development I thought everyone could understand this 
+	but our mobile developers think this is so tedious what they want is for all rest API calls 
+	they wanted all have authentication header because otherwise they need to spend time 
+	to figure out which one needs and which one doesn't.
+
+	I told them this is an industry-standard also this API suite not only will be used by them. 
+	it will also be used by our frontend developers. they still want to use it in that way. 
+	Then I said this is good for yourself as well. it's good for you your coding skills to follow the best standard. 
+	Now you just need spend a little bit extra time to look at the Swagger documentation 
+	you can easily figure out the difference between then. Also your code will be more maintainable. 
+	if someone left the team, the next person taking care of the code will be very confused. And they agreed with me.
 
 ==Ownership==
    Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. 
