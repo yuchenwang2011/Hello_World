@@ -520,7 +520,21 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
 	somebody thinks you should do it and then the other people think you should do it. 
 	that will delay the delivery also it would be very bad teamwork experience 
    • Tell me a time you sacrifice short-term benefits for long-term benefits
-
+	so it happens during the time I was working on our rest APIs. I find out the current code the current end points 
+	just randomly throw some exceptions. Different people throw it in different ways. 
+	different error code, different messages, different types, not standardized at all.
+	
+	I think this is a very bad experience for our client. our client is the mobile developers 
+	so they need to handle different kinds of error code error type error messages and not consistent. 
+	for short-term just leave it there and we have other things to do just to quickly move on. 
+	but for long-term this is not good. so we need to sacrifice some short-term benefits 
+	spend some time to standardize all their response. 
+	
+	so I spent a few days to create a web service error converter and the all the detailed exceptions 
+	each has a corresponding converter which extends the webservice error converter. 
+	This implementation used template method design pattern. So after that the error responses
+	are consistent and saved our customers a lot of effort. 
+ 
 ==Invent and Simplify==
    Leaders expect and require innovation and invention from their teams and always find ways to simplify. 
    They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here". 
