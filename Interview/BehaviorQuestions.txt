@@ -405,6 +405,23 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
 	we should let the customer know there's a chance that we couldn't finish it, to let customer know the risk beforehand.
 
     • When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
+	I think if there are multiple group of customers, each of them is very important. we can't say okay 
+	this one has 10,000 users and that one has 1000 user and so the 1000 user are not important, we can't say that.
+	so we need to find out the feature that both group of user both need 
+	and try to finish that part first that is the highest priority feature.
+	personally I don't have any experience to serve multiple customer at the same time 
+	but I do have an experience that I support two features that support 2 group of customers.
+
+	there was a time I need to support two features at the same time. one is for the sync cart API 
+	which will be needed by the mobile app. the second feature is to create a better mobile browser experience 
+	which is not on the app but on mobile browser to create a light PDP productive detail page. 
+	Then customer need to load less content on their phone. both I think those are very important 
+	and the I can't really take which one is higher priority so I discussed it with the project manager 
+	and a product manager which one is higher priority and actually dicussed with project manager and product manager 
+	that one is more important so as a result I need to be really focused on first one 
+	and try to use my spare time to finish the second one.
+	Finally i finished both features. mobile team likes my work and web browsing team likes my work. 
+	Both of the features launched on time. 
 
     • Tell the story of the last time you had to apologize to someone.
 
