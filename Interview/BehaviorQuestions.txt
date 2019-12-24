@@ -462,12 +462,63 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
    例子: 1. I always have a strong sense of ownership, even my director praised me many times for my sense of ownership. 
          Frontend make extra calls to payment auth.
          2. A/B test takes more to finish faster.
-         Case 1: When I worked on the SLA project, I was required to deploy elastalert and create few rules for the alerting system. Our alerting system is based on various elasticsearch indexes, and the situations and requirements for each index are definitely different. Since I was the person who was leading SLA project, I want my customers to always have the best experience. So I started to think about automate the generation. After the agreement from my manager, I categorized the current rules and the future rules based on different scenarios and requirements. Then I wrote a bunch of shell scripts to do the automation. I also created the APIs for those alerts, so if the customer doesn’t want the rule to be enabled, he can just click on website to turn it off. After delivery, we had strong positive feedbacks from customer.
+         
    相关问题：
    • Tell me about a time when you had to leave a task unfinished.
+	Usually I tend to finish all of my tasks, but there are always some tasks higher priority than others. 
+	there was a time I was fixing our bamboo environment. it was the pipeline and it will run unit tests 
+	and that was broken for a long time so fixing it would help our team prevent bugs.
+
+	Then I got another task that we decided to switch to Cloud environment before it was on DC. 
+	Switching to Cloud environment is also very important because in the future we can scale our environment much better. 
+	I think this is very important and in the future once we deployed to Cloud environments 
+	which can help more customers especially during the Black Friday season. 
+	so I just stopped fixing the broken unit tests and then start work on migrating to cloud. 
+
+	In the end, i successfully helped migrating our environment from DC to cloud. 
+	Then I went back to fix our broken unit tests. The unit tests can be run on cloud pipeline as well. 
+
 
    • Tell me about a time when you had to work on a project with unclear responsibilities.
+   这个题得问清responsibility定义，这个例子是讲描述不清的。第二个例子是讲职责分配不清的，就跟teamwork有关了
+	so there was a time I got a ticket from marketing team and the title was "help Google search" 
+	and there's nothing details in the ticket description. I don't know any information at all I'm not able to do any work. 
+	so I connected with the marketing team who created the ticket and they said the issue was from our analytics data. 
+	we find out most of the users are from typing url directly but not from Google Search. so the task is to improve that. 
+	and it's our developers responsibilities to figure out how to do that they are expert as marketing 
+	and advertising but they don't out any technology. 
 
+	I have never done anything similar before. so I did a lot of search and ask around different people 
+	how we can do that and I figure out it is called SEO. after I find this word I also did a lot of Google research 
+	on how to do a better SEO to help Google to find our web pages. then I create an Excel table 
+	the SEO title SEO description for all the web pages then discuss with the marketing team 
+	if they're satisfied with that. then I created meta tags for each of the pages and used a tool 
+	called SEO quack to verify our SEO score is much much higher than before. 
+	and the marketing team are very satisfied with that and our customers from the data shown 
+	they can find our website Google search easier.
+   答案2:
+	so there was a time we're trying to create a new page for customers who use mobile browser to search a product. 
+	when they click on the  lighter version of the product detail page. it was two of us to work on it. 
+	I should be responsible for the backhand and the other person to work on the front end so on my side 
+	I did the feature flag, the page integration, api end point, generating analytics data.
+
+	when I thought my part is done but the frontend person said he doesn't know how to deal with the backhand data on frontend. 
+	That should be my responsibility. then I said everything shown to the customers should be frontend. 
+	backend stops at controller end point level but never mind this time since you don't know how to do it, 
+	and we have a deadline I can do this for you. but you need to learn how I'm doing it and next time you can do it
+	yourself so I took that part of responsibility as well. 
+
+	then I thought my part is done but he said the AB test he doesn't know how to do it 
+	and I said this is everything happens in a Javascript file it is pure frontend. 
+	but he resisted to do it. there's a deadline so this time I will cover for you 
+	but it will not happen next time you still need to learn from it. So I took that part of responsibility. 
+	at the end we finished everything on time 
+
+	I did learn a lot from this time that whenever there is a teamwork we need to 
+	at the very beginning to define the responsibilities clearly. who is responsible for something 
+	and who responsible for something else. so at the end this won't happen again. 
+	somebody thinks you should do it and then the other people think you should do it. 
+	that will delay the delivery also it would be very bad teamwork experience 
    • Tell me a time you sacrifice short-term benefits for long-term benefits
 
 ==Invent and Simplify==
