@@ -315,6 +315,9 @@ The most challenging project is my current xx project. It is challenging because
 
 14. 在学习新技术时，你的thought process是怎样的
 
+
+Case 1: When I led the xx project at the first time, it is very challenging to me. Cause I have no idea how to build the threat hunting structure. In order to understand it better, I googled a lot of papers and learnt a lot of basic concepts about network threat hunting. Based on that, I started to work with customers to figure out what kind of problems that customers concerned the most. Cause most customers who are using our products are not professional network developer. We need to use their language to tell them the story. 
+
 15. 曾经遇到过的项目中重大改变是什么，你怎么解决的?
 
 18 有没有make什么wrong decision, 是怎么发现怎么解决的。
@@ -349,17 +352,19 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
          performed a survey among the company to prove and persuaded designers, marketing, product teams.
          2. Lighter PDP
          3. Beauty Advisor don't login. login takes long time and also user worry about their account safety
-Case 1: When I led the smartloganalyzer project at the first time, it is very challenging to me. Cause I have no idea how to build the threat hunting structure. In order to understand it better, I googled a lot of papers and learnt a lot of basic concepts about network threat hunting. Based on that, I started to work with customers to figure out what kind of problems that customers concerned the most. Cause most customers who are using our products are not professional network developer. We need to use their language to tell them the story. They just need to know if they are under specific threats, they don’t care about how we find the threats. All they need to do is just make easy  decisions based on the suggestions we provide. The system will take care of all the other stuff. Like if there are brute force password attacking, the system will bubble up an alert and send an email to customer to let them know, and also providing them the links to the detailed dashboards. They can choose the suggestions provided by system, like putting the ip into the banlist.
-So, finally, after the delivery, we get positive feedbacks from customers. We are always trying our best to listen to our customers and provide the best experience for them.
 
-
-In order to understand the process thoroughly, I made several appointments with the engineering team, going through the specification building process with them step by step in detail. Then, I did some field observations, looking at how engineers use their ipads and computers in the field and in the office, when and how they input the data to complete a detail specification. Based on what I’ve learned and observed, I was able to come up with data schemas, draft a working prototype, and bring it to the engineers to collect feedback.
-It turned out that the prototype was very helpful, it saved us around 10% time when implementing the web application. 
-The customer was obsessed with our professional process and result, and start to have more business with us.
 
    相关问题 
     • Who was your most difficult customer?
+I just introduced it that I work for Shoppers beauty.and there was a time some beauty advisor in the store contact us and said our software is hard to use. It is so slow and we're not able to help customers. I can't skip these complains because beauty adviser they're facing our customers directly  and we need to guarantee that we provide the best customer experience.
 
+so I scheduled a few store visit and visited is a few beauty advisors in our real stores. I tried to figure out what was really slow was it because the iPad or itself or it is because the network or is it because the software running all of that or something else. But they are expersts on makeups but they don't know tech at all, they coudn't even describe what they need and what part is bad. So I stayed a long time with each of them to see how they support their customers. 
+
+so actually I find out they are two things make the process slow that is one is we have a big CSS file to load on a certain page. But real store usually have a slower Network so which makes they feel that software is slow second the process was slow there was a step I need the beauty advisors to to login for the customer but there will be a lot of extra process because the need to ask their customers to login. Their usernames and password a litter the customers doesn't trust the device. they have to spend a lot of time to log in and log out.
+
+ so I removed the process for a beauty advisor to login anymore. second break the css into 
+ smaller pieces and refactor some unused code.
+ After that our beauty advisor thinks it makes their life much easier. 
     • Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
 
     • When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
