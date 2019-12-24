@@ -543,12 +543,26 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
    例子: 1. creating scripts to simplify the onboarding process. Even in last company, wrote a lot of scripts. 
          2. create a cron job to help support people
          3. create a script to generate emails to help people.
-         Case 1: When I worked at CCG, we have a ticketing system to record the development process, keep tracking all the tasks, bugs. But you know the ticketing system is a little bit crowded. It only shows a long list of tickets. With the first glance, you can hardly know current process of development. So to simplify it, I used a vis timeline to show all the tickets. Then we can see the whole process clearly through the timeline. With the timeline, we can schedule the tasks more easily. Everyone is happy with that.
+ 
    相关问题
-	• Tell me about a time when you gave a simple solution to a complex problem.
-
-	• Tell me about a time when you invented something.
-
+   • Tell me about a time when you gave a simple solution to a complex problem.
+	there was a time at my previous company we implemented the software that uses office 365 Outlook
+	restful apis to help customer archiving their Office 365 outlook emails. 
+	because our customers are all very big companies Banks investment Banks, we need to archiving thousands of emails 
+	per day but we only have limited budget and resource to do that. Our Office 365 account doesn't support that. 
+	we need to pay a lot to Microsoft to get a hirer level Office 365 account for more spaces for testing and clean. 
+	Then I came up the idea that we don't need to spend that money instead we can create a VM machine, 
+	create an Office 365 Outlook local environment, and save 40000 emails on local. create a screenshot of the VM. 
+	on our software we can write a simple converter to use powershell commands instead of restful apis. 
+	so then we don't need to spend any money just to keep the VM screenshot rolling back everyday for the testing.
+   • Tell me about a time when you invented something.
+	there was a time I realized new hires onboarding our teams, they have to spend a long time to set up their environment. 
+	I didn't realize that the very beginning because myself it only took me half day but not all the people are good at it. 
+	some people take 3 days.
+	it requires installing Java, MySQL NodeJS grunt, clone repo, Install plugins using homebrew, 
+	creating SSH key, configuring folders, install apache ant then build the local environment. 
+	replacing some jars. So I spend a few days and created a bash script to automate all those tedious steps. 
+	It saved everyone so much time not only for new hires, also people need sometimes setup their local again. everyone likes it. 
 
 ==Are Right, A Lot==
    Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work 
