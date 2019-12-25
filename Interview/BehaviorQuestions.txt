@@ -343,7 +343,6 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
 24. tell me about a time you have Two ways of implementation, you choose which way and why
 
 **********************************Amazon Principles****************************************
-每个都要有多个例子, 一正一反，争取不同角度
 ==Customer Obsession==
    Leaders start with the customer and work backwards. They work vigorously to earn and keep customer trust. 
    Although leaders pay attention to competitors, they obsess over customers.
@@ -352,7 +351,6 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
          performed a survey among the company to prove and persuaded designers, marketing, product teams.
          2. Lighter PDP
          3. Beauty Advisor don't login. login takes long time and also user worry about their account safety
-
 
    相关问题 
     • Who was your most difficult customer?
@@ -503,23 +501,6 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
 
 
    • Tell me about a time when you had to work on a project with unclear responsibilities.
-   这个题得问清responsibility定义，这个例子是讲描述不清的。第二个例子是讲职责分配不清的，就跟teamwork有关了
-	so there was a time I got a ticket from marketing team and the title was "help Google search" 
-	and there's nothing details in the ticket description. I don't know any information at all I'm not able to do any work. 
-	so I connected with the marketing team who created the ticket and they said the issue was from our analytics data. 
-	we find out most of the users are from typing url directly but not from Google Search. so the task is to improve that. 
-	and it's our developers responsibilities to figure out how to do that they are expert as marketing 
-	and advertising but they don't out any technology. 
-
-	I have never done anything similar before. so I did a lot of search and ask around different people 
-	how we can do that and I figure out it is called SEO. after I find this word I also did a lot of Google research 
-	on how to do a better SEO to help Google to find our web pages. then I create an Excel table 
-	the SEO title SEO description for all the web pages then discuss with the marketing team 
-	if they're satisfied with that. then I created meta tags for each of the pages and used a tool 
-	called SEO quack to verify our SEO score is much much higher than before. 
-	and the marketing team are very satisfied with that and our customers from the data shown 
-	they can find our website Google search easier.
-   答案2:
 	so there was a time we're trying to create a new page for customers who use mobile browser to search a product. 
 	when they click on the  lighter version of the product detail page. it was two of us to work on it. 
 	I should be responsible for the backhand and the other person to work on the front end so on my side 
@@ -614,43 +595,92 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
 	so you think this thing is intuitive, but you're actually wrong. you need to listen 
 	to more people to know how they feel and understand from another point of view
    • Tell me about a time when you had to work with incomplete data or information.
+	so there was a time I got a ticket from marketing team and the title was "help Google search" 
+	and there's nothing details in the ticket description. I don't know any information at all I'm not able to do any work. 
+	so I connected with the marketing team who created the ticket and they said the issue was from our analytics data. 
+	we find out most of the users are from typing url directly but not from Google Search. so the task is to improve that. 
+	and it's our developers responsibilities to figure out how to do that they are expert as marketing 
+	and advertising but they don't out any technology. 
+
+	I have never done anything similar before. so I did a lot of search and ask around different people 
+	how we can do that and I figure out it is called SEO. after I find this word I also did a lot of Google research 
+	on how to do a better SEO to help Google to find our web pages. then I create an Excel table 
+	the SEO title SEO description for all the web pages then discuss with the marketing team 
+	if they're satisfied with that. then I created meta tags for each of the pages and used a tool 
+	called SEO quack to verify our SEO score is much much higher than before. 
+	and the marketing team are very satisfied with that and our customers from the data shown 
+	they can find our website Google search easier.
      
 ==Learn and Be Curious==
    Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore 
 them.
    5. 以好学好奇为荣，以不思进取为耻
-   例子: better code, reading books, giving training sessions. 
-   My manager asked me if there’s a way to export and import kibana dashboards, visuals more easily. Cause through the GUI side, it has the number limit and it is hard to manipulate from back end. So I came up with an idea we can utilize the REST apis kibana and elasticsearch provide. We can write scripts to automate the loading process according to our own needs. I know that’s feasible. So finally I wrote the scripts and all the stuff in kibana can be exported and imported automatically in back end.
    相关问题:
    • Tell me about a time when you influenced a change by only asking questions.
-
+	there was a time i was working together with another developer for a feature checking if a customer is a colleague, 
+	if so, it can have a colleague discount.
+	he is responsible for implementing checking the eligibility of that customer by requesting from a remote server. 
+	I looked at the code, i just keep asking questions.
+	what if the response is null because the server is down? Then he said oh i can add a null check. 
+	Then I ask what if the server is not down but in a weird state.
+	Then he said then i can add a status code check. Then i ask what if the customer currently is eligible the items, 
+	saved items in the cart, but later left the company. 
+	Then he said then i will add an eligible check each time a user checkout. 
+	Then i said, you are adding unnecessary calls to the not colleague users. Then he said then i can
+	add an attribute in the cart object to indicate this is a CDP order, if cart has this attribute, 
+	i will re-check each time checkout.
    • Tell me about a time when you solved a problem through just superior knowledge or observation.
+	there was a time we pushed a release and we received a lot of http failures, and the status code is 413. 
+	The release has multiple changes, so nobody knows which one could
+	cause it. and why on test environment, there is no issue, but it happens on production. 
+	and I said 413 means the reuqest is too big. just check the feature which touched
+	http. then we find one feature added an access token to the cookie. Then i said it must be it 
+	because our original http header size is at the limit and after adding this one,
+	it exceeds the limit. Other people not sure how to deal with this situation. 
+	Then I said, we can increase apache web server allowed request size. After change still not working, 
+	i said apache mod_jk connecting tomcat in it. you need change that and also change the tomcat packet size. 
+	Then this issue was solved without rolling back the release.
 
 ==Hire and Develop The Best==
    Leaders raise the performance bar with every hire and promotion. They recognize exceptional talent, 
    and willingly move them throughout the organization. Leaders develop leaders and take seriously their role in coaching others.  
    We work on behalf of our people to invent mechanisms for development like Career Choice.
    6. 以提高表现为荣，以埋没天才为耻
-   例子: i'm responsible for interviewing and hiring. always let interviewee better than half of the people. Coaching others.
-   Case 1: Few months ago, there was an intern assigned to my project. He was helping me build the alerting system. But I found that he gets lost about what we are doing and what he is going to do. So, I told him that it is not as complex as what he is thinking about. I explained the alerting concepts to him one by one and categorized the things what we are doing and what we are going to do. After he is getting comfortable of the whole environment and what I need him to do, I started to assign him the specific task. And he is doing pretty well. So when someone comes to a new environment, getting lost is quite normal. We need to have patience to make him get comfortable of the while environment. Otherwise the efficiency will be very low. And that will also help him get used to the working environment quickly and increase his enthusiasm and devote more to the work.
+  
    相关问题:
    • Tell me about a time when you mentored someone.
-
-   • Tell me about a time when you made a wrong hire. When did you figure it out and what did you do?
+	there was a time we had a coop student and I was her mentor. she is smart and her gpa was all great. 
+	she can write code but after a week I feel she is struggle. 
+	I try to ask what she feel confused and she can't really tell. I feel she may not have a big picture 
+	about how a web app works. So I explained to her what is a MVC model.
+	How a client interacts with frontend and how backend reacts with frontend. And also i introduced her 
+	the backend different layers. Then she feel much better about what she's doing. Then every time she gets a ticket, 
+	she knows which part of the system she is working on. She was really successful when she was with us.
 
 ==Insist on the Highest Standards==
    Leaders have relentlessly high standards - many people may think these standards are unreasonably high. 
    Leaders are continually raising the bar and driving their teams to deliver high quality products, services and processes. 
    Leaders ensure that defects do not get sent down the line and that problems are fixed so they stay fixed.
    7. 以严格标准为荣，以产品缺陷为耻
-   例子: sonarqube cognitive score too high, insist the bar.
-   测试login，各种test case，尽管ticket就叫干啥了。我还测试了啥
-   Case 1: When I was building the alerting system, one of the important features is to generate alerting rules automatically. But I found that if the indexes are in a large scale, or we meet some edge cases,  the efficiency of the process will be very low. Cause we are generating a lot of duplicate rules. So I built the cache to story the previous status, if there are new alerts happening or new indexes, then the system will create corresponding new rules for them. Otherwise it will only update them or do nothing. Also if there are old rules that we do not need anymore, we will remove them. And I also created links for those rules, so that we can save some disk space. It turned out that the efficiency was improved a lot. 
    相关问题:
    • Tell me about a time when you couldn’t meet your own expectations on a project.
-
+	there was a time when i was working on integrating memcache to our system. it will be used by our nodes. 
+	we have 20 nodes, if one is down. the session is saved in memcache.
+	Users don't need to login again. but at that time, i have no idea about how our system deployed 
+	and what was memchache. not even very clear about the codebase. There was another team that finished it 
+	and their codebase is smiliar to ours. 
+	I got some help from them and get work done. But I didn't meet my own expectation. I feel everything I touched, 
+	i should be 100% sure about what I'm doing. So after that ticket, i spent a lot of time reading 
+	about how a web service is scaled and related technologies. Then i finally understand 
+	why i implement that feature and why i did it in that way. 
    • Tell me about a time when a team member didn’t meet your expectations on a project.
-
+	there was a time a team mate and I was working together on the brand related api. 
+	I was working on the get all brands api, he was working on the getBrandById api. and his code
+	really hurts my eyes. To guarantee our project quality, i can't let his cdoe sneak pass, 
+	so i spent a lot of time doing code review. I eyebowed every line of chnage and also give some code examples 
+	how I would do it. Also the following code commits he made to fix the review, 
+	I also gave reviews on those fixes. At last our code meets the expectation, 
+	then we take the MR to other tema members to review and people like it. 
 ==Think Big==
    Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. 
    They think differently and look around corners for ways to serve customers.
@@ -658,9 +688,9 @@ them.
    例子: lead bb to be the first team to try pcid login, because big custom numbers, better customer experience. and result prooved that decision good.
    相关问题:
    • Tell me about your proudest professional achievement.
-My proudest professional achievement is the SLA project I owned. I tried my best to make it look perfect and make my customers have best experience. I build the machine learning tools for network threat hunting, each network anomaly and malicious event will be reported to the system. And I also created the alerting system, so that we don’t need people to sit there monitoring the boring data and create rules by hands. The alerting system will do all the stuff automatically. Customers love that, cause it really saves them a lot of time and money.
+
    • Tell me about a time when you went way beyond the scope of the project and delivered.
-When the first version of SLA that with machine learning feature was delivered, I was starting to think about moving the machine learning platform to tensorflow. Cause one of our core features is to analyze the behavior of network. But each network has its own environment and their behaviors are definitely different, so we need to build specific judging rules and awarding rules to let it train itself. So that it can always have good performance regarding to each environment. And I’m still working on that.
+
    • Tell me about a time you have Two ways of implementation, you choose which way and why
    
 ==Bias for Action==
