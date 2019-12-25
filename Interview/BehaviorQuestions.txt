@@ -688,9 +688,32 @@ them.
    例子: lead bb to be the first team to try pcid login, because big custom numbers, better customer experience. and result prooved that decision good.
    相关问题:
    • Tell me about your proudest professional achievement.
-
+	there was a time I implemented the login feature for our website using Oauth/OpenId protocol.
+	We use Oracle server for Authentication. I first send a request to authentication server to get auth code, 
+	the auth server will call our callback url. I created the filter to get the access code from the oracle request. 
+	then use this auth code to do a token exchange with the authentication server for an id token and access token.
+	after that I use this ID token to login pcid to get the user information, if they never used our website, 
+	i do a sync for them on the backend. the access token to log in PC Optimum our membership program. 
+	the access token from PC Optimum save in the database for future use. and the access token from Oracle, 
+	I save it in the cookie so the requested from the browser well be authenticated for logged in user to access resources.
+	I'm very proud of this project because this is the login flow has interactions with so many features we have in our system. 
+	After finishing this project, i have a much deeper udnerstanding of our application. 
+	Also my project is almost the first thing a customer will do when browsing our website. 
+	When i see customers using my feature, I feel so proud of it. 
    • Tell me about a time when you went way beyond the scope of the project and delivered.
+	it is still the login feature I was working beside only login I also implemented other features 
+	that the take it has never talked about that has so if a user want to log out if user want 
+	to change password and an email is sent to the customer that has link for you to click 
+	so what about this time you're not locked out or at this time you are locked out already 
+	so that's two scenarios to consider and also there is a user one I want to change their email 
+	and also a email is sent to a link to the link and you click that link what happens 
+	if you were logged in now or you already logged out also there are scenarios
 
+	and there are also other scenarios to think about what if a user session times out 
+	and but the token hasn't. or the user has remember me service if a user want 
+	to access our website using Postman. what about a new registered user, 
+	do we let them login again or give them exemption. so a lot of extra things 
+	to think about outside fo the ticket requirement, so I finish this thing Way Beyond expected requirements.
    • Tell me about a time you have Two ways of implementation, you choose which way and why
    
 ==Bias for Action==
