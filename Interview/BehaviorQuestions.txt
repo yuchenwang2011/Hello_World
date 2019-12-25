@@ -593,7 +593,26 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
    4. 以多元角度为荣，以固守己见为耻
    相关问题:
    • Tell me about a time when you were wrong.
+	there was a time about our search API, when you do a search, say lips, 
+	the backend returns a list of filters, skin type, brand, etc, to frontend. the returned value 
+	for each filter will be lips:skintype:dry, lips:brand:dior
 
+	Our customer the mobile Developers had some trouble using it. on web when you click a filter, 
+	it refresh the page right away, but on mobile they want to click multiple filters together then search. 
+	So they need to input lips:skintype:dry:brand:dior. They need to do some string processing, 
+	but we had agreed that no logic would be needed for mobile team, everything should be from our backend. 
+
+	another developer and I both have a solution. I think to make the solution simple and stupid, 
+	as easier as possible for our customers. so I think okay I can create a preprocessor method 
+	at the beginning of the API endpoint. so they don't need to worry, I will process it for them. 
+	the other developer thinks in another way also simple, he said we can just return the broken down values. 
+	clients can combined together themself as they want. we can't persuade each other so we've implemented both 
+	and let customer choose which one do you like. But they chose the other one. 
+
+	so the lesson I learned from this, is that if something you feel very simple, 
+	but it doesn't necessary other people feel the same way. they may feel differently, 
+	so you think this thing is intuitive, but you're actually wrong. you need to listen 
+	to more people to know how they feel and understand from another point of view
    • Tell me about a time when you had to work with incomplete data or information.
      
 ==Learn and Be Curious==
