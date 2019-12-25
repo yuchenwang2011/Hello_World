@@ -437,6 +437,29 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
 	I need to gather as much information as possible whenever I need to touch something
 	that could break existing features. I need gather all the stakeholders' opinon to clarify the requirements 
 	so the new feature won't break current functionality
+	
+	answer2：
+	there was a time I was implementing cybersource decision manager for our customer support team, 
+	which is to help them instead of using the original old system to process suspicious order. 
+	now they can do it in the cybersource Center in which they can see user billing address, shipping address, membership ID, 
+	visa info, score of the transactions based on preset rules and from there they can accept or decline an order.
+
+	I discussed with the customer support team about all the flows during their work. and implemented apis 
+	that will support to simulate the button pressed in their original old system. and it was released 
+	to production the tested everything seems okay. but after a week the warehouse team said there are 
+	eight hundred orders stuck in a status they're not able to change the system status. 
+	I know there's something wrong about my code. 
+
+	I did a lot of check how to find out. there is a button when they click releasing the order. 
+	there is an publish event service created and also a separate order will be created. 
+	so instead of processing the original order what it does is actually create a duplicate of this order 
+	in the back of system, and the original order is cancelled. My code accepted the original order 
+	but the original order doesn't have the attached published event. so as a result I added the functionality 
+	to my api and I feel really sorry the customer support need to process the orders again that took them a week. 
+	and more so they need to manually create them by themselves. I learnt from this mistake so whenever 
+	I made a change on some existing functionality I need to have a end to end testing at first. 
+	I thought I asked customer support that is enough but actually this should involve Warehouse people 
+	as well so whenever there is a big feature we need to get all the stakeholders together and to listen to all their opinions
 
     • Describe a time you persuade the customer to use a different view to see things
 	it happened this recently and I'm working on the rest API suite to support mobile app development 
@@ -568,13 +591,11 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
    Leaders are right a lot. They have strong judgment and good instincts. They seek diverse perspectives and work 
    to disconfirm their beliefs.
    4. 以多元角度为荣，以固守己见为耻
-   例子: 跟队友争执的例子.
-   Case 1: When I was building the alerting system through elastalert, I was asked to create rules for monitoring all the processes in the system. I have my initial plan to track the unique value of process names based on different sensors. But I don’t quite understand the behavior of system index, so I discussed with my manage, and he disagreed with plan. Actually we want to see the alert when the system is down, or nearly down. What we really care about is the count of processes. We want to alert when there is a significant drop in process numbers. So, after that I changed my design and everyone is happy.
    相关问题:
    • Tell me about a time when you were wrong.
 
-	• Tell me about a time when you had to work with incomplete data or information.
-	SEO
+   • Tell me about a time when you had to work with incomplete data or information.
+     
 ==Learn and Be Curious==
    Leaders are never done learning and always seek to improve themselves. They are curious about new possibilities and act to explore 
 them.
