@@ -349,8 +349,6 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
    1. 以重视客户为荣，以重视对手为耻
    例子: 1. 不能右键打开PDP，can't right click the product to open new tabs. back customer experience but designers don't agree with it. 
          performed a survey among the company to prove and persuaded designers, marketing, product teams.
-         2. Lighter PDP
-         3. Beauty Advisor don't login. login takes long time and also user worry about their account safety
 
    相关问题 
     • Who was your most difficult customer?
@@ -480,10 +478,7 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
    Leaders are owners. They think long term and don’t sacrifice long-term value for short-term results. 
    They act on behalf of the entire company, beyond just their own team. They never say “that’s not my job". 
    2. 以担当为荣，以逃避为耻
-   例子: 1. I always have a strong sense of ownership, even my director praised me many times for my sense of ownership. 
-         Frontend make extra calls to payment auth.
-         2. A/B test takes more to finish faster.
-         
+       
    相关问题：
    • Tell me about a time when you had to leave a task unfinished.
 	Usually I tend to finish all of my tasks, but there are always some tasks higher priority than others. 
@@ -685,7 +680,7 @@ them.
    Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. 
    They think differently and look around corners for ways to serve customers.
    8. 以大格局为荣，以小眼界为耻
-   例子: lead bb to be the first team to try pcid login, because big custom numbers, better customer experience. and result prooved that decision good.
+
    相关问题:
    • Tell me about your proudest professional achievement.
 	there was a time I implemented the login feature for our website using Oauth/OpenId protocol.
@@ -735,9 +730,31 @@ them.
    9. 以敢干为荣，以慢拍为耻
    相关问题：
    • Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it.
+	We use a tool called App Dynamics to monitor the webserices and errors
+	there was a time I was browsing app Dynamics and I suddenly noticed the review service error 
+	rate was not low. then I wondering how come the review service has error and It's 
+	All About Time Out exception so then I just to take actions right away 
+	because i think this will affect customer experience. 
 
+	I did a lot of Google research and figured out that the version we are using SDK 2 points something 
+	and the latest version of ready 4 point something. so without given a task, 
+	I just created a ticket myself and updated the SDK version from 2 to 4. 
+	then I did a lot of testing to make sure the review of service working fine 
+	and after deployed to production, from then the time out exception were all gone. 
    • Tell me about a time when you took a calculated risk.
-
+	there was a time I was implementing 2 API endpoints which is to accept requests 
+	from a third party cybersource. when clicked a button in their test center, 
+	it should send a request to the call back url. I find the endpoint would never be hit that is so weird. 
+	and I keep checking code, I'm pretty sure the code has no issue. 
+	so after a few days to bugging and I also contacted the cybersource support team, 
+	they said they're lower environment has no issue at all. I'm pretty sure the code is correct, 
+	so even deploy to production the worst case will be the endpoint doesn't work. 
+	it won't affect current functionalities. so I can take this risk to deployed to production 
+	even test environment doens't work. After deploy, I find it's working on production, 
+	which means the cybersource test centre doesn't work at all, what their support team said was wrong! 
+	that's service doesn't work.  so that I reported this to them to get it fixed 
+	and my code already successfully deployed to production and is working fine. 
+	Sometimes you need take some risk if you are pretty sure about something.
    • Tell me about a time you needed to get information from someone who wasn’t very responsive. What did you do?
 
 ==Frugality==
@@ -797,7 +814,7 @@ them.
 
    • Tell me about a time where you overcame an obstacle and delivered results.
 
-I will use my private time to keep working on the task. After all, finishing the task with high quality as soon as possible is what we want. I’ll never sacrifice the customer experience or the quality of the product because of that. Customer experience is always the most important. We must make sure that the product we are gonna deliver is qualified. We can sacrifice our own time to try to finish the tasks. If we still can not finish the tasks, we will communicate with customers and related people, to tell them why and earn their trust. At the same time, we will try our best to finish the tasks as soon as possible.
+We can sacrifice our own time to try to finish the tasks. If we still can not finish the tasks, we will communicate with customers and related people, to tell them why and earn their trust. At the same time, we will try our best to finish the tasks as soon as possible.
 
 DELIVER RESULTS: Tell me about a time where you overcame an obstacle and delivered results.
 First, I’d check every possible way that could possibly make me hit the date, like using after-work time, weekends, or holidays, asking for help or suggestions, finding alternatives or simpler solutions, etc. Since I am the owner of the tasks, it’s my responsibility to deliver results on time. It’s my fault that I underestimated the workload when I took the tasks.
