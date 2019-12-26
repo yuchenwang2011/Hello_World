@@ -773,6 +773,17 @@ them.
    10. 以省钱为荣，以花钱为耻
    相关问题:
    • Tell me about a time when you had to work with limited time or resources.
+	this summer we decided to Launch mobile app for Shoppers Drug Mart. 
+	the decision is from high high high level management and when it comes to our director, 
+	we only have 4 weeks to work on the API. The first version should be released in one month. 
+	I will be the only available person to work on it.
+	the time is very limited just one month and so I discussed with the mobile team about what they need. 
+	they need about 60 apis. one person can finish 2 APIs a week.  I'm the only person on that 
+	so I have to think another way to figure that out. I go through all our current codebase 
+	and try to figure out there must be some code I can reuse. And I did find a lot of code i can reuse. 
+	I can add the controller layer mapping for them. other than that I only need to write 15ish APIs. 
+	I just really got focused. My director found another person available at the 3rd week. 
+	And we worked super crazy and got that done and delivered on time.
 
 ==Earn Trust==
    Leaders listen attentively, speak candidly, and treat others respectfully. They are vocally self-critical, 
@@ -780,9 +791,6 @@ them.
    They benchmark themselves and their teams against the best.
    11. 以尊重员工为荣，以端着架子为耻, 学会自我批评
    相关问题:
-   • What would you do if you found out that your closest friend at work was stealing?
-
-   • Tell me about a time when you had to tell someone a harsh truth.
 
 ==Dive Deep==
    Leaders operate at all levels, stay connected to the details, audit frequently, and are skeptical when metrics and anecdote differ.
