@@ -539,9 +539,6 @@ Case 2: I apologized to my manager and the customer. And we added the python 2 e
    They are externally aware, look for new ideas from everywhere, and are not limited by “not invented here". 
    As we do new things, we accept that we may be misunderstood for long periods of time.
    3. 以创新为荣，以复杂为耻
-   例子: 1. creating scripts to simplify the onboarding process. Even in last company, wrote a lot of scripts. 
-         2. create a cron job to help support people
-         3. create a script to generate emails to help people.
  
    相关问题
    • Tell me about a time when you gave a simple solution to a complex problem.
@@ -756,6 +753,19 @@ them.
 	and my code already successfully deployed to production and is working fine. 
 	Sometimes you need take some risk if you are pretty sure about something.
    • Tell me about a time you needed to get information from someone who wasn’t very responsive. What did you do?
+	there was a time I was developing APGEE and we need a static URL to connect to. 
+	this will be a special environment with production data, special indexing. 
+	this will need devops to help us to create it. I contacted the Project Manager on Devops team 
+	and it was added to their following spring. but then the person supposed to work on it never response me, 
+	no matter I call him, I direct message him, I at him in public slack Channel, 
+	he just doesn't reply me and ignore my messages. 
+	so I have to escalate this issue to my director about it because it's a real blocker for us. 
+	I ask my director to contact their director to prioritize this one and then he starts to reply me, 
+	then we get things done. After working a few years, I did see people like this, 
+	they won't work on anything, won't help anyone, unless their manager asks them to do it. 
+	They only work for credit, not for customer. The experience I can get from this, 
+	is that to avoid this sisutation, we need to escalate the issue 
+	and let higher level people to get involved and escalate it. 
 
 ==Frugality==
    Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. 
