@@ -715,12 +715,24 @@ them.
 	do we let them login again or give them exemption. so a lot of extra things 
 	to think about outside fo the ticket requirement, so I finish this thing Way Beyond expected requirements.
    • Tell me about a time you have Two ways of implementation, you choose which way and why
-   
+	there was a time I was implementing the user Authentication. 
+	the functionality is to first using Oracle certificate to validate the access token. 
+	second loaded the user information from backend, if doesn't have the user, 
+	synchronize it using the access token pcid information. then set the user for current session, 
+	at last assign the user a role to access resources.
+	I could do it in two ways one is do it in the in the auth processing filter, 
+	the other one is to do it in a separate auth provider, which creates a new class. 
+
+	first one I think it is easier because when people read that filter, they will understand it easily, 
+	okay this filter does this this this. but the other one at first you need 
+	to create a new class also you need some XML configurations. it's little bit tedious 
+	but in the long run, it's more maintainable. for example tomorrow you have another way 
+	to authenticate the user you can just a switch the provider and change another one. 
+	so in the long run it will be better so I chose that one.
 ==Bias for Action==
    Speed matters in business. Many decisions and actions are reversible and do not need extensive study. 
    We value calculated risk taking. 
    9. 以敢干为荣，以慢拍为耻
-   例子: new checkout flow, in one single page, before it's several page. take risk.
    相关问题：
    • Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it.
 
@@ -732,7 +744,6 @@ them.
    Accomplish more with less. Constraints breed resourcefulness, self-sufficiency and invention. 
    There are no extra points for growing headcount, budget size or fixed expense.
    10. 以省钱为荣，以花钱为耻
-   例子: (这个例子不对题)GCP nodes, created channel, build the culture to share env.
    相关问题:
    • Tell me about a time when you had to work with limited time or resources.
 
