@@ -832,10 +832,18 @@ them.
    Leaders have conviction and are tenacious. They do not compromise for the sake of social cohesion. Once a decision is determined, 
    they commit wholly.
    13. 以反对为荣;一旦妥协，就得照着做
-   例子: A/B test for pcid. 最后还是照着做了, 因为答应了. 但是一开始尽力说服别人
    相关问题:
    • Tell me about a time when you did not accept the status quo.
-
+	there was a time I need to work on creating a new product detail page. 
+	we had a product detail page before but this one is for mobile user only who use mobile browser. 
+	this page will load faster. there is one thing to implement the analytics data. 
+	I think the new page should be in a new category, new name, new section. 
+	so people can easily tell customers buying products from this new page or from the old page. 
+	but the other person working on Analytics, she thinks they're both product detail page, 
+	their data should be put together. I totally disagree with that. 
+	in that way we're not able to tell apart from these two pages. 
+	but she is responsible for analytics. so even I disagree and she doesn't accept my suggestion, 
+	I have to accepted her decision then implemented as her solution
    • Tell me about an unpopular decision of yours.
 
    • Tell me about a time when you had to step up and disagree with a team members approach.
@@ -846,7 +854,6 @@ them.
    Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. 
    Despite setbacks, they rise to the occasion and never settle.
    14. 以挺身而出为荣，以发布失败为耻
-   例子: must deliver api in a month. not possible. negotiation. then deliver such apis by first deadline.
    converting optimum to pc optimum, update spring security context. took long long time than expected. update people timely.
    相关问题:
    • By providing an example, tell me when you have had to handle a variety of assignments. Describe the results.
