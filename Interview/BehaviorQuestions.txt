@@ -845,7 +845,16 @@ them.
 	but she is responsible for analytics. so even I disagree and she doesn't accept my suggestion, 
 	I have to accepted her decision then implemented as her solution
    • Tell me about an unpopular decision of yours.
-
+	this one happens recently, the director from Project team wants us to make our getCart API public, 
+	which means even from API call I can get your cart information. I can see you what you have put in your carts. 
+	he thinks whatever put in the cart is not important, this change will make 
+	the customer more convenient don't need login. I totally don't agree with that. 
+	because I think the customer may have some thing they want to be private, don't want other people to know it. 
+	also the get cart api also responses the membership ID related information, 
+	that is also personal information should be private. so we both disagree with each other 
+	and he is the director so people tend to agree with his opinion. but I just insist 
+	I can't let the customer lose this privacy. so we created another ticket to do a analysis 
+	on whether this it is doable rather than do it right away.
    • Tell me about a time when you had to step up and disagree with a team members approach.
 
    • If your direct manager was instructing you to do something you disagreed with, how would you handle it?
