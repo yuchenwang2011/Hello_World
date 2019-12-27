@@ -799,7 +799,32 @@ them.
    例子: 有一次contact us page remove footer. affect checkout. 从那以后，再小的PR也要仔细看
    相关问题:
    • Give me two examples of when you did more than what was required in any job experience.
+     First:
+	it is still the login feature I was working beside only login I also implemented other features 
+	that the take it has never talked about that has so if a user want to log out if user want 
+	to change password and an email is sent to the customer that has link for you to click 
+	so what about this time you're not locked out or at this time you are locked out already 
+	so that's two scenarios to consider and also there is a user one I want to change their email 
+	and also a email is sent to a link to the link and you click that link what happens 
+	if you were logged in now or you already logged out also there are scenarios
 
+	and there are also other scenarios to think about what if a user session times out 
+	and but the token hasn't. or the user has remember me service if a user want 
+	to access our website using Postman. what about a new registered user, 
+	do we let them login again or give them exemption. so a lot of extra things 
+	to think about outside fo the ticket requirement, so I finish this thing Way Beyond expected requirements.
+     Second: 
+	there was a time our developers set up our local developer environment. 
+	there's some errors in the initial data and sometimes it just to throw null pointer exception 
+	because the data was not set correctly. and my task at that time was to fix the init data. 
+	When i was doing it, I realize that when we onboard to setup our local environment, 
+	we need to import a lot of files. So tedious, there are store data files, 
+	product data files, category information, promotion information, samples, gift and media files. 
+	that's very tedious 
+	to do it manually and must be imported in orders. so during fixing the initial data error, 
+	I created a service that it will automatically load it for environment setup. 
+	so it saves everyone a lot of on boarding time, it is not required by the ticket 
+	but I just do it because that will help us
    • Tell me about something that you learnt recently in your role.
 
 ==Have Backbone; Disagree and Commit==
