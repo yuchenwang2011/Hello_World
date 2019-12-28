@@ -855,30 +855,74 @@ them.
 	and he is the director so people tend to agree with his opinion. but I just insist 
 	I can't let the customer lose this privacy. so we created another ticket to do a analysis 
 	on whether this it is doable rather than do it right away.
-   • Tell me about a time when you had to step up and disagree with a team members approach.
 
    • If your direct manager was instructing you to do something you disagreed with, how would you handle it?
-
+	there was a time I was working on implementing the colleague discount program. 
+	and I was thinking to add a limit for a customer can purchase per year. 
+	but my manager doesn't agree with that. don't bother we don't have a limit. don't make it too complicated. 
+	I think what is a colleague with 30% off buy things and resell it to someone else, 
+	in the future we might get a requirement to limit that. my manager said that doesn't matter, 
+	we have a high margin, it increases our sales anyway. so since I can't persuade him 
+	I just do as what he said no per year limit her colleague.
+  
 ==Deliver Results==
    Leaders focus on the key inputs for their business and deliver them with the right quality and in a timely fashion. 
    Despite setbacks, they rise to the occasion and never settle.
    14. 以挺身而出为荣，以发布失败为耻
-   converting optimum to pc optimum, update spring security context. took long long time than expected. update people timely.
    相关问题:
    • By providing an example, tell me when you have had to handle a variety of assignments. Describe the results.
+        Usually each sprint, I would be assigned a few tasks to do. I usually would priority them myself first according
+	to whether it would affect customer experience, and then dependencies. 
+	there was a time I was fixing our bamboo environment. it was the pipeline and it will run unit tests 
+	and that was broken for a long time so fixing it would help our team prevent bugs.
 
+	Then I got another task that we decided to switch to Cloud environment before it was on DC. 
+	Switching to Cloud environment is also very important because in the future we can scale our environment much better. 
+	I think this is very important and in the future once we deployed to Cloud environments 
+	which can help more customers especially during the Black Friday season. 
+	so I just stopped fixing the broken unit tests and then start work on migrating to cloud. 
+
+	In the end, i successfully helped migrating our environment from DC to cloud. 
+	Then I went back to fix our broken unit tests. The unit tests can be run on cloud pipeline as well. 
    • What is the most difficult situation you have ever faced in your life? How did you handle it?
-
+	it was the time when I was working at previous company. I worked as automation engineer for one year. 
+	The work is not challenging so I quit the job without even getting another offer in hand. 
+	in Toronto that's hard, the culture is people would like to see your previous experience. 
+	since I don't want to do automation anymore, I didn't apply for similar jobs. 
+	But the HRs were trying to ask me do you want to be our automation engineer and I said no. 
+	and they just hang up the phone. so it was really hard I spent a long long time 
+	to find a web app application developer role the current one. 
+	so the way to handle it was just keep learning and you need learn a lot of things, 
+	doing a lot of side project on your own. just to keep applying for jobs to see there are any opportunities. 
+	I need to handle pressure for both financial and mentally but that's a last I was successful
    • Give me an example of a time when you were 75% of the way through a project, and you had to pivot strategy–how were you able to make that into a success story?
-
+	there was a time I was working on the login feature where we are going to use the oracle 
+	open ID solution. and at that time the requirement was we're going to abandon the original 
+	login 3rd party Okta. I was implementing to creat new classes, new filters, new auth providers 
+	to handle the new Way and cleaning up current ones. but before I finish, the requirement 
+	was changed that we're still going to use OKTA for a while, we have extended the contract 
+	which means my code I need to write again because I'm always done. 
+	So i changed the way to implmeent and added a parent class to handle both functionalities 
+	at the same time and we can switch between two features. 
+	Even we are going to change to another service provider, my code will still work. 
+	It was successful, that my code can work same time for different providers.
    • Tell me about a time where you overcame an obstacle and delivered results.
-
-We can sacrifice our own time to try to finish the tasks. If we still can not finish the tasks, we will communicate with customers and related people, to tell them why and earn their trust. At the same time, we will try our best to finish the tasks as soon as possible.
-
-DELIVER RESULTS: Tell me about a time where you overcame an obstacle and delivered results.
-First, I’d check every possible way that could possibly make me hit the date, like using after-work time, weekends, or holidays, asking for help or suggestions, finding alternatives or simpler solutions, etc. Since I am the owner of the tasks, it’s my responsibility to deliver results on time. It’s my fault that I underestimated the workload when I took the tasks.
-There was one time that we couldn’t finish the troubleshooting of a bug on time, the system should have sent out auto emails at 7:00 am but sometimes it failed. Before solving the problem, I will check each morning and manually trigger emails to the client.
-If I still couldn’t hit the date, I would look at features, pick out a few with highest priority that I could finish, and then discuss about the problem with the project manager. Of course, I would apologize first and then try to discuss about the best solution to minimize the impacts. Once the project manager agrees, I would notify all the people that could be impacted by the delay.
-
-https://www.linkedin.com/pulse/ace-leadership-interview-prakash-krishnan
+	there was a time we switched from Optimum point to pc optimum point. 
+	and a lot of the loyalty related code was updated. but after a while a lot of customers 
+	complaining they're not able to redeem points, so I'm working on to fix that. 
+	This is a tight deadline because we have a big promotion, so many users will redeem their points. 
+	I spent a lot of time looking at the Loyalty related code, but I don't see any issue. 
+	I checked all those users on production. Usually a user would have a loyalty membership 
+	and a loyalty identity. I find weird some of them loyalty identity. 
+	I doubt it could be caused because they are PC Optimum users 
+	but they were just registered on PC Optimum, Joe Fresh, PC Express, not on Beauty Boutique. 
+	so then when they login beauty, our code syncs the user, there's something wrong with it. 
+	and then I just keep bugging very very deep even into the Spring Security Library. 
+	I find in Spring's access token provider chain, it couldn't get access token 
+	for the oauth rest template. so that's weird then I'm I spend another week probably on it. 
+	Then I find us because when the user login there is spring security context holder, 
+	we need to update the authority inside of security context holder. 
+	because the access token was not issued successfully, so the Sprint security-related library, 
+	so the rest API calls would fail. Then also i wrote some code 
+	for users who miss those fields to created identity when login. The issue was solved.
 *********************************************************************************************************
