@@ -200,7 +200,8 @@ R: your result;
     to quality control and make my code less bugs. 
 
 7. ==Why should we hire u? / why do u think urself a good fit for this position?==
-    I have worked in a big company for 3 years. So I know how to teamwork with coworkers, how to interact with deverlopers, 
+    I have worked in different companies on different systems for x years. 
+    So I know how to teamwork with coworkers, how to interact with deverlopers, 
     testers, product managers things like that. I know how to write code of a certain standard. I know how to provide quality
     control and decrease the chance of bugs.
 
@@ -226,29 +227,84 @@ R: your result;
 	and controller layer. to turning on and turning off the service. 
 	and a how to show that to front end. shipping handling. 
 	
-2. What if the person doens't cooperate with you in the teamwork?
+2. What if the person doesn't cooperate with you in the teamwork?
+	so there was a time we're trying to create a new page for customers who use mobile browser to search a product. 
+	when they click on the  lighter version of the product detail page. it was two of us to work on it. 
+	I should be responsible for the backhand and the other person to work on the front end so on my side 
+	I did the feature flag, the page integration, api end point, generating analytics data.
+
+	when I thought my part is done but the frontend person said he doesn't know how to deal with the backhand data on frontend. 
+	That should be my responsibility. then I said everything shown to the customers should be frontend. 
+	backend stops at controller end point level but never mind this time since you don't know how to do it, 
+	and we have a deadline I can do this for you. but you need to learn how I'm doing it and next time you can do it
+	yourself so I took that part of responsibility as well. 
+
+	then I thought my part is done but he said the AB test he doesn't know how to do it 
+	and I said this is everything happens in a Javascript file it is pure frontend. 
+	but he resisted to do it. there's a deadline so this time I will cover for you 
+	but it will not happen next time you still need to learn from it. So I took that part of responsibility. 
+	at the end we finished everything on time 
+
+	I did learn a lot from this time that whenever there is a teamwork we need to 
+	at the very beginning to define the responsibilities clearly. who is responsible for something 
+	and who responsible for something else. so at the end this won't happen again. 
+	somebody thinks you should do it and then the other people think you should do it. 
+	that will delay the delivery also it would be very bad teamwork experience 
 
 3. 有没有过主动承担队友任务的经历，为什么
-
+        same as question 2
 4. 有没有在一个项目当过领导；
-
+        same as quesiton 1
 5. 有没有帮助别人的经历 How you help teammate
-
+        there was a time i was working together with another developer for a feature checking if a customer is a colleague, 
+	if so, it can have a colleague discount.
+	he is responsible for implementing checking the eligibility of that customer by requesting from a remote server. 
+	I looked at the code, i just keep asking questions.
+	what if the response is null because the server is down? Then he said oh i can add a null check. 
+	Then I ask what if the server is not down but in a weird state.
+	Then he said then i can add a status code check. Then i ask what if the customer currently is eligible the items, 
+	saved items in the cart, but later left the company. 
+	Then he said then i will add an eligible check each time a user checkout. 
+	Then i said, you are adding unnecessary calls to the not colleague users. Then he said then i can
+	add an attribute in the cart object to indicate this is a CDP order, if cart has this attribute, 
+	i will re-check each time checkout.
 6. describe a time you are the minority in the room
-
+        this one happens recently, the director from Project team wants us to make our getCart API public, 
+	which means even from API call I can get your cart information. I can see you what you have put in your carts. 
+	he thinks whatever put in the cart is not important, this change will make 
+	the customer more convenient don't need login. I totally don't agree with that. 
+	because I think the customer may have some thing they want to be private, don't want other people to know it. 
+	also the get cart api also responses the membership ID related information, 
+	that is also personal information should be private. so we both disagree with each other 
+	and he is the director so people tend to agree with his opinion. but I just insist 
+	I can't let the customer lose this privacy. so we created another ticket to do a analysis 
+	on whether this it is doable rather than do it right away.
 ==================Conflict==============================
 
 1. 有没有做过一些同事已经觉得足够好,但是你觉得还不够好的事. How you insist the highest standard
+	there was a time i worked with another team mate working on buy one get one free 
+	promotion type integrated into our current promotion system. 
+	in which we need to checking each cart item to see if it is a buy one get one free 
+	promo type, there are some service layer methods to write. 
+	we also have a sonarcube software integrated with our system pipeline, 
+	and it failed because the cognitive score is too high, that means the code 
+	is not well written according to a preset standard. it has a lot of 
+	if else conditions and it will be hard for reading. my teammates thinks our code 
+	is good enough, the sonarqube is stupid to mark a good quality code to fail. 
+	he thinks we should change the configuration for sonarqube 
+	to lower the bar so our code will pass the pipeline build. 
+	I don't agree with that, the standard was preset, we need to keep our code 
+	as high standard as possible. there are lots of ways to write good code, 
+	to refactor the code such as early return, break the big method into small pieces 
+	of separated methods for easy risibility. my colleague was persuaded by me 
+	and we didn't even change sonarqube configuration. also when people 
+	do code review they like our code because it's easy to read.
 
-2. 有没有和领导有过争执.
+2. decision without consulting manager
 
-3. 你想用A方法来实现你负责的这块任务，你老板让你用B方法，但你觉得其实A方法更好，你怎么办? 
+3. 你的老板如果在出差，你联系不到，你该怎么办?
 
-4. decision without consulting manager
-
-5. 你的老板如果在出差，你联系不到，你该怎么办?
-
-6. 你和其他小伙伴有冲突或吵架怎么办；
+4. 你和其他小伙伴有冲突或吵架怎么办；
 
 
 ==================Deadline==============================
