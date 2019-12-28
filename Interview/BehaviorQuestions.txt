@@ -318,15 +318,8 @@ R: your result;
 4. 你遇到一个问题，有方案A和方案B，必须选一个。它们互有利弊。你时间有限，无法花太多时间考虑，你应该怎么做?
 
 5. 一个如果项目中有很多bug，但是deadline快到期了，你会怎么办? 如果这些bug不重要呢？
-
-6. DDL 快到了 没做完 该怎么办
-
-7. 有没有过miss deadline，怎么做的；
-
-8. 问了有没有要很短时间内完成一个project的经历，时间不够是因为哪些原因之类的， 突
-   然需求改了，需要做的东西就不够了，加班加点，先完成重点需求
    
-9. 有一个紧急情况
+6. 有一个紧急情况
 
 ==================Make Decision Experience==============================
 1. 怎么做重要决定
@@ -334,47 +327,42 @@ R: your result;
 2. tell me about a time when you have to move fast (make a decision fast)
    Cybersource Decision Manager test environment doesn't work, support people said no issue. But just not working. Need to move fast, because we don't think there's any issue. So just release to
    production.
-3. what is the part you don't like a time when you take a calculated risk
 
-4. 自己犯的比较错误的一个decision
+3. 自己犯的比较错误的一个decision
 
-5. 有没有对自己的承诺失误过，
+4. 有没有对自己的承诺失误过，
 
-6. tell me about a time that you failed
+5. tell me about a time that you failed
 
-7. 你在现在公司,最大的creative idea是啥；
+6. 你在现在公司,最大的creative idea是啥；
 
-8. 有没有做过一些你很讨厌做的项目，被迫要做的那种；
+7. 有没有做过一些你很讨厌做的项目，被迫要做的那种；
 
-9. anything you don't fully understand, but you do it anyway 
+8. anything you don't fully understand, but you do it anyway 
 
-10. 问了要马上开始做一个你还没有完全理解的project时会怎么办 PM 举个例子
+9. 问了要马上开始做一个你还没有完全理解的project时会怎么办 PM 举个例子
 
-11. How you clarify requirement
+10. How you clarify requirement
 
-12. 项目信息量比较少 该怎么办 do a task without enough information
+11. 有没有走出舒适区的经历
 
-13. 有没有走出舒适区的经历
+12. 在学习新技术时，你的thought process是怎样的
 
-14. 在学习新技术时，你的thought process是怎样的
+13. 曾经遇到过的项目中重大改变是什么，你怎么解决的?
 
-15. 曾经遇到过的项目中重大改变是什么，你怎么解决的?
+14 有没有make什么wrong decision, 是怎么发现怎么解决的。
 
-18 有没有make什么wrong decision, 是怎么发现怎么解决的。
+15. Describe a time you encountered an issue and how you fixed it.
 
-19. 对xx公司有什么改进意见？
+16. when you made a mistake and how you correct it?
 
-20. Describe a time you encountered an issue and how you fixed it.
+17. The biggest mistake you made and what did you learn from it? (earn trust, customer obsession)
 
-21. when you made a mistake and how you correct it?
+18. Describe a situation where you exceeded expectations/did more than required
 
-22. The biggest mistake you made and what did you learn from it? (earn trust, customer obsession)
+19. describe a time you use a smart way to solve a difficult problem
 
-23. Describe a situation where you exceeded expectations/did more than required
-
-24. describe a time you use a smart way to solve a difficult problem
-
-25. tell me about a time you have Two ways of implementation, you choose which way and why
+20. tell me about a time you have Two ways of implementation, you choose which way and why
 
 **********************************Amazon Principles****************************************
 ==Customer Obsession==
