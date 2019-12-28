@@ -182,50 +182,51 @@ R: your result;
    check if I am a fast learner. So I did my best, reading code to learn the APIs and the coding conventions here, checking twikis
    about things I need to consider, asking people the logic behind the code and asking people about the knowledge of our product,
    writing notes, working overtime to write my own code. So I proved my ability to learn fast and I managed to finish the project
-   from scrach to release. 
+   from scrach to release.  
    
-Most challenging project
-The most challenging project is my current xx project. It is challenging because I need to implement all the new features on my own. It requires me to build machine learning tools for network threat hunting, I haven’t done anything related to threat hunting before. And It also requires me to build RESTful APIs for the tools. I haven’t developed any RESTful API before either. It also requires me to build alerting system and But the time is not unlimited, so I started to devote more time on the project, even my private time. I googled a lot of papers related to threat hunting, like malicious url, dnstuneling, network behavior. When I came up with some ideas, I would discuss with my manager to make sure the plan is feasible. And then I learnt Go as quick as possible so that I can design and implement all the RESTful APIs on time. Finally, all the new features have been implemented on time and we received positive feedbacks from the customer. So through this process, I learnt that it is so important to be curious and keep learning, the more you read and learn, the more problems you can solve. The feeling of ownership is really really important, the product is just like your own child. So “I don’t know how to do it” will never be the excuse.
-
-5. ==What was your biggest achievement?==   
-   
-6. ==What was your most difficult / proud of project? 1你从这个项目中学到了什么? 2. 有什么是以前不会的？做完之后就会了。==
+5. ==What was your most difficult / proud of project? 1你从这个项目中学到了什么? 2. 有什么是以前不会的？做完之后就会了。==
    The project I'm most proud of is that during my work at Nxxx, I wrote a big code automation that can save a lot of effort.
    Before I took that part of testing, every time we introduce a new module, I need to do a lot of manual configurations and write 
    some code specifically for it. Then I used my spare time to write an interface to accept all kinds of modules, every new module
    introduced, I just need to write some basic information into it. And I subtracted the things in common and tests in common as
    a whole, integrate them together. And I integrated the performance check tests that makes checking performance a standard.
    So after I build the system, I can save a lot of time testing new modules.
+   
+   Now updated to the login feature.
 
-7. ==What can you bring to us?==
+6. ==What can you bring to us?==
     My sense of responsibility. I am a person having a very high standard of myself and want to make my release perfect and free of 
     bugs. I will feel a shame to fail release and not working my best. I've been doing software testing for 3 years, I know how
     to quality control and make my code less bugs. 
 
-8. ==Why should we hire u? / why do u think urself a good fit for this position?==
+7. ==Why should we hire u? / why do u think urself a good fit for this position?==
     I have worked in a big company for 3 years. So I know how to teamwork with coworkers, how to interact with deverlopers, 
     testers, product managers things like that. I know how to write code of a certain standard. I know how to provide quality
     control and decrease the chance of bugs.
 
-9. ==How can you improve your coding ability?==
+8. ==How can you improve your coding ability?==
     For example, during my work, when I have spare time, I don't relax. I would read other people's code, assuming if I were them,
     how I would write my code here. And we do code reviews, I can get feedback from other people, this really helps a lot.  
     I would also spend quite a lot of time to read API documents. The more I'm familiar with it, I can write better code. 
     
-10. ==How would other people describe you?==
+9. ==How would other people describe you?==
     People describe me a person with sense of responsibilities. They can trust me and rely on me.
     
-11. ==Plans about ur career growth path?==
+10. ==Plans about ur career growth path?==
     I want to be a java expert
     
-12. 列举你最近6个月看过的技术方面的书。你常看的技术blog，常去的讨论技术的网站?
+11. 列举你最近6个月看过的技术方面的书。你常看的技术blog，常去的讨论技术的网站?
 
 
 ==================TeamWork==============================
-
 1. Tell me about your teamwork experience
-    
-2. 你怎么跟teammate合作；遇到有人不合作你怎么办；
+	there was a time I was working on implementing the colleague discount program. 
+	I work with another developer. he is responsible for checking the eligibility of the user, poslog handling.
+	and I'm responsible for all the exception handling, service layer, facade layer, 
+	and controller layer. to turning on and turning off the service. 
+	and a how to show that to front end. shipping handling. 
+	
+2. What if the person doens't cooperate with you in the teamwork?
 
 3. 有没有过主动承担队友任务的经历，为什么
 
@@ -234,6 +235,7 @@ The most challenging project is my current xx project. It is challenging because
 5. 有没有帮助别人的经历 How you help teammate
 
 6. describe a time you are the minority in the room
+
 ==================Conflict==============================
 
 1. 有没有做过一些同事已经觉得足够好,但是你觉得还不够好的事. How you insist the highest standard
