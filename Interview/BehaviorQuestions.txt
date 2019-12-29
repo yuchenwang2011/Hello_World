@@ -383,16 +383,6 @@ R: your result;
 	a whole new section needs be added.)
 4. anything you don't fully understand, but you do it anyway 
 	Oauth2
-	
-5. 有没有走出舒适区的经历
-
-6. 在学习新技术时，你的thought process是怎样的
-
-7. 曾经遇到过的项目中重大改变是什么，你怎么解决的?
-
-8. 有没有make什么wrong decision, 是怎么发现怎么解决的。
-
-9. The biggest mistake you made and what did you learn from it? (earn trust, customer obsession)
 
 **********************************Amazon Principles****************************************
 ==Customer Obsession==
