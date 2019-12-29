@@ -301,9 +301,22 @@ R: your result;
 	do code review they like our code because it's easy to read.
 
 2. decision without consulting manager
-
+	there was a time we had a big promotion of the year, so many people trying to access 
+	our site on the weekend. the way we architect the system is okay 
+	but we found there's a bottleneck. when user access the shopping cart, 
+	our code will generate an access token assign to the cart. it was the previous design 
+	that the access token generate service was designed to be a rest API endpoint. 
+	but our code base is not micro service, so this get in trouble. so many users hitting us 
+	but it can't hanlde it. at the time my manager is on vacation, I discussed 
+	with a few other developers and decided to remove that end point. 
+	just let the other method use that package method directly. also I added another cache 
+	for getting access token for cart. previously it is for every user, it has a different access token. 
+	but this is actually unnecessary, we can just save that in the cache instead of generated one. 
+	so after I got this one deployed, our bottlenect is gone and our code can support big traffic. 
+	and of course after the manager come back I reported this change and explain 
+	to him why I decided in this way and he agreed with me.
 3. 你的老板如果在出差，你联系不到，你该怎么办?
-
+	same as above answer
 4. 你和其他小伙伴有冲突或吵架怎么办；
 
 
