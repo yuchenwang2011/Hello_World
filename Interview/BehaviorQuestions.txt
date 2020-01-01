@@ -1029,5 +1029,16 @@ them.
     
 7. Tell me about a time when you realized you needed to have a deeper level 
     of subject matter expertise to do your job well?
-	
+	there was a time our system was updated from spring version three-point something to 4.3. 
+	I need to do a regression test. I find the login form for customer support system not working anymore. 
+	So I took ownership to fix that. At first i couldn't understand why, so I did and did a lot of research. 
+	And I added the debugger to go through the code line by line, even into the compiled jar's code. 
+	I fount that those forms are Spring Security forms, and in spring 4, they updated the form name. 
+	The request parameters in the spring package UsernamePasswordAuthenticationFilter 
+	will be handled differently. so then I did some xml changes to update the form 
+	ID keys and then the form works. From then, I realized if I work on web 
+	I need to know more about spring. So after that when I have time during lunch break, 
+	i read some spring documentations. I may not remember them, 
+	but when an issue happens in the future, I would remember oh i may have seen it 
+	and it might be in that document. Problem can be solved more easily.
 *********************************************************************************************************
