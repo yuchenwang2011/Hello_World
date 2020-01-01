@@ -32,8 +32,7 @@ R: your result;
 
 1. ==Introduce yourself==
    My name is Yuchen, which you already know. I got my masters degree in 2013. After that I have been working as a software
-   engineer. I worked for Bxx for less a year, 3 years for Nxxx, 1 year for Pxxx then now I'm working for Lxxx, which is almost 
-   2 years so far. So I have worked on different sizes of companies, worked with different kinds of software.
+   engineer. So far it has been xx years. And recent 2 years I'm working with xxx, I focus on 3 ares. 1 is, 1 is, and recently with.
 
 2. ==Introduce your work at Bxxx,the technology you use==
    When I was there, my team was responsible for providing software for bb factories. You know at that time, bb's market was still not
@@ -223,10 +222,12 @@ R: your result;
 ==================TeamWork==============================
 1. Tell me about your teamwork experience
 	there was a time I was working on implementing the colleague discount program. 
-	I work with another developer. he is responsible for checking the eligibility of the user, poslog handling.
-	and I'm responsible for all the exception handling, service layer, facade layer, 
-	and controller layer. to turning on and turning off the service. 
+	I work with another less experiencedddeveloper. he is responsible for checking the eligibility of the user, 
+	poslog handling. and I'm responsible for all the exception handling, service layer, facade layer, 
+	and controller layer, api endpoints. to turning on and turning off the service. 
 	and a how to show that to front end. shipping handling. 
+	I do the code review for him and I'm also responsible for talking with product manager about the requirements.
+	When he finishes his part, i would give him some extra work from my plate.
 	
 2. What if the person doesn't cooperate with you in the teamwork?
 	so there was a time we're trying to create a new page for customers who use mobile browser to search a product. 
@@ -257,6 +258,10 @@ R: your result;
 4. 有没有在一个项目当过领导；
         same as quesiton 1
 5. 有没有帮助别人的经历 How you help teammate
+	Case 1:
+        uber delivery, i know this part better. so I explained the flow, how to test and code review for him.
+	
+	Case 2:
         there was a time i was working together with another developer for a feature checking if a customer is a colleague, 
 	if so, it can have a colleague discount.
 	he is responsible for implementing checking the eligibility of that customer by requesting from a remote server. 
@@ -297,8 +302,8 @@ R: your result;
 	I don't agree with that, the standard was preset, we need to keep our code 
 	as high standard as possible. there are lots of ways to write good code, 
 	to refactor the code such as early return, break the big method into small pieces 
-	of separated methods for easy risibility. my colleague was persuaded by me 
-	and we didn't even change sonarqube configuration. also when people 
+	of separated methods for easy readability. my colleague was persuaded by me 
+	and we didn't even change sonarqube configuration. later when people 
 	do code review they like our code because it's easy to read.
 
 2. decision without consulting manager
@@ -323,10 +328,10 @@ R: your result;
 
 ==================Deadline==============================
 1. 你有没有遇到过deadline来不及的情况，你怎么解决的？
-	this summer we decided to Launch mobile app for Shoppers Drug Mart. 
+	this summer we decided to Launch mobile app for Sxxx. 
 	the decision is from high high high level management and when it comes to our director, 
 	we only have 4 weeks to work on the API. The first version should be released in one month. 
-	I will be the only available person to work on it.
+	I will be the only person to work on it because I know the system very well and no other people were free.
 	the time is very limited just one month and so I discussed with the mobile team about what they need. 
 	they need about 60 apis. one person can finish 2 APIs a week.  I'm the only person on that 
 	so I have to think another way to figure that out. I go through all our current codebase 
@@ -395,7 +400,7 @@ R: your result;
 
    相关问题 
     • Who was your most difficult customer?
-	I just introduced it that I work for Shoppers beauty.and there was a time some beauty advisor in the store contact us 
+	I just introduced it that I work for S B.and there was a time some beauty advisor in the store contact us 
 	and said our software is hard to use. It is so slow and we're not able to help customers. 
 	I can't skip these complains because beauty adviser they're facing our customers directly  
 	and we need to guarantee that we provide the best customer experience.
@@ -816,7 +821,7 @@ them.
    10. 以省钱为荣，以花钱为耻
    相关问题:
    • Tell me about a time when you had to work with limited time or resources.
-	this summer we decided to Launch mobile app for Shoppers Drug Mart. 
+	this summer we decided to Launch mobile app for Sxx. 
 	the decision is from high high high level management and when it comes to our director, 
 	we only have 4 weeks to work on the API. The first version should be released in one month. 
 	I will be the only available person to work on it.
@@ -958,7 +963,7 @@ them.
 	I checked all those users on production. Usually a user would have a loyalty membership 
 	and a loyalty identity. I find weird some of them loyalty identity. 
 	I doubt it could be caused because they are PC Optimum users 
-	but they were just registered on PC Optimum, Joe Fresh, PC Express, not on Beauty Boutique. 
+	but they were just registered on xx, xx, xx, not on BB. 
 	so then when they login beauty, our code syncs the user, there's something wrong with it. 
 	and then I just keep bugging very very deep even into the Spring Security Library. 
 	I find in Spring's access token provider chain, it couldn't get access token 
@@ -1012,7 +1017,7 @@ them.
 	I checked all those users on production. Usually a user would have a loyalty membership 
 	and a loyalty identity. I find weird some of them loyalty identity. 
 	I doubt it could be caused because they are PC Optimum users 
-	but they were just registered on PC Optimum, Joe Fresh, PC Express, not on Beauty Boutique. 
+	but they were just registered on xx,xx,xx, not on BB. 
 	so then when they login beauty, our code syncs the user, there's something wrong with it. 
 	and then I just keep bugging very very deep even into the Spring Security Library. 
 	I find in Spring's access token provider chain, it couldn't get access token 
