@@ -972,36 +972,62 @@ them.
 **********************************Examples from Amazon HR **********************************************
 1. Tell me about a time where you sought out perspectives other than 
    your own to make a product/service/project better?
-   
+   	there was a time i was working together with another developer for a feature checking if a customer is a colleague, 
+	if so, it can have a colleague discount.
+	he is responsible for implementing checking the eligibility of that customer by requesting from a remote server. 
+	I looked at the code, i just keep asking questions.
+	what if the response is null because the server is down? Then he said oh i can add a null check. 
+	Then I ask what if the server is not down but in a weird state.
+	Then he said then i can add a status code check. Then i ask what if the customer currently is eligible the items, 
+	saved items in the cart, but later left the company. 
+	Then he said then i will add an eligible check each time a user checkout. 
+	Then i said, you are adding unnecessary calls to the not colleague users. Then he said then i can
+	add an attribute in the cart object to indicate this is a CDP order, if cart has this attribute, 
+	i will re-check each time checkout.
+	
 2. Tell me about a time when you had to analyze facts quickly, define key issues, 
    and respond immediately to a situation. What was the outcome?
+   	there was a time we pushed a release and we received a lot of http failures, and the status code is 413. 
+	The release has multiple changes, so nobody knows which one could
+	cause it. and why on test environment, there is no issue, but it happens on production. 
+	and I said 413 means the reuqest is too big. just check the feature which touched
+	http. then we find one feature added an access token to the cookie. Then i said it must be it 
+	because our original http header size is at the limit and after adding this one,
+	it exceeds the limit. Other people not sure how to deal with this situation. 
+	Then I said, we can increase apache web server allowed request size. After change still not working, 
+	i said apache mod_jk connecting tomcat in it. you need change that and also change the tomcat packet size. 
+	Then this issue was solved without rolling back the release.
    
 3. Give me an example of a time you used customer feedback to drive improvement or innovation. 
    What was the situation and what action did you take?
-   
-4. Tell me about a goal that you set that took a long time to achieve or 
-   that you are still working towards. How do you keep focused on the goal given the other priorities you have?
+   Check the LP1 beauty advisor answer
    
 5. Tell me about a time when you linked two or more problems together and identified an underlying issue? 
    Were you able to find a solution?
-   
-6. What three things you are you working on to improve your overall effectiveness?
-
-7. Give me an example of when you took an unpopular stance in a meeting with peers 
-    and your leader and you were the outlier. What was it
-
-8. why did you feel strongly about it, and what did you do?
-
-9. Tell me about a time you wouldn’t compromise on achieving a great outcome 
-   when others felt something was good enough. What was the situation?
-   
-10. Tell me about a time you made a hard decision to sacrifice short term gain for a longer term goal.
-
-11. How do you drive adoption for your vision/ideas? How do you know 
+   	there was a time we switched from Optimum point to pc optimum point. 
+	and a lot of the loyalty related code was updated. but after a while a lot of customers 
+	complaining they're not able to redeem points, so I'm working on to fix that. 
+	This is a tight deadline because we have a big promotion, so many users will redeem their points. 
+	I spent a lot of time looking at the Loyalty related code, but I don't see any issue. 
+	I checked all those users on production. Usually a user would have a loyalty membership 
+	and a loyalty identity. I find weird some of them loyalty identity. 
+	I doubt it could be caused because they are PC Optimum users 
+	but they were just registered on PC Optimum, Joe Fresh, PC Express, not on Beauty Boutique. 
+	so then when they login beauty, our code syncs the user, there's something wrong with it. 
+	and then I just keep bugging very very deep even into the Spring Security Library. 
+	I find in Spring's access token provider chain, it couldn't get access token 
+	for the oauth rest template. so that's weird then I'm I spend another week probably on it. 
+	Then I find us because when the user login there is spring security context holder, 
+	we need to update the authority inside of security context holder. 
+	because the access token was not issued successfully, so the Sprint security-related library, 
+	so the rest API calls would fail. Then also i wrote some code 
+	for users who miss those fields to created identity when login. The issue was solved.
+      
+6. How do you drive adoption for your vision/ideas? How do you know 
     how well your idea or vision has been adopted by other teams or partners? 
     Give a specific example highlighting one of your ideas.
     
-12. Tell me about a time when you realized you needed to have a deeper level 
+7. Tell me about a time when you realized you needed to have a deeper level 
     of subject matter expertise to do your job well?
 	
 *********************************************************************************************************
