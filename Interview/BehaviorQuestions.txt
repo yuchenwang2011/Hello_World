@@ -1059,4 +1059,17 @@ them.
 	i read some spring documentations. I may not remember them, 
 	but when an issue happens in the future, I would remember oh i may have seen it 
 	and it might be in that document. Problem can be solved more easily.
+	
+8. Tell me about a time when you think the issue was simple but it turnd out to be very difficult
+	there was a time I was implementing the cybersource device finger print, 
+	which is to collect the user browser information and ip addresses, for fraud detecting purpose. 
+	I thought it was easy because the official document says just 
+	passed in a random string of numbers, it should work. then i tried it didn't work. 
+	Then i tried a guid. Then i tried cart guid which is an unique value it doesn't. 
+	Then i tried our session id. no. then i keep research it doesn't work. no clues. 
+	Then one day i tried jsessionid from tomcat and it worked. it's so weird. 
+	later i figured it must need the tomcat jvm route added to the end of the string. 
+	Then I did some tomcat config changes to get this value, 
+	but i think this should be a secrete one shouldn't be public. 
+	I keep trying and found if i use base64 encription to encrypte the tomcat jvm route, it still works. 
 *********************************************************************************************************
