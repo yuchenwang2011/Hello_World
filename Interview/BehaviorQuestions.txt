@@ -407,11 +407,11 @@ R: your result;
 
 	so I scheduled a few store visit and visited is a few beauty advisors in our real stores. 
 	I tried to figure out what was really slow was it because the iPad or itself or it is because the network 
-	or is it because the software running all of that or something else. But they are expersts on makeups 
+	or is it because the software running all of that or something else. But they are experts on makeups 
 	but they don't know tech at all, they coudn't even describe what they need and what part is bad. 
 	So I stayed a long time with each of them to see how they support their customers. 
 
-	so actually I find out they are two things make the process slow that is one is we have a big CSS file 
+	so actually I find out there are two things make the process slow that is one is we have a big CSS file 
 	to load on a certain page. But real store usually have a slower Network so which makes they feel 
 	that software is slow second the process was slow there was a step I need the beauty advisors to 
 	to login for the customer but there will be a lot of extra process because the need to ask their customers to login. 
@@ -424,17 +424,19 @@ R: your result;
     • Give me an example of a time when you did not meet a client’s expectation. What happened, and how did you attempt to rectify the situation?
 
 	there was a time in my previous company and that time I was a QA. 
-	we did a POC that is to customer, which is to archive all items in BOX.
+	we did a POC to customer, which is to archive all items in BOX.
 	you know the software box which is similar to Dropbox where people can upload their files. 
-	For big Banks or investment Banks they need to track there is like internal confidential item leaking. 
+	For big Banks or investment Banks they need to track there is like internal confidential item leaking.
+	For example, i uploaded a book called "why amazon so successful", that's a signal between us. Then you 
+	know it's the time to buy amazon stocks.
 	so they will need to ask as to archive all the items that once been uploaded to box and who did that. 
-	so we did a POC on that and then a customer really satisfied with that and they give us 2 months to implemented 
-	and we under estimated time. 
+	so we did a POC on that and then a customer really satisfied with that and the sales team gave a promise that
+	we can finish it in 2 months before asking us. 
 
 	but actually 2 months not possible at all so what team of 4 we work so hard everyday use like 
 	14 hours a day to work on it for 2 months and we're still not able to delivery on time. 
 	there are still a lot of issues to going on such as Multi threading issues duplicating issues, missing information. 
-	if there is a huge file uploaded then we'll crash. So by 2 months we stilll haven't finished it, we asked customer 
+	if there is a huge file uploaded then we'll crash. So by 2 months we still haven't finished it, we asked customer 
 	to have another 2 months to finish it. It was lucky the customer was nice and said yes. 
 	Finally we finished that in the fourth month. 
 
@@ -482,7 +484,7 @@ R: your result;
 	that could break existing features. I need gather all the stakeholders' opinon to clarify the requirements 
 	so the new feature won't break current functionality
 	
-	answer2：
+	answer2：这个例子最好是跟第一个一起讲，上一个得到教训了，这次就是让cs team先测试一个ordre试试，最后成功预防了什么问题
 	there was a time I was implementing cybersource decision manager for our customer support team, 
 	which is to help them instead of using the original old system to process suspicious order. 
 	now they can do it in the cybersource Center in which they can see user billing address, shipping address, membership ID, 
@@ -596,9 +598,9 @@ R: your result;
 	per day but we only have limited budget and resource to do that. Our Office 365 account doesn't support that. 
 	we need to pay a lot to Microsoft to get a hirer level Office 365 account for more spaces for testing and clean. 
 	Then I came up the idea that we don't need to spend that money instead we can create a VM machine, 
-	create an Office 365 Outlook local environment, and save 40000 emails on local. create a screenshot of the VM. 
+	create an Office 365 Outlook local environment, and save 40000 emails on local. create a snapshot of the VM. 
 	on our software we can write a simple converter to use powershell commands instead of restful apis. 
-	so then we don't need to spend any money just to keep the VM screenshot rolling back everyday for the testing.
+	so then we don't need to spend any money just to keep the VM snapshort rolling back everyday for the testing.
    • Tell me about a time when you invented something.
 	there was a time I realized new hires onboarding our teams, they have to spend a long time to set up their environment. 
 	I didn't realize that the very beginning because myself it only took me half day but not all the people are good at it. 
@@ -704,11 +706,11 @@ them.
    7. 以严格标准为荣，以产品缺陷为耻
    相关问题:
    • Tell me about a time when you couldn’t meet your own expectations on a project.
-	there was a time when i was working on integrating memcache to our system. it will be used by our nodes. 
+	there was a time when i was working on integrating memcache to our system. it will be used by our nodes, app servers. 
 	we have 20 nodes, if one is down. the session is saved in memcache.
 	Users don't need to login again. but at that time, i have no idea about how our system deployed 
 	and what was memchache. not even very clear about the codebase. There was another team that finished it 
-	and their codebase is smiliar to ours. 
+	and their codebase is similar to ours. 
 	I got some help from them and get work done. But I didn't meet my own expectation. I feel everything I touched, 
 	i should be 100% sure about what I'm doing. So after that ticket, i spent a lot of time reading 
 	about how a web service is scaled and related technologies. Then i finally understand 
@@ -716,11 +718,11 @@ them.
    • Tell me about a time when a team member didn’t meet your expectations on a project.
 	there was a time a team mate and I was working together on the brand related api. 
 	I was working on the get all brands api, he was working on the getBrandById api. and his code
-	really hurts my eyes. To guarantee our project quality, i can't let his cdoe sneak pass, 
-	so i spent a lot of time doing code review. I eyebowed every line of chnage and also give some code examples 
+	really hurts my eyes. To guarantee our project quality, i can't let his code slip through, 
+	so i spent a lot of time doing code review. I eyebowed every line of change and also give some code examples 
 	how I would do it. Also the following code commits he made to fix the review, 
 	I also gave reviews on those fixes. At last our code meets the expectation, 
-	then we take the MR to other tema members to review and people like it. 
+	then we take the MR to other team members to review and people like it. 
 ==Think Big==
    Thinking small is a self-fulfilling prophecy. Leaders create and communicate a bold direction that inspires results. 
    They think differently and look around corners for ways to serve customers.
@@ -759,6 +761,7 @@ them.
 	the functionality is to first using Oracle certificate to validate the access token. 
 	second loaded the user information from backend, if doesn't have the user, 
 	synchronize it using the access token pcid information. then set the user for current session, 
+	update spring security context holder with a new authentication,
 	at last assign the user a role to access resources.
 	I could do it in two ways one is do it in the in the auth processing filter, 
 	the other one is to do it in a separate auth provider, which creates a new class. 
@@ -804,7 +807,7 @@ them.
 	there was a time I was developing APGEE and we need a static URL to connect to. 
 	this will be a special environment with production data, special indexing. 
 	this will need devops to help us to create it. I contacted the Project Manager on Devops team 
-	and it was added to their following spring. but then the person supposed to work on it never response me, 
+	and it was added to their following sprint. but then the person supposed to work on it never response me, 
 	no matter I call him, I direct message him, I at him in public slack Channel, 
 	he just doesn't reply me and ignore my messages. 
 	so I have to escalate this issue to my director about it because it's a real blocker for us. 
@@ -871,7 +874,7 @@ them.
 	that's very tedious 
 	to do it manually and must be imported in orders. so during fixing the initial data error, 
 	I created a service that it will automatically load it for environment setup. 
-	so it saves everyone a lot of on boarding time, it is not required by the ticket 
+	so it saves everyone a lot of onboarding time, it is not required by the ticket 
 	but I just do it because that will help us
    • Tell me about something that you learnt recently in your role.
 
@@ -971,7 +974,8 @@ them.
 	Then I find us because when the user login there is spring security context holder, 
 	we need to update the authority inside of security context holder. 
 	because the access token was not issued successfully, so the Sprint security-related library, 
-	so the rest API calls would fail. Then also i wrote some code 
+	so the rest API calls would fail. Also that means all previous users who finished transition,
+	they all miss this field. Then also i wrote some code 
 	for users who miss those fields to created identity when login. The issue was solved.
 
 **********************************Examples from Amazon HR **********************************************
