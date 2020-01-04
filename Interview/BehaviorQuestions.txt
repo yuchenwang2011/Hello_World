@@ -1011,7 +1011,7 @@ them.
    What was the situation and what action did you take?
    Check the LP1 beauty advisor answer
    
-5. Tell me about a time when you linked two or more problems together and identified an underlying issue? 
+4. Tell me about a time when you linked two or more problems together and identified an underlying issue? 
    Were you able to find a solution?
    	there was a time we switched from Optimum point to pc optimum point. 
 	and a lot of the loyalty related code was updated. but after a while a lot of customers 
@@ -1032,7 +1032,7 @@ them.
 	so the rest API calls would fail. Then also i wrote some code 
 	for users who miss those fields to created identity when login. The issue was solved.
       
-6. How do you drive adoption for your vision/ideas? How do you know 
+5. How do you drive adoption for your vision/ideas? How do you know 
     how well your idea or vision has been adopted by other teams or partners? 
     Give a specific example highlighting one of your ideas.
 	there was a time when we were developing SDM mobile app and people 
@@ -1045,7 +1045,7 @@ them.
 	So people agreed on this solution and when they develop the cart related operations, 
 	they just open my flowchart and just work out on it.
     
-7. Tell me about a time when you realized you needed to have a deeper level 
+6. Tell me about a time when you realized you needed to have a deeper level 
     of subject matter expertise to do your job well?
 	there was a time our system was updated from spring version three-point something to 4.3. 
 	I need to do a regression test. I find the login form for customer support system not working anymore. 
@@ -1060,7 +1060,7 @@ them.
 	but when an issue happens in the future, I would remember oh i may have seen it 
 	and it might be in that document. Problem can be solved more easily.
 	
-8. Tell me about a time when you think the issue was simple but it turnd out to be very difficult
+7. Tell me about a time when you think the issue was simple but it turnd out to be very difficult
 	there was a time I was implementing the cybersource device finger print, 
 	which is to collect the user browser information and ip addresses, for fraud detecting purpose. 
 	I thought it was easy because the official document says just 
@@ -1072,4 +1072,65 @@ them.
 	Then I did some tomcat config changes to get this value, 
 	but i think this should be a secrete one shouldn't be public. 
 	I keep trying and found if i use base64 encription to encrypte the tomcat jvm route, it still works. 
+*********************************************************************************************************
+************************************倒序纯问题练习脱稿用***************************************************
+1. Tell me about a time where you sought out perspectives other than 
+   your own to make a product/service/project better?
+2. Tell me about a time when you had to analyze facts quickly, define key issues, 
+   and respond immediately to a situation. What was the outcome?
+3. Give me an example of a time you used customer feedback to drive improvement or innovation. 
+   What was the situation and what action did you take?
+5. Tell me about a time when you linked two or more problems together and identified an underlying issue? 
+   Were you able to find a solution?
+6. How do you drive adoption for your vision/ideas? How do you know 
+    how well your idea or vision has been adopted by other teams or partners? 
+7. Tell me about a time when you realized you needed to have a deeper level 
+8. Tell me about a time when you think the issue was simple but it turnd out to be very difficult
+9. Tell me about a time where you overcame an obstacle and delivered results.
+10. Give me an example of a time when you were 75% of the way through a project, 
+    and you had to pivot strategy–how were you able to make that into a success story?
+11. What is the most difficult situation you have ever faced in your life? How did you handle it?
+12. tell me when you have had to handle a variety of assignments. Describe the results.
+13. If your direct manager was instructing you to do something you disagreed with, how would you handle it?
+14. Tell me about an unpopular decision of yours.
+15. Tell me about a time when you did not accept the status quo.
+16. Give me two examples of when you did more than what was required in any job experience.
+17. Tell me about a time when you had to work with limited time or resources.
+18. Tell me about a time you needed to get information from someone who wasn’t very responsive. What did you do?
+19. Tell me about a time when you took a calculated risk.
+20. Describe a time when you saw some problem and took the initiative to correct it rather than waiting for someone else to do it.
+21. Tell me about a time you have Two ways of implementation, you choose which way and why
+22. Tell me about a time when you went way beyond the scope of the project and delivered.
+23. Tell me about your proudest professional achievement.
+24. Tell me about a time when a team member didn’t meet your expectations on a project.
+25. Tell me about a time when you couldn’t meet your own expectations on a project.
+26. Tell me about a time when you mentored someone.
+27. Tell me about a time when you solved a problem through just superior knowledge or observation.
+28. Tell me about a time when you influenced a change by only asking questions.
+29. Tell me about a time when you had to work with incomplete data or information.
+30. Tell me about a time when you were wrong.
+31. Tell me about a time when you invented something.
+32. Tell me about a time when you gave a simple solution to a complex problem
+33. Tell me a time you sacrifice short-term benefits for long-term benefits
+34. Tell me about a time when you had to work on a project with unclear responsibilities.
+35. Tell me about a time when you had to leave a task unfinished.
+36. Describe a time you persuade the customer to use a different view to see things
+37. Tell the story of the last time you had to apologize to someone.
+38. When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. 
+    How do you go about prioritizing your customers’ needs?
+39. Give me an example of a time when you did not meet a client’s expectation. What happened, 
+    and how did you attempt to rectify the situation?
+40. Who was your most difficult customer?
+41. anything you don't fully understand, but you do it anyway
+42. 有没有做过一些你很讨厌做的项目，被迫要做的那种；
+43. tell me about a time when you have to move fast (make a decision fast)
+44. tight ddl and have to make decision without considering alternatives 
+45. 你有没有遇到过deadline来不及的情况，你怎么解决的？
+46. decision without consulting manager
+47. 有没有做过一些同事已经觉得足够好,但是你觉得还不够好的事. How you insist the highest standard
+48. describe a time you are the minority in the room
+49. 有没有帮助别人的经历 How you help teammate
+50. What if the person doesn't cooperate with you in the teamwork?
+51. Tell me about your teamwork experience
+52. Why do you want to work for Amazon
 *********************************************************************************************************
