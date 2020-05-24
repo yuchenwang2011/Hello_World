@@ -1,0 +1,55 @@
+Connect May24th, 2020
+
+Core Priorities:
+1. Maintain, support our existing shared platform services. The stableness of our infrastructure services will significantly benefit those depend on us. 
+
+2. Take the initiative to drive features and take ownership to optimize and improve the project. Build high quality software with easy-to-use interface to be able to make consumers' lives easier and support other people's success .
+
+3. Keep a growth mindset. Continuously learn and embrace new ideas. Learning lessons and share knowledge with colleagues to bring in better engineer practices and correct technologies, so whole team can benefit and grow.
+
+4. D&I: Focus on from an IC perspective, creating a friendly team culture where diversity is treasured, by more frequently talking to and listening to colleagues with different backgrounds and experiences. Also being an minority from a different country, I will actively do my part to make sure diverse opinions and views can be heard, including but not limited to meeting discussion and questions, formal and casual conversations.
+
+
+Look back:
+1. Explored and discovered a feasible and sustainable way to quickly ramp up for new hires, so our team can be more efficient and successful.
+   a. Reviewed and updated the onboard documentation by combining the HR onboard doc, Azure onboard doc and team onboard doc together in an organic way. So people who joins the team later can view it more easily and save lots of effort to figure out the priority. 
+   b. Discoverd a particular order to finish our resources/design docs/videos, through which the learning curve will be much less steep for new hires.
+   c Attended the week long Azure boot camp and noted down the most valuable part, which integrates best with our team. Explored and shared some useful bootcamp materials and related info to the onboard doc. Not only new hires but also experienced colleagues can benefit from it.  
+
+2. Made our work environment more diverse and inclusive
+   a. Setup many 1:1 and chatted with most team members. By introducing and ice breaking, I got a better understanding of team mates with diverse background and our knowledge of work were shared. After that people feel less stressed under current pandemic situation.
+   b. Finished the Compliance course and Accessibility Awareness Course, I had a better understanding to work together with people with accessibility issues.
+
+3. Discussed and questioned the authentication service design with a few more senior team members. Leverated the existing and improved design plan from team mates, I've successfully given a push on the start of the project. 
+
+4. Teamworked with senior team member, leveraged the solution from previous agreement between our team and ADF, successfully added support for client friendly 1PA audience function, 
+   a. it will be used by all clients frequently and increase freedom and usability for customers. 
+   b. it supported ADF lineage, other team can integrate with our gateway service and internal APIs more smoothly.
+
+What could you have done differently
+1. I could have saved a lot of time by avoiding meetings which are not very useful for me at this stage. I could ask people about the context and the expected audience before attending them.
+
+2. I could have digest more knowledge by recording and reviewing some of the meetings and talks I had with other team mates. A lot of useful knowledge was forgotten and not recorded because I didn't know Teams could record. In the future when I feel useful, I will ask the presenter if I could record the meeting.
+
+
+look forward:
+1. Build a solid base structure and scaffold the new authentication service.
+
+2. Maintain and support stability and consistency of the gateway service which exposed all Babylon data plane operations. 
+
+3. Dive deep into different components owned by our team. 
+   a. by participating more in reviewing others' pull request, asking questions and giving advices. 
+   b. by leaveraging weekly design meetings and brown bag meetings. 
+4. Continue share my learning/ramp up experience with the team for D&I
+
+
+learn and grow
+1. Have a better understanding of Microsoft's ecosystem，
+   a. DotNET core
+   b. ASP.NET core
+   c. C#
+   d. More familiar with development using Visual Studio
+2. Have a better understanding of Azure's ecosystem
+   a. AAD, RBAC, Key vault, ARM
+   b. Azure Configuration
+   c. Attend "Azure BootCamp for Engineers"
