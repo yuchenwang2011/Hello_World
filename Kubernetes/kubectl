@@ -1,0 +1,14 @@
+1. login
+    az login
+   
+2. setup the context
+    az aks get-credentials -g resource-group-name -n service-name --subscription the-guid-of-subscription
+    
+3. get the pods
+    kubectl get Pod
+    
+4. check pod log
+    kubectl log pod-name
+    
+5. check the version
+    kubectl version
