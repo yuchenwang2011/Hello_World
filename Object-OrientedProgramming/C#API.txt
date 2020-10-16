@@ -1,3 +1,6 @@
+to clear nuget cache
+nuget locals all -clear
+
 1. Console.WriteLine();
    Console.ReadLine();
    
