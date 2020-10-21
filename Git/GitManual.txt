@@ -320,9 +320,11 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
 
 32. History/ blame
     if you want to check the commit history of this file, to find out who the heck commited such ugly code, you can 
-    git blame filePath (you can combine with grep "the line of code")
+      git blame filePath (you can combine with grep "the line of code")
     if you want to check how many lines each person has committed in the project, you can 
-    git ls-files | xargs -n1 git blame --line-porcelain | sed -n 's/^author //p' | sort -f | uniq -ic | sort -nr
+      git ls-files | xargs -n1 git blame --line-porcelain | sed -n 's/^author //p' | sort -f | uniq -ic | sort -nr
+    if you want to check the PR history of a file, you can do
+      gitk fileName
     
 33. Commit only part of changed file
     https://stackoverflow.com/questions/1085162/commit-only-part-of-a-file-in-git
