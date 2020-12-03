@@ -7,8 +7,8 @@
 3. get the pods
     kubectl get Pod
     
-4. check pod log
-    kubectl log pod-name
+4. check pod log last 20 lines
+    kubectl log --tail=20 pod-name
     
 5. check the version
     kubectl version
