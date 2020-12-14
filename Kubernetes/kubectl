@@ -15,3 +15,7 @@ https://www.katacoda.com/courses/kubernetes/playground
     
 5. check the version
     kubectl version
+
+5. get deployment
+   kubectl get deployments
+   kubectl edit deployment yourDeploymentName
