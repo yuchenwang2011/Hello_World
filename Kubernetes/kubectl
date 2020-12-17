@@ -27,3 +27,14 @@ https://www.katacoda.com/courses/kubernetes/playground
 8. configmap
    kubectl get configmap
    kubectl describe configmap mapName  
+   
+   
+   
+   
+   
+   
+   
+   
+Helm
+   1. list
+      helm ls
