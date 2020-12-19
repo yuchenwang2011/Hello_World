@@ -34,6 +34,8 @@ https://www.katacoda.com/courses/kubernetes/playground
 10. configmap
     kubectl get configmaps
     kubectl edit configmap yourConfigMapName
+    kubectl get configmaps yourConfigMapName -o yaml
+
    
 Helm
    1. list
