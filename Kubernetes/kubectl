@@ -31,7 +31,9 @@ https://www.katacoda.com/courses/kubernetes/playground
 9. context
    kubectl config current-context
    
-   
+10. configmap
+    kubectl get configmaps
+    kubectl edit configmap yourConfigMapName
    
 Helm
    1. list
