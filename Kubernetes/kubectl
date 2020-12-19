@@ -28,10 +28,8 @@ https://www.katacoda.com/courses/kubernetes/playground
    kubectl get configmap
    kubectl describe configmap mapName  
    
-   
-   
-   
-   
+9. context
+   kubectl config current-context
    
    
    
