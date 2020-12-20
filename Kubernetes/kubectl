@@ -36,6 +36,8 @@ https://www.katacoda.com/courses/kubernetes/playground
     kubectl edit configmap yourConfigMapName
     kubectl get configmaps yourConfigMapName -o yaml
 
+11. describe
+    kubectl describe pod yourPodName
    
 Helm
    1. list
