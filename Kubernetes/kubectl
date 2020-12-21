@@ -11,7 +11,7 @@ https://www.katacoda.com/courses/kubernetes/playground
     kubectl get Pod
     
 4. check pod log last 20 lines
-    kubectl log --tail=20 pod-name
+    kubectl logs --tail=20 pod-name
     
 5. check the version
     kubectl version
@@ -19,6 +19,7 @@ https://www.katacoda.com/courses/kubernetes/playground
 6. get deployment
    kubectl get deployments
    kubectl edit deployment yourDeploymentName
+   kubectl get all
 
 7. Check APIs
    kubectl api-resources -o wide  shows all the ressources, verbs and associated API-group.
