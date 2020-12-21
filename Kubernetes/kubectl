@@ -45,6 +45,9 @@ https://www.katacoda.com/courses/kubernetes/playground
 
 13. hpa: horizontal pod autoscaler
     kubectl get hpa -w
+    
+14. metrics server
+    kubectl get pods --namespace=kube-system -l k8s-app=metrics-server
 
 Helm
    1. list
