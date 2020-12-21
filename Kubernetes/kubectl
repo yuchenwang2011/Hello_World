@@ -48,6 +48,7 @@ https://www.katacoda.com/courses/kubernetes/playground
     
 14. metrics server
     kubectl get pods --namespace=kube-system -l k8s-app=metrics-server
+    kubectl logs -n kube-system --tail=100 theMetricPodName
 
 Helm
    1. list
