@@ -39,6 +39,11 @@ https://www.katacoda.com/courses/kubernetes/playground
 11. describe
     kubectl describe pod yourPodName
    
+12. debug
+    kubectl get events
+
 Helm
    1. list
       helm ls
+      
+      
