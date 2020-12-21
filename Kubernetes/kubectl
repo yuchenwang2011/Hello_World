@@ -43,6 +43,9 @@ https://www.katacoda.com/courses/kubernetes/playground
 12. debug
     kubectl get events
 
+13. hpa: horizontal pod autoscaler
+    kubectl get hpa -w
+
 Helm
    1. list
       helm ls
