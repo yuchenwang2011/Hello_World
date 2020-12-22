@@ -56,6 +56,10 @@ https://www.katacoda.com/courses/kubernetes/playground
 
 16. context
     kubectl config current-context
+    
+17. Shell / enter a node OS machine
+    kubectl get nodes
+    kubectl node-shell nodeName   -> echo "hello world"  -> logout
 
 Helm
    1. list
