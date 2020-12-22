@@ -54,6 +54,9 @@ https://www.katacoda.com/courses/kubernetes/playground
     kubectl scale deployment yourDeploymnet --replicas=0 -n yourNameSpace
     kubectl scale deployment yourDeploymnet --replicas=2 -n yourNameSpace
 
+16. context
+    kubectl config current-context
+
 Helm
    1. list
       helm ls
