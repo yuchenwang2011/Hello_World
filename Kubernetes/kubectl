@@ -50,6 +50,10 @@ https://www.katacoda.com/courses/kubernetes/playground
     kubectl get pods --namespace=kube-system -l k8s-app=metrics-server
     kubectl logs -n kube-system --tail=100 theMetricPodName
 
+15. remove / restart pods
+    kubectl scale deployment yourDeploymnet --replicas=0 -n yourNameSpace
+    kubectl scale deployment yourDeploymnet --replicas=2 -n yourNameSpace
+
 Helm
    1. list
       helm ls
