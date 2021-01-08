@@ -111,6 +111,8 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
         git revert the_commit_hash
     To revert/trash/abandon your local commits not pushed because they are garbage, you can
         git reset --hard origin/develop(your branch)
+    To unstage a commit before push, but to keep the "adding"
+        git reset --soft head~1
 
 11. Git has 3 main stages: modified, staged, commited
     The basic Git workflow goes something like this:
