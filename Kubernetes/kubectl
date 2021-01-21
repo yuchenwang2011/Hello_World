@@ -60,6 +60,10 @@ https://www.katacoda.com/courses/kubernetes/playground
 17. Shell / enter a node OS machine
     kubectl get nodes
     kubectl node-shell nodeName   -> echo "hello world"  -> logout
+    
+    or 
+    kubectl get pods
+    kubectl exec -it your-pod-name -- /bin/bash
 
 Helm
    1. list
