@@ -63,7 +63,7 @@ https://www.katacoda.com/courses/kubernetes/playground
     
     or 
     kubectl get pods
-    kubectl exec -it your-pod-name -- /bin/bash
+    kubectl exec -it your-pod-name -- /bin/bash   (go to /var/log you can find all the logs)
 
 Helm
    1. list
