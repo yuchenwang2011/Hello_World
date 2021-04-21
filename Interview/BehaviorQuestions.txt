@@ -35,7 +35,7 @@ R: your result;
    engineer. So far it has been xx years. And recent 2 years I'm working with xxx, I focus on 3 ares. 1 is, 1 is, and recently with.
 
 2. Introduce your work at Mxxxx
-   Data cataloging, Data governance, Data classification and security management tool
+   Data discovery, Data cataloging, Data governance, Data classification and security management tool. it has governance and control of your data (PII data). 
 
 2. ==Introduce your work at Bxxx,the technology you use==
    When I was there, my team was responsible for providing software for bb factories. You know at that time, bb's market was still not
