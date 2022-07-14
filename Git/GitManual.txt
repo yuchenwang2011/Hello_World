@@ -327,6 +327,8 @@ https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b
       git ls-files | xargs -n1 git blame --line-porcelain | sed -n 's/^author //p' | sort -f | uniq -ic | sort -nr
     if you want to check the PR history of a file, you can do
       gitk fileName
+    If you want to check multiple lines
+      git blame -L 160,+30 -- fileName
     
 33. Commit only part of changed file
     https://stackoverflow.com/questions/1085162/commit-only-part-of-a-file-in-git
