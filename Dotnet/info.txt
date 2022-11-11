@@ -4,7 +4,10 @@
 2. to list all the dotnet runtime you have installed,
    dotnet --list-runtimes
 
-3. to use a specific dotnet version for a project, in the project root folder, add file "global.json", with content
+3. to list all the dotnet sdk you have installed, 
+   dotnet --list-sdks
+
+4. to use a specific dotnet version for a project, in the project root folder, add file "global.json", with content
    {
     "sdk": {
       "version": "5.0.408"
