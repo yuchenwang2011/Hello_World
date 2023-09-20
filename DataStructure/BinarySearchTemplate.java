@@ -25,3 +25,6 @@ public class Solution {
   即循环终止条件是相邻或相交元素时退出。
   配合while终止条件start + 1 < end（相邻即退出）的赋值语句mid永远没有+1或者-1，这样不会死循环。
 4. 迭代终止时target应为start或者end中的一个。循环终止条件有两个，具体应看是找第一个还是最后一个而定。
+
+
+https://www.cnblogs.com/cnoodle/p/14267991.html
